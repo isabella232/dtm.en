@@ -1,8 +1,8 @@
 ---
-cloud: experience-cloud
-product: adobe
+cloud: experience cloud
+product: dynamic tag management
 archtype: end-user
-user-guide: null
+user-guide: https://git.corp.adobe.com/AdobeDocs/dtm.en
 ---
 
 # Table of Contents
