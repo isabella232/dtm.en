@@ -45,13 +45,13 @@ Dynamic tag management is offered to Adobe Experience Cloud customers as an incl
 
 Dynamic tag management provides the following benefits:
 
-* ** Improved Site Speed: **Optimize loading of multiple analytics and marketing tags, proven to slow page loads. 
-* **Quicker Implementations: **Significantly reduce deployment time. 
-* **Increased Efficiencies: **Reclaim substantial amounts of time spent managing analytics and media tags. 
-* **Control and Security: **Develop and deploy tag strategies by collaborating with marketing, analysts, and IT to recommend, test, and deploy tags within protocols and across systems all within the capability. 
-* **Enhanced Flexibility: **Quickly test and optimize tags without being bound by release cycles. 
-* **Centralized Tool Management: **Trigger many tags and technologies simultaneously, rather than creating separate rules for each one. 
-* **Reduced Costs: **Minimize the need to use JavaScript-trained IT resources for tag management activities.
+* **Improved Site Speed:** loading of multiple analytics and marketing tags, proven to slow page loads. 
+* **Quicker Implementations:** Significantly reduce deployment time. 
+* **Increased Efficiencies:** Reclaim substantial amounts of time spent managing analytics and media tags. 
+* **Control and Security:** Develop and deploy tag strategies by collaborating with marketing, analysts, and IT to recommend, test, and deploy tags within protocols and across systems all within the capability. 
+* **Enhanced Flexibility:** Quickly test and optimize tags without being bound by release cycles. 
+* **Centralized Tool Management:** Trigger many tags and technologies simultaneously, rather than creating separate rules for each one. 
+* **Reduced Costs:** Minimize the need to use JavaScript-trained IT resources for tag management activities.
 
 ## Key Features {#section_7EE5C72A63AE48EBAEF91D8B52D0CE19}
 
