@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-solution-title: Core Services
+solution-title: DTM
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
-solution-image: assets/core-services.png
+solution-image: help/using/assets/experience-cloud-logo-24.png
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
 ---
 
 # Metadata for internal use
