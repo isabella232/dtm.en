@@ -51,15 +51,15 @@ Last Updated: November 14, 2017
      <li id="li_5631B4FC53254B7D81353A426AE72762"> <p> <a href="managing-resources/plugins/c-dtm-switch-plugins.md#concept_B46CBAE51A7C47029669CF95DA8A1A98" format="dita" scope="local"> DTM Plugins</a> </p> </li> 
     </ul> <p class="head"> <b>Community Resources </b> </p> 
     <ul id="ul_45F23E53135A4343911B8D5B13A06155"> 
-     <li id="li_F72C6751CD124141920B3A41A0C3CD86"> <a href="http://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html" format="http" scope="external"> Solution Overview</a> </li> 
-     <li id="li_7D2C12CFE7B449D5ADA2B20E90464A20"> <a href="http://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.html" format="http" scope="external"> Experience Cloud Forum</a> </li> 
-     <li id="li_EF0F8E3F26CE4733820A466EAAB8D88F"> <a href="http://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE" format="http" scope="external"> Adobe Experience Cloud Community</a> </li> 
-     <li id="li_B1B09B20848C4507A4B734DD5B81BFA8"> <a href="http://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3" scope="external" format="html"> Idea Exchange</a> </li> 
-     <li id="li_CC7CAB2BA16B4EE0BC9359FF982703EA"> <a href="http://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
-     <li id="li_6E5F841AB3CA4548A08CA4BD2317AB54"> <a href="http://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
+     <li id="li_F72C6751CD124141920B3A41A0C3CD86"> <a href="https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html" format="http" scope="external"> Solution Overview</a> </li> 
+     <li id="li_7D2C12CFE7B449D5ADA2B20E90464A20"> <a href="https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.html" format="http" scope="external"> Experience Cloud Forum</a> </li> 
+     <li id="li_EF0F8E3F26CE4733820A466EAAB8D88F"> <a href="https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE" format="http" scope="external"> Adobe Experience Cloud Community</a> </li> 
+     <li id="li_B1B09B20848C4507A4B734DD5B81BFA8"> <a href="https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3" scope="external" format="html"> Idea Exchange</a> </li> 
+     <li id="li_CC7CAB2BA16B4EE0BC9359FF982703EA"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
+     <li id="li_6E5F841AB3CA4548A08CA4BD2317AB54"> <a href="https://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
     </ul> <p class="head"> <b>Digital Marketing Blog</b> </p> 
     <ul id="ul_B44B716F24094D0DAD0E9C94E1B1008B"> 
-     <li id="li_D315E8BCAA2145D182521DE9EFCDE603"> <p> <a href="http://blogs.adobe.com/digitalmarketing/tag/dynamic-tag-management/" format="http" scope="external"> #Dynamic Tag Management</a> </p> </li> 
+     <li id="li_D315E8BCAA2145D182521DE9EFCDE603"> <p> <a href="https://blogs.adobe.com/digitalmarketing/tag/dynamic-tag-management/" format="http" scope="external"> #Dynamic Tag Management</a> </p> </li> 
     </ul> <p class="head"> <b>Twitter</b> </p> 
     <ul id="ul_3B87A083F9FA4E02A3458085DC1EEE60"> 
      <li id="li_78573F75DF8245259737785480F2A1E7"> <p>If you have questions about dynamic tag management you can also tweet us at <span class="filepath"> @AdobeMktgCare</span> with the hashtag <span class="filepath"> #DTM</span>. </p> </li> 

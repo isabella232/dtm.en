@@ -38,7 +38,7 @@ Enable dynamic tag management to manage your library.
 
 If you select this option, the following option becomes available:
 
-**Library Version: **Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary.
+**Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary.
 
 **Custom **
 
@@ -46,14 +46,14 @@ You can configure the library code.
 
 If you select this option, the following options become available:
 
-**Set report suites using custom code below: **When this box is checked, dynamic tag management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
+**Set report suites using custom code below:** When this box is checked, dynamic tag management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
 
-**Code Hosted: **Choose an option to host the [!DNL s_code]:
+**Code Hosted:** Choose an option to host the [!DNL s_code]:
 
 * **In DTM**: You can host the [!DNL s_code] within dynamic tag management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor. 
 
 * **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic tag management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
 
-**Open Editor: **Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#section_E497974E41454C979A8C90A84E2FE537). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+**Open Editor:** Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#section_E497974E41454C979A8C90A84E2FE537). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
 
-**Tracker Variable Name: **If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions. 
+**Tracker Variable Name:** If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions. 

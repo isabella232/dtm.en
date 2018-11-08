@@ -107,11 +107,11 @@ t_create_group.xml
 1. Click **[!UICONTROL Create New Group]**.
 1. Fill in the fields:
 
-   **Name: **(Required) Specify a descriptive name for the group.
+   **Name:** (Required) Specify a descriptive name for the group.
 
-   **Description: **Specify an optional description for the group. The description displays on the [!UICONTROL Groups] page and can help you locate a specific group and determine its purpose.
+   **Description:** Specify an optional description for the group. The description displays on the [!UICONTROL Groups] page and can help you locate a specific group and determine its purpose.
 
-   **Tool Check Boxes: **(Optional) Select the desired check box next to any tools to restrict access to those tools. If the check box is selected, users in this group cannot create or modify the selected tools and related tool settings in rules. By default, all users in the group have access to all tools.
+   **Tool Check Boxes:** (Optional) Select the desired check box next to any tools to restrict access to those tools. If the check box is selected, users in this group cannot create or modify the selected tools and related tool settings in rules. By default, all users in the group have access to all tools.
 
    ![](assets/group_tool_restrict.png)
 
@@ -123,7 +123,7 @@ t_create_group.xml
 
    Note that all users in the Admins group have full access to create and modify all tools and related tool settings in rules. If you are creating or editing an Admins group, the tool check boxes do not display in the UI.
 
-   **Default Role: **(Optional) Select a default role. All newly created properties going forward inherit this role. 
+   **Default Role:** (Optional) Select a default role. All newly created properties going forward inherit this role. 
 
    |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve Rules  | Publish Rules  | Create/Edit Users  | Create Property  |
    |---|---|---|---|---|---|---|---|

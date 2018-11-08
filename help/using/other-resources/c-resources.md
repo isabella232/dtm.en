@@ -26,8 +26,8 @@ Additional resources will be added to this list in the future.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="http://www.digitaldatatactics.com/index.php/2016/04/20/how-do-i-use-dtm-for-a-single-page-app/" format="http" scope="external"> How do I use DTM for a Single Page App?</a> </td> 
-   <td colname="col2"> <p>This post on the Digital Data Tactics blog is a great resource when using DTM on Single Page Apps (SPAs) <a href="http://www.digitaldatatactics.com" format="http" scope="external"> Digital Data Tactics</a> contains additional posts about DTM and other Adobe Experience Cloud Solutions. </p> </td> 
+   <td colname="col1"><a href="https://www.digitaldatatactics.com/index.php/2016/04/20/how-do-i-use-dtm-for-a-single-page-app/" format="http" scope="external"> How do I use DTM for a Single Page App?</a> </td> 
+   <td colname="col2"> <p>This post on the Digital Data Tactics blog is a great resource when using DTM on Single Page Apps (SPAs) <a href="https://www.digitaldatatactics.com" format="http" scope="external"> Digital Data Tactics</a> contains additional posts about DTM and other Adobe Experience Cloud Solutions. </p> </td> 
   </tr> 
  </tbody> 
 </table>

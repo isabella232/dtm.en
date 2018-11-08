@@ -367,7 +367,7 @@ Information about updates to the dynamic tag management help.
   <tr> 
    <td colname="col1"> <p>04/22/2014 </p> </td> 
    <td colname="col02"> <p>Added external link to plugins in the table of contents. </p> </td> 
-   <td colname="col2"> <p> <a href="http://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html" format="http" scope="external"> DTM Switch Plugins</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html" format="http" scope="external"> DTM Switch Plugins</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>04/04/2014 </p> </td> 

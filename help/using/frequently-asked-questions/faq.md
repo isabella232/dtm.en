@@ -247,7 +247,7 @@ If using DTM to manually host the `s_code`, plugins can be added in the same edi
 
 However, it is also an option to place the plugins in the editor within the *`Customize Page Code`* section of the tool settings. Both implementation methods should be equally effective.
 
-See [DTM Switch Plugins](http://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html).
+See [DTM Switch Plugins](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html).
 
 **If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? **
 

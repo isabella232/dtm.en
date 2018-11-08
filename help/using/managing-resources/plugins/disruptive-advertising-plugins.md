@@ -17,5 +17,5 @@ See [Introducing the Adobe DTM Debugger](https://www.disruptiveadvertising.com/a
 
 >[!NOTE]
 >
->[Disruptive Advertising](http://www.disruptiveadvertising.com) is the creator of the plugin mentioned in this topic. Contact Disruptive Advertising for support issues for this plugin. You can leave a comment on the bottom of the [Introducing the Adobe DTM Debugger](https://www.disruptiveadvertising.com/analytics/introducing-the-adobe-dtm-debugger/) page.
+>[Disruptive Advertising](https://www.disruptiveadvertising.com) is the creator of the plugin mentioned in this topic. Contact Disruptive Advertising for support issues for this plugin. You can leave a comment on the bottom of the [Introducing the Adobe DTM Debugger](https://www.disruptiveadvertising.com/analytics/introducing-the-adobe-dtm-debugger/) page.
 

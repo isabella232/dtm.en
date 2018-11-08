@@ -13,9 +13,9 @@ snippet: y
 
 Tagtician is a free plugin that helps you with debugging tasks
 
-For more information about the plugin, see [Introducing Tagtician: The Tag Management Companion](http://jimalytics.com/tag-management/introducing-tagtician-beta-the-tag-management-companion/).
+For more information about the plugin, see [Introducing Tagtician: The Tag Management Companion](https://jimalytics.com/tag-management/introducing-tagtician-beta-the-tag-management-companion/).
 
-To download Tagtician, go to the [Tagtician website](http://tagtician.com).
+To download Tagtician, go to the [Tagtician website](https://tagtician.com).
 
 >[!NOTE]
 >

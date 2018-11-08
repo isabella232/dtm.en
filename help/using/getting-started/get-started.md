@@ -35,7 +35,7 @@ If you have access to the [!DNL Adobe Experience Cloud], you can also request ac
 
 >[!NOTE]
 >
->Administrators, see [Getting Started in the Experience Cloud](http://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html) if you need access to the Experience Cloud.
+>Administrators, see [Getting Started in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html) if you need access to the Experience Cloud.
 
 ## Logging in {#section_88F2816938E94085A30745905D38731A}
 
@@ -55,7 +55,7 @@ For general information about web properties and best practices, see [Web Proper
 
 To get started, see [Create a web property](../administration/web-property.md#task_AE34E23EC47B4E9C8634782C05D9DC09).
 
-**2. Configure your hosting options. **
+**2. Configure your hosting options.**
 
 Location: Embed tab
 
@@ -85,7 +85,7 @@ Tools let you quickly integrate [!DNL Adobe Experience Cloud] solutions on your 
 
 See [Tools (Overview Tab)](../managing-resources/tools.md#concept_19C5BCE1F99E4EACBD4EA2D61F265184).
 
-**5. Create data elements, and create rules, conditions, and actions. **
+**5. Create data elements, and create rules, conditions, and actions.**
 
 Location: Rules tab
 
@@ -97,7 +97,7 @@ To get started, you should set up a basic page-load rule with no conditions to c
 
 For more information, see [Data Elements](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2) and [Rules](../managing-resources/rules.md#concept_2D3F296DD3BD418BAB7A0E2415DD9C92).
 
-**6. Publish tools and rules to the production server. **
+**6. Publish tools and rules to the production server.**
 
 After a rule is created, it is funneled through a multi-step approval process before it is published to a production environment.
 
@@ -146,7 +146,6 @@ t_access-dtm-ec.xml
 1. Open the solution picker and click **[!UICONTROL Activation]**.
 1. Click **[!UICONTROL Dynamic Tag Management]**.
 
-   Step Result 
 ## Managing users and the publish workflow {#concept_D6E9196B4607429197D07B472A7F0BAC}
 
 Dynamic tag management is based on a roles-oriented platform that lets you control the process. 
@@ -194,36 +193,37 @@ t_manage_account_settings.xml
 1. In the upper right corner of the dynamic tag management interface, click  ![](assets/icon_profile.png) > **[!UICONTROL Account Settings]**.
 1. Edit the fields as necessary:
 
-   **First Name: **Specify your first name.
+   **First Name:** Specify your first name.
 
-   **Last Name: **Specify your last name.
+   **Last Name:** Specify your last name.
 
-   **Title: **Specify your title.
+   **Title:** Specify your title.
 
-   **Mobile Number: **Specify your mobile telephone number.
+   **Mobile Number:** Specify your mobile telephone number.
 
-   **Outside of US: **Select this option if you are outside of the United States. Ensure that you provide a country code in the [!UICONTROL Mobile Number] field if you choose this option.
+   **Outside of US:** Select this option if you are outside of the United States. Ensure that you provide a country code in the [!UICONTROL Mobile Number] field if you choose this option.
 
-   **Time Zone: **Specify your time zone.
+   **Time Zone:** Specify your time zone.
 
-   **Language: **Choose the desired language from the drop-down list. The user interface displays in the selected language.
+   **Language:** Choose the desired language from the drop-down list. The user interface displays in the selected language.
 
-   **Email Address: **Specify your email address. You can add multiple email addresses separated by commas.
+   **Email Address:** Specify your email address. You can add multiple email addresses separated by commas.
 
-   **Opt Out of All Notifications: **Opt out of all email notifications when one of your web properties is published. By opting out of email notifications, you will no longer receive publish request, property published, note, or approval email notifications. However, you will continue to receive other email notifications.
+   **Opt Out of All Notifications:** Opt out of all email notifications when one of your web properties is published. By opting out of email notifications, you will no longer receive publish request, property published, note, or approval email notifications. However, you will continue to receive other email notifications.
 
-   **Current Password: **If you want to change your dynamic tag management password, specify your current password in this field.
+   **Current Password:** If you want to change your dynamic tag management password, specify your current password in this field.
 
-   **Password: **Specify your new password.
+   **Password:** Specify your new password.
 
    To maintain the utmost security possible for your account, all passwords must meet the following criteria:
 
-* Must be at least seven characters in length 
-* Must contain at least one number and at least one letter 
-* Must contain at least one special character that is not a letter or number 
-* Must not be one of your last five passwords
+    * Must be at least seven characters in length 
+    * Must contain at least one number and at least one letter 
+    * Must contain at least one special character that is not a letter or number 
+    * Must not be one of your last five passwords
 
-   **Password Confirmation: **Specify your new password for confirmation. 
+   **Password Confirmation:** Specify your new password for confirmation. 
+
 1. Click **[!UICONTROL Save Changes]**.
 
 ## Architecture {#concept_03FEF75036BD4CD7822CEF47FAE443A9}
@@ -242,7 +242,7 @@ Architecturally, dynamic tag management comprises two main components:
 * **JavaScript libraries**: Produced by the Management Application and transported to hosting servers. Dynamic tag management includes two types of JavaScript libraries:
 
     * **Staging Library:** Every change you make in the Management Application is immediately updated to use on the staging server. 
-    * **Production Library: **Only the final, approved version of a tool or rules makes it onto the production server.
+    * **Production Library:** Only the final, approved version of a tool or rules makes it onto the production server.
 
   This model fits well into the approval workflow, in that development or staging code is never accidentally included in the production library. See [Publish Workflow](../getting-started/get-started.md#concept_300552C4F89E418F94A4D755960B44B0).
 

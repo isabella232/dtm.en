@@ -74,13 +74,13 @@ The March 30, 2016 dynamic tag management release includes the following changes
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 ## February 4, 2016 {#section_1276153E14E7462F91B3FC11CE883370}
 
 The February 4, 2016 dynamic tag management release includes the following changes:
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue that prevented a rule from firing when using the [!UICONTROL Element Exists] event with the [!UICONTROL Manually Assigned Properties & Attributes] option. (DTM-6681) 
 
@@ -119,7 +119,7 @@ The January 14, 2016 dynamic tag management release includes the following chang
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue when using multiple custom event rules that caused only the first rule to fire. (DTM-7026) 
 * Fixed an issue that prevented the main library from loading for certain customers. (DTM-7130) 
@@ -152,7 +152,7 @@ The November 17, 2015 dynamic tag management release includes the following chan
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue that caused dynamic tag management to throw a fatal error on Microsoft Internet Explorer 8. DTM-7022
 
@@ -177,7 +177,7 @@ The September 22, 2015 dynamic tag management release includes the following cha
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue when editing user groups that caused user groups from other companies to be removed. 
 * Fixed a security concern with rules using non-sequential HTML code. Please re-publish your web properties for the fix to take effect.
@@ -212,7 +212,7 @@ September 17, 2015
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Improved the deployment of the satellite library (2-5 times speed increase). Customers with many rules or who are deploying many third-party tags will greatly benefit from these changes. 
 * Improved the upload speed to Akamai (up to 5 times faster). 
@@ -238,7 +238,7 @@ September 17, 2015
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue in the Google Universal Analytics tool that prevented users from setting the account ID in data elements. 
 * Fixed an issue in the Google Universal Analytics tool that suppressed rule beacons if the [!UICONTROL Page Code is Already Present] check box is selected.
@@ -264,7 +264,7 @@ The July 8, 2015 dynamic tag management release includes the following changes:
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue in the Google Universal Analytics tool that prevented users from setting the account ID in data elements. 
 * Fixed an issue in the Google Universal Analytics tool that suppressed rule beacons if the [!UICONTROL Page Code is Already Present] check box is selected.
@@ -273,7 +273,7 @@ The July 8, 2015 dynamic tag management release includes the following changes:
 
 The June 8, 2015 dynamic tag management release includes the following changes:
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Fixed an issue in some iOS Safari browsers that produced an error when localStorage options are restricted by a user.
 
@@ -322,7 +322,7 @@ The April 23, 2015 dynamic tag management release includes the following changes
  </tbody> 
 </table>
 
-**Fixes and Enhancements: **
+**Fixes and Enhancements:** 
 
 * Added localization enhancements for the [!DNL Adobe Analytics] tool UI (Premium, Standard, and Point). 
 * Updated the favicon icon that displays in browsers' address bars to match new Adobe branding.
@@ -346,7 +346,7 @@ The April 23, 2015 dynamic tag management release includes the following changes
  </tbody> 
 </table>
 
-**Fixes: **
+**Fixes:** 
 
 * Updated the variable and event interface for the [!DNL Adobe Analytics] tool to allow auto-complete selection and to enable access to additional eVars and events for [!DNL Analytics Premium] accounts. See [Add Adobe Analytics Tool](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).  
 

@@ -45,11 +45,11 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
   You can manually manage the [!DNL Adobe Target] code. You can download the [!DNL at.js] or [!DNL mbox.js] file from the Target solution interface as follows:
 
-    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download at.js]** 
+    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download at.js]** 
     
-    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** 
+    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** 
     
-    * Target Classic: **[!UICONTROL Configuration-]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Download]**
+    * Target Classic:** [!UICONTROL Configuration-]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Download]**
 
   After you download the code locally, copy and paste the code into the editor field in the Library Management section of the tool settings. You also have the option of hosting the code at a specific URL as an alternative to manually pasting in the code.
 
@@ -68,9 +68,9 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
   (Automatic method) The Client Code value can be retrieved from the [!DNL Adobe Target] solution interface as follows:
 
-    * Target Classic: **[!UICONTROL Configuration]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Edit]** > *copy value for Client*. 
+    * Target Classic:** [!UICONTROL Configuration]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Edit]** > *copy value for Client*. 
     
-    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within mbox.js file*.
+    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within mbox.js file*.
 
 ## Library management - Adobe Target {#concept_DD6234BB44134EE88F7CD67191366CBC}
 

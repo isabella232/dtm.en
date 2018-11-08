@@ -27,36 +27,36 @@ The following section discusses how the different JavaScript/third-party tags sc
 
 * **Top of Page **
 
-    * **Sequential HTML: **Injected into `<HEAD/>` below DTM library include script if `<SCRIPT/>` tags are used, otherwise is injected at top of `<BODY/>` 
-    * **Sequential JavaScript global: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * **Sequential JavaScript local: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * ** Non-sequential JavaScript: **Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
-    * **Non-sequential HTML: **Injected as hidden `IFRAME` and does not affect page HTML
+    * **Sequential HTML:** Injected into `<HEAD/>` below DTM library include script if `<SCRIPT/>` tags are used, otherwise is injected at top of `<BODY/>` 
+    * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * **Sequential JavaScript local:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * ** Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
+    * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
 * **Bottom of Page**
 
-    * **Sequential HTML: **Injected after `_satellite.pageBottom()` callback script with `document.write()` prior to DOMREADY so that there is no destruction of the visible page 
+    * **Sequential HTML:** Injected after `_satellite.pageBottom()` callback script with `document.write()` prior to DOMREADY so that there is no destruction of the visible page 
     
-    * **Sequential JavaScript global: **Injected after `_satellite.pageBottom()` as JavaScript include `<SCRIPT/>` 
-    * ** Sequential JavaScript local: **Injected after `_satellite.pageBottom()` as JavaScript include `<SCRIPT/>` 
-    * ** Non-sequential JavaScript: **Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
-    * **Non-sequential HTML: **Injected as hidden `IFRAME` and does not affect page HTML
+    * **Sequential JavaScript global:** Injected after `_satellite.pageBottom()` as JavaScript include `<SCRIPT/>` 
+    * ** Sequential JavaScript local:** Injected after `_satellite.pageBottom()` as JavaScript include `<SCRIPT/>` 
+    * ** Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
+    * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
 * **DOM Ready **
 
-    * ** Sequential HTML: **Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
-    * **Sequential JavaScript global: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * ** Sequential JavaScript local: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * ** Non-sequential JavaScript: **Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
-    * ** Non-sequential HTML: **Injected as hidden `IFRAME` and does not affect page HTML
+    * ** Sequential HTML:** Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
+    * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * ** Sequential JavaScript local:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * ** Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
+    * ** Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
 * **Onload (window load)**
 
-    * **Sequential HTML: **Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
-    * **Sequential JavaScript global: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * ** Sequential JavaScript local: **Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
-    * ** Non-sequential JavaScript: **Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
-    * **Non-sequential HTML: **Injected as hidden `IFRAME` and does not affect page HTML
+    * **Sequential HTML:** Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
+    * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * ** Sequential JavaScript local:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
+    * ** Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
+    * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
 Non-sequential HTML third-party rules are always placed into iFrames. There is no such thing as asynchronous HTML so dynamic tag management refers to the iFrame functionality with that name.
 

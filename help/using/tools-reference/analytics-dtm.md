@@ -58,7 +58,7 @@ This section contains the following information:
         * **Experience Cloud**: (Default) Uses [!DNL Experience Cloud] single sign-on. Specify your Experience Cloud ID and password. 
         * **Web Services**: Specify your Web Services username and shared secret.
 
-          Shared secret credentials are located in **[!UICONTROL Admin Tools]** > **[!UICONTROL Company Settings]** > [Web Services](http://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html).
+          Shared secret credentials are located in **[!UICONTROL Admin Tools]** > **[!UICONTROL Company Settings]** > [Web Services](https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html).
 
           Developers, see [Get Web Service Access to the Enterprise API](https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api) for help with obtaining Web Services credentials.
 
@@ -68,13 +68,13 @@ This section contains the following information:
 
       Fill in the fields specific to a manual configuration:
 
-        * **Production Account ID: **(Required) Your production account for data collection. For Analytics, this is your report suite ID. Dynamic tag management automatically installs the correct account in the production and staging environment. 
-        * **Staging Account ID: **(Required) Used in your development or test environment. For Analytics, this is your report suite ID. A staging account keeps your testing data separate from production. 
-        * **Tracking Server: **Specify the information for your tracking server.
+        * **Production Account ID:** (Required) Your production account for data collection. For Analytics, this is your report suite ID. Dynamic tag management automatically installs the correct account in the production and staging environment. 
+        * **Staging Account ID:** (Required) Used in your development or test environment. For Analytics, this is your report suite ID. A staging account keeps your testing data separate from production. 
+        * **Tracking Server:** Specify the information for your tracking server.
 
           The [!UICONTROL Tracking Server] and [!UICONTROL SSL Tracking Server] variables are used for first-party cookie implementation to specify the domain at which the image request and cookie is written. For more information, see the [Correctly Populate the trackingServer and trackingServerSecure Variable](https://helpx.adobe.com/analytics/kb/determining-data-center.html) article. 
         
-        * **SSL Tracking Server: **Specify the information for your SSL tracking server.
+        * **SSL Tracking Server:** Specify the information for your SSL tracking server.
 
 1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
 
@@ -117,7 +117,7 @@ You can edit an existing Adobe Analytics tool to change its configuration settin
 
 ## Enabling Adobe Analytics Premium {#section_AEAA44566B5A46D2922E17A11D7EA217}
 
-If you are an [!DNL Adobe Analytics Premium] customer, dynamic tag management lets you take advantage of advanced features and additional eVars and events. For more information, see [Adobe Analytics Premium](http://wwwimages.adobe.com/content/dam/Adobe/en/solutions/digital-marketing/digital-analytics/pdfs/solution-overview-analytics-premium-ue.pdf).
+If you are an [!DNL Adobe Analytics Premium] customer, dynamic tag management lets you take advantage of advanced features and additional eVars and events. For more information, see [Adobe Analytics Premium](https://wwwimages.adobe.com/content/dam/Adobe/en/solutions/digital-marketing/digital-analytics/pdfs/solution-overview-analytics-premium-ue.pdf).
 
 The following table displays the number of eVars and events available in each [!DNL Analytics] account type: 
 
@@ -229,7 +229,7 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
   If you select this option, the following option becomes available:
 
-  **Library Version: **Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary. 
+  **Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary. 
 
 * Custom
 
@@ -237,17 +237,17 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
   If you select this option, the following options become available:
 
-  **Set report suites using custom code below: **When this box is checked, dynamic tag management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
+  **Set report suites using custom code below:** When this box is checked, dynamic tag management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
 
-  **Code Hosted: **Choose an option to host the [!DNL s_code]:
+  **Code Hosted:** Choose an option to host the [!DNL s_code]:
 
     * **In DTM**: You can host the [!DNL s_code] within dynamic tag management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor. 
     
     * **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic tag management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
 
-  **Open Editor: **Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#task_068D72664B2743359A64ADB8692D3658). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+  **Open Editor:** Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#task_068D72664B2743359A64ADB8692D3658). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
 
-  **Tracker Variable Name: **If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions.
+  **Tracker Variable Name:** If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions.
 
 ## Insert core AppMeasurement code {#section_E497974E41454C979A8C90A84E2FE537}
 
@@ -410,21 +410,21 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
 
   See [trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=trackExternalLinks.html).
 
-  **Single-Page App Considerations: **Because of the way some SPA websites are coded, an internal link to a page on the SPA site might look like it is an outbound link.
+  **Single-Page App Considerations:** Because of the way some SPA websites are coded, an internal link to a page on the SPA site might look like it is an outbound link.
 
   You can use one of the following methods to track outbound links from SPA sites:
 
     * If you do not want to track any outbound links from your SPA, insert an entry into the [!UICONTROL Never Track] section.
 
-      For example, [!DNL http://testsite.com/spa/#]
+      For example, [!DNL https://testsite.com/spa/#]
 
-      All # links to this host are ignored. All outbound links to other hosts are tracked, such as [!DNL http://www.google.com]. 
+      All # links to this host are ignored. All outbound links to other hosts are tracked, such as [!DNL https://www.google.com]. 
     
     * If there are some links that you want to track on your SPA, use the [!UICONTROL Always Track] section.
 
       For example, if you have a [!DNL spa/#/about] page, you could put "about" in the [!UICONTROL Always Track] section.
 
-      The "about" page is the only outbound link that is tracked. Any other links on the page (for example, [!DNL http://www.google.com]) are not tracked.
+      The "about" page is the only outbound link that is tracked. Any other links on the page (for example, [!DNL https://www.google.com]) are not tracked.
 
   Note that these two options are mutually exclusive. 
 

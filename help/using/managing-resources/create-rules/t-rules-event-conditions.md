@@ -354,7 +354,7 @@ To accomplish this, create an event-based rule to trigger on the click of the li
 
 ![](assets/dynamic_populate_variable_2.png)
 
-If you are unsure if the desired attribute is standard or non-standard, reference [w3schools.com](http://www.w3schools.com/) to learn more about standard HTML attributes. However, if in doubt, you can use the non-standard *`getAttribute()`* format, which will work in either scenario.
+If you are unsure if the desired attribute is standard or non-standard, reference [w3schools.com](https://www.w3schools.com/) to learn more about standard HTML attributes. However, if in doubt, you can use the non-standard *`getAttribute()`* format, which will work in either scenario.
 
 This functionality can be utilized in dynamic tag management rule fields, including:
 

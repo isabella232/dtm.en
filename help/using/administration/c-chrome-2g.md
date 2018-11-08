@@ -40,7 +40,7 @@ If you are using Target via DTM, and are concerned about visitors on a 2G cellul
    >
    >Loading the Target library asynchronously prevents the warning, but might cause "flickering" on the page if default content loads before the targeted content.
 
-## 3rd-party tags {#section_F9FE8A1120EE4932AD679AF8E4498930}
+## Third-party tags {#section_F9FE8A1120EE4932AD679AF8E4498930}
 
 If you are deploying 3rd-party tags via rules in DTM, and are concerned about visitors on a 2G cellular network who are using Chrome, please do the following:
 

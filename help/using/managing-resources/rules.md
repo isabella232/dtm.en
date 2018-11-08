@@ -53,7 +53,7 @@ By leveraging in-page interactions and page-level tagging, you can optimize base
 
 See [Event-Based Rules Example](../managing-resources/rules.md#concept_649E7BB6A7B3442C8F32F657BED77D54) for an example of how to set your condition to look for clicks on the various tabs on your product pages.
 
-**Page load **
+**Page load**
 
 Let you target by URL, site section, or set up scenarios that are independent of the site structure. For example, a page-load rule can load a survey on the fifth page view or in the seventh minute of a visitor’s session.
 
@@ -61,7 +61,7 @@ Advanced page-load rules let you, for example, target specific user segments in 
 
 See [Page Load Rules Example](../managing-resources/rules.md#concept_811F4216145A4E3A91190DFFC9C2D223).
 
-**Direct call **
+**Direct call**
 
 Designed to bypass dynamic tag management event detection and lookup systems.
 
@@ -69,7 +69,7 @@ Direct call rules are ideal for situations where you want to tell dynamic tag ma
 
 See [Creating conditions for Direct Call rules](../managing-resources/create-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09) for more information and to watch an EnterpriseTV video about direct-call rules.
 
-**Default rules **
+**Default rules**
 
 When you activate a property, dynamic tag management includes several default rules.
 
@@ -77,14 +77,14 @@ These rules track common interactions with your site and can help you analyze op
 
 Dynamic tag management includes the following default rules:
 
-* **Dead Header: **Tracks any clicks on "dead" (i.e. unlinked) header items. 
-* **Dead Image: **Tracks any clicks on "dead" (i.e. unlinked) images. 
-* **Download Link: **Tracks any clicks on downloadable site content. 
-* **Email Link: **Tracks any clicks on linked emails. 
-* **Orientation Changed: **Tracks any page orientation change (mobile relevant). 
-* **Outbound Link: **Tracks any clicks on links driving off site. 
-* **Telephone Dial: **Tracks any click on a phone number. 
-* **Zoom Changed: **Tracks any change in page zoom.
+* **Dead Header:** Tracks any clicks on "dead" (i.e. unlinked) header items. 
+* **Dead Image:** Tracks any clicks on "dead" (i.e. unlinked) images. 
+* **Download Link:** Tracks any clicks on downloadable site content. 
+* **Email Link:** Tracks any clicks on linked emails. 
+* **Orientation Changed:** Tracks any page orientation change (mobile relevant). 
+* **Outbound Link:** Tracks any clicks on links driving off site. 
+* **Telephone Dial:** Tracks any click on a phone number. 
+* **Zoom Changed:** Tracks any change in page zoom.
 
 ## New vs existing rules {#section_0B4B7994A4EF47CDAC89DC6B82A3460B}
 
@@ -116,8 +116,8 @@ The [!UICONTROL CSS Selector] lets you quickly and easily select CSS elements to
 
 The following links are useful resources to learn about CSS:
 
-* [CSS Selector Pattern Matching Syntax](http://www.w3.org/TR/CSS2/selector.html#pattern-matching) 
-* [CSS Selector Reference](http://docs.webplatform.org/wiki/css/selectors)
+* [CSS Selector Pattern Matching Syntax](https://www.w3.org/TR/CSS2/selector.html#pattern-matching) 
+* [CSS Selector Reference](https://docs.webplatform.org/wiki/css/selectors)
 
 ![](assets/create_event_based.png){width="472"}
 
@@ -141,7 +141,7 @@ By then end of this video you should be able to:
 * Explain the event-based rule types 
 * Create an event-based rule
 
-**DTM Basics: Event-Based Rules, Part Two **
+**DTM Basics: Event-Based Rules, Part Two**
 
 >[!VIDEO](https://video.tv.adobe.com/v/17173/)
 
@@ -151,7 +151,7 @@ By then end of this video you should be able to:
 * Explain the event-based rule types 
 * Create an event-based rule
 
-**DTM Basics: Event-Based Rules, Part Three **
+**DTM Basics: Event-Based Rules, Part Three**
 
 >[!VIDEO](https://video.tv.adobe.com/v/17174/)
 
@@ -171,7 +171,7 @@ rules_page.xml
 
  -->
 
-**DTM Basics: Page Load Rules, Part One **
+**DTM Basics: Page Load Rules, Part One**
 
 >[!VIDEO](https://video.tv.adobe.com/v/17177/)
 
@@ -181,7 +181,7 @@ By then end of this video you should be able to:
 * Understand the condition criteria options 
 * Create a page load rule
 
-**DTM Basics: Page Load Rules, Part Two **
+**DTM Basics: Page Load Rules, Part Two**
 
 >[!VIDEO](https://video.tv.adobe.com/v/17178/)
 
@@ -189,37 +189,37 @@ By then end of this video you should be able to:
 
 **Google AdWords example**
 
-A marketer would like to trigger a Google AdWords conversion tag when a user fills out a form and arrives on the page [!DNL http://www.mysite.com/form/thank-you.html]
+A marketer would like to trigger a Google AdWords conversion tag when a user fills out a form and arrives on the page [!DNL https://www.mysite.com/form/thank-you.html]
 
 Here is how you can set up this scenario in dynamic tag management:
 
 1. Create a new page load rule.
 
-![](assets/page_load_rules.png){width="472"}
+   ![](assets/page_load_rules.png){width="472"}
 
-2. In the rule conditions, specify the page where this rule will be triggered.
+1. In the rule conditions, specify the page where this rule will be triggered.
 
-![](assets/rule_conditions.png){width="472"}
+   ![](assets/rule_conditions.png){width="472"}
 
-3. Paste the tag your vendor gave you directly into the Third-Party Tags section.
+1. Paste the tag your vendor gave you directly into the Third-Party Tags section.
 
-Because dynamic tag management does not rely on templates, marketers can use any tag within a rule, even in formatted HTML.
+   Because dynamic tag management does not rely on templates, marketers can use any tag within a rule, even in formatted HTML.
 
-![](assets/3rdparty_script.png){width="472"}
+   ![](assets/3rdparty_script.png){width="472"}
 
-4. Give your rule a name that describes the user interaction like “Forms: User submits form.”
+1. Give your rule a name that describes the user interaction like “Forms: User submits form.”
 
-You can also add descriptive metadata to your rule.
+   You can also add descriptive metadata to your rule.
 
-This description will help you and others identify this rule if they want to use it for their tags or tools later.
+   This description will help you and others identify this rule if they want to use it for their tags or tools later.
 
-5. Save your rule, and you are ready to test it in a staging environment, request rule approval, and publish to the production site.
+1. Save your rule, and you are ready to test it in a staging environment, request rule approval, and publish to the production site.
 
-![](assets/edit_page_load_rule.png){width="472"}
+   ![](assets/edit_page_load_rule.png){width="472"}
 
->[!NOTE]
->
->By default, page load rules load at page bottom. This setup works for most scenarios. However, if the rule you are setting up has some dependency on in page content, it might be better to configure the rule to load on DOM ready. Conversely, if you have other rules that rely on the outcome of the rule in question, load the rule at Top of Page or Onload to ensure that it fires first.
+   >[!NOTE]
+   >
+   >By default, page load rules load at page bottom. This setup works for most scenarios. However, if the rule you are setting up has some dependency on in page content, it might be better to configure the rule to load on DOM ready. Conversely, if you have other rules that rely on the outcome of the rule in question, load the rule at Top of Page or Onload to ensure that it fires first.
 
 ## Page load rules - advanced {#section_7F8213A984D6447BA54DE188BA4F17EA}
 
@@ -235,23 +235,23 @@ You may want to target specific user segments in your rules. The following examp
 
 1. Create the conditions.
 
-The following image shows the setting you use for this visitor segment:
+   The following image shows the setting you use for this visitor segment:
 
-![](assets/rule_condition_2.png){width="472"}
+   ![](assets/rule_condition_2.png){width="472"}
 
-2. Set up a test on the form using Adobe Target.
+1. Set up a test on the form using Adobe Target.
 
-You are not required to modify the page, and there are no mbox containers to place in your markup.
+   You are not required to modify the page, and there are no mbox containers to place in your markup.
 
-![](assets/adobe_target.png){width="472"}
+   ![](assets/adobe_target.png){width="472"}
 
-3. Click **[!UICONTROL Save]**, configure your test in Adobe Target and your test is running.
+1. Click **[!UICONTROL Save]**, configure your test in Adobe Target and your test is running.
 
-![](assets/marketing_cloud_login.png){width="200"}
+   ![](assets/marketing_cloud_login.png){width="200"}
 
->[!MORE_LIKE_THIS]
->
->* [Creating conditions for Page Load Rules](t_rules_page_conditions.md#task_69B41CB230EE4530A755D91233F73706)
+   >[!MORE_LIKE_THIS]
+   >
+   >* [Creating conditions for Page Load Rules](t_rules_page_conditions.md#task_69B41CB230EE4530A755D91233F73706)
 
 ## Rule conditions and functions {#reference_662A7B7D177C46C98980CD317A7A8861}
 
@@ -427,4 +427,3 @@ The following table describes condition types, conditions, functions, and applic
   </tr> 
  </tbody> 
 </table>
-

@@ -17,7 +17,7 @@ Adobe has partnered with Search Discovery to offer additional plugins to help yo
 
 >[!NOTE]
 >
->Search Discovery is the creator of the plugins mentioned in this topic. [Contact Search Discovery](http://www.searchdiscovery.com/contact/) for support issues for these plugins. This topic contains information about the plugins currently offered. See the [Search Discovery](http://www.searchdiscovery.com/solutions/technology/#sditools) website for an updated list.
+>Search Discovery is the creator of the plugins mentioned in this topic. [Contact Search Discovery](https://www.searchdiscovery.com/contact/) for support issues for these plugins. This topic contains information about the plugins currently offered. See the [Search Discovery](https://www.searchdiscovery.com/solutions/technology/#sditools) website for an updated list.
 
 This section contains the following information:
 
@@ -51,10 +51,10 @@ Download the WordPress plugin at [Wordpress.org](https://wordpress.org/plugins/a
 
 Easily track analytics across all popular video sites and send this data to your analytics tools.
 
-[Contact Search Discovery](http://www.searchdiscovery.com/contact/) for more information and to obtain this tool.
+[Contact Search Discovery](https://www.searchdiscovery.com/contact/) for more information and to obtain this tool.
 
 ## Drupal plugin {#section_70611BF1EEF64F5798451AB8CD93B3CA}
 
 Set up and configure [Drupal](https://www.drupal.org) using dynamic tag management.
 
-[Contact Search Discovery](http://www.searchdiscovery.com/contact/) for more information and to obtain this tool. 
+[Contact Search Discovery](https://www.searchdiscovery.com/contact/) for more information and to obtain this tool. 

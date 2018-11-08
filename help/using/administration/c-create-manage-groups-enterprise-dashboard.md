@@ -22,7 +22,7 @@ This section contains the following information:
 
 ## Create new user groups in the Experience Cloud {#section_08040874355948F8951A15ADE6BD9DE0}
 
-1. Log in to the Adobe Admin Console via [aedash.adobe.com](http://aedash.adobe.com/). 
+1. Log in to the Adobe Admin Console via [aedash.adobe.com](https://aedash.adobe.com/). 
 1. Click **[!UICONTROL Products]** > **[!UICONTROL Dynamic Tag Management]**. 
 1. Click  ![](assets/icon_expand.png)
 

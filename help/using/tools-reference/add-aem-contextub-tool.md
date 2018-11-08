@@ -300,7 +300,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
    ```
    { 
-     "$schema": "http://json-schema.org/draft-04/schema#", 
+     "$schema": "https://json-schema.org/draft-04/schema#", 
      "type": "object", 
      "properties": { 
        "page": { 
