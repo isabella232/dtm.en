@@ -1,11 +1,20 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: dtm
+audience: end-user
+user-guide-title: DTM User Guide
+solution-title: DTM
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
+solution-image: assets/experience-cloud-logo-24.png
+getting-started-title: Getting Started
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+tutorials-title: Tutorials
+tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
+git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
+index: no
 ---
 
-# Table of Contents {#table-of-contents}
+# Dynamic Tag Manager Help {#dtm-guide}
 
 + [Dynamic Tag Management Product Documentation](dtm-home.md)
 + [Release notes for Dynamic Tag Management](whatsnew.md)
