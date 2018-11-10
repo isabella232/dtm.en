@@ -238,7 +238,6 @@ You must be an administrator to be able to deploy via FTP.
 
 1. In the web property, click the **[!UICONTROL Embed]** tab.
 1. Click **[!UICONTROL FTP Delivery]**. ![](assets/deploy_ftp_1.png){width="672"}
-
 1. Provide the required FTP information for the staging and production servers, then click **[!UICONTROL Save FTP Information]**.
 
    >[!NOTE]
@@ -275,21 +274,11 @@ You must be an administrator to deploy using the Library Download.
 
 1. Fill out one or both of the following optional fields:
 
-    <table id="choicetable_54FF4C9A87C446A89BAE80F165D03A41"> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> Option</th> 
-  <th class="chdeschd"> Description</th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Shared Secret</strong></td> 
-  <td class="chdesc stentry"> <p>Encrypts the dynamic tag management library during download. If you enter a shared secret, we use AES-256 to encrypt your <span class="filepath"> .zip</span> file using this passphrase. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Deploy Hook URL</strong></td> 
-  <td class="chdesc stentry"> <p>The process of deploying dynamic tag management files to the server can be automated whenever there is an update. Create a script that is accessible via the specified public URL. If you enter a deploy hook URL, we make an HTTP POST to it every time we successfully update your bundle. The body of the post will include a payload containing the download URL of the bundle. </p> </td> 
- </tr> 
-</table>    
-    
+   | Option| Description|
+   |--- |--- |
+   |Shared Secret|Encrypts the dynamic tag management library during download. If you enter a shared secret, we use AES-256 to encrypt your  .zip file using this passphrase.|
+   |Deploy Hook URL|The process of deploying dynamic tag management files to the server can be automated whenever there is an update. Create a script that is accessible via the specified public URL. If you enter a deploy hook URL, we make an HTTP POST to it every time we successfully update your bundle. The body of the post will include a payload containing the download URL of the bundle.|
+ 
 1. Complete the fields under [!UICONTROL Domain and Paths to Tracking File], for staging and production.
 
    Specify the location where the files reside when deployed to your server. Do not include the protocol or any leading or trailing slashes. Dynamic tag management requires a domain and a path for HTTP or HTTPS for the production and staging environments.

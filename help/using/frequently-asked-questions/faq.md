@@ -29,43 +29,43 @@ A FAQ answering common questions about your decision to use dynamic tag manageme
 
 See [Getting Started with Dynamic Tag Management](../getting-started/get-started.md#concept_BCE87DF8A0EC48E99529AC0BE8D187FC).
 
-**How much does dynamic tag management cost? **
+**How much does dynamic tag management cost?**
 
 Dynamic tag management is free.
 
-**Are there limitations on my use of dynamic tag management? **
+**Are there limitations on my use of dynamic tag management?**
 
 You can create as many [Web Properties](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD) as you want and write as many rules as you want. You can also use it to deliver any digital marketing service, even if you don’t use it to deliver Adobe Digital Marketing solutions. There is no effective limitation on your use of the capability.
 
-**Why is it an advantage for customers (over competitive offerings) to use dynamic tag management from Adobe? **
+**Why is it an advantage for customers (over competitive offerings) to use dynamic tag management from Adobe?**
 
 The dynamic tag management advantage is the control and flexibility of using rules. It is also the only market-leading tag management solution that supports all of your digital marketing services and is offered to customers at no additional cost.
 
-**Who can help me with my dynamic tag management implementation? **
+**Who can help me with my dynamic tag management implementation?**
 
 Adobe Global Services provides dynamic tag management implementation, as do several implementation partners. Contact your account manager for more information.
 
-**With which Adobe Experience Cloud solutions are dynamic tag management integrated? **
+**With which Adobe Experience Cloud solutions are dynamic tag management integrated?**
 
 Dynamic tag management will support all of the Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
 
-**How do I access dynamic tag management through the Adobe Experience Cloud? **
+**How do I access dynamic tag management through the Adobe Experience Cloud?**
 
 Before you can start using dynamic tag management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
 
-**Why am I getting an "Access Failed" error when I try to access the Experience Cloud? **
+**Why am I getting an "Access Failed" error when I try to access the Experience Cloud?**
 
 Make sure that your company has been provisioned to use the Experience Cloud. See [Access the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/access.html) in the *Experience Cloud Product Documentation*.
 
-**How do I assign my account to a Company name in the Experience Cloud? **
+**How do I assign my account to a Company name in the Experience Cloud?**
 
 You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
 
-**How do I link my account to an Adobe ID? **
+**How do I link my account to an Adobe ID?**
 
 When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
 
-**How do I link solutions from within the Experience Cloud? **
+**How do I link solutions from within the Experience Cloud?**
 
 For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_get_access.html) in the *Experience Cloud Product Documentation*.
 
@@ -97,7 +97,7 @@ Yes, HTML5 is supported.
 
 Dynamic tag management does not yet support fully native applications. It can handle an application if it has an in-application browser or is essentially a website wrapped in an app container. Properties for the mobile and desktop sites should be able to be set up as normal.
 
-**Which browser versions does DTM support? **
+**Which browser versions does DTM support?**
 
 See [Browser Support](../getting-started/get-started.md#concept_14C1D3046A1845AC8765584ECD28BD44).
 
@@ -105,11 +105,11 @@ See [Browser Support](../getting-started/get-started.md#concept_14C1D3046A1845AC
 
 A FAQ about using dynamic tag management with Adobe Experience Cloud.
 
-**With which Adobe Experience Cloud solutions are dynamic tag management integrated? **
+**With which Adobe Experience Cloud solutions are dynamic tag management integrated?**
 
 Dynamic tag management will support all Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
 
-**How do I access dynamic tag management through Adobe Experience Cloud? **
+**How do I access dynamic tag management through Adobe Experience Cloud?**
 
 Before you can start using dynamic tag management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
 
@@ -117,11 +117,11 @@ Before you can start using dynamic tag management, someone from your company mus
 
 Make sure that your company has been provisioned to use Experience Cloud. See [Access the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/access.html) in the *Experience Cloud Product Documentation*.
 
-**How do I assign my account to a Company name in Experience Cloud? **
+**How do I assign my account to a Company name in Experience Cloud?**
 
 You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
 
-**How do I link my account to an Adobe ID? **
+**How do I link my account to an Adobe ID?**
 
 When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
 
@@ -163,7 +163,7 @@ The only potential issue is the use of [!DNL document.write], because content ty
 
   **Workaround:** The synchronous loading of scripts via dynamic tag management cannot avoid [!DNL document.write]. Thus, when this content type is being used, all third-party scripts (JS and HTML) should be loaded asynchronously in dynamic tag management to avoid [!DNL document.write]. Please always consider and test all code dependencies to ensure the desired behavior is still accomplished with asynchronous loading.
 
-** Will dynamic tag management reduce my website's performance? **
+** Will dynamic tag management reduce my website's performance?**
 
 Dynamic tag management has never shown signs of negatively affecting page load time or execution speed.
 
@@ -187,19 +187,19 @@ Adobe recommends the use of tag event callbacks provided by [!DNL amc.on] to wra
 
 See [amc.on Tag Event Callbacks](https://marketing.adobe.com/resources/help/en_US/sc/implement/tm_amc_on.html).
 
-**Can the dynamic tag management library files work with the version control system we use at my company? **
+**Can the dynamic tag management library files work with the version control system we use at my company?**
 
 Adobe offers two options for self-hosting the library files: [FTP Delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D) and [Library Download](../client-side-information/deployment.md#task_B7A42F3B1D3E4B71B0BADD17C181F22A). When you choose one of these self-hosted options for the library, each time you make changes in dynamic tag management, those changes are written out by the system to the library files. Those files are typically then "pushed" or "pulled" to your architecture automatically. Once the updated library code is on your servers, you can add the files to your version control systems and processes however you like. If you use GitHub, SVN, or some other system to manage your web development code or content, that works fine with dynamic tag management.
 
 One note on version control: Ensure you do not overwrite the production version of the [Embed code](../client-side-information/deployment.md#concept_496A6901D970434784182E09B285874B) with the staging version of the Embed code when you commit and push code to production. The staging version of the Embed code has to stay in the staging (non-production, test, dev, QA, UAT, etc.) environment templates. The production version of the embed code has to stay in the production templates.
 
-**Can I use dynamic tag management with our mobile applications? **
+**Can I use dynamic tag management with our mobile applications?**
 
 Currently, dynamic tag management can be used in any digital experience created with HTML, CSS, and JavaScript. This includes any mobile-optimized content or responsive designs. This also includes mobile applications created with wrappers like Cordova or PhoneGap.
 
 Unfortunately, at this time, dynamic tag management does not offer a separate SDK for use with completely native, compiled applications. You can still track your mobile applications using the Adobe [!DNL Analytics] SDK. Dynamic tag management can also be present on HTML documents pulled into your mobile app when desktop or responsive content is accessed within the native app experience, like in hybrid or crossover content situations.
 
-**How do I set *`s.pageName`* without creating a separate rule for each of my web pages? **
+**How do I set *`s.pageName`* without creating a separate rule for each of my web pages?**
 
 There are a number of ways to set *`s.pageName`* for each page, without creating a separate dynamic tag management [Page Load rule](../managing-resources/rules.md#concept_811F4216145A4E3A91190DFFC9C2D223) for each page. In dynamic tag management, the conditions for your rules answer questions like: What’s the visitor doing? Where are they doing it? When is it happening? You can set any number of variables, trigger different tags or tools, and execute any number of scripts from within the same rule, as long as you want all those things to happen in response to the same conditions.
 
@@ -241,7 +241,7 @@ DTM Switch is a browser plugin for easy switching between debug mode and staging
 
 A FAQ about the automatic configuration of the Adobe Analytics deployment. The automatic configuration method manages the AppMeasurement code for you.
 
-**Where do I put my plugins when implementing Adobe Analytics via DTM? **
+**Where do I put my plugins when implementing Adobe Analytics via DTM?**
 
 If using DTM to manually host the `s_code`, plugins can be added in the same editor as the hosted `s_code`, just as it would be in a typical Adobe Analytics implementation.
 
@@ -249,13 +249,13 @@ However, it is also an option to place the plugins in the editor within the *`Cu
 
 See [DTM Switch Plugins](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html).
 
-**If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? **
+**If I make configuration changes in the new version of the tool, can I test in staging before publishing to production?**
 
 Yes.
 
 All changes can be tested in staging just like you normally would before deploying to a production environment. If you choose not to publish, because you notice issues in staging, the production code will continue to function as it did before the new integration was released.
 
-**If I switch from manual configuration (the default setting for existing tools) to automatic configuration, will my current settings be affected? **
+**If I switch from manual configuration (the default setting for existing tools) to automatic configuration, will my current settings be affected?**
 
 No.
 
@@ -263,7 +263,7 @@ No.
 
 Any user code that you have specified is overwritten with the base [!DNL AppMeasurement] library. You must move this code to the new [!UICONTROL Custom Page Code] section at the end of the tool configuration so that the code continues executing. This method allows the [!DNL AppMeasurement] library to be managed (and upgraded) separately from the user's custom code.
 
-**Will the revision history for the [!DNL Adobe Analytics] tool be retained when the new integration is released? **
+**Will the revision history for the [!DNL Adobe Analytics] tool be retained when the new integration is released?**
 
 Yes.
 
