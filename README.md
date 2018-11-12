@@ -8,7 +8,7 @@ This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct
 
 ## About your contributions to Adobe content
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
@@ -34,7 +34,7 @@ If you are a technical writer, program manager, or developer from the product te
 
 Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html) for details.
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## How to use markdown to format your topic
 
@@ -43,11 +43,11 @@ All the articles in this repository use GitHub flavored markdown. If you are not
 * [Markdown basics](https://help.github.com/articles/markdown-basics/)
 * [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
+<!--
 ## Labels
 
 In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
 * **Change sent to author**: The author has been notified of the pending pull request.
 * **ready-to-merge**: Ready for review by our pull request review team.
-
-
+-->
