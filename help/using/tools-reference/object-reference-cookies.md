@@ -17,10 +17,6 @@ Built-in object references to handle cookies.
 
 Dynamic tag manager has some built-in object references to handle cookies:
 
-* _satellite.readCookie(cookiename) 
-* _satellite.setCookie(cookiename, value, days) 
+* _satellite.readCookie(cookiename)
+* _satellite.setCookie(cookiename, value, days)
 * _satellite.removeCookie(cookiename)
-
->[!MORE_LIKE_THIS]
->
->* [Dynamic Tag Management Object Reference](object_reference.md#concept_5A13D5D9DD554E0E9912330DBDE9CEE5)
