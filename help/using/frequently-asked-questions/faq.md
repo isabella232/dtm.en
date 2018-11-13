@@ -247,7 +247,7 @@ If using DTM to manually host the `s_code`, plugins can be added in the same edi
 
 However, it is also an option to place the plugins in the editor within the *`Customize Page Code`* section of the tool settings. Both implementation methods should be equally effective.
 
-See [DTM Switch Plugins]((../managing-resources/plugins/search-discovery-plugins.md#section_795358F4F1B1448E979B60B384B83D7E")).
+See [DTM Switch Plugins](../managing-resources/plugins/search-discovery-plugins.md#section_795358F4F1B1448E979B60B384B83D7E").
 
 **If I make configuration changes in the new version of the tool, can I test in staging before publishing to production?**
 
