@@ -249,9 +249,7 @@ You may want to target specific user segments in your rules. The following examp
 
    ![](assets/marketing_cloud_login.png){width="200"}
 
-   >[!MORE_LIKE_THIS]
-   >
-   >* [Creating conditions for Page Load Rules](../managing-resources/create-rules/t_rules_page_conditions.md#task_69B41CB230EE4530A755D91233F73706)
+
 
 ## Rule conditions and functions {#reference_662A7B7D177C46C98980CD317A7A8861}
 
