@@ -80,4 +80,4 @@ index: no
     + [Resources](other-resources/c-resources.md)
     + [Documentation Updates](other-resources/doc-updates.md)
     + [Previous Release Notes](other-resources/release-notes-history-dtm.md)
-    + [Community Forum](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/activation.html)
+    + [Community Forum](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service)
