@@ -17,26 +17,26 @@ Dynamic tag management is a rule-based system. It looks for user interaction and
 
 ## Rules {#concept_2D3F296DD3BD418BAB7A0E2415DD9C92}
 
-Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified. 
+Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
 
 ![](assets/rules.png)
 
-A rule consists of two parts: 
+A rule consists of two parts:
 
-<table id="table_2208F337243A4105961C71F7506A079A"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Identifier </p> </td> 
-   <td colname="col2"> <p>The identifier is what you want the rule to look for. The identifier you specify depends on the type of rule. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Trigger </p> </td> 
-   <td colname="col2"> <p>Triggers occur after a rule's conditions are met. A rule in dynamic tag management can trigger as many discrete actions as you want. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each tool or tag. </p> </td> 
-  </tr> 
- </tbody> 
+<table id="table_2208F337243A4105961C71F7506A079A">
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>Identifier </p> </td>
+   <td colname="col2"> <p>The identifier is what you want the rule to look for. The identifier you specify depends on the type of rule. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Trigger </p> </td>
+   <td colname="col2"> <p>Triggers occur after a rule's conditions are met. A rule in dynamic tag management can trigger as many discrete actions as you want. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each tool or tag. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
-* [Types of Rules](../managing-resources/rules.md#section_3D5763DAA6504934A3FAF90BFC1FAE9D) 
+* [Types of Rules](../managing-resources/rules.md#section_3D5763DAA6504934A3FAF90BFC1FAE9D)
 * [New vs Existing Rules](../managing-resources/rules.md#section_0B4B7994A4EF47CDAC89DC6B82A3460B)
 
 ## Types of rules {#section_3D5763DAA6504934A3FAF90BFC1FAE9D}
@@ -77,13 +77,13 @@ These rules track common interactions with your site and can help you analyze op
 
 Dynamic tag management includes the following default rules:
 
-* **Dead Header:** Tracks any clicks on "dead" (i.e. unlinked) header items. 
-* **Dead Image:** Tracks any clicks on "dead" (i.e. unlinked) images. 
-* **Download Link:** Tracks any clicks on downloadable site content. 
-* **Email Link:** Tracks any clicks on linked emails. 
-* **Orientation Changed:** Tracks any page orientation change (mobile relevant). 
-* **Outbound Link:** Tracks any clicks on links driving off site. 
-* **Telephone Dial:** Tracks any click on a phone number. 
+* **Dead Header:** Tracks any clicks on "dead" (i.e. unlinked) header items.
+* **Dead Image:** Tracks any clicks on "dead" (i.e. unlinked) images.
+* **Download Link:** Tracks any clicks on downloadable site content.
+* **Email Link:** Tracks any clicks on linked emails.
+* **Orientation Changed:** Tracks any page orientation change (mobile relevant).
+* **Outbound Link:** Tracks any clicks on links driving off site.
+* **Telephone Dial:** Tracks any click on a phone number.
 * **Zoom Changed:** Tracks any change in page zoom.
 
 ## New vs existing rules {#section_0B4B7994A4EF47CDAC89DC6B82A3460B}
@@ -98,13 +98,13 @@ What is the visitor doing? Where is it happening? When is it happening? If the C
 
 For example, if you have a new conversion pixel or tag to place on your site, and you have some existing rules, think about the scenario that must occur for the rule to execute. Consider whether you have a rule in your web property with the condition you need, to execute the conversion pixel. Suppose that you already have a page-load rule for your purchase confirmation page, and you are loading three conversion pixels in the JavaScript / Third Party Tags section. You can add your new pixel as a new Script in the same section of that rule, without creating a new rule.
 
-If the Conditions are different, then you need to add a new rule. 
+If the Conditions are different, then you need to add a new rule.
 
 ## Event-based rules example {#concept_649E7BB6A7B3442C8F32F657BED77D54}
 
-An example of how you to use event-based rules in click-tracking for a tabbed interface on a product page. 
+An example of how you to use event-based rules in click-tracking for a tabbed interface on a product page.
 
-<!-- 
+<!--
 
 rules_event.xml
 
@@ -116,8 +116,8 @@ The [!UICONTROL CSS Selector] lets you quickly and easily select CSS elements to
 
 The following links are useful resources to learn about CSS:
 
-* [CSS Selector Pattern Matching Syntax](https://www.w3.org/TR/CSS2/selector.html#pattern-matching) 
-* [CSS Selector Reference](https://docs.webplatform.org/wiki/css/selectors)
+* [CSS Selector Pattern Matching Syntax](https://www.w3.org/TR/CSS2/selector.html#pattern-matching)
+* [CSS Selector Reference](https://webplatform.github.io/docs/css/selectors/)
 
 ![](assets/create_event_based.png){width="472"}
 
@@ -137,8 +137,8 @@ When using event-based rules, dynamic tag management offers powerful tools to su
 
 By then end of this video you should be able to:
 
-* Understand what an event-based rule is 
-* Explain the event-based rule types 
+* Understand what an event-based rule is
+* Explain the event-based rule types
 * Create an event-based rule
 
 **DTM Basics: Event-Based Rules, Part Two**
@@ -147,8 +147,8 @@ By then end of this video you should be able to:
 
 By then end of this video you should be able to:
 
-* Understand what an event-based rule is 
-* Explain the event-based rule types 
+* Understand what an event-based rule is
+* Explain the event-based rule types
 * Create an event-based rule
 
 **DTM Basics: Event-Based Rules, Part Three**
@@ -157,15 +157,15 @@ By then end of this video you should be able to:
 
 By then end of this video you should be able to:
 
-* Understand what an event-based rule is 
-* Explain the event-based rule types 
+* Understand what an event-based rule is
+* Explain the event-based rule types
 * Create an event-based rule
 
 ## Page load rules example {#concept_811F4216145A4E3A91190DFFC9C2D223}
 
-You can implement rules that trigger during the course of a page load. For example, you can display a survey after a certain number of page views, or after a specified number of minutes into a session. Page load rules let you target by URL, site section, or set up scenarios that are independent of the site structure. 
+You can implement rules that trigger during the course of a page load. For example, you can display a survey after a certain number of page views, or after a specified number of minutes into a session. Page load rules let you target by URL, site section, or set up scenarios that are independent of the site structure.
 
-<!-- 
+<!--
 
 rules_page.xml
 
@@ -177,8 +177,8 @@ rules_page.xml
 
 By then end of this video you should be able to:
 
-* Understand what a page load rule is 
-* Understand the condition criteria options 
+* Understand what a page load rule is
+* Understand the condition criteria options
 * Create a page load rule
 
 **DTM Basics: Page Load Rules, Part Two**
@@ -189,7 +189,7 @@ By then end of this video you should be able to:
 
 **Google AdWords example**
 
-A marketer would like to trigger a Google AdWords conversion tag when a user fills out a form and arrives on the page [!DNL https://www.mysite.com/form/thank-you.html]
+A marketer would like to trigger a Google AdWords conversion tag when a user fills out a form and arrives on the page `https://www.mysite.com/form/thank-you.html`
 
 Here is how you can set up this scenario in dynamic tag management:
 
@@ -223,7 +223,7 @@ Here is how you can set up this scenario in dynamic tag management:
 
 ## Page load rules - advanced {#section_7F8213A984D6447BA54DE188BA4F17EA}
 
-<!-- 
+<!--
 
 rules_page_adv.xml
 
@@ -251,13 +251,13 @@ You may want to target specific user segments in your rules. The following examp
 
    >[!MORE_LIKE_THIS]
    >
-   >* [Creating conditions for Page Load Rules](t_rules_page_conditions.md#task_69B41CB230EE4530A755D91233F73706)
+   >* [Creating conditions for Page Load Rules](../managing-resources/create-rules/t_rules_page_conditions.md#task_69B41CB230EE4530A755D91233F73706)
 
 ## Rule conditions and functions {#reference_662A7B7D177C46C98980CD317A7A8861}
 
-Describes all dynamic tag management rule conditions and their functions. 
+Describes all dynamic tag management rule conditions and their functions.
 
-<!-- 
+<!--
 
 r_rules_conditions.xml
 
@@ -269,161 +269,161 @@ When using custom code in rule conditions for a page load rule, you must use the
 
 ## Conditions and functions {#section_198A5095854F415C86ABBA9165D53370}
 
-The following table describes condition types, conditions, functions, and applicable notes: 
+The following table describes condition types, conditions, functions, and applicable notes:
 
-<table id="table_375815C6BDBD4209BF7D72667774512B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Condition Type </th> 
-   <th colname="col2" class="entry"> Condition </th> 
-   <th colname="col3" class="entry"> Function </th> 
-   <th colname="col4" class="entry"> Notes </th> 
+<table id="table_375815C6BDBD4209BF7D72667774512B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Condition Type </th>
+   <th colname="col2" class="entry"> Condition </th>
+   <th colname="col3" class="entry"> Function </th>
+   <th colname="col4" class="entry"> Notes </th>
   </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>URL </p> </td> 
-   <td colname="col2"> <p>Protocol </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire on HTTP or HTTPS. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Subdomain </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire or not fire on specified subdomain(s). </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Path </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire or not fire on specified URL path(s). </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. The path condition functions based on the <span class="codeph"> _satellite.data.URI</span>, which is inclusive of query params. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Parameter </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if specific URL parameter(s) with specific values are present. </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Technology </p> </td> 
-   <td colname="col2"> <p>Cookie Opt-out </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire only if user accepts cookies based on presence of <span class="codeph"> sat_track</span> cookie that is set to "true" </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. Cookie can be given custom name on the <span class="wintitle"> Edit Property</span> page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Browser </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire only in specified browsers. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Operating System </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire only in specified operating systems. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Screen Resolution </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire within specified screen-resolution ranges. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Window Size </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire within specified window-size ranges. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Engagement </p> </td> 
-   <td colname="col2"> <p>Traffic Source </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if visit came from specified source. </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Landing Page </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if visit landed on specified page(s). </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>New/Returning Visitor </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire only if new/returning visit. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Sessions </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if visitor has had &gt;, =, or &lt; specified number of sessions. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Page Views </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if visitor has had &gt;, =, or &lt; specified number of page views in this session or all sessions. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Time on Site </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if visit persists for specified # of minutes. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Registered User </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire based on user registration status as indicated in data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Logged In </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if user is / is not logged in as indicated in data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Previous Converter </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if user is / is not a previous converter as indicated data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Cart Item Quantity </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if user has certain number of items in cart as indicated in data element. </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Cart Amount </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if user has certain dollar value in cart as indicated in data element. </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data </p> </td> 
-   <td colname="col2"> <p>Cookie </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if specified cookie with specified value is present. </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Data Element Value </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if specified data element with specified value is present. </p> </td> 
-   <td colname="col4"> <p>Requires data element setup. Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Variable Set </p> </td> 
-   <td colname="col3"> <p>Indicate rule to fire if specified JS object with specified value is present. It may be necessary to prefix the object path with the appropriate scope depending on the scenario - 'this.', 'event.', 'target.', 'window.', or 'param.' </p> </td> 
-   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Custom </p> </td> 
-   <td colname="col3"> <p>Opens a blank text box to input custom script. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>URL </p> </td>
+   <td colname="col2"> <p>Protocol </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire on HTTP or HTTPS. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Subdomain </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire or not fire on specified subdomain(s). </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Path </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire or not fire on specified URL path(s). </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. The path condition functions based on the <span class="codeph"> _satellite.data.URI</span>, which is inclusive of query params. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Parameter </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if specific URL parameter(s) with specific values are present. </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Technology </p> </td>
+   <td colname="col2"> <p>Cookie Opt-out </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire only if user accepts cookies based on presence of <span class="codeph"> sat_track</span> cookie that is set to "true" </p> </td>
+   <td colname="col4"> <p>Requires data element setup. Cookie can be given custom name on the <span class="wintitle"> Edit Property</span> page. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Browser </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire only in specified browsers. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Operating System </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire only in specified operating systems. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Screen Resolution </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire within specified screen-resolution ranges. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Window Size </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire within specified window-size ranges. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Engagement </p> </td>
+   <td colname="col2"> <p>Traffic Source </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if visit came from specified source. </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Landing Page </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if visit landed on specified page(s). </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>New/Returning Visitor </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire only if new/returning visit. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Sessions </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if visitor has had &gt;, =, or &lt; specified number of sessions. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Page Views </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if visitor has had &gt;, =, or &lt; specified number of page views in this session or all sessions. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Time on Site </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if visit persists for specified # of minutes. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Registered User </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire based on user registration status as indicated in data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td>
+   <td colname="col4"> <p>Requires data element setup. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Logged In </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if user is / is not logged in as indicated in data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td>
+   <td colname="col4"> <p>Requires data element setup. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Previous Converter </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if user is / is not a previous converter as indicated data element. If the indicated data element has a value, then the condition evaluates as "true" (does not include the default value). </p> </td>
+   <td colname="col4"> <p>Requires data element setup. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Cart Item Quantity </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if user has certain number of items in cart as indicated in data element. </p> </td>
+   <td colname="col4"> <p>Requires data element setup. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Cart Amount </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if user has certain dollar value in cart as indicated in data element. </p> </td>
+   <td colname="col4"> <p>Requires data element setup. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Data </p> </td>
+   <td colname="col2"> <p>Cookie </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if specified cookie with specified value is present. </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Data Element Value </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if specified data element with specified value is present. </p> </td>
+   <td colname="col4"> <p>Requires data element setup. Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Variable Set </p> </td>
+   <td colname="col3"> <p>Indicate rule to fire if specified JS object with specified value is present. It may be necessary to prefix the object path with the appropriate scope depending on the scenario - 'this.', 'event.', 'target.', 'window.', or 'param.' </p> </td>
+   <td colname="col4"> <p>Enable regex on this condition to include multiple scenarios in a single condition. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> </td>
+   <td colname="col2"> <p>Custom </p> </td>
+   <td colname="col3"> <p>Opens a blank text box to input custom script. </p> </td>
+   <td colname="col4"> </td>
+  </tr>
+ </tbody>
 </table>

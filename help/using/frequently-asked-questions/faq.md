@@ -15,10 +15,10 @@ snippet: y
 
 Frequently asked questions about dynamic tag management.
 
-* [FAQ - Launch by Adobe](../frequently-asked-questions/faq.md#section_A8A9FBE7527C4292B5AB639297C28445): Covers initial questions about the new version of dynamic tag management. 
-* [FAQ - Getting Started](../frequently-asked-questions/faq.md#section_6185BB133EDA4DD1A74076B6B5F70388): Covers initial questions about your decision to use dynamic tag management. 
-* [FAQ - Dynamic Tag Management and the Adobe Marketing Cloud](../frequently-asked-questions/faq.md#section_CDC635B711BD48C7915C92FE8A8B56A8): Covers using dynamic tag management with the Adobe Experience Cloud. 
-* [FAQ - Advanced](../frequently-asked-questions/faq.md#section_2269657B448246DCBBF3921C7E65F395): Covers performance, rules, loading, hosting, and so on. 
+* [FAQ - Launch by Adobe](../frequently-asked-questions/faq.md#section_A8A9FBE7527C4292B5AB639297C28445): Covers initial questions about the new version of dynamic tag management.
+* [FAQ - Getting Started](../frequently-asked-questions/faq.md#section_6185BB133EDA4DD1A74076B6B5F70388): Covers initial questions about your decision to use dynamic tag management.
+* [FAQ - Dynamic Tag Management and the Adobe Marketing Cloud](../frequently-asked-questions/faq.md#section_CDC635B711BD48C7915C92FE8A8B56A8): Covers using dynamic tag management with the Adobe Experience Cloud.
+* [FAQ - Advanced](../frequently-asked-questions/faq.md#section_2269657B448246DCBBF3921C7E65F395): Covers performance, rules, loading, hosting, and so on.
 * [FAQ - Adobe Analytics Tool](../frequently-asked-questions/faq.md#section_75E724E86D0D4952B199A9B850AE0A3E): Covers questions about the automatic configuration feature of the [!DNL Adobe Analytics] tool.
 
 ## FAQ -getting started {#section_6185BB133EDA4DD1A74076B6B5F70388}
@@ -55,7 +55,7 @@ Before you can start using dynamic tag management, someone from your company mus
 
 **Why am I getting an "Access Failed" error when I try to access the Experience Cloud?**
 
-Make sure that your company has been provisioned to use the Experience Cloud. See [Access the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/access.html) in the *Experience Cloud Product Documentation*.
+Make sure that your company has been provisioned to use the Experience Cloud. See [Manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html) in the *Experience Cloud Product Documentation*.
 
 **How do I assign my account to a Company name in the Experience Cloud?**
 
@@ -67,7 +67,7 @@ When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wi
 
 **How do I link solutions from within the Experience Cloud?**
 
-For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_get_access.html) in the *Experience Cloud Product Documentation*.
+For more information, see [Organizations and account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **Do I need to remove my [!DNL Analytics] or other tags from my site to use dynamic tag management?**
 
@@ -115,7 +115,7 @@ Before you can start using dynamic tag management, someone from your company mus
 
 **Why am I getting an "Access Failed" error when I try to access Experience Cloud?**
 
-Make sure that your company has been provisioned to use Experience Cloud. See [Access the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/access.html) in the *Experience Cloud Product Documentation*.
+Make sure that your company has been provisioned to use Experience Cloud. See [Activation](https://marketing.adobe.com/resources/help/en_US/mcloud/activation.html) in the *Experience Cloud Product Documentation*.
 
 **How do I assign my account to a Company name in Experience Cloud?**
 
@@ -127,7 +127,7 @@ When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wi
 
 **How do I link solutions from within Experience Cloud?**
 
-For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_get_access.html) in the *Experience Cloud Product Documentation*.
+For more information, see [Organizations and account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I provision the Adobe Experience Cloud ID service using DTM?**
 
@@ -157,7 +157,7 @@ The only potential issue is the use of [!DNL document.write], because content ty
 
 * Loading of the staging library using the dynamic tag management switch plugin uses [!DNL document.write].
 
-  **Workaround:** Test in the staging environment by specifically referencing the staging library in the page code instead of using the dynamic tag management switch plugin to toggle between libraries. 
+  **Workaround:** Test in the staging environment by specifically referencing the staging library in the page code instead of using the dynamic tag management switch plugin to toggle between libraries.
 
 * Synchronously loading JS and HTML scripts via dynamic tag management uses [!DNL document.write].
 
@@ -211,8 +211,8 @@ Then, you could create a global Page Load rule and assign that Data Element to *
 
 Dynamic tag management creates and uses various JavaScript files that contain all the code needed to run the system. These “library files” can be hosted by Adobe, or they can be hosted on your own servers, within your own Web architecture. Hosting options are:
 
-* [Akamai](../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D) 
-* [FTP delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D) 
+* [Akamai](../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D)
+* [FTP delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D)
 * [Library download](../client-side-information/deployment.md#task_B7A42F3B1D3E4B71B0BADD17C181F22A)
 
 You can use one or more of these hosting options for a [Web Property](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD). Do not use more than one Embed code in any single page. For example, you could use [Akamai](../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D) in your staging environments, and one of the self-hosted options in your production environments. Or, you could use the Akamai option for any sites, domains, or subdomains hosted by one of your agency partners. These options give you more flexibility to host the library files according to your specific needs.
@@ -247,7 +247,7 @@ If using DTM to manually host the `s_code`, plugins can be added in the same edi
 
 However, it is also an option to place the plugins in the editor within the *`Customize Page Code`* section of the tool settings. Both implementation methods should be equally effective.
 
-See [DTM Switch Plugins](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html).
+See [DTM Switch Plugins](../managing-resources/plugins/search-discovery-plugins.md#section_795358F4F1B1448E979B60B384B83D7E").
 
 **If I make configuration changes in the new version of the tool, can I test in staging before publishing to production?**
 
@@ -281,9 +281,9 @@ A FAQ about the new version of dynamic tag management, announced in March 2017.
 
 Launch is the next-generation of the Adobe tag-management capability, built into the Adobe Cloud Platform. Launch enables clients to:
 
-* Deploy client-side web products using integrations called *extensions* 
+* Deploy client-side web products using integrations called *extensions*
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe
 
 Launch is an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. It provides a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Cloud Platform.
 
-For more frequently asked questions about Launch, see [Adobe Launch FAQ](https://docs.adobelaunch.com/). 
+For more frequently asked questions about Launch, see [Adobe Launch FAQ](https://docs.adobelaunch.com/).
