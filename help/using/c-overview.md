@@ -8,7 +8,6 @@ title: Dynamic Tag Management overview
 uuid: 539d7553-fd47-4c1f-b07d-31f96201cbf2
 index: y
 internal: n
-snippet: y
 ---
 
 # Dynamic Tag Management overview{#dynamic-tag-management-overview}
