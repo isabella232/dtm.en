@@ -2,20 +2,17 @@
 description: If you are new to Adobe Dynamic Tag Management (DTM), getting ready to migrate to DTM, or brushing up on DTM, this guide is for you.
 seo-description: If you are new to Adobe Dynamic Tag Management (DTM), getting ready to migrate to DTM, or brushing up on DTM, this guide is for you.
 seo-title: Best practices for getting started with Adobe Dynamic Tag Management
-title: Best practices for getting started with Adobe Dynamic Tag Management
+title: Getting started best practices
 uuid: e9bc2108-9742-4391-a58f-cb827040717f
 index: y
 internal: n
 snippet: y
 ---
 
-# Best practices for getting started with Adobe Dynamic Tag Management{#best-practices-for-getting-started-with-adobe-dynamic-tag-management}
+# Getting started best practices
 
 If you are new to Adobe Dynamic Tag Management (DTM), getting ready to migrate to DTM, or brushing up on DTM, this guide is for you.
 
-## Best practices for getting started with Adobe Dynamic Tag Management {#concept_F11685D84F0646C784F560827E2DE0AF}
-
-If you are new to Adobe Dynamic Tag Management (DTM), getting ready to migrate to DTM, or brushing up on DTM, this guide is for you. 
 
 **Last updated: January 30, 2017**
 
