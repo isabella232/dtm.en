@@ -14,9 +14,7 @@ snippet: y
 
 Descriptions of the fields and options in the Library Management settings in dynamic tag management.
 
- **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Library Management]**
+ **[!UICONTROL  *`Property`*]** > **[!UICONTROL ![](assets/settings_gear.png) Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ If you select this option, the following option becomes available:
 
 **Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary.
 
-**Custom **
+**Custom**
 
 You can configure the library code.
 
