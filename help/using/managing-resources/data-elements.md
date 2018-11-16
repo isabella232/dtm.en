@@ -54,7 +54,7 @@ The following table describes the types of data elements.
 |Cookie|Any available domain cookie can be referenced in the  cookie name  field.|cookieName|
 |URL Parameter|Specify a single URL parameter in the  URL Parameter  field.  Only the name section is necessary and any special designators like "?" or "=" should be omitted|contentType|
 
-**A note on Custom Script**
+### In custom script
 
 Custom JavaScript can be entered into the UI by clicking **[!UICONTROL Open Editor]** and inserting code into the editor window.  A return statement is necessary in the editor window in order to indicate what value should be set as the data element value. 
 
@@ -99,9 +99,10 @@ You can use data elements in the rule editing interface by using the percent sig
 
 ### In custom script
 
-You can use data elements in custom scripts by using the `_satellite` object syntax:
+You can use data elements in custom scripts by using the `_satellite` object.
 
-  `_satellite.getVar('data element name');`
+**Syntax** 
+`_satellite.getVar('data element name');`
 
 ## Data element availability {#section_43A5C65D7C5E4E23B2C1186090C2D5B2}
 
