@@ -1,6 +1,6 @@
 ---
 description: Conditions determine when an event-based rule is triggered.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Conditions determine when an event-based rule is triggered.
 seo-title: Create conditions for event-based rules
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
@@ -14,38 +14,34 @@ internal: n
 
 Conditions determine when an event-based rule is triggered.
 
-## Create conditions for event-based rules {#task_A122DE72110F4579A91F9D96D92D39FC}
-
-Conditions determine when an event-based rule is triggered.
-
 1. Select the type of interaction you want to track, such as mouse clicks, or submitting a form.  ![](assets/condition_event_based.png){width="472"}
 
    For more information, see [Event Types](../../managing-resources/create-rules/t-rules-event-conditions.md#concept_B1C6169D8B354207AEE0E4965E6421B1). 
 
 1. Enable the following options as necessary:
 
-<table id="table_022B9DA4224F47778F10B9772E2A295F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Delay Link Activation </p> </td> 
-   <td colname="col2"> <p>Enable if the event activates a link and you want the link to delay until the event has time to fire. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apply event handler directly to element </p> </td> 
-   <td colname="col2"> <p>Applies the event handler to the specific element that is targeted. This setting is tied to the bubbling and layering concept in a browser. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_022B9DA4224F47778F10B9772E2A295F"> 
+    <thead> 
+      <tr> 
+       <th colname="col1" class="entry"> Element </th> 
+       <th colname="col2" class="entry"> Description </th> 
+      </tr> 
+     </thead>
+     <tbody> 
+      <tr> 
+       <td colname="col1"> <p>Delay Link Activation </p> </td> 
+       <td colname="col2"> <p>Enable if the event activates a link and you want the link to delay until the event has time to fire. </p> </td> 
+      </tr> 
+      <tr> 
+       <td colname="col1"> <p>Apply event handler directly to element </p> </td> 
+       <td colname="col2"> <p>Applies the event handler to the specific element that is targeted. This setting is tied to the bubbling and layering concept in a browser. </p> </td> 
+      </tr> 
+     </tbody> 
+    </table>
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
+       For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
 
-   *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
+       *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
 
 1. Indicate the name of the tag you want to track, and additional properties the tag has that you want to match.
 
@@ -210,7 +206,7 @@ event_types.xml
  </tbody> 
 </table>
 
-## Using the CSS Selector {#concept_DDF500DCB8214658AEDECDE69ED1D4AF}
+## Using the CSS selector {#concept_DDF500DCB8214658AEDECDE69ED1D4AF}
 
 Use the [!UICONTROL CSS Selector] to quickly and easily select CSS elements to use as triggers for event-based rules without leaving the DTM rule builder. 
 
@@ -222,12 +218,6 @@ css-selector.xml
 
 One of the biggest advantages of DTM is the ability to event off behaviors or page interactions on your website. However, finding the desired CSS elements to include in your rules is sometimes difficult and time-consuming.
 
-The following sections contain more information:
-
-* [Example with Unique Element](../../managing-resources/create-rules/t-rules-event-conditions.md#section_26F8A20D69624C398A64510C4554B633) 
-* [Example with Similar Elements](../../managing-resources/create-rules/t-rules-event-conditions.md#section_C37AF283219445E885CBDF269DCB8E36) 
-* [CSS Selector Limitations](../../managing-resources/create-rules/t-rules-event-conditions.md#section_40A54DA0259743088337EB017432991F)
-
 ## Example with unique element {#section_26F8A20D69624C398A64510C4554B633}
 
 As an example, we want to create a rule that triggers when users click the "Sign In or Register" link on our website, as shown in the following illustration. This example is simple because the "Sign In or Register" link does not have any similar elements in the CSS.
@@ -236,7 +226,7 @@ As an example, we want to create a rule that triggers when users click the "Sign
 
 The more complex example described below illustrates how to use the [!UICONTROL CSS Selector] when there are many similar elements on the page, such as the tabs along the top ("Men's," "Women's," "Equipment," and so forth).
 
-**To use the CSS Selector:**
+### To use the CSS Selector:
 
 1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the  ![](assets/icon_css_selector.png) icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC).
 
@@ -258,7 +248,7 @@ The more complex example described below illustrates how to use the [!UICONTROL 
 
    If we were creating this rule without using the [!UICONTROL CSS Selector], we would inspect the desired page element to determine the proper CSS to use. Using the [!UICONTROL CSS Selector], simply click the element on the page that we want to trigger the rule. 
 
-1. Click "Sign In or Register."
+1. Click **[!UICONTROL Sign In or Register]**.
 
    When you click a page element that you want the selector to match, it turns green. The [!UICONTROL CSS Selector] then generates a minimal CSS selector for that element.
 
@@ -276,11 +266,11 @@ The more complex example described below illustrates how to use the [!UICONTROL 
 
 1. Finish configuring the rule as described in [Create conditions for event-based rules](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC).
 
-   Without writing any code or inspecting elements, we have created an event-based rule that triggers when users click the "Sign In or Register" link.
+   Without writing any code or inspecting elements, we have created an event-based rule that triggers when users click **[!UICONTROL Sign In or Register]**.
 
 ## Example with similar elements {#section_C37AF283219445E885CBDF269DCB8E36}
 
-Now let's suppose that we want to create a rule that triggers when users click the "Men's" tab at the top or our website. The difference between this example and the simple example discussed above is that the "Men's" tab has many similar elements on the page.
+Now let's suppose that you want to create a rule that triggers when users click the "Men's" tab at the top or your website. The difference between this example and the simple example discussed above is that the "Men's" tab has many similar elements on the page.
 
 1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the  ![](assets/icon_css_selector.png) icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC). 
 1. Specify the website's URL, then click **[!UICONTROL Load]**. 
@@ -333,7 +323,7 @@ To dynamically assign element attributes to variables, use the following syntax:
 
 For example, suppose you have a search results page with multiple links to external web sites. You want to track which link is clicked by dynamically populating an eVar with the *`id`* of the element clicked.
 
-Example Link: [!DNL <a id='myFirstLink' href='www.exampleLink.com'>]
+Example Link: [!DNL `<a id='myFirstLink' href='www.exampleLink.com'>`]
 
 To accomplish this, create an event-based rule to trigger on the click of the links on the page. Then, within the [!DNL Analytics] section of the rule, set the eVar to `%this.id%`.
 
@@ -355,7 +345,7 @@ To accomplish this, create an event-based rule to trigger on the click of the li
 
 If you are unsure if the desired attribute is standard or non-standard, reference [w3schools.com](https://www.w3schools.com/) to learn more about standard HTML attributes. However, if in doubt, you can use the non-standard *`getAttribute()`* format, which will work in either scenario.
 
-This functionality can be utilized in dynamic tag management rule fields, including:
+This functionality can be utilized in Dynamic Tag Management rule fields, including:
 
 * [Analytics Variables](../../managing-resources/create-rules/t-rules-event-conditions.md#section_3A7FD01807314C878B308FE3D0FA2AAA) 
 * [Custom Script](../../managing-resources/create-rules/t-rules-event-conditions.md#section_1603B0C6B6604EC98C19FC0C621D3AA5)

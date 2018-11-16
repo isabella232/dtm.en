@@ -1,7 +1,7 @@
 ---
-description: Information about deploying Adobe Media Optimizer using dynamic tag management.
-keywords: dynamic tag management;Experience Cloud ID service;visitor ID
-seo-description: Information about deploying Adobe Media Optimizer using dynamic tag management.
+description: Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
+keywords: Dynamic Tag Management;Experience Cloud ID service;visitor ID
+seo-description: Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 seo-title: Adobe Media Optimizer tool
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Media Optimizer tool
@@ -13,11 +13,7 @@ snippet: y
 
 # Adobe Media Optimizer tool{#adobe-media-optimizer-tool}
 
-Information about deploying Adobe Media Optimizer using dynamic tag management.
-
-## Adobe Media Optimizer tool {#concept_1A33BC0F5B6A4709929EC6F876236657}
-
-Information about deploying Adobe Media Optimizer using dynamic tag management. 
+Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 
 **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Media Optimizer]**
 
@@ -53,7 +49,7 @@ The transaction ID cannot contain ampersand symbols (&), which are reserved as p
 >
 >For more information, see the Tracking section of the advertising management online help.
 
-*`Transaction ID`* can be set globally at the tool level or conditionally at the rule level. A globally configured transaction ID is inherited by any dynamic tag management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
+*`Transaction ID`* can be set globally at the tool level or conditionally at the rule level. A globally configured transaction ID is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
 
 **Load Media Optimizer page code at (Page Top or Page Bottom)**
 
@@ -61,7 +57,7 @@ Determines where and when the page code loads. The recommended location is selec
 
 **Media Optimizer page code already present **
 
-Prevents dynamic tag management from installing advertising management code if the code exists on your site. This method lets you use dynamic tag management to add to your existing advertising management implementation, rather than starting a new implementation.
+Prevents Dynamic Tag Management from installing advertising management code if the code exists on your site. This method lets you use Dynamic Tag Management to add to your existing advertising management implementation, rather than starting a new implementation.
 
 **Conversion Property Name / Value**
 
@@ -71,7 +67,7 @@ A conversion property to be tracked when an end user views a page containing the
 >
 >Properties added to this list are not integrated with the client's Transaction Properties list in the Admin view in advertising management. However, properties are added to the client's Transaction Properties list automatically, once advertising management actually gathers data for a property. Gathering happens when the conversion tag is implemented on a page and an end user completes a transaction that opens that page.
 
-Conversion properties can be set globally at the tool level and conditionally at the rule level. A globally configured Conversion Property is inherited by any dynamic tag management rules utilizing the Adobe Media Optimizer tool *`in addition`* to any conversion properties set in the rule.
+Conversion properties can be set globally at the tool level and conditionally at the rule level. A globally configured Conversion Property is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool *`in addition`* to any conversion properties set in the rule.
 
 **Segment ID (optional) **
 
@@ -81,7 +77,7 @@ Indicate the numeric ID for an advertising management segment in which to add th
 >
 >If you associate multiple conversion tags with the same audience segment, the segment will include all of the users who complete those transaction types.
 
-Segment ID can be set globally at the tool level or conditionally at the rule level. A globally configured Segment ID is inherited by any dynamic tag management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
+Segment ID can be set globally at the tool level or conditionally at the rule level. A globally configured Segment ID is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
 
 **Tag Property / Value**
 
@@ -103,7 +99,7 @@ SKU can be set globally at the tool level or conditionally at the rule level. If
 
 ## Media Optimizer rule example {#task_FC14320055254A30BD7F71FA6E905216}
 
-An example of how to enable Adobe Media Optimizer in dynamic tag management for a specific rule when an Adobe Media Optimizer tool is installed. 
+An example of how to enable Adobe Media Optimizer in Dynamic Tag Management for a specific rule when an Adobe Media Optimizer tool is installed. 
 
 <!-- 
 
@@ -122,7 +118,7 @@ In this example, when this rule fires, Adobe Media Optimizer loads and fires a t
 
    >[!NOTE]
    >
-   >Adobe Media Optimizer is also available in page load and direct call rules in dynamic tag management once an Adobe Media Optimizer tool is installed in the property. See [Conditions and Functions](../managing-resources/rules.md#section_198A5095854F415C86ABBA9165D53370) for information about available rule criteria.
+   >Adobe Media Optimizer is also available in page load and direct call rules in Dynamic Tag Management once an Adobe Media Optimizer tool is installed in the property. See [Conditions and Functions](../managing-resources/rules.md#section_198A5095854F415C86ABBA9165D53370) for information about available rule criteria.
 
 1. Expand **[!UICONTROL Adobe Media Optimizer]** in the rule.
 

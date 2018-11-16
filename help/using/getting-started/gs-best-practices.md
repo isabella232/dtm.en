@@ -318,7 +318,7 @@ Choosing a hosting option(s) is a decision your business needs to make. Review t
  </tbody> 
 </table>
 
-**Use case examples **
+**Use case examples**
 
 |  Scenario  | Solution  |
 |---|---|

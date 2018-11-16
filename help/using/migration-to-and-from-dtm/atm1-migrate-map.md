@@ -1,6 +1,6 @@
 ---
-description: How to migrate from each Adobe Tag Manager 1.0 tag to a dynamic tag management tag.
-seo-description: How to migrate from each Adobe Tag Manager 1.0 tag to a dynamic tag management tag.
+description: How to migrate from each Adobe Tag Manager 1.0 tag to a Dynamic Tag Management tag.
+seo-description: How to migrate from each Adobe Tag Manager 1.0 tag to a Dynamic Tag Management tag.
 seo-title: Adobe Tag Manager 1.0 to Dynamic Tag Management mapping
 solution: Dynamic Tag Management
 title: Adobe Tag Manager 1.0 to Dynamic Tag Management mapping
@@ -12,30 +12,13 @@ snippet: y
 
 # Adobe Tag Manager 1.0 to Dynamic Tag Management mapping{#adobe-tag-manager-to-dynamic-tag-management-mapping}
 
-How to migrate from each Adobe Tag Manager 1.0 tag to a dynamic tag management tag.
-
-* [Custom Core JavaScript](../migration-to-and-from-dtm/atm1-migrate-map.md#section_4ED3898D44994C71AC06E5B6AFB4E758) 
-* [Product Code](../migration-to-and-from-dtm/atm1-migrate-map.md#section_97CE3C7BB84C48388F2991D7598F782C) 
-* [Custom Code (after products)](../migration-to-and-from-dtm/atm1-migrate-map.md#section_7C14C9392E6A470FA9A2AB06D2D798A5)
+How to migrate from each Adobe Tag Manager 1.0 tag to a Dynamic Tag Management tag.
 
 ## Custom Core JavaScript {#section_4ED3898D44994C71AC06E5B6AFB4E758}
 
-<table id="table_8117F3D67FA84846B2C4130CB4BAC71B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tag Manager 1.0 tag </th> 
-   <th colname="col2" class="entry"> Dynamic Tag Management </th> 
-   <th colname="col3" class="entry"> Migration Instructions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Custom Core JavaScript </p> </td> 
-   <td colname="col2"> <p>JavaScript / Third Party Tag </p> </td> 
-   <td colname="col3"> <p> Custom JavaScript can be deployed directly into the JavaScript / Third Party Tags section of a rule. In most cases, you can paste the page code provided by the vendor directly into a tag with no additional configuration. If any product specific code was included in this section in Adobe Tag Management, it will need to be specifically migrated into the applicable tool in dynamic tag management. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Tag Manager 1.0 tag|Dynamic Tag Management|Migration Instructions|
+|---|---|---|
+|Custom Core JavaScript|JavaScript / Third Party Tag|Custom JavaScript can be deployed directly into the JavaScript / Third Party Tags section of a rule. In most cases, you can paste the page code provided by the vendor directly into a tag with no additional configuration. If any product specific code was included in this section in Adobe Tag Management, it will need to be specifically migrated into the applicable tool in Dynamic Tag Management.|
 
 ## Product code {#section_97CE3C7BB84C48388F2991D7598F782C}
 
@@ -51,9 +34,9 @@ To convert any of the following Tag Manager 1.0 product code tags to the Adobe A
 
 Use the following migration instructions.
 
-Follow the instructions in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) to add an Adobe Analytics tool in dynamic tag management.
+Follow the instructions in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) to add an Adobe Analytics tool in Dynamic Tag Management.
 
-**Option 1**
+### Option 1
 
 Host code using the **[!UICONTROL Managed by Adobe]** option. This method leverages the base version of the [!DNL AppMeasurement] code and allows you to choose between the latest available code versions.
 
@@ -61,9 +44,9 @@ Host code using the **[!UICONTROL Managed by Adobe]** option. This method levera
 
 With this option, *above this line* customization can be configured in the available interface fields or pasted into the [!UICONTROL Customize Page Code] editor.
 
-**Option 2**
+### Option 2
 
-Manually host the s_code / [!DNL AppMeasurement] file in dynamic tag management. This method is recommended when the current code is highly customized or if a legacy code version is used.
+Manually host the s_code / [!DNL AppMeasurement] file in Dynamic Tag Management. This method is recommended when the current code is highly customized or if a legacy code version is used.
 
 1. In [!DNL Adobe Tag Management] 1.0, click **[!UICONTROL Edit]** next to the latest container file. 
 
@@ -74,7 +57,7 @@ This is all of the code beginning with the `s_account` declaration and ending wi
 
 ![](assets/prev_generated_code.png)
 
-Paste this code into the Custom editor in the [!DNL Adobe Analytics] tool in dynamic tag management.
+Paste this code into the Custom editor in the [!DNL Adobe Analytics] tool in Dynamic Tag Management.
 
 ![](assets/library_mgmt_custom.png)
 
@@ -90,11 +73,11 @@ and ends with the second *`setTagContainer`* function. (In this case, include th
 
 ![](assets/prev_generated_code3.png)
 
-Paste the code into the same Custom editor in dynamic tag management after the *`above this line`* code.
+Paste the code into the same Custom editor in Dynamic Tag Management after the *`above this line`* code.
 
 >[!NOTE]
 >
->Since mistakes can occur with copy / paste, please be sure to review the implementation in dynamic tag management thoroughly and test extensively in staging before publishing to production to ensure the expected behavior is accomplished.
+>Since mistakes can occur with copy / paste, please be sure to review the implementation in Dynamic Tag Management thoroughly and test extensively in staging before publishing to production to ensure the expected behavior is accomplished.
 
 ## Custom code (after products) {#section_7C14C9392E6A470FA9A2AB06D2D798A5}
 
@@ -137,5 +120,5 @@ Paste the code into the same Custom editor in dynamic tag management after the *
 
 >[!NOTE]
 >
->If the conditions set in the firing rules are the same between each custom tag, they can be placed into a single rule in dynamic tag management.
+>If the conditions set in the firing rules are the same between each custom tag, they can be placed into a single rule in Dynamic Tag Management.
 

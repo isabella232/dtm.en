@@ -1,6 +1,6 @@
 ---
 description: Built-in object references to handle cookies.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Built-in object references to handle cookies.
 seo-title: Object references to handle cookies
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management

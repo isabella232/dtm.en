@@ -1,6 +1,6 @@
 ---
 description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 seo-title: Create and manage groups for DTM in the Adobe Admin Console
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
@@ -14,11 +14,6 @@ snippet: y
 # Create and manage groups for DTM in the Adobe Admin Console{#create-and-manage-groups-for-dtm-in-the-adobe-admin-console}
 
 Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
-
-This section contains the following information:
-
-* [Create New User Groups in the Marketing Cloud](../administration/c-create-manage-groups-enterprise-dashboard.md#section_08040874355948F8951A15ADE6BD9DE0) 
-* [Manage Web Property Access in DTM](../administration/c-create-manage-groups-enterprise-dashboard.md#section_9BDEC92A8D284D1F952192C9373D82FA)
 
 ## Create new user groups in the Experience Cloud {#section_08040874355948F8951A15ADE6BD9DE0}
 
@@ -34,7 +29,7 @@ This section contains the following information:
 
    ![](assets/groups1.png)
 
-   In order for the group to display in the list, it must be added in the Adobe Admin Console, as explained in [Manage Web Property Access in DTM](../administration/c-create-manage-groups-enterprise-dashboard.md#section_9BDEC92A8D284D1F952192C9373D82FA).
+   For the group to display in the list, it must be added in the Adobe Admin Console, as explained in [Manage Web Property Access in DTM](../administration/c-create-manage-groups-enterprise-dashboard.md#section_9BDEC92A8D284D1F952192C9373D82FA).
 
    If a user has already been added as a user to the [!DNL Experience Cloud], that user can be added to the group by clicking into the Users tab. Adding a user creates or updates the user in DTM and assigns the user to the appropriate DTM group.
 

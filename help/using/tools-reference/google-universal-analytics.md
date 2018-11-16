@@ -1,7 +1,7 @@
 ---
-description: Configuration options in dynamic tag management for Google Universal Analytics.
-keywords: dynamic tag management
-seo-description: Configuration options in dynamic tag management for Google Universal Analytics.
+description: Configuration options in Dynamic Tag Management for Google Universal Analytics.
+keywords: Dynamic Tag Management
+seo-description: Configuration options in Dynamic Tag Management for Google Universal Analytics.
 seo-title: Google Universal Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Universal Analytics tool
@@ -13,46 +13,18 @@ snippet: y
 
 # Google Universal Analytics tool{#google-universal-analytics-tool}
 
-Configuration options in dynamic tag management for Google Universal Analytics.
-
-## Google Universal Analytics tool {#concept_224428EBB8E4466B93328EC5AE87FF04}
-
-Configuration options in dynamic tag management for Google Universal Analytics. 
+Configuration options in Dynamic Tag Management for Google Universal Analytics.
 
 **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Universal Analytics]**
 
-Google Universal Analytics is configured as a tool in the dynamic tag management interface.
-
-* [Add a Tool](../tools-reference/google-universal-analytics.md#section_9FE7D51B3A0F4B2D889172381DB82AC2) 
-* [General](../tools-reference/google-universal-analytics.md#section_7187797AA8154F32B23DED888F8C8ED1) 
-* [Cookies](../tools-reference/google-universal-analytics.md#section_E94374CE48B245549D73228B1021DE96) 
-* [Campaign Tracking](../tools-reference/google-universal-analytics.md#section_9C8FBD065B9045CFA1D86FAE1210D163) 
-* [Hit Callback](../tools-reference/google-universal-analytics.md#section_1FAC2B15B85F465E92FBE116FDDF55DC) 
-* [Customize Page Code](../tools-reference/google-universal-analytics.md#section_7706BB0721464C56AE0D37FB4EFD55DB)
+Google Universal Analytics is configured as a tool in the Dynamic Tag Management interface.
 
 ## Add a tool {#section_9FE7D51B3A0F4B2D889172381DB82AC2}
 
-<table id="table_E9348A7B9F984198AF444A06D5373A99"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Tool Name </td> 
-   <td colname="col2"> <p>The name of this instance of Google Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Production Account ID </td> 
-   <td colname="col2" morerows="1"> <p> Dynamic tag management allows you to point to production and staging accounts for data collection. Your staging account number will be used in your development or test environment, and will keep your testing data separate from production. Dynamic tag management will automatically install the correct account in each environment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Staging Account ID </td> 
-  </tr> 
- </tbody> 
-</table>
+|Setting|Description|
+|---|---|
+|Tool Name|The name of this instance of Google Analytics. |
+|Production Account ID|Dynamic Tag Management allows you to point to production and staging accounts for data collection. Your staging account number will be used in your development or test environment, and will keep your testing data separate from production. Dynamic Tag Management will automatically install the correct account in each environment.|
 
 ## General {#section_7187797AA8154F32B23DED888F8C8ED1}
 
@@ -70,7 +42,7 @@ Google Universal Analytics is configured as a tool in the dynamic tag management
   </tr> 
   <tr> 
    <td colname="col1"> <p>Google Universal Analytics page code is already present </p> </td> 
-   <td colname="col2"> <p> Prevents dynamic tag management from installing Google Analytics page code if it is already present on your site. This feature allows you to use dynamic tag management to add to your existing implementation, rather than starting from scratch. Ensure that you properly set your tracker name when checking this box. </p> </td> 
+   <td colname="col2"> <p> Prevents Dynamic Tag Management from installing Google Analytics page code if it is already present on your site. This feature allows you to use Dynamic Tag Management to add to your existing implementation, rather than starting from scratch. Ensure that you properly set your tracker name when checking this box. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable EU compliance for Google Universal Analytics </p> </td> 
@@ -103,7 +75,7 @@ Google Universal Analytics is configured as a tool in the dynamic tag management
    <td colname="col2"> <p>There are two ways to host Google Analytics code: </p> 
     <ul id="ul_3690E98F1F8A451D9F0E5A259D12FC49"> 
      <li id="li_6FA7A5088AB246F5AFB8470312DBB0BE"> <b>Google Hosted</b>: You can host the code through Google. </li> 
-     <li id="li_D4D3B50C07DB44C2AF783C76AE31A746"> <b>URL</b>: Or you can simply provide the URL to the file here. Dynamic tag management then consumes this code for its implementation of Google Analytics. </li> 
+     <li id="li_D4D3B50C07DB44C2AF783C76AE31A746"> <b>URL</b>: Or you can simply provide the URL to the file here. Dynamic Tag Management then consumes this code for its implementation of Google Analytics. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -165,7 +137,7 @@ Google Universal Analytics is configured as a tool in the dynamic tag management
   </tr> 
   <tr> 
    <td colname="col1"> Cookie Domain </td> 
-   <td colname="col2"> <p>You can change the default cookie domain. If you specified that your web property spans multiple domains or subdomains, dynamic tag management configures this automatically. </p> </td> 
+   <td colname="col2"> <p>You can change the default cookie domain. If you specified that your web property spans multiple domains or subdomains, Dynamic Tag Management configures this automatically. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Legacy Cookie Domain </p> </td> 
@@ -188,7 +160,7 @@ If your campaign parameters do not show up in the default variables (like utm_so
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Set # as a query string delimiter </p> </td> 
-   <td colname="col2"> <p>Allows dynamic tag management to recognize values in the URL after the # symbol as URL parameters. </p> </td> 
+   <td colname="col2"> <p>Allows Dynamic Tag Management to recognize values in the URL after the # symbol as URL parameters. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,13 +200,7 @@ call-google-universal-analytics-objects-using-scripts.xml
 
  -->
 
-This section contains the following information:
-
-* [GA Default Name](../tools-reference/google-universal-analytics.md#section_370701ADB4B442DDB179344730A3638E) 
-* [DTM Generated Name](../tools-reference/google-universal-analytics.md#section_60B6D3DFD26A43ADAB14EC1F5021C8D1) 
-* [Specific Name](../tools-reference/google-universal-analytics.md#section_18928E9656E1471BA3078C2181F9517B)
-
-## GA default name {#section_370701ADB4B442DDB179344730A3638E}
+### GA default name {#section_370701ADB4B442DDB179344730A3638E}
 
 When using the GA default name, you can use Google Analytics Universal as follows in script:
 
@@ -242,7 +208,7 @@ When using the GA default name, you can use Google Analytics Universal as follow
 ga('send', 'pageview');
 ```
 
-## DTM generated name {#section_60B6D3DFD26A43ADAB14EC1F5021C8D1}
+### DTM generated name {#section_60B6D3DFD26A43ADAB14EC1F5021C8D1}
 
 When using the GA DTM generated name, you can use Google Analytics Universal as follows in script.
 
@@ -256,7 +222,7 @@ For example:
 ga('38f91ccf1ca252deaaba3c2fc421f0f3.send', 'pageview');
 ```
 
-## Specific name {#section_18928E9656E1471BA3078C2181F9517B}
+### Specific name {#section_18928E9656E1471BA3078C2181F9517B}
 
 When using Specific Name, you can use Google Analytics Universal as follows in script.
 

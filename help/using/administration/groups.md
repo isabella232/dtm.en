@@ -1,6 +1,6 @@
 ---
 description: Create user groups, assign group members, and specify default roles.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Create user groups, assign group members, and specify default roles.
 seo-title: Create and manage groups in DTM
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
@@ -15,28 +15,19 @@ snippet: y
 
 Create user groups, assign group members, and specify default roles.
 
-## Create and manage groups in DTM {#concept_6494F1EF2400457ABCED8D860951CD36}
-
-Create user groups, assign group members, and specify default roles. 
-
 Group management makes it easy to organize users and control their access levels. The [!UICONTROL Groups] page lists all of the user groups that are set up within the account. Permissions are set at the user group level, so all users in the group inherit the group permissions.
 
 To access the [!UICONTROL Groups] page, from your company dashboard, click **[!UICONTROL Groups]**.
 
-This section contains the following information:
-
-* [Default Roles](../administration/groups.md#section_929207D4799848D39EC775B82494C2BE) 
-* [Migrated Groups for Existing Customers](../administration/groups.md#section_5C1B163F872B49D180BC06205964288D)
-
 ## Default roles {#section_929207D4799848D39EC775B82494C2BE}
 
-Dynamic tag management has five different user roles with varying sets of permissions:
+Dynamic Tag Management has five different user roles with varying sets of permissions:
 
 ![](assets/groups.png)
 
 The following table illustrates the permissions that each default role inherits: 
 
-|  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve Rules  | Publish Rules  | Create/Edit Users  | Create Property  |
+|  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/Edit<br/>Users  | Create<br/>Property  |
 |---|---|---|---|---|---|---|---|
 |  **User** | Yes  | Yes  | Yes  |  |  |  |  |
 |  **Approver** | Yes  | Yes  | Yes  | Yes  |  |  |  |
@@ -46,13 +37,13 @@ The following table illustrates the permissions that each default role inherits:
 
 ## Migrated groups for existing customers {#section_5C1B163F872B49D180BC06205964288D}
 
-In addition to these default roles, if you are an existing dynamic tag management customer, you might see one or more migrated legacy groups with appended date and time stamps.
+In addition to these default roles, if you are an existing Dynamic Tag Management customer, you might see one or more migrated legacy groups with appended date and time stamps.
 
-For example, [!DNL Group - 2015-07-21 21:19:57:884].
+For example: [!DNL Group - 2015-07-21 21:19:57:884].
 
 If you are an existing customer and certain users have the User role for every property, these users are automatically migrated to the new User group. However, if other users have the User role for some properties and the Publisher role for other properties, they will be put into a migrated group with a date and time stamp. A legacy group will be created for each scenario in your system. In our testing, we have seen some companies with as many as ten legacy groups.
 
-Another example is if you have users who have not accepted invitations to join your dynamic tag management company in the past and there are no matching default groups. These users, after accepting the invitations, will be added to legacy groups according to their associated properties and roles.
+Another example is if you have users who have not accepted invitations to join your Dynamic Tag Management company in the past and there are no matching default groups. These users, after accepting the invitations, will be added to legacy groups according to their associated properties and roles.
 
 These legacy groups can be edited as needed and should be renamed with descriptive names that make sense. 
 
@@ -79,15 +70,15 @@ t_add_users_groups.xml
 
 1. Add additional users as needed.
 1. Click **[!UICONTROL Save Group]**.
-From your company dashboard, you can click the [!UICONTROL Users] tab to view a list of users and see related information: name, email address, updated by, and which groups they belong to (Admin, Users, and so forth).
+From your company dashboard, you can click the **[!UICONTROL Users]** tab to view a list of users and see related information: name, email address, updated by, and which groups they belong to (Admin, Users, and so forth).
 
 If a user belongs to multiple groups, the displayed role is the role with the highest level of access. For example, if a user has the User role for some properties and the Admin role for other properties, Admin displays in the list, as shown below:
 
 ![](assets/users.png)
 
-You can click [!UICONTROL Revoke] to rescind an invitation for a specific user or click [!UICONTROL Resend] to send the invitation email message to the user again.
+You can click **[!UICONTROL Revoke]** to rescind an invitation for a specific user or click **[!UICONTROL Resend]** to send the invitation email message to the user again.
 
-You can also add users to groups for a specific property by navigating to the property (your company dashboard > the desired property) and then by clicking the [!UICONTROL Manage Groups] button. 
+You can also add users to groups for a specific property by navigating to the property (your company dashboard > the desired property) and then by clicking the **[!UICONTROL Manage Groups]** button. 
 
 ## Create a new group {#task_D08D33C542C444469636CA288B631FB5}
 
@@ -115,9 +106,9 @@ t_create_group.xml
 
    ![](assets/group_tool_restrict.png)
 
-   A green checkmark (  ![](assets/icon_checkbox.png)
+   A green checkmark  ![](assets/icon_checkbox.png)
 
-   ) next to a tool indicates that the corresponding tool is currently installed for this property.
+   next to a tool indicates that the corresponding tool is currently installed for this property.
 
    If a user is a member of two groups and one group restricts tool access and the other group allows access, access rights are restricted for any selected tools.
 
@@ -125,7 +116,7 @@ t_create_group.xml
 
    **Default Role:** (Optional) Select a default role. All newly created properties going forward inherit this role. 
 
-   |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve Rules  | Publish Rules  | Create/Edit Users  | Create Property  |
+   |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/Edit<br/>Users  | Create<br/>Property  |
    |---|---|---|---|---|---|---|---|
    |  **User** | Yes  | Yes  | Yes  |  |  |  |  |
    |  **Approver** | Yes  | Yes  | Yes  | Yes  |  |  |  |
@@ -138,7 +129,7 @@ t_create_group.xml
    In most situations, the roles in the previous table are sufficient. You can, however, create custom default roles. 
 1. (Optional) To create a custom default role, click **[!UICONTROL Define Role Per Property]**, then choose a different default role for each property, as needed.
 
-   In the following illustration, the default role for Property1 is "User" and the default role for Property2 is "Approver."
+   In the following illustration, the default role for Property1 is `User` and the default role for Property2 is `Approver`.
 
    ![](assets/groups_add1.png)
 

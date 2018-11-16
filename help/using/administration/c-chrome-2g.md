@@ -13,7 +13,7 @@ snippet: y
 
 Chrome might block document.write calls for visitors on 2G networks.
 
- When using the most recent Chrome update for sites with DTM deployed, a warning might appear in the JavaScript console, which says that Chrome might block `document.write` calls in the browser if the device has "poor network connectivity." Chrome specifically states they are currently targeting users on 2G networks. See " [Intervening against document.write()](https://developers.google.com/web/updates/2016/08/removing-document-write?hl=en)" on the Google Developers website.
+ When using the most recent Chrome update for sites with DTM deployed, a warning might appear in the JavaScript console, which says that Chrome might block `document.write` calls in the browser if the device has poor network connectivity. Chrome specifically states they are currently targeting users on 2G networks. See "[Intervening against document.write()](https://developers.google.com/web/updates/2016/08/removing-document-write?hl=en)" on the Google Developers website.
 
 Due to the limited usage of 2G network, the current 2G Google intervention should have a minimal impact on enterprise customers at this time. Adobe is proactively addressing future issues that might develop if Google continues to promote practices that contradict Internet community standards.
 
@@ -44,8 +44,8 @@ If you are using Target via DTM, and are concerned about visitors on a 2G cellul
 
 If you are deploying 3rd-party tags via rules in DTM, and are concerned about visitors on a 2G cellular network who are using Chrome, please do the following:
 
-1. Review all 3rd-party scripts that are deployed via "Sequential JavaScript" or "Sequential HTML" for "top of page" or "bottom of page" positioning rules. 
-1. In the code editor, change the Type to "Non-Sequential JavaScript" or "Non-Sequential HTML."
+1. Review all 3rd-party scripts that are deployed via `Sequential JavaScript` or `Sequential HTML` for `top of page` or `bottom of page` positioning rules. 
+1. In the code editor, change the Type to `Non-Sequential JavaScript` or `Non-Sequential HTML`.
 
    >[!NOTE]
    >

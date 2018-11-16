@@ -1,7 +1,7 @@
 ---
-description: Configuration options in dynamic tag management for Google Analytics.
-keywords: dynamic tag management
-seo-description: Configuration options in dynamic tag management for Google Analytics.
+description: Configuration options in Dynamic Tag Management for Google Analytics.
+keywords: Dynamic Tag Management
+seo-description: Configuration options in Dynamic Tag Management for Google Analytics.
 seo-title: Google Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Analytics tool
@@ -13,15 +13,15 @@ snippet: y
 
 # Google Analytics tool{#google-analytics-tool}
 
-Configuration options in dynamic tag management for Google Analytics.
+Configuration options in Dynamic Tag Management for Google Analytics.
 
 ## Google Analytics tool {#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99}
 
-Configuration options in dynamic tag management for Google Analytics. 
+Configuration options in Dynamic Tag Management for Google Analytics. 
 
 **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Analytics]**
 
-Google Analytics is configured as a tool in the dynamic tag management interface. 
+Google Analytics is configured as a tool in the Dynamic Tag Management interface. 
 
 <table id="table_E9348A7B9F984198AF444A06D5373A99"> 
  <thead> 
@@ -37,7 +37,7 @@ Google Analytics is configured as a tool in the dynamic tag management interface
   </tr> 
   <tr> 
    <td colname="col1"> Production Account ID </td> 
-   <td colname="col2" morerows="1"> <p>You can point to production or staging accounts for data collection. Your staging account number is used in your development or test environment. It keeps your testing data separate from production. Dynamic tag management automatically installs the correct account in each environment. </p> </td> 
+   <td colname="col2" morerows="1"> <p>You can point to production or staging accounts for data collection. Your staging account number is used in your development or test environment. It keeps your testing data separate from production. Dynamic Tag Management automatically installs the correct account in each environment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Staging Account ID </td> 
@@ -48,7 +48,7 @@ Google Analytics is configured as a tool in the dynamic tag management interface
   </tr> 
   <tr> 
    <td colname="col1"> Google Analytics page code is already present </td> 
-   <td colname="col2"> <p>Check this box to prevent dynamic tag management from installing Google Analytics code if it is already present on your site. This way, you can use dynamic tag management to add to your existing implementation, rather than starting a new implementation. Ensure that you properly set your tracker name when checking this box. </p> </td> 
+   <td colname="col2"> <p>Check this box to prevent Dynamic Tag Management from installing Google Analytics code if it is already present on your site. This way, you can use Dynamic Tag Management to add to your existing implementation, rather than starting a new implementation. Ensure that you properly set your tracker name when checking this box. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enable EU compliance for Google Analytics </td> 
@@ -73,7 +73,7 @@ Google Analytics is configured as a tool in the dynamic tag management interface
    <td colname="col2"> <p>There are two ways to host Google Analytics code: </p> 
     <ul id="ul_3690E98F1F8A451D9F0E5A259D12FC49"> 
      <li id="li_6FA7A5088AB246F5AFB8470312DBB0BE"> <b>Google Hosted</b>: You can host the code through Google. </li> 
-     <li id="li_D4D3B50C07DB44C2AF783C76AE31A746"> <b>URL</b>: Or you can simply provide the URL to the file here. Dynamic tag management then consumes this code for its implementation of Google Analytics. </li> 
+     <li id="li_D4D3B50C07DB44C2AF783C76AE31A746"> <b>URL</b>: Or you can simply provide the URL to the file here. Dynamic Tag Management then consumes this code for its implementation of Google Analytics. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -126,11 +126,11 @@ Google Analytics is configured as a tool in the dynamic tag management interface
   </tr> 
   <tr> 
    <td colname="col1"> Cookie Domain </td> 
-   <td colname="col2"> <p>You can change the default cookie domain. If you specified that your web property spans multiple domains or subdomains, dynamic tag management configures this automatically. </p> </td> 
+   <td colname="col2"> <p>You can change the default cookie domain. If you specified that your web property spans multiple domains or subdomains, Dynamic Tag Management configures this automatically. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Set # as a query string delimiter </td> 
-   <td colname="col2"> <p>Allows dynamic tag management to recognize values in the URL after the # symbol as URL parameters. </p> </td> 
+   <td colname="col2"> <p>Allows Dynamic Tag Management to recognize values in the URL after the # symbol as URL parameters. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campaign Keys in URL Parameters </td> 
@@ -173,13 +173,7 @@ call-google-analytics-objects-using-scripts.xml
 
 When you set up a Google Analytics Classic tool, you can choose between using the GA Default Name, DTM Generated Name, or Specific Name. 
 
-This section contains the following information:
-
-* [GA Default Name](../tools-reference/ga.md#section_CDB1E93ECDCA4576BE48363B8AFD3326) 
-* [DTM Generated Name](../tools-reference/ga.md#section_E01B75FB26CF4740841669F8820DB3FB) 
-* [Specific Name](../tools-reference/ga.md#section_E3DA4F5641F841F590D472F8F35752CE)
-
-## GA default name {#section_CDB1E93ECDCA4576BE48363B8AFD3326}
+### GA default name {#section_CDB1E93ECDCA4576BE48363B8AFD3326}
 
 When using the GA default name, you can use Google Analytics as follows in a script.
 
@@ -197,7 +191,7 @@ tracker._trackPageview()
 
 ```
 
-## DTM generated name {#section_E01B75FB26CF4740841669F8820DB3FB}
+### DTM generated name {#section_E01B75FB26CF4740841669F8820DB3FB}
 
 When using the GA DTM generated name, you can use Google analytics as follows in script.
 
@@ -218,7 +212,7 @@ tracker = _gaq._getAsyncTracker("ddf16922edc9c2318ea19ad8369fcc92");
 tracker._trackPageview()
 ```
 
-## Specific name {#section_E3DA4F5641F841F590D472F8F35752CE}
+### Specific name {#section_E3DA4F5641F841F590D472F8F35752CE}
 
 When using the specific name option, you can use Google Analytics classic as follows in script.
 

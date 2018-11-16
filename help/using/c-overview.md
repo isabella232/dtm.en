@@ -1,7 +1,7 @@
 ---
-description: Dynamic tag management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic tag management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
-keywords: dynamic tag management;dtm
-seo-description: Dynamic tag management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic tag management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
+description: Dynamic Tag Management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic Tag Management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
+keywords: Dynamic Tag Management;dtm
+seo-description: Dynamic Tag Management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic Tag Management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
 seo-title: Dynamic Tag Management overview
 solution: Analytics,Marketing Cloud,Dynamic Tag Management
 title: Dynamic Tag Management overview
@@ -12,19 +12,7 @@ internal: n
 
 # Dynamic Tag Management overview{#dynamic-tag-management-overview}
 
-Dynamic tag management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic tag management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
-
-## Dynamic Tag Management overview {#concept_89A67369896543BFBBDC3F951C0CF6CC}
-
-Dynamic tag management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic tag management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace. 
-
-This section contains the following information:
-
-* [Business Challenge](c-overview.md#section_9B6ACC3CFB5542CDAB47BC7D345DA870) 
-* [Solution](c-overview.md#section_4A8732A2A0704EFEBB3D6A7290FBB38D) 
-* [Benefits](c-overview.md#section_40C5DABE243F4952BFBA039D441513C6) 
-* [Key Features](c-overview.md#section_7EE5C72A63AE48EBAEF91D8B52D0CE19) 
-* [Overview Video](c-overview.md#section_FE59F55068AB4F2392154C846802F5EC)
+Dynamic Tag Management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic Tag Management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
 
 ## Business challenge {#section_9B6ACC3CFB5542CDAB47BC7D345DA870}
 
@@ -36,25 +24,25 @@ These factors are hampering marketers’ ability to quickly adapt to the fast-pa
 
 ## Solution {#section_4A8732A2A0704EFEBB3D6A7290FBB38D}
 
-Dynamic tag management provides digital marketers tremendous flexibility and control to implement and optimize digital experiences while reducing IT dependence—allowing marketers to focus on marketing, rather than tags. Dynamic tag management not only solves standard tag management problems, such as code deployment, data management, and rule building, but also provides an intuitive capability that maps directly to marketing scenarios and user experiences. This approach makes it easier for marketers to develop digital marketing strategies and quickly implement them without dealing with potentially frustrating IT projects. To allow marketers to deliver the right message or collect the right data for any given scenario, this robust capability identifies specific users and audience segments on the site to enable instantaneous delivery of segment-specific content and to generate specific experience-based reporting.
+Dynamic Tag Management provides digital marketers tremendous flexibility and control to implement and optimize digital experiences while reducing IT dependence—allowing marketers to focus on marketing, rather than tags. Dynamic Tag Management not only solves standard tag management problems, such as code deployment, data management, and rule building, but also provides an intuitive capability that maps directly to marketing scenarios and user experiences. This approach makes it easier for marketers to develop digital marketing strategies and quickly implement them without dealing with potentially frustrating IT projects. To allow marketers to deliver the right message or collect the right data for any given scenario, this robust capability identifies specific users and audience segments on the site to enable instantaneous delivery of segment-specific content and to generate specific experience-based reporting.
 
-Dynamic tag management is offered to Adobe Experience Cloud customers as an included, value-add feature. Adobe is committed to keeping the dynamic tag management capability open and will continue to develop features that allow for deployment of the most popular digital marketing services, including non-Adobe services.
+Dynamic Tag Management is offered to Adobe Experience Cloud customers as an included, value-add feature. Adobe is committed to keeping the Dynamic Tag Management capability open and will continue to develop features that allow for deployment of the most popular digital marketing services, including non-Adobe services.
 
 ## Benefits {#section_40C5DABE243F4952BFBA039D441513C6}
 
-Dynamic tag management provides the following benefits:
+Dynamic Tag Management provides the following benefits:
 
 * ** Improved Site Speed:** Optimize loading of multiple analytics and marketing tags, proven to slow page loads. 
-* **Quicker Implementations:** Significantly reduce deployment time. 
-* **Increased Efficiencies:** Reclaim substantial amounts of time spent managing analytics and media tags. 
-* **Control and Security:** Develop and deploy tag strategies by collaborating with marketing, analysts, and IT to recommend, test, and deploy tags within protocols and across systems all within the capability. 
-* **Enhanced Flexibility:** Quickly test and optimize tags without being bound by release cycles. 
-* **Centralized Tool Management:** Trigger many tags and technologies simultaneously, rather than creating separate rules for each one. 
-* **Reduced Costs:** Minimize the need to use JavaScript-trained IT resources for tag management activities.
+* **Quicker implementations:** Significantly reduce deployment time. 
+* **Increased efficiencies:** Reclaim substantial amounts of time spent managing analytics and media tags. 
+* **Control and security:** Develop and deploy tag strategies by collaborating with marketing, analysts, and IT to recommend, test, and deploy tags within protocols and across systems all within the capability. 
+* **Enhanced flexibility:** Quickly test and optimize tags without being bound by release cycles. 
+* **Centralized tool management:** Trigger many tags and technologies simultaneously, rather than creating separate rules for each one. 
+* **Reduced costs:** Minimize the need to use JavaScript-trained IT resources for tag management activities.
 
 ## Key features {#section_7EE5C72A63AE48EBAEF91D8B52D0CE19}
 
-Dynamic tag management provides the following key features:
+Dynamic Tag Management provides the following key features:
 
 * Unmatched rule-driven data collection 
 * Site-centric rather than tag-centric user interface 
@@ -66,7 +54,7 @@ Dynamic tag management provides the following key features:
 
 ## Overview videos {#section_FE59F55068AB4F2392154C846802F5EC}
 
-Activation, powered by dynamic tag management, gives you intuitive tools to manage an unlimited number of Adobe and third-party tags. Now, you have more control and flexibility to optimize almost anything online, all while reducing your dependency on IT resources.
+Activation, powered by Dynamic Tag Management, gives you intuitive tools to manage an unlimited number of Adobe and third-party tags. Now, you have more control and flexibility to optimize almost anything online, all while reducing your dependency on IT resources.
 
 **What Is Adobe DTM - Intro **
 

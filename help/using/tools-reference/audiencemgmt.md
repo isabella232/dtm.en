@@ -1,7 +1,7 @@
 ---
-description: Information about deploying Adobe Audience Manager using dynamic tag management.
-keywords: dynamic tag management
-seo-description: Information about deploying Adobe Audience Manager using dynamic tag management.
+description: Information about deploying Adobe Audience Manager using Dynamic Tag Management.
+keywords: Dynamic Tag Management
+seo-description: Information about deploying Adobe Audience Manager using Dynamic Tag Management.
 seo-title: Adobe Audience Manager tool
 solution: Marketing Cloud,Analytics,,Dynamic Tag Management
 title: Adobe Audience Manager tool
@@ -13,9 +13,9 @@ snippet: y
 
 # Adobe Audience Manager tool{#adobe-audience-manager-tool}
 
-Information about deploying Adobe Audience Manager using dynamic tag management.
+Information about deploying Adobe Audience Manager using Dynamic Tag Management.
 
- **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Managemer]** 
+ **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Manager]** 
 
 <table id="table_722D8A274A3448EB918DBB682FF68C24"> 
  <thead> 
@@ -39,7 +39,7 @@ Information about deploying Adobe Audience Manager using dynamic tag management.
   </tr> 
   <tr> 
    <td colname="col1"> Audience management page code already present </td> 
-   <td colname="col2"> <p>Prevents dynamic tag management from installing audience manager code if it is already present on your site. This way, you can use dynamic tag management to add to your existing implementation, rather than starting a new implementation. </p> </td> 
+   <td colname="col2"> <p>Prevents Dynamic Tag Management from installing audience manager code if it is already present on your site. This way, you can use Dynamic Tag Management to add to your existing implementation, rather than starting a new implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Code version </td> 

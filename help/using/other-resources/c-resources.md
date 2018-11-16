@@ -1,6 +1,6 @@
 ---
 description: Additional resources to help you get the most out of Dynamic Tag Management.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Additional resources to help you get the most out of Dynamic Tag Management.
 seo-title: Resources
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management

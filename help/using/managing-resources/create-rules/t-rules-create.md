@@ -1,7 +1,7 @@
 ---
-description: Steps that describe how to create rules in dynamic tag management.
-keywords: dynamic tag management
-seo-description: Steps that describe how to create rules in dynamic tag management.
+description: Steps that describe how to create rules in Dynamic Tag Management.
+keywords: Dynamic Tag Management
+seo-description: Steps that describe how to create rules in Dynamic Tag Management.
 seo-title: Create new rule
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Create new rule
@@ -13,7 +13,7 @@ snippet: y
 
 # Create new rule{#create-new-rule}
 
-Steps that describe how to create rules in dynamic tag management.
+These steps describe how to create rules in Dynamic Tag Management.
 
 1. [Create a web property](../../administration/web-property.md#task_AE34E23EC47B4E9C8634782C05D9DC09), if you haven't done so already.
 1. In the web property, click the **[!UICONTROL Rules]** tab.

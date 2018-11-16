@@ -15,10 +15,6 @@ snippet: y
 
 Use the AEM ContextHub tool to integrate Dynamic Tag Management with the Adobe Experience Manager (AEM) ContextHub (AEM's version of the data layer). You can also use this tool to integrate DTM with any data layer, even for websites that do not use AEM.
 
-## Adobe Experience Manager ContextHub tool {#concept_F0D713695CA54807B6E2B66842421C32}
-
-Use the AEM ContextHub tool to integrate [!DNL Dynamic Tag Management] with the [!DNL Adobe Experience Manager] (AEM) ContextHub (AEM's version of the data layer). You can also use this tool to integrate DTM with any data layer, even for websites that do not use AEM. 
-
 DTM customers often use data elements to map to their websites' data layers. For example, the data layer might include information that a user is looking at a particular product or has placed an item into the shopping cart. DTM can use this information in rule conditions and actions in a number of ways. This includes the sending of data to Analytics for reporting purposes or to Target to display customized content for the user.
 
 The AEM ContextHub tool solves many problems associated with data layers. Some data layers don't load at the top of the page. Other data layers are dynamic or asynchronous and change frequently as the page changes. In the past, both of these issues made it problematic for DTM to effectively send data or trigger actions.
@@ -45,32 +41,12 @@ When you configure this tool, you can use the default setting to integrate with 
 
 1. Fill in the fields:
 
-<table id="table_1CFB53FE72E74CCB8CAA5D4E3873D286"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Use Default ContextHub Data Layer </p> </td> 
-   <td colname="col2"> <p>Use the AEM ContextHub format. With this option selected, DTM references the default ContextHub schema for this integration. If you have made changes to your ContextHub schema, or want to use a different data layer, use the customized option. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Customize ContextHub Data Layer </p> </td> 
-   <td colname="col2"> <p>Use a custom format that maps to the data layer structure of any website, even if it does not use AEM. This option lets you edit your data layer schema. By default, it populates the edit window with the default ContextHub data layer, where you can make changes or completely replace it with your code. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Open Editor </p> </td> 
-   <td colname="col2"> <p>If you choose the <span class="wintitle"> Customize ContextHub Data Layer </span> option, you can use the editor to insert your custom code. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add a Note </p> </td> 
-   <td colname="col2"> <p>Add any notes regarding this implementation. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  | Element | Description |
+  |---|---|
+  |Use Default ContextHub Data Layer|Use the AEM ContextHub format. With this option selected, DTM references the default ContextHub schema for this integration. If you have made changes to your ContextHub schema, or want to use a different data layer, use the customized option.|
+  |Customize ContextHub Data Layer|Use a custom format that maps to the data layer structure of any website, even if it does not use AEM. This option lets you edit your data layer schema. By default, it populates the edit window with the default ContextHub data layer, where you can make changes or completely replace it with your code.|
+  |Open Editor |If you choose the Customize ContextHub Data Layer option, you can use the editor to insert your custom code.|
+  |Add a Note |Add any notes regarding this implementation.|
 
 1. Click **[!UICONTROL Save Changes]**.
 
@@ -99,7 +75,7 @@ Each functional area corresponds to a configuration step described in both examp
 
 ## Data element monitoring {#section_D7B958D820D944A3A9D5D536ED5A53DA}
 
-The new ` [dataelementchanged](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2)` event type monitors any changes that occur to a specific data element value during a page view. The following observations should be noted when using this event type.
+The new [`dataelementchanged`](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2) event type monitors any changes that occur to a specific data element value during a page view. The following observations should be noted when using this event type.
 
 1. The data element must map to a simple Javascript value. Complex values like arrays and objects that are returned in a data element custom script will not work correctly. Cookies, CSS selectors, and URL parameters also produce unexpected results and might not work at all. Simple values like strings and integers work fine. 
 1. Be conservative in the number of `dataelementchanged` event types that are referenced on a single page. Although the monitoring is efficient, large numbers of evaluations could impact page performance. 
@@ -124,7 +100,7 @@ All of the ContextHub stores can be referenced from the browser console.
 
 The DTM data layer monitor starts before any other DTM functions, so the examples will not deploy the data layer through DTM even though it is possible to do so. Instead they will depend on the server-generated data layer. Otherwise Javascript warnings might occur because certain data layer values may not be available.
 
-**Define the data layer**
+### Define the data layer
 
 The first step in configuring the AEM ContextHub tool is to add it to a web property.
 
@@ -162,7 +138,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save Changes]**.
 
-**Create a data layer data element**
+### Create a data layer data element
 
 1. In the web property, click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Data Elements]** in the left menu.
 
@@ -180,7 +156,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save Data Element]**.
 
-**Create an event-based rule that uses the data element change event type**
+### Create an event-based rule that uses the data element change event type
 
 1. In the web property, click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Event Based Rules]** in the left menu.
 
@@ -224,7 +200,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save Code]**, then click **[!UICONTROL Save Rule]**.
 
-**Validate the implementation**
+### Validate the implementation
 
 On the DTM-enabled website that runs the above web property, validate the implementation.
 
@@ -268,7 +244,7 @@ The example data layer ( `_dl`) will be loaded on the test web page as a Javascr
 
 The DTM data layer monitor (see below) starts before any other DTM functions, so the examples will not deploy the data layer through DTM. Otherwise Javascript warnings might occur because certain data layer values may not be available.
 
-**Define the data layer**
+### Define the data layer
 
 The first step in configuring the AEM ContextHub tool is to add it to a web property.
 
@@ -276,7 +252,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 >
 >At this time only one AEM ContextHub tool is allowed per DTM web property.
 
-1. Click  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
+1. Click  **[!UICONTROL  *Web Property Name*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
 
    ![](assets/add-aem-tool.png)
 
@@ -332,7 +308,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save and Close]** to save the schema and close the editor, then click **[!UICONTROL Save Changes]**.
 
-**Create a data layer data element**
+### Create a data layer data element
 
 1. In the web property, click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Data Elements]** in the left menu.
 
@@ -352,7 +328,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save Data Element]**.
 
-**Create an event-based rule that uses the data element change event type**
+### Create an event-based rule that uses the data element change event type
 
 1. In the web property, click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Event Based Rules]** in the left menu.
 
@@ -396,7 +372,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 
 1. Click **[!UICONTROL Save Code]**, then click **[!UICONTROL Save Rule]**.
 
-**Validate the implementation**
+### Validate the implementation
 
 On the DTM-enabled website that runs the above web property, validate the implementation.
 

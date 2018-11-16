@@ -1,6 +1,6 @@
 ---
 description: Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools.
 seo-title: Data elements
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
@@ -15,33 +15,20 @@ snippet: y
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools.
 
-## Data elements {#concept_8A4591BD0F4241B6925D976482C43CD2}
-
-Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools. 
-
 **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]** > **[!UICONTROL Edit]** .
 
 Use data elements as widely as possible throughout rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and then use them many times.
 
 The concept of reusable data elements is very powerful and you should use them as best practice.
 
-For example, if there is a particular way that you reference page names or product IDs, or grab information from query string parameters from an affiliate marketing link or from AdWords, and so forth, you can create a data dictionary (data elements) by getting information from various sources and then using this data in various dynamic tag management rules.
+For example, if there is a particular way that you reference page names or product IDs, or grab information from query string parameters from an affiliate marketing link or from AdWords, and so forth, you can create a data dictionary (data elements) by getting information from various sources and then using this data in various Dynamic Tag Management rules.
 
-Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within the website. In dynamic tag management, you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name (for example, you have been referencing `document.title` but you now want to reference a particular data layer), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
+Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within the website. In Dynamic Tag Management, you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name (for example, you have been referencing `document.title` but you now want to reference a particular data layer), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
 
 Data elements are populated with data when they are used in rules or when manually calling in scripts. At a high level, you:
 
 1. [Create a data element](../managing-resources/data-elements.md#task_962EF08CE2AE49B3B739295F6E4792C2), if you haven't done so already. 
 1. Use the data element in a [rule](../managing-resources/rules.md#concept_2D3F296DD3BD418BAB7A0E2415DD9C92) or a custom script.
-
-This section contains the following information:
-
-* [Types of Data Elements](../managing-resources/data-elements.md#section_92407DCB477045D3B50DF8105AB2E6F4) 
-* [Persistence](../managing-resources/data-elements.md#section_7F9C583A49874ACC9E14F0644B1E5783) 
-* [Built-In Data Elements](../managing-resources/data-elements.md#section_D75D9250EB3F4563BDB22D38B1C071AA) 
-* [Data Element Usage](../managing-resources/data-elements.md#section_2CD92AAA2B7C462EBFDA562AED299E6A) 
-* [Data Element Availability](../managing-resources/data-elements.md#section_43A5C65D7C5E4E23B2C1186090C2D5B2) 
-* [How to Collect Values from JavaScript Variables](../managing-resources/data-elements.md#section_EFA406CC945B4DF5ACEE157CD99D2D29)
 
 ## Types of data elements {#section_92407DCB477045D3B50DF8105AB2E6F4}
 
@@ -185,7 +172,9 @@ You can use data elements in the rule editing interface by using the percent sig
 
 You can use data elements in custom scripts by using the `_satellite` object syntax:
 
-`_satellite.getVar('data element name');`
+```javascript
+_satellite.getVar('data element name');
+```
 
 ## Data element availability {#section_43A5C65D7C5E4E23B2C1186090C2D5B2}
 
@@ -205,7 +194,7 @@ The custom code section in the identifier must return *`true`*, regardless of wh
 
 ## How to collect values from JavaScript variables {#section_EFA406CC945B4DF5ACEE157CD99D2D29}
 
-When you have JavaScript variables, or object properties in your markup, and you want to collect those values in dynamic tag management to use with your analytics tools, or testing tools, or even with third party tags, one way to capture those values is to use Data Elements in dynamic tag management. This way, you can refer to the Data Element throughout your Rules, and if the source of the data ever changes, you only need to change your reference to the source (the Data Element) in one place in dynamic tag management.
+When you have JavaScript variables, or object properties in your markup, and you want to collect those values in Dynamic Tag Management to use with your analytics tools, or testing tools, or even with third party tags, one way to capture those values is to use Data Elements in Dynamic Tag Management. This way, you can refer to the Data Element throughout your Rules, and if the source of the data ever changes, you only need to change your reference to the source (the Data Element) in one place in Dynamic Tag Management.
 
 For example, let's say your markup contains a JavaScript variable called "Page_Name", like this:
 
@@ -217,7 +206,7 @@ For example, let's say your markup contains a JavaScript variable called "Page_N
 
 ```
 
-When you create the Data Element in dynamic tag management, simply provide the path to that variable like this:
+When you create the Data Element in Dynamic Tag Management, simply provide the path to that variable like this:
 
 ![](assets/faq_data_element.png)
 
@@ -236,7 +225,7 @@ By then end of this video you should be able to:
 
 ## Create a data element {#task_962EF08CE2AE49B3B739295F6E4792C2}
 
-Create a data element in dynamic tag management. 
+Create a data element in Dynamic Tag Management. 
 
 <!-- 
 
@@ -259,15 +248,15 @@ t_data_element.xml
 
       Depending on which type you select, different options display. See [Types of Data Elements](../managing-resources/data-elements.md#section_92407DCB477045D3B50DF8105AB2E6F4) for more information and examples. 
     
-    * **[!UICONTROL Default Value]** A default element. This value ensures that the data element always has a value, even if a URL parameter does not exist or cannot be found by dynamic tag management.
+    * **[!UICONTROL Default Value]** A default element. This value ensures that the data element always has a value, even if a URL parameter does not exist or cannot be found by Dynamic Tag Management.
 
       >[!NOTE]
       >
       >If there is no value and no default value, then nothing is returned. Any variable referencing that data element won't get set. Note also that the default value field is ignored if it's a "custom code" data element.
 
-    * **[!UICONTROL Force lowercase value]** Dynamic tag management automatically makes the value lowercased. 
+    * **[!UICONTROL Force lowercase value]** Dynamic Tag Management automatically makes the value lowercased. 
     
-    * **[!UICONTROL Remember this value for]** How long you want dynamic tag management to remember this value.
+    * **[!UICONTROL Remember this value for]** How long you want Dynamic Tag Management to remember this value.
 
       Valid values include:
 

@@ -1,7 +1,7 @@
 ---
-description: Historical release notes for dynamic tag management.
-keywords: dynamic tag management
-seo-description: Historical release notes for dynamic tag management.
+description: Historical release notes for Dynamic Tag Management.
+keywords: Dynamic Tag Management
+seo-description: Historical release notes for Dynamic Tag Management.
 seo-title: Previous release notes
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Previous release notes
@@ -13,13 +13,13 @@ snippet: y
 
 # Previous release notes{#previous-release-notes}
 
-Historical release notes for dynamic tag management.
+Historical release notes for Dynamic Tag Management.
 
  See [Current Release Notes](../whatsnew.md#concept_424EB048942A44F9AFD46E18A08AA563) for the latest release information.
 
 ## April 21, 2016 {#section_65017B66787F4873AD700A7E1B7CD744}
 
-The April 21, 2016 dynamic tag management release includes the following changes:
+The April 21, 2016 Dynamic Tag Management release includes the following changes:
 
 **New Features** 
 
@@ -47,7 +47,7 @@ The April 21, 2016 dynamic tag management release includes the following changes
 
 March 30, 2016
 
-The March 30, 2016 dynamic tag management release includes the following changes:
+The March 30, 2016 Dynamic Tag Management release includes the following changes:
 
 **New Features** 
 
@@ -69,7 +69,7 @@ The March 30, 2016 dynamic tag management release includes the following changes
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>Restrict login to Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Use the <span class="wintitle"> Restrict to Experience Cloud </span> option to force all users in the company to log in to <span class="keyword"> dynamic tag management </span> using <span class="keyword"> Adobe Experience Cloud </span> credentials rather than using the legacy/company login process. </p> <p>See <a href="../administration/users.md#concept_2FA1011890C04E59845E8EB1E2345488" format="dita" scope="local"> Users and permissions </a>. </p> </td> 
+   <td colname="col2"> <p>Use the <span class="wintitle"> Restrict to Experience Cloud </span> option to force all users in the company to log in to <span class="keyword"> Dynamic Tag Management </span> using <span class="keyword"> Adobe Experience Cloud </span> credentials rather than using the legacy/company login process. </p> <p>See <a href="../administration/users.md#concept_2FA1011890C04E59845E8EB1E2345488" format="dita" scope="local"> Users and permissions </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ The March 30, 2016 dynamic tag management release includes the following changes
 
 ## February 4, 2016 {#section_1276153E14E7462F91B3FC11CE883370}
 
-The February 4, 2016 dynamic tag management release includes the following changes:
+The February 4, 2016 Dynamic Tag Management release includes the following changes:
 
 **Fixes and Enhancements:** 
 
@@ -92,7 +92,7 @@ The February 4, 2016 dynamic tag management release includes the following chang
 
 ## January 14, 2016 {#section_68CCCE27734848F794C828C40E258A06}
 
-The January 14, 2016 dynamic tag management release includes the following changes:
+The January 14, 2016 Dynamic Tag Management release includes the following changes:
 
 **New Features** 
 
@@ -114,7 +114,7 @@ The January 14, 2016 dynamic tag management release includes the following chang
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>Nielsen tool </p> </td> 
-   <td colname="col2"> <p>You can enable Nielsen tracking using dynamic tag management by creating the Nielsen tool and configuring the page code either automatically or manually. The automatic method is recommended for most users. </p> <p>See <a href="../tools-reference/nielsen.md#concept_697E539912154172A3BE804DD2401534" format="dita" scope="local"> Add Nielsen Tool </a>. </p> </td> 
+   <td colname="col2"> <p>You can enable Nielsen tracking using Dynamic Tag Management by creating the Nielsen tool and configuring the page code either automatically or manually. The automatic method is recommended for most users. </p> <p>See <a href="../tools-reference/nielsen.md#concept_697E539912154172A3BE804DD2401534" format="dita" scope="local"> Add Nielsen Tool </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ The January 14, 2016 dynamic tag management release includes the following chang
 
 ## November 17, 2015 {#section_663B52500EEA43E4866CBAF3004B9C3A}
 
-The November 17, 2015 dynamic tag management release includes the following changes:
+The November 17, 2015 Dynamic Tag Management release includes the following changes:
 
 **New Features** 
 
@@ -154,11 +154,11 @@ The November 17, 2015 dynamic tag management release includes the following chan
 
 **Fixes and Enhancements:** 
 
-* Fixed an issue that caused dynamic tag management to throw a fatal error on Microsoft Internet Explorer 8. DTM-7022
+* Fixed an issue that caused Dynamic Tag Management to throw a fatal error on Microsoft Internet Explorer 8. DTM-7022
 
 ## September 22, 2015 {#section_43A0700440D64A5CB46EFF80A5FE4404}
 
-The September 22, 2015 dynamic tag management release includes the following changes:
+The September 22, 2015 Dynamic Tag Management release includes the following changes:
 
 **New Features** 
 
@@ -245,7 +245,7 @@ September 17, 2015
 
 ## July 8, 2015 {#section_BBB3D1DF8AFA434188E1F10D139F364A}
 
-The July 8, 2015 dynamic tag management release includes the following changes:
+The July 8, 2015 Dynamic Tag Management release includes the following changes:
 
 **New Features and Enhancements** 
 
@@ -271,7 +271,7 @@ The July 8, 2015 dynamic tag management release includes the following changes:
 
 ## June 8, 2015 {#section_42BD325419FC40AD9D6AB274A544646F}
 
-The June 8, 2015 dynamic tag management release includes the following changes:
+The June 8, 2015 Dynamic Tag Management release includes the following changes:
 
 **Fixes and Enhancements:** 
 
@@ -279,7 +279,7 @@ The June 8, 2015 dynamic tag management release includes the following changes:
 
 ## April 23 2015 {#section_A22902A85E214E2B8372E18C3A42CD93}
 
-The April 23, 2015 dynamic tag management release includes the following changes:
+The April 23, 2015 Dynamic Tag Management release includes the following changes:
 
 **New Features and Enhancements** 
 
@@ -297,7 +297,7 @@ The April 23, 2015 dynamic tag management release includes the following changes
     <ul id="ul_F75AC88ECFEE4D33B52DF15731C40C02"> 
      <li id="li_B24FC472DD47472FBD54C9D80D4039E1"> <p>Users can now copy data elements across web properties and companies. </p> </li> 
      <li id="li_C56FAEE318DA4ED7B1515CFC888142C1"> <p>Users can now bulk copy, activate, deactivate, and delete data elements. </p> </li> 
-     <li id="li_F9959DDF3B36412495F90387D0DDA4CA"> <p>Users can now select a <span class="wintitle"> cleanText </span> option when setting a data element. </p> <p>This option causes dynamic tag management to remove beginning and ending whitespace and replace all whitespace in the middle of return values with a single space. This option is useful to normalize data element values for easier matching. </p> </li> 
+     <li id="li_F9959DDF3B36412495F90387D0DDA4CA"> <p>Users can now select a <span class="wintitle"> cleanText </span> option when setting a data element. </p> <p>This option causes Dynamic Tag Management to remove beginning and ending whitespace and replace all whitespace in the middle of return values with a single space. This option is useful to normalize data element values for easier matching. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -341,7 +341,7 @@ The April 23, 2015 dynamic tag management release includes the following changes
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p>Integration with Adobe Analytics Premium </p> </td> 
-   <td colname="col2"> <p>If you are an <span class="keyword"> Adobe Analytics Premium </span> customer, dynamic tag management lets you take advantage of advanced features and additional eVars and events. </p> <p> <p>Note:  If you do not use the <span class="wintitle"> Automatic </span> configuration method, dynamic tag management will treat you as an <span class="keyword"> Adobe Analytics Standard </span> account. </p> </p> <p>See <a href="../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Add Adobe Analytics Tool </a>. </p> </td> 
+   <td colname="col2"> <p>If you are an <span class="keyword"> Adobe Analytics Premium </span> customer, Dynamic Tag Management lets you take advantage of advanced features and additional eVars and events. </p> <p> <p>Note:  If you do not use the <span class="wintitle"> Automatic </span> configuration method, Dynamic Tag Management will treat you as an <span class="keyword"> Adobe Analytics Standard </span> account. </p> </p> <p>See <a href="../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Add Adobe Analytics Tool </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -373,7 +373,7 @@ Fixes:
 
 Fixes:
 
-* Dynamic tag management no longer overrides global variables with the name *`window.t`*. 
+* Dynamic Tag Management no longer overrides global variables with the name *`window.t`*. 
 * Fixed an issue where Firefox was incorrectly trapping the right-click event handler in the browser and causing click-based rules to fire.
 
 ## November 13 2014 {#section_19318A60F7294D1080CFAEED5A1CBCD6}
@@ -387,7 +387,7 @@ Fixes:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Adobe improved our dynamic tag management integration with <span class="keyword"> Adobe Media Optimizer </span>, including. </p> </td> 
+   <td colname="col1"> <p> Adobe improved our Dynamic Tag Management integration with <span class="keyword"> Adobe Media Optimizer </span>, including. </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4C7FCE04C76C4ED5A905AC86A91F3410"> 
       <li id="li_2DE6639F266341ACB28C3085D40E23DD">Default delivery of the latest (v3) Media Optimizer tag </li> 
@@ -404,13 +404,13 @@ Fixes:
 * Fixed an issue where rule copying did not work after the release of the [!DNL Adobe Media Optimizer] integration on 10/30/2014.  
 * Added the ability to specify name/value pairs for general settings and customer-specified IDs in the Experience Cloud ID tool. 
 * Added option for the Experience Cloud ID tool to trigger the initial API call. This call enables support for Adobe solutions that do not currently trigger this call already in your own code. 
-* Fixed an issue where the browser version tracked by dynamic tag management for certain versions of Internet Explorer was returned as *`Unknown`* instead of *`Internet Explorer`*.  
+* Fixed an issue where the browser version tracked by Dynamic Tag Management for certain versions of Internet Explorer was returned as *`Unknown`* instead of *`Internet Explorer`*.  
 
 * Adobe tools will now be displayed first in the listing of installed tools on a given web property.
 
 ## October 30 2014 {#section_3112A307294B43AB98C67EA407654225}
 
-Adobe improved our dynamic tag management integration with [!DNL Adobe Media Optimizer], including:
+Adobe improved our Dynamic Tag Management integration with [!DNL Adobe Media Optimizer], including:
 
 * Default delivery of the latest (v3) Media Optimizer tag 
 * Support for a data-element based SKU 
@@ -419,7 +419,7 @@ Adobe improved our dynamic tag management integration with [!DNL Adobe Media Opt
 
 ## October 28 2014 {#section_D901228AACEF4A779FF101994E2D8886}
 
-New features in dynamic tag management released on October 28, 2014:
+New features in Dynamic Tag Management released on October 28, 2014:
 
 <!-- 
 
@@ -437,7 +437,7 @@ New features in dynamic tag management released on October 28, 2014:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Target integration </p> </td> 
-   <td colname="col2"> <p>Updated the <span class="keyword"> Adobe Target </span> tool to enable automatic deployment via dynamic tag management. </p> <p>See <a href="../tools-reference/target.md#concept_90D4021A9B6E409D8101FA1AFADE1215" format="dita" scope="local"> Adobe Target Settings </a> for configuration information. </p> </td> 
+   <td colname="col2"> <p>Updated the <span class="keyword"> Adobe Target </span> tool to enable automatic deployment via Dynamic Tag Management. </p> <p>See <a href="../tools-reference/target.md#concept_90D4021A9B6E409D8101FA1AFADE1215" format="dita" scope="local"> Adobe Target Settings </a> for configuration information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable support for Google Universal Analytics Premium features </p> </td> 
@@ -448,10 +448,10 @@ New features in dynamic tag management released on October 28, 2014:
 
 **Fixes and Improvements**
 
-* Fixed an issue where the Tracking Server value automatically determined by dynamic tag management for the [!DNL Adobe Analytics] tool sometimes set an incorrect value.  
+* Fixed an issue where the Tracking Server value automatically determined by Dynamic Tag Management for the [!DNL Adobe Analytics] tool sometimes set an incorrect value.  
 * Fixed an issue where a restored data element had the name appended with "(Restored)," which caused previous references to that data element to be broken. (The appended value is now added only if restoring the data element would create a naming conflict with an existing data element.) 
 * Fixed an issue caused when triggering an event-based rule on a click event. If the click event had a delay link activation on an anchor tag with no HREF, the issue forced the browser to attempt to navigate to a blank HREF location. 
-* Fixed an issue where dynamic tag management was no longer saving global variables configured in an Analytics tool when changes to that tool had been rejected and then restored. 
+* Fixed an issue where Dynamic Tag Management was no longer saving global variables configured in an Analytics tool when changes to that tool had been rejected and then restored. 
 * Implemented significant performance improvements in the library generation process, which should result in a shorter wait for changes to appear in production, especially during peak usage hours. 
 * Fixed an issue where company administrators were unable to export their activity log to CSV when there was a large amount of data present. 
 * Added the ability to use custom HTML data attributes with CSS selector-based data elements.
@@ -460,17 +460,17 @@ New features in dynamic tag management released on October 28, 2014:
 
 Fixes and improvements:
 
-* The help landing for dynamic tag management is now at:
+* The help landing for Dynamic Tag Management is now at:
 
   [https://marketing.adobe.com/resources/help/en_US/dtm/](https://marketing.adobe.com/resources/help/en_US/dtm/)
 
   Please update your bookmarks accordingly. 
 
 * Fixed an issue where re-enabling a previously disabled property caused all approved items to be immediately published. A property will now be enabled, but published assets will not be affected until a publish request is explicitly requested by a user with appropriate permissions. 
-* Fixed an issue where custom code editors in dynamic tag management were truncating the last few lines of displayed code. 
+* Fixed an issue where custom code editors in Dynamic Tag Management were truncating the last few lines of displayed code. 
 * Fixed an issue where reverting a tool to a previous version did not revert all settings for that tool. 
 * Users can now force a data element's value to be automatically converted to lowercase before it is returned and used. 
-* Fixed issue where a race condition in the dynamic tag management engine prevented data from being sent correctly to audience management.
+* Fixed issue where a race condition in the Dynamic Tag Management engine prevented data from being sent correctly to audience management.
 
 ## August 7 2014 {#section_3E4A1A7F537B4E4EBFC34D106BA557C4}
 
@@ -486,14 +486,14 @@ New features:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID Service </p> </td> 
-   <td colname="col2"> <p>You can automate the deployment of the <span class="keyword"> Experience Cloud </span> ID Service using dynamic tag management. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/macid.html" format="https" scope="external"> Experience Cloud ID Service </a> in <span class="term"> Dynamic Tag Management Help </span>. </p> </td> 
+   <td colname="col2"> <p>You can automate the deployment of the <span class="keyword"> Experience Cloud </span> ID Service using Dynamic Tag Management. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/macid.html" format="https" scope="external"> Experience Cloud ID Service </a> in <span class="term"> Dynamic Tag Management Help </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Fixes and improvements:
 
-* The help landing for dynamic tag management is now at:
+* The help landing for Dynamic Tag Management is now at:
 
   [https://marketing.adobe.com/resources/help/en_US/dtm/](https://marketing.adobe.com/resources/help/en_US/dtm/)
 
@@ -502,7 +502,7 @@ Fixes and improvements:
 * Fixed an issue where reverting an [!DNL Analytics] account to a previous version resulted in a 404 error. 
 * Fixed an issue where Approvers trying to view details on a previous version, while reviewing an approvable item, were unable to expand the appropriate sections. 
 * Added support in [!DNL Adobe Analytics] tool configuration for visitor namespace. 
-* Upgraded the code editor used throughout dynamic tag management, which provides additional features, including support for extra-long lines of code. 
+* Upgraded the code editor used throughout Dynamic Tag Management, which provides additional features, including support for extra-long lines of code. 
 * Fixed an issue where events set in the [!DNL Analytics] rule UI were not being sent as part of data collection when the rule was set to use *`s.t()`*. 
 
 * Fixed an issue where the Force Lowercase option was not working in Google Universal Analytics. 
@@ -523,11 +523,11 @@ New features:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Adobe Analytics </span> account and report suite synchronization. </p> </td> 
-   <td colname="col2"> <p>Report suites are automatically synchronized via a <span class="keyword"> Experience Cloud </span> login or Web Services ID. </p> <p>Once the accounts are connected, dynamic tag management pulls the <span class="keyword"> Adobe Analytics </span> report suite IDs and names into the tool configuration interface, allowing for increased speed in tool deployment with less possibility for user errors. </p> </td> 
+   <td colname="col2"> <p>Report suites are automatically synchronized via a <span class="keyword"> Experience Cloud </span> login or Web Services ID. </p> <p>Once the accounts are connected, Dynamic Tag Management pulls the <span class="keyword"> Adobe Analytics </span> report suite IDs and names into the tool configuration interface, allowing for increased speed in tool deployment with less possibility for user errors. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe managed measurement library option. </p> </td> 
-   <td colname="col2"> <p>You can let dynamic tag management loads and manage the base library directly. You no longer need to cut and paste library code from the <span class="keyword"> Adobe Analytics </span> administration tools. This feature also makes upgrades to new versions of <span class="keyword"> AppMeasurement </span> easier, because the base code and custom code are stored separately. </p> </td> 
+   <td colname="col2"> <p>You can let Dynamic Tag Management loads and manage the base library directly. You no longer need to cut and paste library code from the <span class="keyword"> Adobe Analytics </span> administration tools. This feature also makes upgrades to new versions of <span class="keyword"> AppMeasurement </span> easier, because the base code and custom code are stored separately. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom Code timing. </p> </td> 
@@ -574,7 +574,7 @@ Features and fixes:
   <tr> 
    <td colname="col1"> <p>Language Selector </p> </td> 
    <td colname="col2"> <p> 
-     <!--https://issues.adobe.com/browse/DTM-4150-->Dynamic tag management is now available in the same languages (English, French, Spanish, German, Korean, Portuguese, Japanese, Traditional Chinese, and Simplified Chinese) as the rest of the <span class="keyword"> Experience Cloud </span>. </p> <p>In <span class="wintitle"> Account Settings </span>, click the <span class="uicontrol"> Languages </span> menu to specify the language. </p> </td> 
+     <!--https://issues.adobe.com/browse/DTM-4150-->Dynamic Tag Management is now available in the same languages (English, French, Spanish, German, Korean, Portuguese, Japanese, Traditional Chinese, and Simplified Chinese) as the rest of the <span class="keyword"> Experience Cloud </span>. </p> <p>In <span class="wintitle"> Account Settings </span>, click the <span class="uicontrol"> Languages </span> menu to specify the language. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Synchronous loading of the <span class="keyword"> Adobe Target </span> tool. </p> </td> 
@@ -616,7 +616,7 @@ Fixes and improvements for May 15, 2014:
 * Fixed layout issues on [!UICONTROL Selective Publish] queue page. We cleaned up the layout so that it is not truncated or stretching beyond the boundary of the content area of the page. 
 * Data elements now display in alphabetical order in the Data Element Value criteria of a rule. They have now been alphabetized for easier viewing. 
 * The items on the publish history are now paginated to improve performance and user experience. 
-* Added password security enhancements. To ensure the security for dynamic tag management accounts, we have implemented a number of enhancements to our authentication system:
+* Added password security enhancements. To ensure the security for Dynamic Tag Management accounts, we have implemented a number of enhancements to our authentication system:
 
     * New passwords must meet specific criteria (minimum 7 characters, at least one number, at least one letter, at least one symbol, not one of the last 5 passwords). 
     * Company admins can now see how long it has been since a user last changed their password. 
@@ -627,10 +627,10 @@ Fixes and improvements for May 15, 2014:
 
 Fixes for May 8, 2014:
 
-* Fixed an issue where *`trackingServer`* value was not being applied consistently. The value for *`s.TrackingServer`* should be used consistently for all types of calls throughout dynamic tag management, and the value should be pulled either from the custom code or from the UI, depending on the configuration of a specific web property. (The UI value takes precedence if set in both locations.) 
+* Fixed an issue where *`trackingServer`* value was not being applied consistently. The value for *`s.TrackingServer`* should be used consistently for all types of calls throughout Dynamic Tag Management, and the value should be pulled either from the custom code or from the UI, depending on the configuration of a specific web property. (The UI value takes precedence if set in both locations.) 
 
 * Fixed an issue where properties with a large number of items awaiting approval was causing 500 errors and timeouts. We optimized the queries for the approvals workflow to ensure that properties with a large number of items awaiting approval would load quickly and not result in timeouts, errors, or broken pages. 
-* Fixed an issue where pages with an existing object called 's' would cause errors in dynamic tag management. Dynamic tag management tries to initialize an 's' object on the page for [!DNL Adobe Analytics] tracking, and this was causing a conflict if [!DNL Analytics] was implemented via dynamic tag management and the *`Page code already exists`* box was not checked. The object is now locally scoped within dynamic tag management, so it will work in any custom code scenarios but will not conflict with any on-page code. 
+* Fixed an issue where pages with an existing object called 's' would cause errors in Dynamic Tag Management. Dynamic Tag Management tries to initialize an 's' object on the page for [!DNL Adobe Analytics] tracking, and this was causing a conflict if [!DNL Analytics] was implemented via Dynamic Tag Management and the *`Page code already exists`* box was not checked. The object is now locally scoped within Dynamic Tag Management, so it will work in any custom code scenarios but will not conflict with any on-page code. 
 
 * We made a number of improvements to the way that hierarchies are managed in [!DNL Adobe Analytics] tools and rules, including ensuring that non-sequential hierarchies could be used together in a tool or rule, and ensuring that the same hierarchy could not be set more than once in a tool or rule.
 
@@ -704,7 +704,7 @@ Fixes for April 3, 2014:
 
 Fixes for the March 11, 2014 release:
 
-* Fixed issue where test files ( [!DNL ftp_test.txt]) were being left on FTP/SFTP servers after upload was complete. This file is now deleted once the upload is complete as it is only used to test the ability to validate user credentials and is not actually needed by dynamic tag management. 
+* Fixed issue where test files ( [!DNL ftp_test.txt]) were being left on FTP/SFTP servers after upload was complete. This file is now deleted once the upload is complete as it is only used to test the ability to validate user credentials and is not actually needed by Dynamic Tag Management. 
 * Fixed issue where custom port for FTP/SFTP was not being saved.
 
 ## March 6 2014 {#section_B0BBF310B0384B2CA7C2878374CD0C6A}
@@ -721,7 +721,7 @@ Features and fixes for the March 6, 2014 release:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Added support for SFTP. </p> </td> 
-   <td colname="col2"> <p> Dynamic tag management now supports transmitting published files to a client's server via secure FTP (SFTP). </p> </td> 
+   <td colname="col2"> <p> Dynamic Tag Management now supports transmitting published files to a client's server via secure FTP (SFTP). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Added support for hierarchy delimiters. </p> </td> 
@@ -735,7 +735,7 @@ Features and fixes for the March 6, 2014 release:
 * Fixed issue with SVG images in older IE browsers. SVG images that were clicked in older IE browsers (prior to IE version 9) caused errors and would sometimes cause the browser to crash. 
 * Fixed issue with custom links in direct call rules. Using custom links in direct call rules would generate a JavaScript error in the browser. 
 * Fixed issue with data element rule conditions referencing the wrong name. If a user renamed a data element, and the data element was being referenced in a rule condition, the rule would try to use the most recently specified name for that data element. This issue occurred even if the name change had not yet been published. 
-* Fixed issue where elements without an HREF attribute caused errors when clicked. This issue is regarding the "linker link" functionality in the dynamic tag management engine, which attempts to automatically track any clicked elements on the page. Elements without an HREF were generating errors. The "linker link" code now checks that the element is an anchor tag before attempting to track clicks on it.
+* Fixed issue where elements without an HREF attribute caused errors when clicked. This issue is regarding the "linker link" functionality in the Dynamic Tag Management engine, which attempts to automatically track any clicked elements on the page. Elements without an HREF were generating errors. The "linker link" code now checks that the element is an anchor tag before attempting to track clicks on it.
 
 ## February 4 2014 {#section_2922AFC3900442B8A93599278A53E3B9}
 
@@ -824,7 +824,7 @@ Fixes for the January 16 2014 release:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai hosting is the default embed option for new web properties. </p> </td> 
-   <td colname="col2"> <p> Dynamic tag management is migrating from Amazon S3 to Akamai as the primary external hosting option in efforts to provide dynamic tag management customers a more reliable hosting experience. We encourage all current customers utilizing Amazon S3 hosting to transition to Akamai as soon as possible, so that they may take advantage of increased performance due to Akamai's globally distributed network. </p> <p> All <i>new companies</i> created after January 15, 2014 will have Akamai as their external hosting option by default. </p> <p> Companies created prior to January 15, 2014 will be able to choose between Akamai and Amazon S3 until this option is deprecated on December 31, 2014. Any new <i>properties</i> created within dynamic tag management companies that existed prior to January 15, 2014 will also have the option of choosing between Amazon S3 and Akamai. </p> <p>For information about migrating from Amazon S3 to Akamai, see <a href="../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D" format="dita" scope="local"> Akamai Hosting </a> </p> </td> 
+   <td colname="col2"> <p> Dynamic Tag Management is migrating from Amazon S3 to Akamai as the primary external hosting option in efforts to provide Dynamic Tag Management customers a more reliable hosting experience. We encourage all current customers utilizing Amazon S3 hosting to transition to Akamai as soon as possible, so that they may take advantage of increased performance due to Akamai's globally distributed network. </p> <p> All <i>new companies</i> created after January 15, 2014 will have Akamai as their external hosting option by default. </p> <p> Companies created prior to January 15, 2014 will be able to choose between Akamai and Amazon S3 until this option is deprecated on December 31, 2014. Any new <i>properties</i> created within Dynamic Tag Management companies that existed prior to January 15, 2014 will also have the option of choosing between Amazon S3 and Akamai. </p> <p>For information about migrating from Amazon S3 to Akamai, see <a href="../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D" format="dita" scope="local"> Akamai Hosting </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paginated user lists. </p> </td> 
@@ -906,7 +906,7 @@ The following table provides information about release notes and fixes for this 
   </tr> 
   <tr> 
    <td colname="col1"> New <span class="keyword"> Analytics </span> installed tools with no <span class="filepath"> s_code </span> will not show error. </td> 
-   <td colname="col2"> <p> Previously, when creating a new <span class="keyword"> Analytics </span> tool instance, if you did not add <span class="filepath"> s_code </span> to the tool, you would see a 403/Forbidden error displayed in the console. This error occurred because dynamic tag management was requesting a file that did not exist. </p> <p>Now whenever an <span class="keyword"> Analytics </span> tool is created, the <span class="filepath"> s_code </span> is pre-populated with helpful comments and a call to the Satellite engine notification system. The result displays a message in the console, which instructs you to install <span class="filepath"> s_code </span> to complete the implementation. </p> </td> 
+   <td colname="col2"> <p> Previously, when creating a new <span class="keyword"> Analytics </span> tool instance, if you did not add <span class="filepath"> s_code </span> to the tool, you would see a 403/Forbidden error displayed in the console. This error occurred because Dynamic Tag Management was requesting a file that did not exist. </p> <p>Now whenever an <span class="keyword"> Analytics </span> tool is created, the <span class="filepath"> s_code </span> is pre-populated with helpful comments and a call to the Satellite engine notification system. The result displays a message in the console, which instructs you to install <span class="filepath"> s_code </span> to complete the implementation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -981,18 +981,18 @@ The following table provides information about release notes and fixes for this 
   </tr> 
   <tr> 
    <td> <p> Tool approvals </p> </td> 
-   <td> <p> Tools in dynamic tag management (Analytics, Target, AdLens, Audience Manager, Google Analytics, etc.) are now part of the approval workflow. New tools, modifications to existing tools, or removals of tools will require approval before they are published to production. Users can now add/modify/delete tools (previously users of type "user" were not able to do this). </p> </td> 
+   <td> <p> Tools in Dynamic Tag Management (Analytics, Target, AdLens, Audience Manager, Google Analytics, etc.) are now part of the approval workflow. New tools, modifications to existing tools, or removals of tools will require approval before they are published to production. Users can now add/modify/delete tools (previously users of type "user" were not able to do this). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Engine shows Analytics instead of SiteCatalyst </p> </td> 
-   <td> <p> When looking at debug messages from the dynamic tag management engine, it now says "Adobe Analytics" instead of "SiteCatalyst" for any messages relating to the Analytics product and its associated rules. </p> </td> 
+   <td> <p> When looking at debug messages from the Dynamic Tag Management engine, it now says "Adobe Analytics" instead of "SiteCatalyst" for any messages relating to the Analytics product and its associated rules. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **See Also**
 
-[Previous Release Notes](../other-resources/release-notes-history-dtm.md#concept_F63E33A02ED04FFEB92D4763A84DEEF0) for historical dynamic tag management release notes.
+[Previous Release Notes](../other-resources/release-notes-history-dtm.md#concept_F63E33A02ED04FFEB92D4763A84DEEF0) for historical Dynamic Tag Management release notes.
 
 ## September 30 2013 {#section_6377C2B9AA354BB8B5034DFA6D4660E1}
 

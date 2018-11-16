@@ -1,7 +1,7 @@
 ---
-description: How to migrate from each Tag Manager 2.0 tag to a dynamic tag management tag.
-keywords: dynamic tag management
-seo-description: How to migrate from each Tag Manager 2.0 tag to a dynamic tag management tag.
+description: How to migrate from each Tag Manager 2.0 tag to a Dynamic Tag Management tag.
+keywords: Dynamic Tag Management
+seo-description: How to migrate from each Tag Manager 2.0 tag to a Dynamic Tag Management tag.
 seo-title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
@@ -13,10 +13,7 @@ snippet: y
 
 # Adobe Tag Manager 2.0 to Dynamic Tag Management mapping{#adobe-tag-manager-to-dynamic-tag-management-mapping}
 
-How to migrate from each Tag Manager 2.0 tag to a dynamic tag management tag.
-
-* [Product Code](../migration-to-and-from-dtm/atm2-migrate-map.md#section_97CE3C7BB84C48388F2991D7598F782C) 
-* [Custom Code](../migration-to-and-from-dtm/atm2-migrate-map.md#section_7C14C9392E6A470FA9A2AB06D2D798A5)
+This topic explains how to migrate from each Tag Manager 2.0 tag to a Dynamic Tag Management tag.
 
 ## Product code {#section_97CE3C7BB84C48388F2991D7598F782C}
 
@@ -33,9 +30,9 @@ To convert any of the following Tag Manager 1.0 product code tags to the Adobe A
 
 Use the following migration instructions.
 
-Follow the instructions in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) to add an Adobe Analytics tool in dynamic tag management.
+Follow the instructions in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) to add an Adobe Analytics tool in Dynamic Tag Management.
 
-**Option 1**
+### Option 1
 
 Host code using the **[!UICONTROL Managed by Adobe]** option. This method leverages the base version of the [!DNL AppMeasurement] code and allows you to choose between the latest available code versions.
 
@@ -43,9 +40,9 @@ Host code using the **[!UICONTROL Managed by Adobe]** option. This method levera
 
 With this option, *above this line* customization can be configured in the available interface fields or pasted into the [!UICONTROL Customize Page Code] editor.
 
-**Option 2**
+### Option 2
 
-Manually host the s_code / [!DNL AppMeasurement] file in dynamic tag management. This method is recommended when the current code is highly customized or if a legacy code version is used.
+Manually host the s_code / [!DNL AppMeasurement] file in Dynamic Tag Management. This method is recommended when the current code is highly customized or if a legacy code version is used.
 
 1. In [!DNL Adobe Tag Management] 2.0, click **[!UICONTROL Edit]** next to the latest container file. 
 
@@ -58,11 +55,11 @@ This is all of the code beginning with the `s_account` declaration and ending wi
 
 ![](assets/prev_generated_code.png)
 
-Paste this code into the Custom editor in the [!DNL Adobe Analytics] tool in dynamic tag management.
+Paste this code into the Custom editor in the [!DNL Adobe Analytics] tool in Dynamic Tag Management.
 
 ![](assets/library_mgmt_custom.png)
 
-"Then, from the same preview file in ATM, copy the *below this line* code. This is code begins with:
+Then, from the same preview file in ATM, copy the *below this line* code. This is code begins with:
 
 ```
 ‘/************* DO NOT ALTER ANYTHING BELOW THIS LINE! **************/’
@@ -72,11 +69,11 @@ and continues to the bottom of the file. For example:
 
 ![](assets/prev_generated_code4.png)
 
-Paste the code into the same Custom editor in dynamic tag management after the *`above this line`* code.
+Paste the code into the same Custom editor in Dynamic Tag Management after the *`above this line`* code.
 
 >[!NOTE]
 >
->Since mistakes can occur with copy / paste, please be sure to review the implementation in dynamic tag management thoroughly and test extensively in staging before publishing to production to ensure the expected behavior is accomplished.
+>Because mistakes can occur with copy / paste, please be sure to review the implementation in Dynamic Tag Management thoroughly and test extensively in staging before publishing to production to ensure the expected behavior is accomplished.
 
 ## Custom code {#section_7C14C9392E6A470FA9A2AB06D2D798A5}
 
@@ -114,5 +111,5 @@ Paste the code into the same Custom editor in dynamic tag management after the *
 
 >[!NOTE]
 >
->If the conditions set in the firing rules are the same between each custom tag, they can be placed into a single rule in dynamic tag management.
+>If the conditions set in the firing rules are the same between each custom tag, they can be placed into a single rule in Dynamic Tag Management.
 
