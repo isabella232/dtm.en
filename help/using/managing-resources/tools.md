@@ -1,8 +1,8 @@
 ---
-description: Tools let you quickly integrate Adobe Experience Cloud solutions on your site. Tools go beyond a basic tag because they provide additional configuration options. A tool corresponds to Adobe solutions, such as Analytics and Target, as well as Google Analytics. After you add a tool to a property, it is available for inclusion in a rule.
+description: Tools let you quickly integrate Adobe Experience Cloud solutions on your site. 
 keywords: dynamic tag management
 seo-description: Tools let you quickly integrate Adobe Experience Cloud solutions on your site. Tools go beyond a basic tag because they provide additional configuration options. A tool corresponds to Adobe solutions, such as Analytics and Target, as well as Google Analytics. After you add a tool to a property, it is available for inclusion in a rule.
-seo-title: Tools
+seo-title: Adobe DTM Tools
 solution: Dynamic Tag Management
 title: Tools
 uuid: da61f065-e234-4c60-81fa-9398678f9140
@@ -15,7 +15,7 @@ snippet: y
 
 Tools let you quickly integrate Adobe Experience Cloud solutions on your site. Tools go beyond a basic tag because they provide additional configuration options. A tool corresponds to Adobe solutions, such as Analytics and Target, as well as Google Analytics. After you add a tool to a property, it is available for inclusion in a rule.
 
- **[!UICONTROL Dashboard]** > **[!UICONTROL `Company`]** > **[!UICONTROL `Web Property Name`]** > **[!UICONTROL Overview]**
+ **[!UICONTROL Dashboard]** > **[!UICONTROL Company]** > **[!UICONTROL Web Property Name]** > **[!UICONTROL Overview]**
 
 ## Installed tools {#section_4AA435E94235472EBDB59DF5F03F81A7}
 
