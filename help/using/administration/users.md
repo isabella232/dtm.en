@@ -1,7 +1,7 @@
 ---
-description: You can invite users to dynamic tag management and assign user roles and add users to groups.
-keywords: dynamic tag management
-seo-description: You can invite users to dynamic tag management and assign user roles and add users to groups.
+description: You can invite users to Dynamic Tag Management and assign user roles and add users to groups.
+keywords: Dynamic Tag Management
+seo-description: You can invite users to Dynamic Tag Management and assign user roles and add users to groups.
 seo-title: Users and permissions
 solution: Dynamic Tag Management
 title: Users and permissions
@@ -13,13 +13,9 @@ snippet: y
 
 # Users and permissions{#users-and-permissions}
 
-You can invite users to dynamic tag management and assign user roles and add users to groups.
+You can invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
-## Users and permissions {#concept_2FA1011890C04E59845E8EB1E2345488}
-
-You can invite users to dynamic tag management and assign user roles and add users to groups.
-
-You must have administrative privileges to invite a new user in dynamic tag management. Administrators are automatically granted permissions to a new property.
+You must have administrative privileges to invite a new user in Dynamic Tag Management. Administrators are automatically granted permissions to a new property.
 
 >[!NOTE]
 >
@@ -27,15 +23,13 @@ You must have administrative privileges to invite a new user in dynamic tag mana
 
 ## Manage users {#concept_6255E7CCF212439CA8593CD6A75C7E47}
 
-You can invite users to the [!DNL Adobe Experience Cloud] with the [!DNL Adobe Admin Console] (the preferred method) or you can use the legacy provisioning process in [!DNL Dynamic Tag Management
+You can invite users to the [!DNL Adobe Experience Cloud] with the [!DNL Adobe Admin Console] (the preferred method) or you can use the legacy provisioning process in [!DNL Dynamic Tag Management].
 
 <!--
 
 c_add_users.xml
 
  -->
-
-].
 
 >[!NOTE]
 >
@@ -114,7 +108,7 @@ c_manage-users-groups-legacy.xml
 **Invite new users to DTM using the legacy provisioning process**
 
 1. From your company dashboard, click **[!UICONTROL Users]**.
-1. (Conditional) Click **[!UICONTROL Restrict to Experience Cloud]** to force all users in the company to log in to [!DNL dynamic tag management] using [!DNL Adobe Experience Cloud] credentials rather than using the legacy/company login process.
+1. (Conditional) Click **[!UICONTROL Restrict to Experience Cloud]** to force all users in the company to log in to [!DNL Dynamic Tag Management] using [!DNL Adobe Experience Cloud] credentials rather than using the legacy/company login process.
 
    >[!IMPORTANT]
    >
@@ -164,7 +158,7 @@ If [!UICONTROL User Management] in the [!DNL Adobe Admin Console] is not enabled
 
 Contact Customer Care to restrict login access to the [!DNL Experience Cloud].
 
-** I invited a user through DTM, but I want the user to log in through the Experience Cloud.**
+**I invited a user through DTM, but I want the user to log in through the Experience Cloud.**
 
 An account can be linked to a Experience Cloud user by selecting the Product Selection box > Activation > Link Account. For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 

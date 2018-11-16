@@ -1,7 +1,7 @@
 ---
-description: Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
-keywords: dynamic tag management
-seo-description: Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
+description: Dynamic Tag Management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
+keywords: Dynamic Tag Management
+seo-description: Dynamic Tag Management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
 seo-title: Rules
 solution: Dynamic Tag Management
 title: Rules
@@ -13,35 +13,20 @@ snippet: y
 
 # Rules{#rules}
 
-Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
-
-## Rules {#concept_2D3F296DD3BD418BAB7A0E2415DD9C92}
-
-Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
+Dynamic Tag Management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
 
 ![](assets/rules.png)
 
 A rule consists of two parts:
 
-<table id="table_2208F337243A4105961C71F7506A079A">
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Identifier </p> </td>
-   <td colname="col2"> <p>The identifier is what you want the rule to look for. The identifier you specify depends on the type of rule. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Trigger </p> </td>
-   <td colname="col2"> <p>Triggers occur after a rule's conditions are met. A rule in dynamic tag management can trigger as many discrete actions as you want. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each tool or tag. </p> </td>
-  </tr>
- </tbody>
-</table>
-
-* [Types of Rules](../managing-resources/rules.md#section_3D5763DAA6504934A3FAF90BFC1FAE9D)
-* [New vs Existing Rules](../managing-resources/rules.md#section_0B4B7994A4EF47CDAC89DC6B82A3460B)
+| Part | Description |
+|---|---|
+|Identifier|The identifier is what you want the rule to look for. The identifier you specify depends on the type of rule.|
+|Trigger|Triggers occur after a rule's conditions are met. A rule in Dynamic Tag Management can trigger as many discrete actions as you want. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each tool or tag.|
 
 ## Types of rules {#section_3D5763DAA6504934A3FAF90BFC1FAE9D}
 
-There are three types of rules in dynamic tag management as well as several default rules:
+There are three types of rules in Dynamic Tag Management as well as several default rules:
 
 **Event-based**
 
@@ -63,19 +48,19 @@ See [Page Load Rules Example](../managing-resources/rules.md#concept_811F4216145
 
 **Direct call**
 
-Designed to bypass dynamic tag management event detection and lookup systems.
+Designed to bypass Dynamic Tag Management event detection and lookup systems.
 
-Direct call rules are ideal for situations where you want to tell dynamic tag management exactly what is happening. Also, they are ideal when dynamic tag management cannot detect an event in the DOM, such as with Adobe Flash.
+Direct call rules are ideal for situations where you want to tell Dynamic Tag Management exactly what is happening. Also, they are ideal when Dynamic Tag Management cannot detect an event in the DOM, such as with Adobe Flash.
 
 See [Creating conditions for Direct Call rules](../managing-resources/create-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09) for more information and to watch an EnterpriseTV video about direct-call rules.
 
 **Default rules**
 
-When you activate a property, dynamic tag management includes several default rules.
+When you activate a property, Dynamic Tag Management includes several default rules.
 
 These rules track common interactions with your site and can help you analyze opportunities throughout your site.
 
-Dynamic tag management includes the following default rules:
+Dynamic Tag Management includes the following default rules:
 
 * **Dead Header:** Tracks any clicks on "dead" (i.e. unlinked) header items.
 * **Dead Image:** Tracks any clicks on "dead" (i.e. unlinked) images.
@@ -129,7 +114,7 @@ If you also have Google Analytics or any other platforms installed, you can leve
 
 ![](assets/google_analytics.png){width="472"}
 
-When using event-based rules, dynamic tag management offers powerful tools to surface data from the page and page elements with which the user interacts.
+When using event-based rules, Dynamic Tag Management offers powerful tools to surface data from the page and page elements with which the user interacts.
 
 **DTM Basics: Event-Based Rules, Part One **
 
@@ -191,7 +176,7 @@ By then end of this video you should be able to:
 
 A marketer would like to trigger a Google AdWords conversion tag when a user fills out a form and arrives on the page `https://www.mysite.com/form/thank-you.html`
 
-Here is how you can set up this scenario in dynamic tag management:
+Here is how you can set up this scenario in Dynamic Tag Management:
 
 1. Create a new page load rule.
 
@@ -203,7 +188,7 @@ Here is how you can set up this scenario in dynamic tag management:
 
 1. Paste the tag your vendor gave you directly into the Third-Party Tags section.
 
-   Because dynamic tag management does not rely on templates, marketers can use any tag within a rule, even in formatted HTML.
+   Because Dynamic Tag Management does not rely on templates, marketers can use any tag within a rule, even in formatted HTML.
 
    ![](assets/3rdparty_script.png){width="472"}
 
@@ -253,7 +238,7 @@ You may want to target specific user segments in your rules. The following examp
 
 ## Rule conditions and functions {#reference_662A7B7D177C46C98980CD317A7A8861}
 
-Describes all dynamic tag management rule conditions and their functions.
+Describes all Dynamic Tag Management rule conditions and their functions.
 
 <!--
 

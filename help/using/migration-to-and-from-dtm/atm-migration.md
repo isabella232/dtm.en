@@ -1,7 +1,7 @@
 ---
-description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of dynamic tag management.
-keywords: dynamic tag management
-seo-description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of dynamic tag management.
+description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of Dynamic Tag Management.
+keywords: Dynamic Tag Management
+seo-description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of Dynamic Tag Management.
 seo-title: Migrating from Adobe Tag Management
 solution: Dynamic Tag Management
 subtopic: Tag management
@@ -15,7 +15,7 @@ snippet: y
 
 # Migrating from Adobe Tag Management{#migrating-from-adobe-tag-management}
 
-How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of dynamic tag management.
+How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of Dynamic Tag Management.
 
 <table id="table_69B33688983E4F4A8A7037043C449C68"> 
  <thead> 
@@ -28,13 +28,13 @@ How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of dyna
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Step 1 </p> </td> 
-   <td colname="col1"> <p>Migrate your existing Adobe Tag Manager tags to dynamic tag management. </p> </td> 
+   <td colname="col1"> <p>Migrate your existing Adobe Tag Manager tags to Dynamic Tag Management. </p> </td> 
    <td colname="col2"> <p> <a href="../migration-to-and-from-dtm/atm1-migrate-map.md#concept_6F356E8BD67A403AB5A22017AAF2BF09" format="dita" scope="local"> Adobe Tag Manager 1.0 to Dynamic Tag Management Mapping </a> <a href="../migration-to-and-from-dtm/atm2-migrate-map.md#concept_15EAAF721AF9471BB3258213C5E58636" format="dita" scope="local"> Adobe Tag Manager 2.0 to Dynamic Tag Management Mapping </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Step 2 </p> </td> 
-   <td colname="col1"> <p> <a href="../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D" format="dita" scope="local"> Deploy</a> your dynamic tag management implementation to staging. </p> </td> 
-   <td colname="col2"> <p>In your staging environment, replace your Adobe Tag Manager page code, then validate your dynamic tag management implementation. </p> </td> 
+   <td colname="col1"> <p> <a href="../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D" format="dita" scope="local"> Deploy</a> your Dynamic Tag Management implementation to staging. </p> </td> 
+   <td colname="col2"> <p>In your staging environment, replace your Adobe Tag Manager page code, then validate your Dynamic Tag Management implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Step 3 </p> </td> 

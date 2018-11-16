@@ -1,6 +1,6 @@
 ---
 description: Deploy third-party tags from vendors or use your own custom code. The code editor allows for the addition of any custom script and allows different load options, such as sequential, non-sequential, or HTML/Javascript. As a general rule, tags that depend on page elements should be defined as sequential tags.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Deploy third-party tags from vendors or use your own custom code. The code editor allows for the addition of any custom script and allows different load options, such as sequential, non-sequential, or HTML/Javascript. As a general rule, tags that depend on page elements should be defined as sequential tags.
 seo-title: Third-party tags
 solution: Marketing Cloud,Analytics,Dynamic Tag Management

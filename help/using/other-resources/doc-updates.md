@@ -1,7 +1,7 @@
 ---
-description: Information about updates to the dynamic tag management help.
-keywords: dynamic tag management
-seo-description: Information about updates to the dynamic tag management help.
+description: Information about updates to the Dynamic Tag Management help.
+keywords: Dynamic Tag Management
+seo-description: Information about updates to the Dynamic Tag Management help.
 seo-title: Documentation updates
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Documentation updates
@@ -13,7 +13,7 @@ snippet: y
 
 # Documentation updates{#documentation-updates}
 
-Information about updates to the dynamic tag management help.
+Information about updates to the Dynamic Tag Management help.
 
 <table id="table_C1D4BC306AAA47D3813E3258123BF74C">
  <thead>
@@ -266,7 +266,7 @@ Information about updates to the dynamic tag management help.
   </tr>
   <tr>
    <td colname="col1"> <p>02/18/2015 </p> </td>
-   <td colname="col02"> <p>Updated FAQ with information about using dynamic tag management with the Adobe Experience Cloud. </p> </td>
+   <td colname="col02"> <p>Updated FAQ with information about using Dynamic Tag Management with the Adobe Experience Cloud. </p> </td>
    <td colname="col2"> <p><a href="../frequently-asked-questions/faq.md#concept_00DF9AF14D30469BB986BF56A448806B" format="dita" scope="local"> Frequently Asked Questions</a> </p> </td>
   </tr>
   <tr>
@@ -281,7 +281,7 @@ Information about updates to the dynamic tag management help.
   </tr>
   <tr>
    <td colname="col1"> <p>12/15/2014 </p> </td>
-   <td colname="col02"> <p>Updated migration from Adobe Tag Manager 1.0 and 2.0 to dynamic tag management. </p> </td>
+   <td colname="col02"> <p>Updated migration from Adobe Tag Manager 1.0 and 2.0 to Dynamic Tag Management. </p> </td>
    <td colname="col2"> <p> <a href="../migration-to-and-from-dtm/atm-migration.md#concept_CE6F7861D1344E1997D4A5A8ADEF494E" format="dita" scope="local"> Migrating from Adobe Tag Management </a> </p> </td>
   </tr>
   <tr>
@@ -396,12 +396,12 @@ Information about updates to the dynamic tag management help.
   </tr>
   <tr>
    <td colname="col1"> <p>02/27/2014 </p> </td>
-   <td colname="col02"> <p>Added the following note: </p> <p> <p>Note:  Adobe supports the dynamic tag management implementations only as outlined on the pages in this section of Adobe Help. Asynchronous or other deployment methods are <span class="term"> not</span> supported. </p> </p> </td>
+   <td colname="col02"> <p>Added the following note: </p> <p> <p>Note:  Adobe supports the Dynamic Tag Management implementations only as outlined on the pages in this section of Adobe Help. Asynchronous or other deployment methods are <span class="term"> not</span> supported. </p> </p> </td>
    <td colname="col2"> <p> <a href="../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D" format="dita" scope="local"> Deployment - Embed Tab </a> </p> <p> <a href="../client-side-information/deployment.md#concept_3F6A0A508F294FCBABEBA1DF540B781B" format="dita" scope="local"> Header and Footer Code </a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>02/07/2014 </p> </td>
-   <td colname="col02"> <p>Added the following text to the <span class="filepath"> s_code</span> field description. </p> <p>Dynamic tag management supports any H versions of legacy <span class="filepath"> s_code</span>. </p> </td>
+   <td colname="col02"> <p>Added the following text to the <span class="filepath"> s_code</span> field description. </p> <p>Dynamic Tag Management supports any H versions of legacy <span class="filepath"> s_code</span>. </p> </td>
    <td colname="col2"> <p> <a href="../tools-reference/analytics-dtm.md#concept_1905D35C1BC84D25973725F64E3AD700" format="dita" scope="local"> General </a> </p> </td>
   </tr>
   <tr>

@@ -1,6 +1,6 @@
 ---
 description: Describes several troubleshooting scenarios and their solutions and provides a list of Frequently Asked Questions (FAQ).
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Describes several troubleshooting scenarios and their solutions and provides a list of Frequently Asked Questions (FAQ).
 seo-title: Troubleshooting
 solution: Dynamic Tag Management
@@ -14,13 +14,6 @@ snippet: y
 # Troubleshooting{#troubleshooting}
 
 Describes several troubleshooting scenarios and their solutions and provides a list of Frequently Asked Questions (FAQ).
-
-This section contains the following information:
-
-* [View the Administrator Audit Log](../administration/c-troubleshooting.md#section_658B1D32CDA54D9D89A1A4C238CA8D5F) 
-* [Implementation Issues](../administration/c-troubleshooting.md#section_4389E23D85A54D4AA2AFB840CFFD0D3C) 
-* [Rule Issues](../administration/c-troubleshooting.md#section_C5D17FF9E29B4477B23103B214B66EBC) 
-* [Tool Issues](../administration/c-troubleshooting.md#section_A52EEA16E9D84203BD88D96309119CC2)
 
 ## View the administrator audit log {#section_658B1D32CDA54D9D89A1A4C238CA8D5F}
 
@@ -41,9 +34,9 @@ You can also export the log data to .csv.
 
 ## Implementation issues {#section_4389E23D85A54D4AA2AFB840CFFD0D3C}
 
-**I see a JavaScript error in my console when I load dynamic tag management.**
+**I see a JavaScript error in my console when I load Dynamic Tag Management.**
 
-There’s likely an issue with your dynamic tag management installation. To view the current installation, right click on any page of the site and click **[!UICONTROL View page source]**. Then type CTRL+F to open the search box and type *`satellite`*. This locates the embed snippets of dynamic tag manager. There should be two instances of these snippets on the page. The first should be right before the `</head>` tag. The second should be right before the `</body>` tag.
+There’s likely an issue with your Dynamic Tag Management installation. To view the current installation, right click on any page of the site and click **[!UICONTROL View page source]**. Then type CTRL+F to open the search box and type *`satellite`*. This locates the embed snippets of dynamic tag manager. There should be two instances of these snippets on the page. The first should be right before the `</head>` tag. The second should be right before the `</body>` tag.
 
 Example of Header script:
 
@@ -107,7 +100,7 @@ There’s likely a timing issue. Check and see where the rule is loading; if it�
 
 **How can I debug a rule?**
 
-You can use the DTM Switch, browser plugin for easy switching of debug mode and staging mode for dynamic tag management users. It is available for both Google Chrome and Mozilla Firefox. For more information, see [DTM Switch Plugins](../managing-resources/plugins/c-dtm-switch-plugins.md#concept_B46CBAE51A7C47029669CF95DA8A1A98).
+You can use the DTM Switch, browser plugin for easy switching of debug mode and staging mode for Dynamic Tag Management users. It is available for both Google Chrome and Mozilla Firefox. For more information, see [DTM Switch Plugins](../managing-resources/plugins/c-dtm-switch-plugins.md#concept_B46CBAE51A7C47029669CF95DA8A1A98).
 
 Watch an Adobe training video that demonstrates how to debug a rule by using the DTM switch plugins:
 

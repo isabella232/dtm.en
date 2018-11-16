@@ -1,7 +1,7 @@
 ---
-description: Information about creating the Adobe Target tool for deploying Adobe Target in dynamic tag management. You can configure the library automatically (recommended) or manually.
-keywords: dynamic tag management
-seo-description: Information about creating the Adobe Target tool for deploying Adobe Target in dynamic tag management. You can configure the library automatically (recommended) or manually.
+description: Information about creating the Adobe Target tool for deploying Adobe Target in Dynamic Tag Management. You can configure the library automatically (recommended) or manually.
+keywords: Dynamic Tag Management
+seo-description: Information about creating the Adobe Target tool for deploying Adobe Target in Dynamic Tag Management. You can configure the library automatically (recommended) or manually.
 seo-title: Adobe Target tool
 solution: Marketing Cloud,Target,Dynamic Tag Management
 title: Adobe Target tool
@@ -13,11 +13,7 @@ snippet: y
 
 # Adobe Target tool{#adobe-target-tool}
 
-Information about creating the Adobe Target tool for deploying Adobe Target in dynamic tag management. You can configure the library automatically (recommended) or manually.
-
-## Adobe Target tool {#concept_90D4021A9B6E409D8101FA1AFADE1215}
-
-Information about creating the Adobe Target tool for deploying Adobe Target in dynamic tag management. You can configure the library automatically (recommended) or manually.
+Information about creating the Adobe Target tool for deploying Adobe Target in Dynamic Tag Management. You can configure the library automatically (recommended) or manually.
 
 >[!NOTE]
 >
@@ -41,7 +37,7 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
   Specifies whether Adobe should manage your [!DNL Adobe Target] code automatically, or whether you would like to provide your own custom code manually.
 
-  ** Manual configuration method**
+  **Manual configuration method**
 
   You can manually manage the [!DNL Adobe Target] code. You can download the [!DNL at.js] or [!DNL mbox.js] file from the Target solution interface as follows:
 
@@ -59,7 +55,7 @@ The following table describes the fields and options on the [!UICONTROL Add a To
   >
   >This works for mbox.js only.
 
-  Dynamic tag management automatically retrieves the latest [!DNL mbox.js] code from your [!DNL Adobe Target] account configuration. If you select **[!UICONTROL Automatic]**, you must either be logged in via the Experience Cloud, or you must provide a Client Code value described below.
+  Dynamic Tag Management automatically retrieves the latest [!DNL mbox.js] code from your [!DNL Adobe Target] account configuration. If you select **[!UICONTROL Automatic]**, you must either be logged in via the Experience Cloud, or you must provide a Client Code value described below.
 
 * Client code retrieval method
 
@@ -68,13 +64,13 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
   (Automatic method) The Client Code value can be retrieved from the [!DNL Adobe Target] solution interface as follows:
 
-    * Target Classic:** [!UICONTROL Configuration]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Edit]** > *copy value for Client*.
+    * Target Classic: **[!UICONTROL Configuration]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Edit]** > *copy value for Client*.
 
-    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within mbox.js file*.
+    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within mbox.js file*.
 
 ## Library management - Adobe Target {#concept_DD6234BB44134EE88F7CD67191366CBC}
 
-Descriptions of the fields and options in the Adobe Target Library Management settings in dynamic tag management.
+Descriptions of the fields and options in the Adobe Target Library Management settings in Dynamic Tag Management.
 
 <!--
 
@@ -99,22 +95,22 @@ Edit Tool]** > **[!UICONTROL Library Management]**
   This option ensures the [!DNL at.js] or [!DNL mbox.js] code is loaded synchronously in the `<head>` section. It is generally recommended that you leave this option enabled. It is an [!DNL Adobe Target] best practice to load the code in this way.
 * Code Configuration
 
-  ** Managed by Adobe:**(mbox.js only) This option is equivalent to the Automatic configuration method available when creating the tool. This option loads the [!DNL mbox.js] code directly from Adobe.
+  **Managed by Adobe:** (mbox.js only) This option is equivalent to the Automatic configuration method available when creating the tool. This option loads the [!DNL mbox.js] code directly from Adobe.
 
   This feature optimizes the configuration process when using a manual method, because no more copying or pasting from the [!DNL Adobe Target] admin console is required.
 
     * You must be logged in via Experience Cloud or have provided the appropriate [Client Code](../tools-reference/target.md#section_957AFF495DC04E548D0084C0F3063DBF) for this option to be available.
     * Clicking **[!UICONTROL Check for Updates]** automatically checks for new versions of the [!DNL mbox.js] code within your associated [!DNL Adobe Target] account. If a new version is identified, you have the option to use it or retain the current version.
 
-  ** Custom:** You can manually configure the [!DNL at.js] or [!DNL mbox.js] code. Two methods are available to manually host the code in dynamic tag management:
+  **Custom:** You can manually configure the [!DNL at.js] or [!DNL mbox.js] code. Two methods are available to manually host the code in Dynamic Tag Management:
 
     * **In DTM:** Click **[!UICONTROL Edit Code]** and paste the code in the editor. If you were using *`Managed by Adobe`* and switch to *`custom`*, the editor automatically populates with your [!DNL mbox.js] code. You can replace this with the content of the [!DNL at.js] library.
 
-    * **At URL:** If your [!DNL at.js] or [!DNL mbox.js] is configured as desired, you can provide the URL to the file. Dynamic tag management will consume it for use in the [!DNL Adobe Target] tool.
+    * **At URL:** If your [!DNL at.js] or [!DNL mbox.js] is configured as desired, you can provide the URL to the file. Dynamic Tag Management will consume it for use in the [!DNL Adobe Target] tool.
 
 ## Global parameters - Adobe Target {#concept_0946C2AAB8044A9297FF498DB7157F42}
 
-Descriptions of the fields and options in the Global Parameters settings in dynamic tag management for an Adobe Target Tool.
+Descriptions of the fields and options in the Global Parameters settings in Dynamic Tag Management for an Adobe Target Tool.
 
 <!--
 
@@ -124,7 +120,7 @@ target_global_params.xml
 
 Global parameters let you pass additional data to the global [!DNL Adobe Target] mbox, and also on a per-page basis via page load rules.
 
-The parameters configured in dynamic tag management do not override parameters already defined on the page, but instead appends and sequences to create maximum flexibility and customization on a per page basis.
+The parameters configured in Dynamic Tag Management do not override parameters already defined on the page, but instead appends and sequences to create maximum flexibility and customization on a per page basis.
 
 **[!UICONTROL Property]** > **[!UICONTROL   ![](assets/settings_gear.png)
 
@@ -153,7 +149,7 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
 ## Mbox rule example for Dynamic Tag Management {#task_2642B010AB204834A2AF7CEACDAC23F7}
 
-An example of how to place wrapping mboxes with built-in flicker handling via dynamic tag management when an Adobe Target tool is installed.
+An example of how to place wrapping mboxes with built-in flicker handling via Dynamic Tag Management when an Adobe Target tool is installed.
 
 <!--
 

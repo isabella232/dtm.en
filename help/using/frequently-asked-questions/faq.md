@@ -1,7 +1,7 @@
 ---
-description: Frequently asked questions about dynamic tag management.
-keywords: dynamic tag management;launch
-seo-description: Frequently asked questions about dynamic tag management.
+description: Frequently asked questions about Dynamic Tag Management.
+keywords: Dynamic Tag Management;launch
+seo-description: Frequently asked questions about Dynamic Tag Management.
 seo-title: Frequently Asked Questions
 solution: Dynamic Tag Management
 title: Frequently Asked Questions
@@ -11,47 +11,41 @@ internal: n
 snippet: y
 ---
 
-# Frequently Asked Questions{#frequently-asked-questions}
+# Frequently asked questions{#frequently-asked-questions}
 
-Frequently asked questions about dynamic tag management.
-
-* [FAQ - Launch by Adobe](../frequently-asked-questions/faq.md#section_A8A9FBE7527C4292B5AB639297C28445): Covers initial questions about the new version of dynamic tag management.
-* [FAQ - Getting Started](../frequently-asked-questions/faq.md#section_6185BB133EDA4DD1A74076B6B5F70388): Covers initial questions about your decision to use dynamic tag management.
-* [FAQ - Dynamic Tag Management and the Adobe Marketing Cloud](../frequently-asked-questions/faq.md#section_CDC635B711BD48C7915C92FE8A8B56A8): Covers using dynamic tag management with the Adobe Experience Cloud.
-* [FAQ - Advanced](../frequently-asked-questions/faq.md#section_2269657B448246DCBBF3921C7E65F395): Covers performance, rules, loading, hosting, and so on.
-* [FAQ - Adobe Analytics Tool](../frequently-asked-questions/faq.md#section_75E724E86D0D4952B199A9B850AE0A3E): Covers questions about the automatic configuration feature of the [!DNL Adobe Analytics] tool.
+Frequently asked questions about Dynamic Tag Management.
 
 ## FAQ -getting started {#section_6185BB133EDA4DD1A74076B6B5F70388}
 
-A FAQ answering common questions about your decision to use dynamic tag management.
+A FAQ answering common questions about your decision to use Dynamic Tag Management.
 
 **How do I get started?**
 
 See [Getting Started with Dynamic Tag Management](../getting-started/get-started.md#concept_BCE87DF8A0EC48E99529AC0BE8D187FC).
 
-**How much does dynamic tag management cost?**
+**How much does Dynamic Tag Management cost?**
 
-Dynamic tag management is free.
+Dynamic Tag Management is free.
 
-**Are there limitations on my use of dynamic tag management?**
+**Are there limitations on my use of Dynamic Tag Management?**
 
 You can create as many [Web Properties](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD) as you want and write as many rules as you want. You can also use it to deliver any digital marketing service, even if you don’t use it to deliver Adobe Digital Marketing solutions. There is no effective limitation on your use of the capability.
 
-**Why is it an advantage for customers (over competitive offerings) to use dynamic tag management from Adobe?**
+**Why is it an advantage for customers (over competitive offerings) to use Dynamic Tag Management from Adobe?**
 
-The dynamic tag management advantage is the control and flexibility of using rules. It is also the only market-leading tag management solution that supports all of your digital marketing services and is offered to customers at no additional cost.
+The Dynamic Tag Management advantage is the control and flexibility of using rules. It is also the only market-leading tag management solution that supports all of your digital marketing services and is offered to customers at no additional cost.
 
-**Who can help me with my dynamic tag management implementation?**
+**Who can help me with my Dynamic Tag Management implementation?**
 
-Adobe Global Services provides dynamic tag management implementation, as do several implementation partners. Contact your account manager for more information.
+Adobe Global Services provides Dynamic Tag Management implementation, as do several implementation partners. Contact your account manager for more information.
 
-**With which Adobe Experience Cloud solutions are dynamic tag management integrated?**
+**With which Adobe Experience Cloud solutions are Dynamic Tag Management integrated?**
 
-Dynamic tag management will support all of the Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
+Dynamic Tag Management will support all of the Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
 
-**How do I access dynamic tag management through the Adobe Experience Cloud?**
+**How do I access Dynamic Tag Management through the Adobe Experience Cloud?**
 
-Before you can start using dynamic tag management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
+Before you can start using Dynamic Tag Management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
 
 **Why am I getting an "Access Failed" error when I try to access the Experience Cloud?**
 
@@ -69,11 +63,11 @@ When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wi
 
 For more information, see [Organizations and account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
 
-**Do I need to remove my [!DNL Analytics] or other tags from my site to use dynamic tag management?**
+**Do I need to remove my [!DNL Analytics] or other tags from my site to use Dynamic Tag Management?**
 
-No. You can leverage dynamic tag management without touching any of the existing tags on your site. Just place the embed code and start creating rules. Dynamic tag management can work with existing services tagged directly to the page.
+No. You can leverage Dynamic Tag Management without touching any of the existing tags on your site. Just place the embed code and start creating rules. Dynamic Tag Management can work with existing services tagged directly to the page.
 
-**Does dynamic tag management work for apps as well as sites?**
+**Does Dynamic Tag Management work for apps as well as sites?**
 
 For web apps (applications that run in the browser or for pages with many Ajax sequences), DTM provides excellent data collection and distribution capabilities. See [Event Types](../managing-resources/create-rules/t-rules-event-conditions.md#concept_B1C6169D8B354207AEE0E4965E6421B1).
 
@@ -87,15 +81,15 @@ If the apps are a hybrid of native code for their screen "shells" (header, foote
 
 In other words, the tag management functionality you can use in a mobile application depends on how the app was built.
 
-**What third-party tags are supported by dynamic tag management?**
+**What third-party tags are supported by Dynamic Tag Management?**
 
-Any third-party tag can be deployed through dynamic tag management. Our top-down, rules-driven approach leverages those third-party tags as fuel for power digital marketing use cases.
+Any third-party tag can be deployed through Dynamic Tag Management. Our top-down, rules-driven approach leverages those third-party tags as fuel for power digital marketing use cases.
 
-**Does dynamic tag management support HTML5?**
+**Does Dynamic Tag Management support HTML5?**
 
 Yes, HTML5 is supported.
 
-Dynamic tag management does not yet support fully native applications. It can handle an application if it has an in-application browser or is essentially a website wrapped in an app container. Properties for the mobile and desktop sites should be able to be set up as normal.
+Dynamic Tag Management does not yet support fully native applications. It can handle an application if it has an in-application browser or is essentially a website wrapped in an app container. Properties for the mobile and desktop sites should be able to be set up as normal.
 
 **Which browser versions does DTM support?**
 
@@ -103,15 +97,15 @@ See [Browser Support](../getting-started/get-started.md#concept_14C1D3046A1845AC
 
 ## FAQ - Dynamic Tag Management and Adobe Experience Cloud {#section_CDC635B711BD48C7915C92FE8A8B56A8}
 
-A FAQ about using dynamic tag management with Adobe Experience Cloud.
+A FAQ about using Dynamic Tag Management with Adobe Experience Cloud.
 
-**With which Adobe Experience Cloud solutions are dynamic tag management integrated?**
+**With which Adobe Experience Cloud solutions are Dynamic Tag Management integrated?**
 
-Dynamic tag management will support all Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
+Dynamic Tag Management will support all Experience Cloud solutions as well as any digital marketing service, regardless of vendor.
 
-**How do I access dynamic tag management through Adobe Experience Cloud?**
+**How do I access Dynamic Tag Management through Adobe Experience Cloud?**
 
-Before you can start using dynamic tag management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
+Before you can start using Dynamic Tag Management, someone from your company must request access. See [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2).
 
 **Why am I getting an "Access Failed" error when I try to access Experience Cloud?**
 
@@ -145,31 +139,31 @@ Contact Customer Care to get the required information and to get started.
 
 A FAQ about performance, rules, loading, hosting, and so on.
 
-**Can I manually implement `s_Code` through dynamic tag management?**
+**Can I manually implement `s_Code` through Dynamic Tag Management?**
 
 You can create and configure an Adobe Analytics tool automatically or manually. For more information about a manual (legacy) implementation, see [Manually implement Adobe Analytics (legacy)](../tools-reference/analytics-dtm.md#task_3A00639CADF14C9C844F962222077E4E).
 
-** Can I use dynamic tag management on pages with content type `application/xhtml+xml` or `text + xhtml`?**
+** Can I use Dynamic Tag Management on pages with content type `application/xhtml+xml` or `text + xhtml`?**
 
 Yes.
 
-The only potential issue is the use of [!DNL document.write], because content type `text + xhtml` does not support [!DNL document.write]. However, this issue can be avoided because [!DNL document.write] is used by dynamic tag management only in the situations stated below.
+The only potential issue is the use of [!DNL document.write], because content type `text + xhtml` does not support [!DNL document.write]. However, this issue can be avoided because [!DNL document.write] is used by Dynamic Tag Management only in the situations stated below.
 
-* Loading of the staging library using the dynamic tag management switch plugin uses [!DNL document.write].
+* Loading of the staging library using the Dynamic Tag Management switch plugin uses [!DNL document.write].
 
-  **Workaround:** Test in the staging environment by specifically referencing the staging library in the page code instead of using the dynamic tag management switch plugin to toggle between libraries.
+  **Workaround:** Test in the staging environment by specifically referencing the staging library in the page code instead of using the Dynamic Tag Management switch plugin to toggle between libraries.
 
-* Synchronously loading JS and HTML scripts via dynamic tag management uses [!DNL document.write].
+* Synchronously loading JS and HTML scripts via Dynamic Tag Management uses [!DNL document.write].
 
-  **Workaround:** The synchronous loading of scripts via dynamic tag management cannot avoid [!DNL document.write]. Thus, when this content type is being used, all third-party scripts (JS and HTML) should be loaded asynchronously in dynamic tag management to avoid [!DNL document.write]. Please always consider and test all code dependencies to ensure the desired behavior is still accomplished with asynchronous loading.
+  **Workaround:** The synchronous loading of scripts via Dynamic Tag Management cannot avoid [!DNL document.write]. Thus, when this content type is being used, all third-party scripts (JS and HTML) should be loaded asynchronously in Dynamic Tag Management to avoid [!DNL document.write]. Please always consider and test all code dependencies to ensure the desired behavior is still accomplished with asynchronous loading.
 
-** Will dynamic tag management reduce my website's performance?**
+**Will Dynamic Tag Management reduce my website's performance?**
 
-Dynamic tag management has never shown signs of negatively affecting page load time or execution speed.
+Dynamic Tag Management has never shown signs of negatively affecting page load time or execution speed.
 
-However, because dynamic tag management can be used as a delivery system (a way to deliver JavaScript, HTML, images, or other Web content), if you load a large file, or a large image at the wrong point during render time, you can slow down page load speed and increase code execution time on that page. If you lazy load images, and if you use asynchronous (non-sequential) scripts as much as possible, and you follow best practices regarding the code you add into dynamic tag management, you should not see negative performance impacts.
+However, because Dynamic Tag Management can be used as a delivery system (a way to deliver JavaScript, HTML, images, or other Web content), if you load a large file, or a large image at the wrong point during render time, you can slow down page load speed and increase code execution time on that page. If you lazy load images, and if you use asynchronous (non-sequential) scripts as much as possible, and you follow best practices regarding the code you add into Dynamic Tag Management, you should not see negative performance impacts.
 
-The [Embed code](../client-side-information/deployment.md#concept_3F6A0A508F294FCBABEBA1DF540B781B) should be hard-coded in the **<head>** section of your templates. This is a synchronous JavaScript include. The dynamic tag management engine is designed to work in a modular way, so scripts that do not apply to a particular page, site section, or domain will not load or execute when they are not needed. Most users increase the use of asynchronous (non-sequential) methods when deploying third-party scripts. This generally improves the perceived page load speed for site visitors. While the dynamic tag management main library file itself is loaded synchronously, most clients load any code from within dynamic tag management using the built-in asynchronous methods.
+The [Embed code](../client-side-information/deployment.md#concept_3F6A0A508F294FCBABEBA1DF540B781B) should be hard-coded in the **<head>** section of your templates. This is a synchronous JavaScript include. The Dynamic Tag Management engine is designed to work in a modular way, so scripts that do not apply to a particular page, site section, or domain will not load or execute when they are not needed. Most users increase the use of asynchronous (non-sequential) methods when deploying third-party scripts. This generally improves the perceived page load speed for site visitors. While the Dynamic Tag Management main library file itself is loaded synchronously, most clients load any code from within Dynamic Tag Management using the built-in asynchronous methods.
 
 **How do I remember which tags are in which rules? How do I keep track of my tags and make it easier to find certain rules?**
 
@@ -181,27 +175,27 @@ When working with Third Party Tags or custom JavaScript, you can add information
 
 Finally, each rule can be labeled with a Category and a value. The Category is also available when filtering your list of rules, so you can easily and quickly find the list of rules in a certain Category. For example, using a Category like “3rd Party” with a value of “DoubleClick” lets you search for all rules in the “3rd Party” Category, or all rules with the value of “DoubleClick”.
 
-**Does dynamic tag management have features that help avoid errors due to asynchronous tag loading or rare cases of CDN unavailability?**
+**Does Dynamic Tag Management have features that help avoid errors due to asynchronous tag loading or rare cases of CDN unavailability?**
 
 Adobe recommends the use of tag event callbacks provided by [!DNL amc.on] to wrap any code that depends on tags delivered by any tag management system.
 
 See [amc.on Tag Event Callbacks](https://marketing.adobe.com/resources/help/en_US/sc/implement/tm_amc_on.html).
 
-**Can the dynamic tag management library files work with the version control system we use at my company?**
+**Can the Dynamic Tag Management library files work with the version control system we use at my company?**
 
-Adobe offers two options for self-hosting the library files: [FTP Delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D) and [Library Download](../client-side-information/deployment.md#task_B7A42F3B1D3E4B71B0BADD17C181F22A). When you choose one of these self-hosted options for the library, each time you make changes in dynamic tag management, those changes are written out by the system to the library files. Those files are typically then "pushed" or "pulled" to your architecture automatically. Once the updated library code is on your servers, you can add the files to your version control systems and processes however you like. If you use GitHub, SVN, or some other system to manage your web development code or content, that works fine with dynamic tag management.
+Adobe offers two options for self-hosting the library files: [FTP Delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D) and [Library Download](../client-side-information/deployment.md#task_B7A42F3B1D3E4B71B0BADD17C181F22A). When you choose one of these self-hosted options for the library, each time you make changes in Dynamic Tag Management, those changes are written out by the system to the library files. Those files are typically then "pushed" or "pulled" to your architecture automatically. Once the updated library code is on your servers, you can add the files to your version control systems and processes however you like. If you use GitHub, SVN, or some other system to manage your web development code or content, that works fine with Dynamic Tag Management.
 
 One note on version control: Ensure you do not overwrite the production version of the [Embed code](../client-side-information/deployment.md#concept_496A6901D970434784182E09B285874B) with the staging version of the Embed code when you commit and push code to production. The staging version of the Embed code has to stay in the staging (non-production, test, dev, QA, UAT, etc.) environment templates. The production version of the embed code has to stay in the production templates.
 
-**Can I use dynamic tag management with our mobile applications?**
+**Can I use Dynamic Tag Management with our mobile applications?**
 
-Currently, dynamic tag management can be used in any digital experience created with HTML, CSS, and JavaScript. This includes any mobile-optimized content or responsive designs. This also includes mobile applications created with wrappers like Cordova or PhoneGap.
+Currently, Dynamic Tag Management can be used in any digital experience created with HTML, CSS, and JavaScript. This includes any mobile-optimized content or responsive designs. This also includes mobile applications created with wrappers like Cordova or PhoneGap.
 
-Unfortunately, at this time, dynamic tag management does not offer a separate SDK for use with completely native, compiled applications. You can still track your mobile applications using the Adobe [!DNL Analytics] SDK. Dynamic tag management can also be present on HTML documents pulled into your mobile app when desktop or responsive content is accessed within the native app experience, like in hybrid or crossover content situations.
+Unfortunately, at this time, Dynamic Tag Management does not offer a separate SDK for use with completely native, compiled applications. You can still track your mobile applications using the Adobe [!DNL Analytics] SDK. Dynamic Tag Management can also be present on HTML documents pulled into your mobile app when desktop or responsive content is accessed within the native app experience, like in hybrid or crossover content situations.
 
 **How do I set *`s.pageName`* without creating a separate rule for each of my web pages?**
 
-There are a number of ways to set *`s.pageName`* for each page, without creating a separate dynamic tag management [Page Load rule](../managing-resources/rules.md#concept_811F4216145A4E3A91190DFFC9C2D223) for each page. In dynamic tag management, the conditions for your rules answer questions like: What’s the visitor doing? Where are they doing it? When is it happening? You can set any number of variables, trigger different tags or tools, and execute any number of scripts from within the same rule, as long as you want all those things to happen in response to the same conditions.
+There are a number of ways to set *`s.pageName`* for each page, without creating a separate Dynamic Tag Management [Page Load rule](../managing-resources/rules.md#concept_811F4216145A4E3A91190DFFC9C2D223) for each page. In Dynamic Tag Management, the conditions for your rules answer questions like: What’s the visitor doing? Where are they doing it? When is it happening? You can set any number of variables, trigger different tags or tools, and execute any number of scripts from within the same rule, as long as you want all those things to happen in response to the same conditions.
 
 For example, if you want [!DNL document.title] to be the source for the value of the *`s.pageName`* variable, you could create a Data Element with a name of **[!UICONTROL Page Name]**, a Type of **[!UICONTROL JS Object]**, a Path of **[!UICONTROL document.title]**, a Default Value of **[!UICONTROL None]**, and Remember this value for **[!UICONTROL Pageview]**.
 
@@ -209,7 +203,7 @@ Then, you could create a global Page Load rule and assign that Data Element to *
 
 **How do I choose a hosting option?**
 
-Dynamic tag management creates and uses various JavaScript files that contain all the code needed to run the system. These “library files” can be hosted by Adobe, or they can be hosted on your own servers, within your own Web architecture. Hosting options are:
+Dynamic Tag Management creates and uses various JavaScript files that contain all the code needed to run the system. These “library files” can be hosted by Adobe, or they can be hosted on your own servers, within your own Web architecture. Hosting options are:
 
 * [Akamai](../client-side-information/deployment.md#concept_722B01555D0441ACBB052BC34DC5B67D)
 * [FTP delivery](../client-side-information/deployment.md#task_A7B37CB2C89941A4A4D1F9AF06FC493D)
@@ -219,9 +213,9 @@ You can use one or more of these hosting options for a [Web Property](../adminis
 
 See [Hosting Considerations](../client-side-information/deployment.md#concept_B38C7659E3EC4324A42A199C761EF1F4).
 
-**Does the dynamic tag management code send any information back to Adobe?**
+**Does the Dynamic Tag Management code send any information back to Adobe?**
 
-Dynamic tag management is a way to get JavaScript and HTML to your pages. It sends data only to the systems, tools, or tags that you specifically choose when using the system. In other words, dynamic tag management does not send any data anywhere, unless you specifically tell it what data should be collected, and then tell it when, where, and how it should be sent to any systems, tools, or tags.
+Dynamic Tag Management is a way to get JavaScript and HTML to your pages. It sends data only to the systems, tools, or tags that you specifically choose when using the system. In other words, Dynamic Tag Management does not send any data anywhere, unless you specifically tell it what data should be collected, and then tell it when, where, and how it should be sent to any systems, tools, or tags.
 
 You have control over the specific data points that only get sent to the places and technologies you designate.
 
@@ -235,7 +229,7 @@ Navigate to a page where the data element should be available on your site. Open
 
 **How can I tell if my site is in a live or staging environment?**
 
-DTM Switch is a browser plugin for easy switching between debug mode and staging mode for dynamic tag management users. It is available for both Google Chrome and Mozilla Firefox. See [DTM Plugins](../managing-resources/plugins/c-dtm-switch-plugins.md#concept_B46CBAE51A7C47029669CF95DA8A1A98).
+DTM Switch is a browser plugin for easy switching between debug mode and staging mode for Dynamic Tag Management users. It is available for both Google Chrome and Mozilla Firefox. See [DTM Plugins](../managing-resources/plugins/c-dtm-switch-plugins.md#concept_B46CBAE51A7C47029669CF95DA8A1A98).
 
 ## FAQ - Adobe Analytics tool {#section_75E724E86D0D4952B199A9B850AE0A3E}
 
@@ -275,7 +269,7 @@ See [Configure Adobe Analytics](../tools-reference/analytics-dtm.md#concept_FBA6
 
 ## FAQ - Launch, by Adobe {#section_A8A9FBE7527C4292B5AB639297C28445}
 
-A FAQ about the new version of dynamic tag management, announced in March 2017.
+A FAQ about the new version of Dynamic Tag Management, announced in March 2017.
 
 **What is Launch?**
 

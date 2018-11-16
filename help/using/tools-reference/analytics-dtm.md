@@ -1,7 +1,7 @@
 ---
-description: You can deploy Adobe Analytics (Standard and Premium) using dynamic tag management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
-keywords: dynamic tag management
-seo-description: You can deploy Adobe Analytics (Standard and Premium) using dynamic tag management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+description: You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+keywords: Dynamic Tag Management
+seo-description: You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 seo-title: Adobe Analytics tool
 solution: Dynamic Tag Management
 title: Adobe Analytics tool
@@ -13,25 +13,15 @@ snippet: y
 
 # Adobe Analytics tool{#adobe-analytics-tool}
 
-You can deploy Adobe Analytics (Standard and Premium) using dynamic tag management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
-
-## Adobe Analytics tool {#concept_FBA6679A0B79490F8296437F11E5E4F8}
-
-You can deploy Adobe Analytics (Standard and Premium) using dynamic tag management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 
 >[!NOTE]
 >
 >For improved visitor tracking, it is strongly recommended that you enable [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-This section contains the following information:
-
-* [Add an Adobe Analytics Tool](../tools-reference/analytics-dtm.md#section_D5066B21581B4F7F811AD0027BF44EA5)
-* [Edit an Existing Adobe Analytics Tool](../tools-reference/analytics-dtm.md#section_148B16AF429B4949B06238D90635B726)
-* [Enabling Adobe Analytics Premium](../tools-reference/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217)
-
 ## Add an Adobe Analytics tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
+1. Click  **[!UICONTROL  *Web Property Name*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
 
    ![Step Result](assets/add_analytics_tool.png)
 
@@ -45,9 +35,9 @@ This section contains the following information:
       A descriptive name for this tool. This name displays on the [!UICONTROL Overview] tab under [!UICONTROL Installed Tools].
     * Configuration Method
 
-      **Automatic** (Recommended): Use dynamic tag management to manage the configuration. This method enables automatic synchronization of [!DNL Adobe Analytics] report suites via an [!DNL Experience Cloud] login or Web Services ID, and manages the AppMeasurement code.
+      **Automatic** (Recommended): Use Dynamic Tag Management to manage the configuration. This method enables automatic synchronization of [!DNL Adobe Analytics] report suites via an [!DNL Experience Cloud] login or Web Services ID, and manages the AppMeasurement code.
 
-      After the accounts are connected, dynamic tag management pulls the [!DNL Adobe Analytics] report suite IDs and names into the tool configuration interface, allowing for increased speed in tool deployment with less possibility for user errors.
+      After the accounts are connected, Dynamic Tag Management pulls the [!DNL Adobe Analytics] report suite IDs and names into the tool configuration interface, allowing for increased speed in tool deployment with less possibility for user errors.
 
       >[!NOTE]
       >
@@ -68,7 +58,7 @@ This section contains the following information:
 
       Fill in the fields specific to a manual configuration:
 
-        * **Production Account ID:** (Required) Your production account for data collection. For Analytics, this is your report suite ID. Dynamic tag management automatically installs the correct account in the production and staging environment.
+        * **Production Account ID:** (Required) Your production account for data collection. For Analytics, this is your report suite ID. Dynamic Tag Management automatically installs the correct account in the production and staging environment.
         * **Staging Account ID:** (Required) Used in your development or test environment. For Analytics, this is your report suite ID. A staging account keeps your testing data separate from production.
         * **Tracking Server:** Specify the information for your tracking server.
 
@@ -93,31 +83,17 @@ You can edit an existing Adobe Analytics tool to change its configuration settin
 
    The following table includes only those elements that differ from the elements available when you are creating an Analytics tool, as described above. However, you can change any element on the page, as described in both tables.
 
-<table id="table_2B60CD109CFF4839AB7F91D61125EDFF">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Enable Automatic Configuration </p> </td>
-   <td colname="col2"> <p>This option lets dynamic tag management automatically retrieve your <span class="keyword"> Adobe Analytics </span> account's configuration. The latest available AppMeasurement code is used and upgrade notifications are displayed for selection as new versions become available. You can also roll back to previous AppMeasurement versions as necessary, such as for compatibility reasons. Up to five previous versions are displayed. Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method </span>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Update Credentials </p> </td>
-   <td colname="col2"> <p>Refresh the API, for example, to update report suites associated with a user. </p> </td>
-  </tr>
- </tbody>
-</table>
+  |Element|Description|
+  |---|---|
+  |Enable Automatic Configuration|This option lets Dynamic Tag Management automatically retrieve your [!DNL Adobe Analytics] account's configuration. The latest available AppMeasurement code is used and upgrade notifications are displayed for selection as new versions become available. You can also roll back to previous AppMeasurement versions as necessary, such as for compatibility reasons. Up to five previous versions are displayed. Enabling this setting changes a manually configured implementation to the automatic configuration method described in Configuration Method. |
+  |Update Credentials|Refresh the API, for example, to update report suites associated with a user.|
 
-1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
+1. (Conditional) Configure the tool further as necessary by following the directions in the sections below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
 1. Click **[!UICONTROL Save Changes]**.
 
 ## Enabling Adobe Analytics Premium {#section_AEAA44566B5A46D2922E17A11D7EA217}
 
-If you are an [!DNL Adobe Analytics Premium] customer, dynamic tag management lets you take advantage of advanced features and additional eVars and events.
+If you are an [!DNL Adobe Analytics Premium] customer, Dynamic Tag Management lets you take advantage of advanced features and additional eVars and events.
 
 The following table displays the number of eVars and events available in each [!DNL Analytics] account type:
 
@@ -126,7 +102,7 @@ The following table displays the number of eVars and events available in each [!
 |  **eVars** | 75  | 100  | 250  |
 |  **Events** | 100  | 1,000  | 1,000  |
 
-You add the [!DNL Adobe Analytics Premium] tool using dynamic tag management the same way you add [!DNL Adobe Analytics] (Standard). In order to get the [!DNL Analytics Premium] functionality (if applicable), you must do the following:
+You add the [!DNL Adobe Analytics Premium] tool using Dynamic Tag Management the same way you add [!DNL Adobe Analytics] (Standard). In order to get the [!DNL Analytics Premium] functionality (if applicable), you must do the following:
 
 * Use the [!UICONTROL Automatic] configuration method (explained above).
 * Use the [!UICONTROL Experience Cloud] or [!UICONTROL Web Services] authentication method (explained above).
@@ -147,9 +123,7 @@ general_settings_analyitcs.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL General]**
+**[!UICONTROL  *Property*]** > **[!UICONTROL Settings]** > **[!UICONTROL General]**
 
 * Enable EU compliance for [!DNL Adobe Analytics]  Enables or disables tracking based on the EU privacy cookie.
 
@@ -197,7 +171,7 @@ Edit Tool]** > **[!UICONTROL General]**
 
 ## Library management {#concept_24654766343B4E82A9416A112D2125FE}
 
-Descriptions of the fields and options in the Library Management settings in dynamic tag management.
+Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 
 <!--
 
@@ -205,9 +179,7 @@ library_management.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Library Management]**
+**[!UICONTROL  *Property*]** > **[!UICONTROL Settings Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >
@@ -215,9 +187,9 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
 * Page code is already present
 
-  Prevents dynamic tag management from installing [!DNL Adobe Analytics] page code if the code is already present on your site.
+  Prevents Dynamic Tag Management from installing [!DNL Adobe Analytics] page code if the code is already present on your site.
 
-  This feature allows you to use dynamic tag management to add to your existing implementation rather than starting from scratch. Be sure to properly set your tracker variable name when checking this box.
+  This feature allows you to use Dynamic Tag Management to add to your existing implementation rather than starting from scratch. Be sure to properly set your tracker variable name when checking this box.
 
 * Load library at < *`Page Top`* or *`Page Bottom`*>
 
@@ -225,11 +197,11 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
 * Managed by Adobe (Recommended)
 
-  Enable dynamic tag management to manage your library.
+  Enable Dynamic Tag Management to manage your library.
 
   If you select this option, the following option becomes available:
 
-  **Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary.
+  **Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic Tag Management notifies you when new versions are available. You can revert to a previous version as necessary.
 
 * Custom
 
@@ -237,17 +209,17 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
   If you select this option, the following options become available:
 
-  **Set report suites using custom code below:** When this box is checked, dynamic tag management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
+  **Set report suites using custom code below:** When this box is checked, Dynamic Tag Management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
 
   **Code Hosted:** Choose an option to host the [!DNL s_code]:
 
-    * **In DTM**: You can host the [!DNL s_code] within dynamic tag management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor.
+    * **In DTM**: You can host the [!DNL s_code] within Dynamic Tag Management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor.
 
-    * **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic tag management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
+    * **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic Tag Management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
 
   **Open Editor:** Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#task_068D72664B2743359A64ADB8692D3658). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
 
-  **Tracker Variable Name:** If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions.
+  **Tracker Variable Name:** If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within Dynamic Tag Management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions.
 
 ## Insert core AppMeasurement code {#section_E497974E41454C979A8C90A84E2FE537}
 
@@ -257,7 +229,7 @@ t_appmeasurement_code.xml
 
  -->
 
-Insert AppMeasurement code when manually deploying dynamic tag management in Adobe Analytics.
+Insert AppMeasurement code when manually deploying Dynamic Tag Management in Adobe Analytics.
 
 1. On the [!DNL Adobe Analytics] tool page, expand the **[!UICONTROL General]** section, then click **[!UICONTROL Open Editor]**.
 
@@ -288,7 +260,7 @@ Insert AppMeasurement code when manually deploying dynamic tag management in Ado
 
 ## Global variables {#concept_080C1319773943FD82A718F42093F6BB}
 
-Field descriptions and information about variables when using dynamic tag management to deploy [!DNL Adobe Analytics].
+Field descriptions and information about variables when using Dynamic Tag Management to deploy [!DNL Adobe Analytics].
 
 <!--
 
@@ -300,40 +272,18 @@ These variables fire on all page load rule beacons. You can accomplish the same 
 
 ## Global variables - field descriptions {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL  *Property*]** > [!UICONTROL ![(assets/settings_gear.png)] **[!UICONTROL Edit Tool]** > **[!UICONTROL Global Variables]**
 
-Edit Tool]** > **[!UICONTROL Global Variables]**
-
-<table id="table_04BEB6895A4F4D46A2F0B202179173AF">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Server </p> </td>
-   <td colname="col2"> <p>The predefined variable populates the <span class="wintitle"> Servers </span> report in Adobe Analytics. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/server.html" format="http" scope="external"> server </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>eVars </p> </td>
-   <td colname="col2"> <p> The eVar variables are used for building custom conversion reports. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/eVarN.html" format="http" scope="external"> eVarN </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Props </p> </td>
-   <td colname="col2"> <p>Property (prop) variables are used for building custom traffic reports. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/propN.html" format="http" scope="external"> propN </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Dynamic Variable Prefix </p> </td>
-   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is <span class="codeph"> D= </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/dynvars_overview.html" format="http" scope="external"> Dynamic Variables </a>. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Server|The predefined variable populates the Servers report in Adobe Analytics. |
+|eVars|The eVar variables are used for building custom conversion reports. |
+|Props|Property (prop) variables are used for building custom traffic reports.|
+|Dynamic Variable Prefix|A special prefix to the start of the value. The default prefix is `D=`.|
 
 ## Page views and content {#concept_6575DFCDEEB04E33805AA5175B8121DE}
 
-Field descriptions in dynamic tag management for page views and content settings when deploying [!DNL Analytics].
+Field descriptions in Dynamic Tag Management for page views and content settings when deploying [!DNL Analytics].
 
 <!--
 
@@ -341,40 +291,18 @@ pageviews_content.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL  *Property*]** > [!UICONTROL ![(assets/settings_gear.png)] **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
 
-Edit Tool]** > **[!UICONTROL Page Views & Content]**
-
-<table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> Page Name </td>
-   <td colname="col2"> <p>The name of each page on your site. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageName.html" format="http" scope="external"> pageName </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Page URL Override </td>
-   <td colname="col2"> <p> Overrides the actual URL of the page. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageURL.html" format="http" scope="external"> pageURL </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Channel (Site Section) </td>
-   <td colname="col2"> <p>Identifies a section of your site. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/channel.html" format="http" scope="external"> channel </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Hierarchy </td>
-   <td colname="col2"> <p>Determines the location of a page in your site's hierarchy. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html" format="http" scope="external"> hierN </a>. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Page Name|The name of each page on your site.|
+|Page URL Override|Overrides the actual URL of the page.|
+|Channel (Site Section)|Identifies a section of your site.|
+|Hierarchy|Determines the location of a page in your site's hierarchy.|
 
 ## Link tracking {#concept_A8491D966FD04F20980D7728C4EC07B5}
 
-Field descriptions in dynamic tag management for link tracking when deploying [!DNL Analytics].
+Field descriptions in Dynamic Tag Management for link tracking when deploying [!DNL Analytics].
 
 <!--
 
@@ -436,7 +364,7 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
 
 ## Referrers and campaigns {#concept_D6BD8E6E42724BE4ADDB6F05D50A9D82}
 
-Field descriptions in dynamic tag management for referrers and campaign options when deploying dynamic tag management in [!DNL Adobe Analytics].
+Field descriptions in Dynamic Tag Management for referrers and campaign options when deploying Dynamic Tag Management in [!DNL Adobe Analytics].
 
 <!--
 
@@ -448,24 +376,10 @@ referrers_campaigns.xml
 
 Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
 
-<table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> Referrer Override </td>
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer </span> variable, which is typically populated by the referrer set in the browser. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/referrer.html" format="http" scope="external"> referrer </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Campaign </td>
-   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/campaign.html" format="http" scope="external"> campaign </a>. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Referrer Override|Overrides the value set in the *s.referrer* variable, which is typically populated by the referrer set in the browser.|
+|Campaign|A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter.|
 
 Use the DTM interface to choose whether you want to use a Query String or Value (which could pull from a data element):
 
@@ -475,7 +389,7 @@ You can either enter your query string directly in the interface, or you can ref
 
 ## Cookies {#concept_C167BE0B4B6D42149496ACD15682DC59}
 
-Field descriptions for the Cookies global settings used for deploying dynamic tag management in [!DNL Adobe Analytics].
+Field descriptions for the Cookies global settings used for deploying Dynamic Tag Management in [!DNL Adobe Analytics].
 
 <!--
 
@@ -487,44 +401,18 @@ cookies_analytics.xml
 
 Edit Tool]** > **[!UICONTROL Cookies]**
 
-<table id="table_DEEB7682995E47CBB17DE21C353B64B3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> Visitor ID </td>
-   <td colname="col2"> <p>Unique value that represents a customer in both the online and offline systems. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visitorid" format="https" scope="external"> visitorID </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Visitor Namespace </td>
-   <td colname="col2"> <p>Variable to identify the domain with which cookies are set. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visitorNamespace.html" format="https" scope="external"> visitorNamespace </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Domain Periods </td>
-   <td colname="col2"> <p>The domain on which the Analytics cookie <span class="codeph"> s_cc </span> and <span class="codeph"> s_sq </span> are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=cookiedomainperiods.html" format="https" scope="external"> cookieDomainPeriods </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> FP Domain Periods </td>
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods </span> variable is for cookies set by JavaScript ( <span class="codeph"> s_sq </span>, <span class="codeph"> s_cc </span>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net </span> or <span class="filepath"> omtrdc.net </span> domains. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=fpCookieDomainPeriods.html" format="https" scope="external"> fpCookieDomainPeriods </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Transaction ID </td>
-   <td colname="col2"> <p>Unique value that represents an online transaction that resulted in offline activity. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=transactionid" format="https" scope="external"> transactionID </a>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Cookie Lifetime </td>
-   <td colname="col2"> <p>Determines the life span of a cookie. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=cookielifetime.html" format="https" scope="external"> cookieLifetime </a>. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Visitor ID|Unique value that represents a customer in both the online and offline systems. |
+|Visitor Namespace|Variable to identify the domain with which cookies are set.|
+|Domain Periods|The domain on which the Analytics cookie `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. |
+|FP Domain Periods|The `fpCookieDomainPeriods` variable is for cookies set by JavaScript (`s_sq`, `s_cc` plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party `2o7.net` or `omtrdc.net` domains.|
+|Transaction ID|Unique value that represents an online transaction that resulted in offline activity.|
+|Cookie Lifetime|Determines the life span of a cookie.|
 
 ## Customize page code {#concept_7D6390823DFE4D29AF9505CCE1A79C3B}
 
-Use field descriptions in dynamic tag management to customize page code when deploying [!DNL Analytics].
+Use field descriptions in Dynamic Tag Management to customize page code when deploying [!DNL Analytics].
 
 <!--
 
@@ -538,28 +426,14 @@ Add plugins to ensure that the code runs at the same time as the Analytics tool.
 
 Edit Tool]** > **[!UICONTROL Customize Page Code]**
 
-<table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Open Editor </p> </td>
-   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <span class="codeph"> s.t() </span> call, which is contained in the <span class="codeph"> s_code </span>. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Execute </p> </td>
-   <td colname="col2"> <p> <b>Before UI settings</b>: Interface settings take precedence over the custom code (for example, if you want to override an eVar if a setting in the interface was enabled). <b>After UI settings</b>: Custom code takes precedence over interface settings. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Open Editor|You can insert any JavaScript call that must be triggered before the final `s.t()` call, which is contained in the `s_code`.|
+|Execute|**Before UI settings:** Interface settings take precedence over the custom code (for example, if you want to override an eVar if a setting in the interface was enabled). **After UI settings:** Custom code takes precedence over interface settings.|
 
 ## FAQ for Adobe Analytics release - July 24 2014 {#concept_3C2761855B2D49DEBFAD8E2F7BB78003}
 
-Dynamic tag management feature information and FAQ for Adobe Analytics released on July 24, 2014.
+Dynamic Tag Management feature information and FAQ for Adobe Analytics released on July 24, 2014.
 
 <!--
 
@@ -567,11 +441,7 @@ whatsnew_adbe_an.xml
 
  -->
 
-* [New Features](../tools-reference/analytics-dtm.md#section_C36DF90DD3814A6E971E173B8B5A73A9)
-* [Frequently Asked Questions](../tools-reference/analytics-dtm.md#section_75E724E86D0D4952B199A9B850AE0A3E)
-* [Potential Pitfalls](../tools-reference/analytics-dtm.md#section_201BF9E0EB7D4BC2B72A617543C2030B)
-
-## New features {#section_C36DF90DD3814A6E971E173B8B5A73A9}
+### New features {#section_C36DF90DD3814A6E971E173B8B5A73A9}
 
 <!--
 
@@ -589,7 +459,7 @@ Enables automatic synchronization of [!DNL Adobe Analytics] report suites via a 
 
 ![](assets/add_analytics_tool.png)
 
-## Frequently asked questions {#section_75E724E86D0D4952B199A9B850AE0A3E}
+### Frequently asked questions {#section_75E724E86D0D4952B199A9B850AE0A3E}
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640">
  <thead>
@@ -601,7 +471,7 @@ Enables automatic synchronization of [!DNL Adobe Analytics] report suites via a 
  <tbody>
   <tr>
    <td colname="col1"> <p>Is this a new <span class="keyword"> Adobe Analytics </span> tool, or a change to the existing tool? </p> </td>
-   <td colname="col2"> <p>A change to the existing tool. If you currently have an implementation of <span class="keyword"> Adobe Analytics </span> in dynamic tag management, it will continue to function. </p> </td>
+   <td colname="col2"> <p>A change to the existing tool. If you currently have an implementation of <span class="keyword"> Adobe Analytics </span> in Dynamic Tag Management, it will continue to function. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? </p> </td>
@@ -622,7 +492,7 @@ Enables automatic synchronization of [!DNL Adobe Analytics] report suites via a 
  </tbody>
 </table>
 
-## Potential pitfalls {#section_201BF9E0EB7D4BC2B72A617543C2030B}
+### Potential pitfalls {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
 There is a small chance that the new integration could cause data collection issues if you currently use [!DNL Adobe Analytics]. These issues could arise only if you publish your library to production subsequent to the release. (Production code remains intact until publishing occurs.)
 
@@ -635,7 +505,7 @@ To avoid these issues, ensure that:
 
 ## Manually implement Adobe Analytics (legacy) {#task_3A00639CADF14C9C844F962222077E4E}
 
-Create an Adobe Analytics tool for deployment using dynamic tag management. This procedure describes a manual (legacy) implementation.
+Create an Adobe Analytics tool for deployment using Dynamic Tag Management. This procedure describes a manual (legacy) implementation.
 
 <!--
 
@@ -651,7 +521,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
    1. In [!DNL Adobe Experience Cloud], click  **[!UICONTROL Reports & Analytics]** > **[!UICONTROL Admin Tools]** .
    1. Click **[!UICONTROL Code Manager]**.
    1. Click [JavaScript (new)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs) to download the code locally.
-1. In dynamic tag management, [create a web property](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD).
+1. In Dynamic Tag Management, [create a web property](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD).
 
    ![Step Result](assets/property.png)
 
@@ -670,7 +540,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
       |---|---|
       |  Tool Type  | The Experience Cloud solution, such as Analytics, Target, Social, and so on.  |
       |  Tool Name  | The name for this tool. This name displays on the [!UICONTROL Overview] tab under [!UICONTROL Installed Tools].  |
-      |  Production Account ID  | A number for your production account for data collection. Dynamic tag management automatically installs the correct account in the production and staging environment.  |
+      |  Production Account ID  | A number for your production account for data collection. Dynamic Tag Management automatically installs the correct account in the production and staging environment.  |
       |  Staging Account ID  | A number used in your development or test environment. A staging account keeps your testing data separate from production.  |
 
 1. Click **[!UICONTROL Create Tool]**.

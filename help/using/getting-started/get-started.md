@@ -1,6 +1,6 @@
 ---
 description: Information for new users of Dynamic Tag Management.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Information for new users of Dynamic Tag Management.
 seo-title: Getting started with DTM
 solution: Dynamic  Tag Management
@@ -19,17 +19,11 @@ Information for new users of Dynamic Tag Management.
 
 Information for new users of Dynamic Tag Management. 
 
-This section contains the following information:
-
-* [Requesting Access to Dynamic Tag Management](../getting-started/get-started.md#section_9E826B582D0F4712ACD5FC9EDEC3BDC2) 
-* [Logging In](../getting-started/get-started.md#section_88F2816938E94085A30745905D38731A) 
-* [Getting Started Tasks](../getting-started/get-started.md#section_43ACA8689DAB4865895EFE47D0667A50)
-
 ## Requesting access to Dynamic Tag Management {#section_9E826B582D0F4712ACD5FC9EDEC3BDC2}
 
 Before you start using Dynamic Tag Management, someone from your company must request access. Please contact your Adobe account team and ask for access to Dynamic Tag Management. Your account team will use our internal Provisioning Hub tool to grant access. You should receive your login credentials within one to two business days.
 
-If you have access to the [!DNL Adobe Experience Cloud], you can also request access to dynamic tag management from the [!UICONTROL Tools] menu. 
+If you have access to the [!DNL Adobe Experience Cloud], you can also request access to Dynamic Tag Management from the [!UICONTROL Tools] menu. 
 
 ![](assets/cloud-login.png){width="318px"}
 
@@ -43,9 +37,9 @@ Browse to [https://dtm.adobe.com](https://dtm.adobe.com).
 
 ## Getting started tasks {#section_43ACA8689DAB4865895EFE47D0667A50}
 
-The steps in the following table help you get up and running with Dynamic Tag Management:
+The steps below help you get up and running with Dynamic Tag Management:
 
-**1. Create a web property.**
+### Create a web property.
 
 Location: Web Properties tab on the Dashboard
 
@@ -55,7 +49,7 @@ For general information about web properties and best practices, see [Web Proper
 
 To get started, see [Create a web property](../administration/web-property.md#task_AE34E23EC47B4E9C8634782C05D9DC09).
 
-**2. Configure your hosting options.**
+### Configure your hosting options.
 
 Location: Embed tab
 
@@ -67,7 +61,7 @@ Dynamic Tag Management provides a number of options to host the required JavaScr
 
 See [Embed Code and Hosting Options](../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D).
 
-**3. Add header and footer code to each managed page.**
+### Add header and footer code to each managed page.
 
 Location: Embed tab
 
@@ -77,7 +71,7 @@ Adobe provides staging and production embed code so you can test your changes in
 
 See [Header and Footer Code](../client-side-information/deployment.md#concept_3F6A0A508F294FCBABEBA1DF540B781B).
 
-**4. Deploy tools for solutions.**
+### Deploy tools for solutions.
 
 Location: Overview tab
 
@@ -85,7 +79,7 @@ Tools let you quickly integrate [!DNL Adobe Experience Cloud] solutions on your 
 
 See [Tools (Overview Tab)](../managing-resources/tools.md#concept_19C5BCE1F99E4EACBD4EA2D61F265184).
 
-**5. Create data elements, and create rules, conditions, and actions.**
+### Create data elements, and create rules, conditions, and actions.
 
 Location: Rules tab
 
@@ -97,7 +91,7 @@ To get started, you should set up a basic page-load rule with no conditions to c
 
 For more information, see [Data Elements](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2) and [Rules](../managing-resources/rules.md#concept_2D3F296DD3BD418BAB7A0E2415DD9C92).
 
-**6. Publish tools and rules to the production server.**
+### Publish tools and rules to the production server.
 
 After a rule is created, it is funneled through a multi-step approval process before it is published to a production environment.
 
@@ -105,7 +99,7 @@ See [Rules](../managing-resources/rules.md#concept_300552C4F89E418F94A4D755960B4
 
 ## Planning for Dynamic Tag Management {#concept_EC50FC4409014AF1A1C3F1527015849F}
 
-Dynamic tag management is an evolution of tag management, designed around the mapping of user interactions to marketing technologies. Your tags and marketing tools are best used when reacting to visitors (or segments of your visitors) and their activity on your site in precise ways. 
+Dynamic Tag Management is an evolution of tag management, designed around the mapping of user interactions to marketing technologies. Your tags and marketing tools are best used when reacting to visitors (or segments of your visitors) and their activity on your site in precise ways. 
 
 <!-- 
 
@@ -115,9 +109,9 @@ success.xml
 
 By starting with user interactions as the stimulus for marketing tool response, you can know how those interactions result in data collection, testing, or engagement with tools like chat, surveys, and more.
 
-**Planning ahead**
+### Planning ahead
 
-To make the most of dynamic tag management, establish a clear vision of how you want to use digital marketing. For help with planning, Adobe offers consulting on best practices. Also, a number of consulting agencies across the globe have extensive experience deploying dynamic tag management and helping transform your organization's productivity, workflows, and sophistication. 
+To make the most of Dynamic Tag Management, establish a clear vision of how you want to use digital marketing. For help with planning, Adobe offers consulting on best practices. Also, a number of consulting agencies across the globe have extensive experience deploying Dynamic Tag Management and helping transform your organization's productivity, workflows, and sophistication. 
 
 ## Browser support {#concept_14C1D3046A1845AC8765584ECD28BD44}
 
@@ -148,7 +142,7 @@ t_access-dtm-ec.xml
 
 ## Managing users and the publish workflow {#concept_D6E9196B4607429197D07B472A7F0BAC}
 
-Dynamic tag management is based on a roles-oriented platform that lets you control the process. 
+Dynamic Tag Management is based on a roles-oriented platform that lets you control the process. 
 
 <!-- 
 
@@ -190,7 +184,7 @@ t_manage_account_settings.xml
 
  -->
 
-1. In the upper right corner of the dynamic tag management interface, click  ![](assets/icon_profile.png) > **[!UICONTROL Account Settings]**.
+1. In the upper right corner of the Dynamic Tag Management interface, click  ![](assets/icon_profile.png) > **[!UICONTROL Account Settings]**.
 1. Edit the fields as necessary:
 
    **First Name:** Specify your first name.
@@ -211,7 +205,7 @@ t_manage_account_settings.xml
 
    **Opt Out of All Notifications:** Opt out of all email notifications when one of your web properties is published. By opting out of email notifications, you will no longer receive publish request, property published, note, or approval email notifications. However, you will continue to receive other email notifications.
 
-   **Current Password:** If you want to change your dynamic tag management password, specify your current password in this field.
+   **Current Password:** If you want to change your Dynamic Tag Management password, specify your current password in this field.
 
    **Password:** Specify your new password.
 
@@ -228,7 +222,7 @@ t_manage_account_settings.xml
 
 ## Architecture {#concept_03FEF75036BD4CD7822CEF47FAE443A9}
 
-Information about dynamic tag management architecture. 
+Information about Dynamic Tag Management architecture. 
 
 <!-- 
 
@@ -236,10 +230,10 @@ architecture.xml
 
  -->
 
-Architecturally, dynamic tag management comprises two main components:
+Architecturally, Dynamic Tag Management comprises two main components:
 
 * **Management Application**: Offers an easy-to-use, tab-structured configuration user interface. 
-* **JavaScript libraries**: Produced by the Management Application and transported to hosting servers. Dynamic tag management includes two types of JavaScript libraries:
+* **JavaScript libraries**: Produced by the Management Application and transported to hosting servers. Dynamic Tag Management includes two types of JavaScript libraries:
 
     * **Staging Library:** Every change you make in the Management Application is immediately updated to use on the staging server. 
     * **Production Library:** Only the final, approved version of a tool or rules makes it onto the production server.

@@ -1,6 +1,6 @@
 ---
-description: Descriptions of the fields and options in the Library Management settings in dynamic tag management.
-seo-description: Descriptions of the fields and options in the Library Management settings in dynamic tag management.
+description: Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
+seo-description: Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 seo-title: Library management
 solution: Marketing Cloud,Dynamic Tag Management
 title: Library management
@@ -12,9 +12,9 @@ snippet: y
 
 # Library management{#library-management}
 
-Descriptions of the fields and options in the Library Management settings in dynamic tag management.
+This article contains descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 
- **[!UICONTROL Property]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
+ **[!UICONTROL  *`Property`*]** > **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >
@@ -22,21 +22,23 @@ Descriptions of the fields and options in the Library Management settings in dyn
 
 ## Page code is already present
 
-Prevents dynamic tag management from installing [!DNL Adobe Analytics] page code if the code is already present on your site.
+This prevents Dynamic Tag Management from installing [!DNL Adobe Analytics] page code if the code is already present on your site.
 
-This feature allows you to use dynamic tag management to add to your existing implementation rather than starting from scratch. Be sure to properly set your tracker variable name when checking this box.
+This feature allows you to use Dynamic Tag Management to add to your existing implementation rather than starting from scratch. Be sure to properly set your tracker variable name when checking this box.
 
-## Load library at Page Top or Page Bottom
+## Load library at <*`Page Top`* or *`Page Bottom`*>
 
 Specifies where and when to load the page code. Regardless of your selection, any rules using the Analytics tool will need to have the same setting.
 
 ## Managed by Adobe (Recommended)
 
-Enable dynamic tag management to manage your library.
+Enable Dynamic Tag Management to manage your library.
 
 If you select this option, the following option becomes available:
 
-**Library Version:** Select the latest version from the [!UICONTROL Library Version] menu. Dynamic tag management notifies you when new versions are available. You can revert to a previous version as necessary.
+## Library Version
+
+Select the latest version from the [!UICONTROL Library Version] menu. Dynamic Tag Management notifies you when new versions are available. You can revert to a previous version as necessary.
 
 ## Custom
 
@@ -44,17 +46,23 @@ You can configure the library code.
 
 If you select this option, the following options become available:
 
-**Set report suites using custom code below:** When this box is checked, dynamic tag management looks for a variable in your custom code called `s_account`. This variable should contain a comma-separated list of the report suites to which you want to send data.
+## Set report suites using custom code below
+
+When this box is checked, Dynamic Tag Management looks for a variable in your custom code called *`s_account`*. This variable should contain a comma-separated list of the report suites to which you want to send data.
 
 ## Code Hosted
 
 Choose an option to host the [!DNL s_code]:
 
-* **In DTM**: You can host the [!DNL s_code] within dynamic tag management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor. 
-* **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic tag management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
+* **In DTM**: You can host the [!DNL s_code] within Dynamic Tag Management. Click **[!UICONTROL Edit Code]** to cut and paste the file directly into the editor. 
 
-**Open Editor:**
+* **URL**: If you have a good [!DNL s_code] file and are happy with the process of updating it, you can provide the URL to the file here. Dynamic Tag Management then consumes that [!DNL s_code] file for its implementation of [!DNL Adobe Analytics].
+
+## Open Editor
+
 Lets you [insert core AppMeasurement code](../tools-reference/analytics-dtm.md#section_E497974E41454C979A8C90A84E2FE537). This code is populated automatically when using the automatic configuration method described in [Adobe Analytics Settings](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
 
-**Tracker Variable Name:**
-If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within dynamic tag management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions. 
+## Tracker Variable Name
+
+If you want to run two instances of [!DNL Adobe Analytics] in parallel (one within Dynamic Tag Management and one natively), you can rename the main *`s`* object. Renaming the object name avoids collisions. 
+

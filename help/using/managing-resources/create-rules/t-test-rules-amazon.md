@@ -1,6 +1,6 @@
 ---
 description: Test unpublished rules from your console if you use Akamai hosting.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Test unpublished rules from your console if you use Akamai hosting.
 seo-title: Test unpublished rules for Akamai hosting
 solution: Dynamic  Tag Management
@@ -24,5 +24,3 @@ The Switcher plugin is often the easiest way to test. See [Search Discovery Plug
 
    This action loads your staging library and sets the debugger, so that you can see details of all available (published / unpublished) rules firing on the page. 
 1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
-
-   Step Result 

@@ -1,6 +1,6 @@
 ---
 description: Adobe has partnered with Search Discovery and Disruptive Advertising to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Adobe has partnered with Search Discovery and Disruptive Advertising to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
 seo-title: Dynamic Tag Management plugins
 solution: Marketing Cloud,Analytics,Dynamic Tag Management

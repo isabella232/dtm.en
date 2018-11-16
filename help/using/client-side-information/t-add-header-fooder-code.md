@@ -1,7 +1,7 @@
 ---
-description: Add header and footer code in dynamic tag management.
-keywords: dynamic tag management
-seo-description: Add header and footer code in dynamic tag management.
+description: Add header and footer code in Dynamic Tag Management.
+keywords: Dynamic Tag Management
+seo-description: Add header and footer code in Dynamic Tag Management.
 seo-title: Add header and footer code
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Add header and footer code
@@ -13,11 +13,11 @@ snippet: y
 
 # Add header and footer code{#add-header-and-footer-code}
 
-Add header and footer code in dynamic tag management.
+Add header and footer code in Dynamic Tag Management.
 
 1. Copy the production header code and place it within the [!DNL HEAD] section of your site HTML.
 
-   Place the code as close to the [!DNL <head>] tag as possible. This code snippet should be placed on every page of your live production site.
+   Place the code as close to the [!DNL `<head>`] tag as possible. This code snippet should be placed on every page of your live production site.
 
    >[!NOTE]
    >
@@ -25,10 +25,10 @@ Add header and footer code in dynamic tag management.
 
 1. Copy the production footer code and place it in the [!DNL BODY] section of your site HTML.
 
-   Place the code as close to the [!DNL </body>] tag as possible. 
+   Place the code as close to the [!DNL `</body>`] tag as possible. 
 1. Copy the staging header and footer code, then repeat the steps above on your staging site.
 
    >[!NOTE]
    >
-   >The difference between production and staging code snippets is the addition of [!DNL -staging] to the filename in the staging version. The footer code remains the same in staging and production.
+   >The difference between production and staging code snippets is the addition of [!DNL `-staging`] to the filename in the staging version. The footer code remains the same in staging and production.
 

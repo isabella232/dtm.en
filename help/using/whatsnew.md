@@ -1,6 +1,6 @@
 ---
 description: Release notes and known issues for Dynamic Tag Management.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Release notes and known issues for Dynamic Tag Management.
 seo-title: Release notes for Dynamic Tag Management
 solution: Dynamic  Tag Management
@@ -20,11 +20,11 @@ This section contains the following information:
 * [Current Release Notes](whatsnew.md#section_6C569C52357B425D95FE0ACA830852E7) 
 * [Documentation Updates, Previous Release Notes, and Marketing Cloud Release Notes](whatsnew.md#section_BAD2D50205A2432F8E44B57E83EC3A27)
 
-## Current Release Notes {#section_6C569C52357B425D95FE0ACA830852E7}
+## Current release notes {#section_6C569C52357B425D95FE0ACA830852E7}
 
 The June 17, 2016 Dynamic Tag Management release includes the following changes:
 
-**New Features** 
+### New Features 
 
 <table id="table_3CA51E873E324FD4B7CF14190F127A77"> 
  <thead> 
@@ -45,7 +45,7 @@ The June 17, 2016 Dynamic Tag Management release includes the following changes:
  </tbody> 
 </table>
 
-## Documentation Updates, Previous Release Notes, and Experience Cloud Release Notes {#section_BAD2D50205A2432F8E44B57E83EC3A27}
+## Other updates {#section_BAD2D50205A2432F8E44B57E83EC3A27}
 
 In addition to the notes for each release, the following resources provide additional information: 
 

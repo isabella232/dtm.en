@@ -1,6 +1,6 @@
 ---
 description: Adobe has partnered with Search Discovery to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Adobe has partnered with Search Discovery to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
 seo-title: Search Discovery plugins
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
@@ -21,23 +21,23 @@ Adobe has partnered with Search Discovery to offer additional plugins to help yo
 
 ## DTM Switch plugins for debugging (Chrome and Firefox)
 
-DTM Switch is a browser plugin for easy switching of debug mode and staging mode for dynamic tag management users. It is available for both Google Chrome and Mozilla Firefox.
+DTM Switch is a browser plugin for easy switching of debug mode and staging mode for Dynamic Tag Management users. It is available for both Google Chrome and Mozilla Firefox.
 
 >[!NOTE]
 >
->The Chrome and Firefox plugins are early unsigned versions and are provided on an "as is" basis with no additional support from Adobe. You can also manually set the debugger and switch between libraries via the dynamic tag management web console.
+>The Chrome and Firefox plugins are early unsigned versions and are provided on an "as is" basis with no additional support from Adobe. You can also manually set the debugger and switch between libraries via the Dynamic Tag Management web console.
 
 ## WordPress plugin
 
-+ Easily set up and configure [WordPress](https://wordpress.org) using dynamic tag management. This plugin installs the necessary DTM code on your WordPress site.
++ Easily set up and configure [WordPress](https://wordpress.org) using Dynamic Tag Management. This plugin installs the necessary DTM code on your WordPress site.
 + Download the WordPress plugin at [Wordpress.org](https://wordpress.org/plugins/adobe-dtm/).
 
 ## Video Tracking plugin
 
-+Easily track analytics across all popular video sites and send this data to your analytics tools.
++ Easily track analytics across all popular video sites and send this data to your analytics tools.
 + [Contact Search Discovery](https://www.searchdiscovery.com/contact/) for more information and to obtain this tool.
 
 ## Drupal plugin
 
-+ Set up and configure [Drupal](https://www.drupal.org) using dynamic tag management.
++ Set up and configure [Drupal](https://www.drupal.org) using Dynamic Tag Management.
 + [Contact Search Discovery](https://www.searchdiscovery.com/contact/) for more information and to obtain this tool. 

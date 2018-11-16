@@ -1,6 +1,6 @@
 ---
 description: Set up actions that you want the condition to trigger.
-keywords: dynamic tag management
+keywords: Dynamic Tag Management
 seo-description: Set up actions that you want the condition to trigger.
 seo-title: Set up actions for the condition to trigger
 solution: Dynamic Tag Management
@@ -11,13 +11,13 @@ internal: n
 snippet: y
 ---
 
-# Set up actions for the condition to trigger{#set-up-actions-for-the-condition-to-trigger}
+# Set up actions to trigger{#set-up-actions-for-the-condition-to-trigger}
 
 Set up actions that you want the condition to trigger.
 
 After setting up the condition, you must set up the actions that you want the condition to trigger. These actions can include [!DNL Analytics] events, third-party tags, and custom scripts. This example describes how to set up scripts or third-party tags.
 
-Beyond integrated tools like [!DNL Adobe Analytics] and Google Analytics, dynamic tag management can trigger any type of JavaScript or inject HTML into your site, in select pages or in specific scenarios.
+Beyond integrated tools like [!DNL Adobe Analytics] and Google Analytics, Dynamic Tag Management can trigger any type of JavaScript or inject HTML into your site, in select pages or in specific scenarios.
 
 Each rule can trigger as many scripts or HTML injections as you want.
 
