@@ -1,8 +1,8 @@
 ---
 description: Steps that describe how to create rules in dynamic tag management.
 keywords: dynamic tag management
-seo-description: Steps that describe how to create rules in dynamic tag management.
-seo-title: Create new rule
+seo-description: Steps that describe how to create rules in Adobe dynamic tag management.
+seo-title: Create new rule in Adobe DTM
 solution: Dynamic Tag Management
 title: Create new rule
 uuid: f171cb2e-d3e4-48a4-b8d2-fed2357f2029
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Create new rule{#create-new-rule}
+# Create new rule
 
 Steps that describe how to create rules in dynamic tag management.
 
@@ -21,11 +21,11 @@ Steps that describe how to create rules in dynamic tag management.
 1. Click **[!UICONTROL Create New Rule]**.
 1. Name the rule and select a category, if you wish.
 1. Next, set up the condition(s) for the rule. The setup differs depending on the type of rule you are implementing.
-
-       | **Event-based rule** | [Creating conditions for event-based rules](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC)  |
-       |---|---|
-       | **Page Load rule** | [Creating conditions for page load rules](../../managing-resources/create-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706)  |
-       | **Direct Call rule** | [Creating conditions for Direct Call rules](../../managing-resources/create-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09)  |
-
-   The category field is only for your own organizational purposes and is not required. You can delete categories by clicking the x icon in the category. 
+   + Event-based rule
+     [Creating conditions for event-based rules](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC)
+   + Page Load rule
+     [Creating conditions for page load rules](../../managing-resources/create-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706)
+   + Direct Call rule
+     [Creating conditions for Direct Call rules](../../managing-resources/create-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09)
+     The category field is only for your own organizational purposes and is not required. You can delete categories by clicking the x icon in the category. 
 1. [Set up actions for the condition to trigger](../../managing-resources/create-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121).
