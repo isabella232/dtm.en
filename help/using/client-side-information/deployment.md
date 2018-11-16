@@ -3,7 +3,7 @@ description: Information about the various hosting options in dynamic tag manage
 keywords: dynamic tag management
 seo-description: Information about the various hosting options in dynamic tag management  Akamai, self-hosting FTP delivery, and self-hosting library download.
 seo-title: Embed code and hosting options
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Embed code and hosting options
 uuid: b05e4cc2-8b2f-42af-97c0-2f68436a7d6e
 index: y

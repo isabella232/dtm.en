@@ -3,7 +3,7 @@ description: Frequently asked questions about dynamic tag management.
 keywords: dynamic tag management;launch
 seo-description: Frequently asked questions about dynamic tag management.
 seo-title: Frequently Asked Questions
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Frequently Asked Questions
 uuid: 94ae0fda-6697-4cb8-bfc1-68529490e06a
 index: y

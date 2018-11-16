@@ -3,7 +3,7 @@ description: Information to help you create new user groups in the Experience Cl
 keywords: dynamic tag management
 seo-description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 seo-title: Create and manage groups for DTM in the Adobe Admin Console
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Create and manage groups for DTM in the Adobe Admin Console
 uuid: 36024edd-8085-4145-b824-955adc6dabbf
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Create and manage groups for DTM in the Adobe Admin Console{#create-and-manage-groups-for-dtm-in-the-adobe-admin-console}
+# Create and manage groups in Adobe Admin Console
 
 Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 
@@ -22,7 +22,7 @@ This section contains the following information:
 
 ## Create new user groups in the Experience Cloud {#section_08040874355948F8951A15ADE6BD9DE0}
 
-1. Log in to the Adobe Admin Console via [aedash.adobe.com](https://aedash.adobe.com/). 
+1. Log in to the Adobe Admin Console via [adminconsole.adobe.com](https://adminconsole.adobe.com/). 
 1. Click **[!UICONTROL Products]** > **[!UICONTROL Dynamic Tag Management]**. 
 1. Click  ![](assets/icon_expand.png)
 
