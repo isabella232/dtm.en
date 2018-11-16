@@ -3,7 +3,7 @@ description: Test unpublished rules from your console if you use Akamai hosting.
 keywords: Dynamic Tag Management
 seo-description: Test unpublished rules from your console if you use Akamai hosting.
 seo-title: Test unpublished rules for Akamai hosting
-solution: Analytics,Marketing Cloud,Dynamic Tag Management
+solution: Dynamic  Tag Management
 title: Test unpublished rules for Akamai hosting
 uuid: bafa70f9-b1a4-43a2-93bf-2b20b9d5b3f5
 index: y

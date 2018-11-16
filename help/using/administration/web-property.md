@@ -3,7 +3,7 @@ description: A web property is a library of rules and one embed code. A web prop
 keywords: Dynamic Tag Management;live;production;staging;switch;test;testing
 seo-description: A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one web property to multiple domains.
 seo-title: Web properties
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Web properties
 uuid: a8462a21-e819-45bc-beba-fecea456d8f8
 index: y

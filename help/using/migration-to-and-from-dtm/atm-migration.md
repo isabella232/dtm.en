@@ -3,7 +3,7 @@ description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implement
 keywords: Dynamic Tag Management
 seo-description: How to migrate from Adobe Tag Manager 1.0 or 2.0 to a new implementation of Dynamic Tag Management.
 seo-title: Migrating from Adobe Tag Management
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 subtopic: Tag management
 title: Migrating from Adobe Tag Management
 topic: Developer and implementation

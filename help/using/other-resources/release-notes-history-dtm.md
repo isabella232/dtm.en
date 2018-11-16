@@ -3,7 +3,7 @@ description: Historical release notes for Dynamic Tag Management.
 keywords: Dynamic Tag Management
 seo-description: Historical release notes for Dynamic Tag Management.
 seo-title: Previous release notes
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Previous release notes
 uuid: 3e92cd1b-83ad-429e-a9a2-0616394a1949
 index: y
