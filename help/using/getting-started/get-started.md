@@ -39,7 +39,7 @@ Browse to [https://dtm.adobe.com](https://dtm.adobe.com).
 
 The steps below help you get up and running with Dynamic Tag Management:
 
-### 1. Create a web property.
+### Create a web property.
 
 Location: Web Properties tab on the Dashboard
 
@@ -49,7 +49,7 @@ For general information about web properties and best practices, see [Web Proper
 
 To get started, see [Create a web property](../administration/web-property.md#task_AE34E23EC47B4E9C8634782C05D9DC09).
 
-### 2. Configure your hosting options.
+### Configure your hosting options.
 
 Location: Embed tab
 
@@ -61,7 +61,7 @@ Dynamic Tag Management provides a number of options to host the required JavaScr
 
 See [Embed Code and Hosting Options](../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D).
 
-### 3. Add header and footer code to each managed page.
+### Add header and footer code to each managed page.
 
 Location: Embed tab
 
@@ -71,7 +71,7 @@ Adobe provides staging and production embed code so you can test your changes in
 
 See [Header and Footer Code](../client-side-information/deployment.md#concept_3F6A0A508F294FCBABEBA1DF540B781B).
 
-### 4. Deploy tools for solutions.
+### Deploy tools for solutions.
 
 Location: Overview tab
 
@@ -79,7 +79,7 @@ Tools let you quickly integrate [!DNL Adobe Experience Cloud] solutions on your 
 
 See [Tools (Overview Tab)](../managing-resources/tools.md#concept_19C5BCE1F99E4EACBD4EA2D61F265184).
 
-### 5. Create data elements, and create rules, conditions, and actions.
+### Create data elements, and create rules, conditions, and actions.
 
 Location: Rules tab
 
@@ -91,7 +91,7 @@ To get started, you should set up a basic page-load rule with no conditions to c
 
 For more information, see [Data Elements](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2) and [Rules](../managing-resources/rules.md#concept_2D3F296DD3BD418BAB7A0E2415DD9C92).
 
-### 6. Publish tools and rules to the production server.
+### Publish tools and rules to the production server.
 
 After a rule is created, it is funneled through a multi-step approval process before it is published to a production environment.
 
