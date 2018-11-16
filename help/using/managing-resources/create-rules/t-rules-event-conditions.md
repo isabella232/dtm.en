@@ -43,26 +43,29 @@ Conditions determine when an event-based rule is triggered.
  </tbody> 
 </table>
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
+   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream.
+   
+   However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
 
    *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
 
 1. Indicate the name of the tag you want to track, and additional properties the tag has that you want to match.
 
-   ![](assets/condition_event_based2.png){width="472"}
+   ![](assets/condition_event_based2.png)
 
    See [Using the CSS Selector](../../managing-resources/create-rules/t-rules-event-conditions.md#concept_DDF500DCB8214658AEDECDE69ED1D4AF) for information about finding the correct element tag. 
 
-1. Select and set up any additional criteria or condition types you wish to bind to the rule.  ![](assets/condition_event_based3.png){width="472"}
+1. Select and set up any additional criteria or condition types you wish to bind to the rule.  ![](assets/condition_event_based3.png)
 
 1. Indicate your preference regarding event bubbling.
 
    Event bubbling is one way of event propagation in HTML DOM.
 
-       | **Want related interactions on child elements of the rule selector you identified to fire the rule.** | Allow events on child elements to bubble  |
-       |---|---|
-       | **Want to prevent bubbling when the child element already triggers its own event.** | Do not allow if child element already triggers event.  |
-       | **Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy** | Do not allow events to bubble upwards to parents  |
+    |||
+    |---|---|
+    | Want related interactions on child elements of the rule selector you identified to fire the rule. | Allow events on child elements to bubble  |
+    | Want to prevent bubbling when the child element already triggers its own event.| Do not allow if child element already triggers event.  |
+    | Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy** | Do not allow events to bubble upwards to parents  |
 
 ## Event types {#concept_B1C6169D8B354207AEE0E4965E6421B1}
 
