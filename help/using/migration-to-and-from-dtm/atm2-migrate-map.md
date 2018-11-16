@@ -3,7 +3,7 @@ description: How to migrate from each Tag Manager 2.0 tag to a dynamic tag manag
 keywords: dynamic tag management
 seo-description: How to migrate from each Tag Manager 2.0 tag to a dynamic tag management tag.
 seo-title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
 uuid: e18e2615-fa91-4556-bc9f-9c60bf825cd6
 index: y

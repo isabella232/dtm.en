@@ -3,7 +3,7 @@ description: Information for new users of Dynamic Tag Management.
 keywords: dynamic tag management
 seo-description: Information for new users of Dynamic Tag Management.
 seo-title: Getting started with DTM
-solution: Analytics,Marketing Cloud,Dynamic Tag Management
+solution: Dynamic  Tag Management
 title: Getting started with DTM
 uuid: 93a3054a-0db9-4dbb-9b12-9f69c7696102
 index: y

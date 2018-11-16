@@ -3,7 +3,7 @@ description: The dynamic tag management load order in relation to the JavaScript
 keywords: dynamic tag management
 seo-description: The dynamic tag management load order in relation to the JavaScript load order.
 seo-title: Load order for rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Load order for rules
 uuid: 7046ca75-b370-4bca-9d85-54ca3300d97a
 index: y
