@@ -3,7 +3,7 @@ description: Dynamic tag management lets marketers quickly and easily manage tag
 keywords: dynamic tag management;dtm
 seo-description: Dynamic tag management lets marketers quickly and easily manage tags and provides innovative tools for collecting and distributing data across digital marketing systems. Dynamic tag management also enables responsive delivery of user-specific content —providing new levels of agility and control to companies seeking to thrive in today’s fast paced digital marketplace.
 seo-title: Dynamic Tag Management overview
-solution: Analytics,Marketing Cloud,Dynamic Tag Management
+solution: Dynamic  Tag Management
 title: Dynamic Tag Management overview
 uuid: 539d7553-fd47-4c1f-b07d-31f96201cbf2
 index: y

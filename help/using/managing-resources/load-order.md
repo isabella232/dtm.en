@@ -1,8 +1,8 @@
 ---
 description: The DTM load order in relation to the JavaScript load order.
 keywords: dynamic tag management
-seo-description: The Adobe dynamic tag management load order in relation to the JavaScript load order.
-seo-title: Load order for rules in Adobe Dynamic Tag Management
+seo-description: The dynamic tag management load order in relation to the JavaScript load order.
+seo-title: Load order for rules
 solution: Dynamic Tag Management
 title: Load order for rules
 uuid: 7046ca75-b370-4bca-9d85-54ca3300d97a

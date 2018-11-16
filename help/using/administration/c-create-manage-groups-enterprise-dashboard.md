@@ -1,23 +1,25 @@
 ---
 description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 keywords: dynamic tag management
-seo-description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
+seo-description: Information to help you create new user groups in the Adobe Experience Cloud and to manage Adobe Dynamic Tag Management property access.
 seo-title: Create and manage groups for DTM in the Adobe Admin Console
 solution: Dynamic Tag Management
-title: Create and manage groups for DTM in the Adobe Admin Console
+
+title: Create and manage groups for DTM in Admin Console
+
 uuid: 36024edd-8085-4145-b824-955adc6dabbf
 index: y
 internal: n
 snippet: y
 ---
 
-# Create and manage groups in Adobe Admin Console
+# Create and manage groups for DTM in the Adobe Admin Console
 
 Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 
 This section contains the following information:
 
-* [Create New User Groups in the Marketing Cloud](../administration/c-create-manage-groups-enterprise-dashboard.md#section_08040874355948F8951A15ADE6BD9DE0) 
+* [Create New User Groups in the Experience Cloud](../administration/c-create-manage-groups-enterprise-dashboard.md#section_08040874355948F8951A15ADE6BD9DE0) 
 * [Manage Web Property Access in DTM](../administration/c-create-manage-groups-enterprise-dashboard.md#section_9BDEC92A8D284D1F952192C9373D82FA)
 
 ## Create new user groups in the Experience Cloud {#section_08040874355948F8951A15ADE6BD9DE0}
@@ -67,12 +69,11 @@ This section contains the following information:
 
    ![](assets/default-role-2.png)
 
-1. Save the group. 
+1. Save the group.
 1. Add the user group in the [!UICONTROL Adobe Admin Console].
-
-    1. Log in to the [!UICONTROL Adobe Admin Console] by clicking **[!UICONTROL Product Selection]** > **[!UICONTROL Administration]**. 
-    1. Click **[!UICONTROL Products]** > **[!UICONTROL Dynamic Tag Management]**. 
-    1. Click **[!UICONTROL Add New Group]**. 
-    1. The new group displays in the [!UICONTROL Select Group] drop-down list. Save the group. 
-    1. Add users to the new group by clicking **[!UICONTROL Users]** > **[!UICONTROL Add New User]**.
+   1. Log in to the [!UICONTROL Adobe Admin Console] by clicking **[!UICONTROL Product Selection]** > **[!UICONTROL Administration]**.
+   1. Click **[!UICONTROL Products]** > **[!UICONTROL Dynamic Tag Management]**.
+   1. Click **[!UICONTROL Add New Group]**.
+   1. The new group displays in the [!UICONTROL Select Group] drop-down list. Save the group.
+   1. Add users to the new group by clicking **[!UICONTROL Users]** > **[!UICONTROL Add New User]**.
 

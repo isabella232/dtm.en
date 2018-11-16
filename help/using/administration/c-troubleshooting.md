@@ -3,7 +3,7 @@ description: Describes several troubleshooting scenarios and their solutions and
 keywords: dynamic tag management
 seo-description: Describes several troubleshooting scenarios and their solutions and provides a list of Frequently Asked Questions (FAQ).
 seo-title: Troubleshooting
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Troubleshooting
 uuid: 134a3b2e-81e9-4703-a17b-ba4dfc0816db
 index: y
