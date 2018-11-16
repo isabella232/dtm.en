@@ -3,7 +3,7 @@ description: Dynamic tag management provides several options to migrate from a t
 keywords: dynamic tag management
 seo-description: Dynamic tag management provides several options to migrate from a typical JavaScript implementation or a Tag Manager implementation.
 seo-title: Migrating to Dynamic Tag Management
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Migrating to Dynamic Tag Management
 uuid: f582ff05-50c8-4e95-a7d9-5415484dcce6
 index: y

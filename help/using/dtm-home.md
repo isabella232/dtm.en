@@ -3,7 +3,7 @@ description: null
 keywords: dynamic tag management
 seo-description: null
 seo-title: Dynamic Tag Management Product Documentation
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Dynamic Tag Management Product Documentation
 uuid: a369caa7-eb0a-4387-8627-431673f9eb99
 index: y

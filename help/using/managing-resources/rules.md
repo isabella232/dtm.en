@@ -3,7 +3,7 @@ description: Dynamic tag management is a rule-based system. It looks for user in
 keywords: dynamic tag management
 seo-description: Dynamic tag management is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the tool, script, or HTML you identified.
 seo-title: Rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Rules
 uuid: 7faccf41-e378-4673-a182-e7e7d7a54985
 index: y

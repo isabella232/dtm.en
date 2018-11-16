@@ -3,7 +3,7 @@ description: Conditions determine when an event-based rule is triggered.
 keywords: dynamic tag management
 seo-description: Conditions determine when an event-based rule is triggered.
 seo-title: Create conditions for event-based rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Create conditions for event-based rules
 uuid: e9f2be37-b235-451a-8c9b-37cca61574f2
 index: y
