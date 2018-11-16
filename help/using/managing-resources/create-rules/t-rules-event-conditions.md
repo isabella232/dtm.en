@@ -3,7 +3,7 @@ description: Conditions determine when an event-based rule is triggered.
 keywords: Dynamic Tag Management
 seo-description: Conditions determine when an event-based rule is triggered.
 seo-title: Create conditions for event-based rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Create conditions for event-based rules
 uuid: e9f2be37-b235-451a-8c9b-37cca61574f2
 index: y
@@ -19,6 +19,7 @@ Conditions determine when an event-based rule is triggered.
    For more information, see [Event Types](../../managing-resources/create-rules/t-rules-event-conditions.md#concept_B1C6169D8B354207AEE0E4965E6421B1). 
 
 1. Enable the following options as necessary:
+
 
     <table id="table_022B9DA4224F47778F10B9772E2A295F"> 
     <thead> 
@@ -43,22 +44,24 @@ Conditions determine when an event-based rule is triggered.
 
        *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
 
+
 1. Indicate the name of the tag you want to track, and additional properties the tag has that you want to match.
 
-   ![](assets/condition_event_based2.png){width="472"}
+   ![](assets/condition_event_based2.png)
 
    See [Using the CSS Selector](../../managing-resources/create-rules/t-rules-event-conditions.md#concept_DDF500DCB8214658AEDECDE69ED1D4AF) for information about finding the correct element tag. 
 
-1. Select and set up any additional criteria or condition types you wish to bind to the rule.  ![](assets/condition_event_based3.png){width="472"}
+1. Select and set up any additional criteria or condition types you wish to bind to the rule.  ![](assets/condition_event_based3.png)
 
 1. Indicate your preference regarding event bubbling.
 
    Event bubbling is one way of event propagation in HTML DOM.
 
-       | **Want related interactions on child elements of the rule selector you identified to fire the rule.** | Allow events on child elements to bubble  |
-       |---|---|
-       | **Want to prevent bubbling when the child element already triggers its own event.** | Do not allow if child element already triggers event.  |
-       | **Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy** | Do not allow events to bubble upwards to parents  |
+    |||
+    |---|---|
+    | Want related interactions on child elements of the rule selector you identified to fire the rule. | Allow events on child elements to bubble  |
+    | Want to prevent bubbling when the child element already triggers its own event.| Do not allow if child element already triggers event.  |
+    | Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy** | Do not allow events to bubble upwards to parents  |
 
 ## Event types {#concept_B1C6169D8B354207AEE0E4965E6421B1}
 

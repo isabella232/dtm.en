@@ -3,7 +3,7 @@ description: The Dynamic Tag Management load order in relation to the JavaScript
 keywords: Dynamic Tag Management
 seo-description: The Dynamic Tag Management load order in relation to the JavaScript load order.
 seo-title: Load order for rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Load order for rules
 uuid: 7046ca75-b370-4bca-9d85-54ca3300d97a
 index: y
@@ -33,7 +33,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-* **Bottom of Page**
+## Bottom of Page
 
     * **Sequential HTML:** Injected after `_satellite.pageBottom()` callback script with `document.write()` prior to DOMREADY so that there is no destruction of the visible page 
     
@@ -50,7 +50,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-* **Onload (window load)**
+## Onload (window load)
 
     * **Sequential HTML:** Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
     * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
@@ -72,11 +72,11 @@ A simple way to determine the queue order is to look at [!DNL `_satellite.config
 
 For example, a complete view of the page load rule queue order can be seen by entering the following code into the JavaScript console:
 
-```
-_satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='pagetop')?_satellite.notify(i.event+': '+i.name,1):false})
-_satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='pagebottom')?_satellite.notify(i.event+': '+i.name,1):false})
-_satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='domready')?_satellite.notify(i.event+': '+i.name,1):false})
-_satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='windowload')?_satellite.notify(i.event+': '+i.name,1):false})
+```javascript
+ _satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='pagetop')?_satellite.notify(i.event+': '+i.name,1):false})
+ _satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='pagebottom')?_satellite.notify(i.event+': '+i.name,1):false})
+ _satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='domready')?_satellite.notify(i.event+': '+i.name,1):false})
+ _satellite.each(_satellite.configurationSettings.pageLoadRules,function(i){(i.event=='windowload')?_satellite.notify(i.event+': '+i.name,1):false})
 
 ```
 

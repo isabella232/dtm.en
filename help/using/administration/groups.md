@@ -3,7 +3,7 @@ description: Create user groups, assign group members, and specify default roles
 keywords: Dynamic Tag Management
 seo-description: Create user groups, assign group members, and specify default roles.
 seo-title: Create and manage groups in DTM
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Create and manage groups in DTM
 uuid: e938d14f-10b8-4a57-81f5-6d63dd427083
 index: y

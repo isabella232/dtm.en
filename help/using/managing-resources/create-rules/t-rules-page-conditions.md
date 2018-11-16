@@ -3,7 +3,7 @@ description: Create rules that determine on what pages a rule is triggered.
 keywords: Dynamic Tag Management
 seo-description: Create rules that determine on what pages a rule is triggered.
 seo-title: Create conditions for page-load rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Create conditions for page-load rules
 uuid: ae75524a-05c1-4fc6-8b00-fd6d784449b7
 index: y

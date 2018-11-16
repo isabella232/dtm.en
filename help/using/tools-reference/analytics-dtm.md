@@ -3,7 +3,7 @@ description: You can deploy Adobe Analytics (Standard and Premium) using Dynamic
 keywords: Dynamic Tag Management
 seo-description: You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 seo-title: Adobe Analytics tool
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Dynamic Tag Management
 title: Adobe Analytics tool
 uuid: 8f028897-1fbb-4e03-9721-9fce18a2bb0c
 index: y
