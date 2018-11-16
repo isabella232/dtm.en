@@ -25,8 +25,8 @@ In the **[!UICONTROL Conditions]** dialog, specify the string that will be passe
 
     By the end of this video you should be able to:
 
- * Understand what direct call rules are 
- * Set up a direct call rule
+* Understand what direct call rules are 
+* Set up a direct call rule
 
     >[!NOTE]
     >
