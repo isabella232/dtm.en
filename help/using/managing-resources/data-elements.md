@@ -88,7 +88,6 @@ You can use data elements in the rule editing interface by using the percent sig
 
 You can use data elements in custom scripts by using the `_satellite` object.
 
-
 ```javascript
 _satellite.getVar('data element name');
 ```
@@ -171,7 +170,6 @@ t_data_element.xml
       >If there is no value and no default value, then nothing is returned. Any variable referencing that data element won't get set. Note also that the default value field is ignored if it's a "custom code" data element.
    * **[!UICONTROL Force lowercase value]** Dynamic tag management automatically makes the value lowercased. 
    * **[!UICONTROL Remember this value for]** How long you want dynamic tag management to remember this value.
-
 
     * **[!UICONTROL Force lowercase value]** Dynamic Tag Management automatically makes the value lowercased. 
     

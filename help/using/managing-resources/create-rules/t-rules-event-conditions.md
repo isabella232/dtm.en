@@ -20,7 +20,6 @@ Conditions determine when an event-based rule is triggered.
 
 1. Enable the following options as necessary:
 
-
     <table id="table_022B9DA4224F47778F10B9772E2A295F"> 
     <thead> 
       <tr> 

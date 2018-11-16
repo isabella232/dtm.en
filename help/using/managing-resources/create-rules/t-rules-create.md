@@ -1,5 +1,4 @@
 ---
-
 description: Steps that describe how to create rules in Dynamic Tag Management.
 keywords: Dynamic Tag Management
 seo-description: Steps that describe how to create rules in Dynamic Tag Management.
