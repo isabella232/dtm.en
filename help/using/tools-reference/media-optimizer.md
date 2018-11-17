@@ -33,7 +33,7 @@ Your advertising management account has an associated numeric user ID. It is dis
 
 For example: `1234`
 
-**Transaction ID **
+**Transaction ID**
 
 Indicate a transaction ID property (ev_transid= *`<transid>`*) to include in the tag. When you include the ID, the advertiser must generate a unique value for < *`transid`*> (for example, an actual order ID) when the transaction is complete. The value is passed back to advertising management. Advertising management uses the transaction ID to eliminate duplicate transactions with the same transaction ID and property value.
 
@@ -55,7 +55,7 @@ The transaction ID cannot contain ampersand symbols (&), which are reserved as p
 
 Determines where and when the page code loads. The recommended location is selected by default.
 
-**Media Optimizer page code already present **
+**Media Optimizer page code already present**
 
 Prevents Dynamic Tag Management from installing advertising management code if the code exists on your site. This method lets you use Dynamic Tag Management to add to your existing advertising management implementation, rather than starting a new implementation.
 
@@ -69,7 +69,7 @@ A conversion property to be tracked when an end user views a page containing the
 
 Conversion properties can be set globally at the tool level and conditionally at the rule level. A globally configured Conversion Property is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool *`in addition`* to any conversion properties set in the rule.
 
-**Segment ID (optional) **
+**Segment ID (optional)**
 
 Indicate the numeric ID for an advertising management segment in which to add the users who complete the tracked transaction. (For JavaScript tags and for display campaigns only)
 

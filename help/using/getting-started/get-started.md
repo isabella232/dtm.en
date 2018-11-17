@@ -15,10 +15,6 @@ snippet: y
 
 Information for new users of Dynamic Tag Management.
 
-## Getting started with DTM {#concept_BCE87DF8A0EC48E99529AC0BE8D187FC}
-
-Information for new users of Dynamic Tag Management. 
-
 ## Requesting access to Dynamic Tag Management {#section_9E826B582D0F4712ACD5FC9EDEC3BDC2}
 
 Before you start using Dynamic Tag Management, someone from your company must request access. Please contact your Adobe account team and ask for access to Dynamic Tag Management. Your account team will use our internal Provisioning Hub tool to grant access. You should receive your login credentials within one to two business days.

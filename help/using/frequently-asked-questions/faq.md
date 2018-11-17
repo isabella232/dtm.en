@@ -127,7 +127,7 @@ For more information, see [Organizations and account linking](https://marketing.
 
 See [Experience Cloud ID Services](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-settings.html).
 
-**How do I troubleshoot my account access when it is linked to the Experience Cloud ID Service. **
+**How do I troubleshoot my account access when it is linked to the Experience Cloud ID Service.**
 
 For more information about troubleshooting issues that arise from account linking, see [Troubleshooting Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
 
@@ -143,7 +143,7 @@ A FAQ about performance, rules, loading, hosting, and so on.
 
 You can create and configure an Adobe Analytics tool automatically or manually. For more information about a manual (legacy) implementation, see [Manually implement Adobe Analytics (legacy)](../tools-reference/analytics-dtm.md#task_3A00639CADF14C9C844F962222077E4E).
 
-** Can I use Dynamic Tag Management on pages with content type `application/xhtml+xml` or `text + xhtml`?**
+**Can I use Dynamic Tag Management on pages with content type `application/xhtml+xml` or `text + xhtml`?**
 
 Yes.
 
