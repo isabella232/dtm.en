@@ -15,10 +15,9 @@ snippet: y
 
 Release notes and known issues for Dynamic Tag Management.
 
-This section contains the following information:
+## DTM sunset announced
 
-* [Current Release Notes](whatsnew.md#section_6C569C52357B425D95FE0ACA830852E7) 
-* [Documentation Updates, Previous Release Notes, and Marketing Cloud Release Notes](whatsnew.md#section_BAD2D50205A2432F8E44B57E83EC3A27)
+Adobe has released plans to sunset DTM by the end of 2020. For more information and scheduling, see [DTM Plans for a Sunset](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset) in the Adobe community forums.
 
 ## Current release notes {#section_6C569C52357B425D95FE0ACA830852E7}
 
