@@ -15,6 +15,10 @@ snippet: y
 
 Release notes and known issues for Dynamic Tag Management.
 
+## DTM sunset announced
+
+Adobe has released plans to sunset DTM by the end of 2020. For more information and scheduling, see [DTM Plans for a Sunset](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset) in the Adobe community forums.
+
 This section contains the following information:
 
 * [Current Release Notes](whatsnew.md#section_6C569C52357B425D95FE0ACA830852E7) 
