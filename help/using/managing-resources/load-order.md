@@ -33,7 +33,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-## Bottom of Page
+* **Bottom of Page**
 
     * **Sequential HTML:** Injected after `_satellite.pageBottom()` callback script with `document.write()` prior to DOMREADY so that there is no destruction of the visible page 
     
@@ -50,7 +50,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-## Onload (window load)
+* **Onload (window load)**
 
     * **Sequential HTML:** Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
     * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 

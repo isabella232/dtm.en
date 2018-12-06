@@ -17,10 +17,6 @@ You can invite users to Dynamic Tag Management and assign user roles and add use
 
 You must have administrative privileges to invite a new user in Dynamic Tag Management. Administrators are automatically granted permissions to a new property.
 
->[!NOTE]
->
->If you link your DTM company to the Experience Cloud, you must manage your users in the Experience Cloud.
-
 ## Manage users {#concept_6255E7CCF212439CA8593CD6A75C7E47}
 
 You can invite users to the [!DNL Adobe Experience Cloud] with the [!DNL Adobe Admin Console] (the preferred method) or you can use the legacy provisioning process in [!DNL Dynamic Tag Management].
@@ -35,17 +31,20 @@ c_add_users.xml
 >
 >If you link your DTM company to the Experience Cloud, you must manage your users in the Experience Cloud.
 
-<table id="table_B48A95A296C54628A1AF5258C15F1349">
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Important:</b> </p> <p>DTM accounts created after April 5, 2016 are managed by administrators using the <span class="wintitle"> Adobe Admin Console</span> in the <span class="keyword"> Adobe Experience Cloud</span>. To manage other users, the DTM administrator must be a <span class="keyword"> Experience Cloud</span> administrator in the <span class="wintitle"> Adobe Admin Console</span>. For more information, see <a format="https" href="https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=t_admin-roles" scope="external"> Delegate Administrative Roles to Users</a> in the <i>Experience Cloud and Core Services Product Documentation</i>. </p> <p>For accounts created before April 5, 2016, users are managed using the <span class="wintitle"> Users</span> page in DTM. For more information, see <a href="../administration/users.md#concept_A388FB8AC6834CEE88CAD9F8756A8A21" format="dita" scope="local"> Manage Users for DTM using the Legacy Process</a>. </p> <p>There are a few scenarios to keep in mind when deciding whether to provision new users with the <span class="keyword"> Experience Cloud</span> using the <span class="keyword"> Adobe Admin Console</span> or by using the legacy provisioning process in DTM. </p> <p>
-     <ul id="ul_44EA35763B8C4EB29F15F2508B059047">
-      <li id="li_48C79A76AD574D988C0999B15A1D44D9"> <p><b>Use the Adobe Admin Console: </b>If the user has already authenticated to DTM for a company that does not manage users with the Adobe Admin Console (the company was provisioned before April 5, 2016), that user can be added to a new company that does manage users with the Adobe Admin Console. </p> </li>
-      <li id="li_7902E06CF0684CE8824EB514F5EF34FE"> <p><b>Use the Legacy Provisioning Process: </b>If the user has already authenticated to the Adobe Experience Cloud and the account was created by using the Adobe Admin Console (the company was provisioned after April 5, 2016), that user cannot be added to an existing company that uses the legacy login. If this is the case, you must create a new email address to use for authentication. </p> </li>
-     </ul> </p> <p>Recommended best practice is to provision new users using the Adobe Admin Console. However, if there is any chance that these new users (consultants or agency representatives, for example) will need to access an account provisioned using the legacy process, you should provision that user in DTM and then link the account to the Experience Cloud. </p> <p>The provisioning process in the Adobe Admin Console is forward-looking and not backwards compatible. </p> </td>
-  </tr>
- </tbody>
-</table>
+>[!IMPORTANT]
+>DTM accounts created after April 5, 2016 are managed by administrators using the Adobe Admin Console in the Adobe Experience Cloud. To manage other users, the DTM administrator must be an Experience Cloud administrator in the Adobe Admin Console. For more information, see [Delegate Administrative Roles to Users](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=t_admin-roles) in the _Experience Cloud and Core Services Product Documentation_. 
+>
+>For accounts created before April 5, 2016, users are managed using the Users page in DTM. 
+>
+>There are a few scenarios to keep in mind when deciding whether to provision new users with the Experience Cloud using the Adobe Admin Console or by using the legacy provisioning process in DTM.
+>
+>**Use the Adobe Admin Console:** If the user has already authenticated to DTM for a company that does not manage users with the Adobe Admin Console (the company was provisioned before April 5, 2016), that user can be added to a new company that does manage users with the Adobe Admin Console. 
+>**Use the Legacy Provisioning Process:** If the user has already authenticated to the Adobe Experience Cloud and the account was created by using the Adobe Admin Console (the company was provisioned after April 5, 2016), that user cannot be added to an existing company that uses the legacy login. If this is the case, you must create a new email address to use for authentication.
+>
+>Recommended best practice is to provision new users using the Adobe Admin Console. However, if there is any chance that these new users (consultants or agency representatives, for example) will need to access an account provisioned using the legacy process, you should provision that user in DTM and then link the account to the Experience Cloud.
+>
+>The provisioning process in the Adobe Admin Console is forward-looking and not backwards compatible.
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/17181/)
 
@@ -75,9 +74,7 @@ Information to help you create user groups in the [!DNL Adobe Experience Cloud],
 
    ![](assets/users-ed.png)
 
-1. Click  ![](assets/icon_expand.png)
-
-   to add a new user.
+1. Click the **[!UICONTROL Add]** icon to add a new user.
 1. (Conditional) To add the user to multiple groups click the drop-down list, then select the product.
 
    ![](assets/products.png)
@@ -146,27 +143,27 @@ c_faq-users-permissions.xml
 
  -->
 
-**I added a user using the [!UICONTROL Admin] tab for the DTM product in the [!UICONTROL Adobe Admin Console], but that user was not added as a user in DTM. Why wasn’t the user created in DTM?**
+### I added a user using the [!UICONTROL Admin] tab for the DTM product in the [!UICONTROL Adobe Admin Console], but that user was not added as a user in DTM. Why wasn’t the user created in DTM?
 
 Adding a user to the [!UICONTROL Admin] tab in a group does not grant permissions in DTM. That process allows the user to edit the [!UICONTROL Product Configuration Groups] in the [!DNL Adobe Admin Console]. In order to add the user to DTM, they need to be added using the [!UICONTROL Users] tab.
 
-**My DTM account was created prior to April 5, 2016, how do I manage my users?**
+### My DTM account was created prior to April 5, 2016, how do I manage my users?
 
 If [!UICONTROL User Management] in the [!DNL Adobe Admin Console] is not enabled, DTM users are managed from within DTM on the [!UICONTROL Users] tab.
 
-**My DTM account was created prior to April 5, 2016 and I want to migrate my users to log in through the Experience Cloud. How do I accomplish this?**
+### My DTM account was created prior to April 5, 2016 and I want to migrate my users to log in through the Experience Cloud. How do I accomplish this?
 
 Contact Customer Care to restrict login access to the [!DNL Experience Cloud].
 
-**I invited a user through DTM, but I want the user to log in through the Experience Cloud.**
+### I invited a user through DTM, but I want the user to log in through the Experience Cloud.
 
 An account can be linked to a Experience Cloud user by selecting the Product Selection box > Activation > Link Account. For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-**Why do I see the error “Failed to fetch permission groups for this product”?**
+### Why do I see the error “Failed to fetch permission groups for this product”?
 
 This is a provisioning error. Contact Customer Care to resolve this error.
 
-**I was invited to a DTM company, who do I get an error that my password is wrong?**
+### I was invited to a DTM company, who do I get an error that my password is wrong?
 
 If your DTM account is enabled for the [!DNL Experience Cloud], but the login company for the new invite is a legacy company, the account might be the issue.
 

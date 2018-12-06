@@ -17,13 +17,13 @@ To create conditions for direct-call rules.
 
 In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
 
-    ![](assets/conditions_direct_call.png){width="400"}
+![](assets/conditions_direct_call.png){width="400"}
 
-    Watch an Adobe training video demonstrating how to set up a direct-call rule in Dynamic Tag Management:
+Watch an Adobe training video demonstrating how to set up a direct-call rule in Dynamic Tag Management:
 
-    >[!VIDEO](https://video.tv.adobe.com/v/17170/)
+>[!VIDEO](https://video.tv.adobe.com/v/17170/)
 
-    By the end of this video you should be able to:
+By the end of this video you should be able to:
 
 * Understand what direct call rules are 
 * Set up a direct call rule

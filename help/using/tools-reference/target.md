@@ -19,7 +19,7 @@ Information about creating the Adobe Target tool for deploying Adobe Target in D
 >
 >For best practices, see [Best Practices for Implementing Adobe Target Using Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
 
-**[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Target]**
+*<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Target]**
 
 ![](assets/target_tool.png)
 
@@ -41,11 +41,11 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
   You can manually manage the [!DNL Adobe Target] code. You can download the [!DNL at.js] or [!DNL mbox.js] file from the Target solution interface as follows:
 
-    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download at.js]**
+    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download at.js]**
 
-    * Target Standard:** [!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]**
+    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]**
 
-    * Target Classic:** [!UICONTROL Configuration-]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Download]**
+    * Target Classic: **[!UICONTROL Configuration-]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Download]**
 
   After you download the code locally, copy and paste the code into the editor field in the Library Management section of the tool settings. You also have the option of hosting the code at a specific URL as an alternative to manually pasting in the code.
 
@@ -84,9 +84,7 @@ target_library_management.xml
 
  -->
 
-**[!UICONTROL Property]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Library Management]**
+**[!UICONTROL Property]** > **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
 ![](assets/target_library.png)
 
@@ -128,24 +126,10 @@ Edit Tool]** > **[!UICONTROL Library Management]**
 
 ![](assets/target_global.png)
 
-<table id="table_1BC88AFFC99648C7995D3B88BB0DAA8C">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Element </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Name </p> </td>
-   <td colname="col2"> <p> Indicate the name of the additional parameter(s) you wish to pass to the global mbox. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Value </p> </td>
-   <td colname="col2"> <p> Indicate the value of the additional parameter(s) you want to pass to the global mbox. The value is typically a data element. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Element|Description|
+|---|---|
+|Name|Indicate the name of the additional parameter(s) you wish to pass to the global mbox.|
+|Value|Indicate the value of the additional parameter(s) you want to pass to the global mbox. The value is typically a data element.|
 
 ## Mbox rule example for Dynamic Tag Management {#task_2642B010AB204834A2AF7CEACDAC23F7}
 
