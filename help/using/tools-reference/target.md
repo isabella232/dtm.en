@@ -47,7 +47,7 @@ The following table describes the fields and options on the [!UICONTROL Add a To
 
     * Target Classic: **[!UICONTROL Configuration-]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Download]**
 
-  After you download the code locally, copy and paste the code into the editor field in the Library Management section of the tool settings. You also have the option of hosting the code at a specific URL as an alternative to manually pasting in the code.
+  After you download the code locally, copy and paste the code into the editor field in the Library Management section of the tool settings. You have the option of hosting the code at a specific URL as an alternative to manually pasting in the code.
 
   **Automatic Configuration Method**
 
