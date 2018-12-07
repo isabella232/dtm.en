@@ -67,7 +67,7 @@ Dynamic Tag Management automatically retrieves the latest `mbox.js` code from yo
 
     * Target Classic: **[!UICONTROL Configuration]** > **[!UICONTROL mbox.js]** > **[!UICONTROL Edit]** > *copy value for Client*.
 
-    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within mbox.js file*.
+    * Target Standard: **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Download mbox.js]** > *copy value for Client from within* `mbox.js` *file*.
 
 ## Library management - Adobe Target {#concept_DD6234BB44134EE88F7CD67191366CBC}
 
@@ -86,19 +86,19 @@ target_library_management.xml
 ![](assets/target_library.png)
 
 * Load Adobe Target Library synchronously
-  This option ensures the [!DNL at.js] or [!DNL mbox.js] code is loaded synchronously in the `<head>` section. It is generally recommended that you leave this option enabled. It is an [!DNL Adobe Target] best practice to load the code in this way.
+  This option ensures the `at.js` or `mbox.js` code is loaded synchronously in the `<head>` section. It is generally recommended that you leave this option enabled. It is an [!DNL Adobe Target] best practice to load the code in this way.
 * Code Configuration
-  **Managed by Adobe:** (mbox.js only) This option is equivalent to the Automatic configuration method available when creating the tool. This option loads the [!DNL mbox.js] code directly from Adobe.
+  **Managed by Adobe:** (`mbox.js` only) This option is equivalent to the Automatic configuration method available when creating the tool. This option loads the `mbox.js` code directly from Adobe.
   This feature optimizes the configuration process when using a manual method, because no more copying or pasting from the [!DNL Adobe Target] admin console is required.
    * You must be logged in via Experience Cloud or have provided the appropriate [Client Code](../tools-reference/target.md#section_957AFF495DC04E548D0084C0F3063DBF) for this option to be available.
-   * Clicking **[!UICONTROL Check for Updates]** automatically checks for new versions of the [!DNL mbox.js] code within your associated [!DNL Adobe Target] account. If a new version is identified, you have the option to use it or retain the current version.
+   * Clicking **[!UICONTROL Check for Updates]** automatically checks for new versions of the `mbox.js` code within your associated [!DNL Adobe Target] account. If a new version is identified, you have the option to use it or retain the current version.
 
-  **Custom:** You can manually configure the [!DNL at.js] or [!DNL mbox.js] code. Two methods are available to manually host the code in Dynamic Tag Management:
+  **Custom:** You can manually configure the `at.js` or `mbox.js` code. Two methods are available to manually host the code in Dynamic Tag Management:
 
-    * **In DTM:** Click **[!UICONTROL Edit Code]** and paste the code in the editor. If you were using *`Managed by Adobe`* and switch to *`custom`*, the editor automatically populates with your [!DNL mbox.js] code. You can replace this with the content of the [!DNL at.js] library.
-    * **At URL:** If your [!DNL at.js] or [!DNL mbox.js] is configured as desired, you can provide the URL to the file. Dynamic Tag Management consumes it for use in the [!DNL Adobe Target] tool.
+    * **In DTM:** Click **[!UICONTROL Edit Code]** and paste the code in the editor. If you were using `Managed by Adobe` and switch to `custom`, the editor automatically populates with your `mbox.js` code. You can replace this with the content of the  `at.js` library.
+    * **At URL:** If your `at.js` or `mbox.js` is configured as desired, you can provide the URL to the file. Dynamic Tag Management consumes it for use in the [!DNL Adobe Target] tool.
 
-## Global parameters - Adobe Target {#concept_0946C2AAB8044A9297FF498DB7157F42}
+## Global parameters - Adobe Target
 
 Descriptions of the fields and options in the Global Parameters settings in Dynamic Tag Management for an Adobe Target Tool.
 
@@ -110,7 +110,7 @@ Global parameters let you pass additional data to the global [!DNL Adobe Target]
 
 The parameters configured in Dynamic Tag Management do not override parameters already defined on the page, but instead appends and sequences to create maximum flexibility and customization on a per page basis.
 
-**[!UICONTROL Property]** > **[!UICONTROL   ![](assets/settings_gear.png) Edit Tool]** > **[!UICONTROL Library Management]**
+**[!UICONTROL Property]** > **[!UICONTROL Edit Tool]** ![](assets/settings_gear.png) > **[!UICONTROL Library Management]**
 
 ![](assets/target_global.png)
 
