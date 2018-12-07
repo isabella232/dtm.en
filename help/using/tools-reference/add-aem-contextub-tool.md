@@ -252,7 +252,7 @@ The first step in configuring the AEM ContextHub tool is to add it to a web prop
 >
 >At this time only one AEM ContextHub tool is allowed per DTM web property.
 
-1. Click  *<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
+1. Click  *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
 
    ![](assets/add-aem-tool.png)
 
