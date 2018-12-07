@@ -110,7 +110,7 @@ Global parameters let you pass additional data to the global [!DNL Adobe Target]
 
 The parameters configured in Dynamic Tag Management do not override parameters already defined on the page, but instead appends and sequences to create maximum flexibility and customization on a per page basis.
 
-**[!UICONTROL Property]** > **[!UICONTROL Edit Tool]** ![](assets/settings_gear.png) > **[!UICONTROL Library Management]**
+**[!UICONTROL Property]** > **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
 ![](assets/target_global.png)
 
