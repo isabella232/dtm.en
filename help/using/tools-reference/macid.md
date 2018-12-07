@@ -25,7 +25,7 @@ For documentation about DTM settings, refer to [Experience Cloud ID Service Sett
 >
 >The Experience Cloud ID Service tool integrates only with Adobe Analytics and the Adobe Experience Cloud. This service must be the first code that loads on a page. It must load synchronously, and it cannot be edited. Additionally, to avoid conflicts, use only one method of deploying the Experience Cloud ID Service (either the Dynamic Tag Management deployment, or manually using your own code).
 
-*<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Experience Cloud ID Service]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Experience Cloud ID Service]**
 
 You can automate the deployment of the Experience Cloud ID Service using Dynamic Tag Management. This service enables Experience Cloud services and features, such as [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=audience_library) , where you can [publishing an Analytics audience segment](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_publish_audience_segment) .
 
