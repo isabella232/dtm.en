@@ -21,7 +21,7 @@ You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Manageme
 
 ## Add an Adobe Analytics tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  *<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
+1. Click  *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
 
    ![Step Result](assets/add_analytics_tool.png)
 
