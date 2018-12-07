@@ -96,7 +96,7 @@ target_library_management.xml
   **Custom:** You can manually configure the [!DNL at.js] or [!DNL mbox.js] code. Two methods are available to manually host the code in Dynamic Tag Management:
 
     * **In DTM:** Click **[!UICONTROL Edit Code]** and paste the code in the editor. If you were using *`Managed by Adobe`* and switch to *`custom`*, the editor automatically populates with your [!DNL mbox.js] code. You can replace this with the content of the [!DNL at.js] library.
-    * **At URL:** If your [!DNL at.js] or [!DNL mbox.js] is configured as desired, you can provide the URL to the file. Dynamic Tag Management will consume it for use in the [!DNL Adobe Target] tool.
+    * **At URL:** If your [!DNL at.js] or [!DNL mbox.js] is configured as desired, you can provide the URL to the file. Dynamic Tag Management consumes it for use in the [!DNL Adobe Target] tool.
 
 ## Global parameters - Adobe Target {#concept_0946C2AAB8044A9297FF498DB7157F42}
 
