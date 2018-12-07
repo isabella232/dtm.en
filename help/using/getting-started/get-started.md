@@ -155,7 +155,7 @@ Roles include the following:
 |  Publishers  | Publish rules to the production site. Only approved rules are published.  |
 |  Administrators  | Create and manage users, as well as inheriting rights from the three preceding roles.  |
 
-<p class="head"> <b>Publishing workflow</b> </p>
+### Publishing workflow
 
 1. A rule is saved. 
 1. The rule is automatically pushed to your staging site where you can perform testing. 
