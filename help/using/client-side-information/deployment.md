@@ -49,8 +49,8 @@ You can deploy Dynamic Tag Management using one or more of the following options
 >[!NOTE]
 >
 >After July 31, 2015 Adobe will no longer support Amazon S3. Your Dynamic Tag Management libraries on Amazon S3 will continue to be served until December 31, 2015, but in a read-only state. Any changes made in Dynamic Tag Management will no longer be reflected in these files.
-
-To deploy additional changes to your site after July 31, 2015, you must select one of our other hosting options. Self-hosting (FTP Delivery or Library Download) is always the suggested best practice, but our 3rd-party Akamai hosting is a world-class option as well.
+>
+>To deploy additional changes to your site after July 31, 2015, you must select one of our other hosting options. Self-hosting (FTP Delivery or Library Download) is always the suggested best practice, but our 3rd-party Akamai hosting is a world-class option as well.
 
 ### Self-hosting: FTP delivery
 

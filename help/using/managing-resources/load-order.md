@@ -68,7 +68,7 @@ The Dynamic Tag Management queue processes them in the order listed above but do
 
 This means that the order of the page load rules in the queue determines the order in which they are de-queued.
 
-A simple way to determine the queue order is to look at [!DNL `_satellite.configurationSettings.pageLoadRules`] in the JavaScript console and examine the sequence.
+A simple way to determine the queue order is to look at `_satellite.configurationSettings.pageLoadRules` in the JavaScript console and examine the sequence.
 
 For example, a complete view of the page load rule queue order can be seen by entering the following code into the JavaScript console:
 

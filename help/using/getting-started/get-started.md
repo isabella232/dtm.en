@@ -238,7 +238,7 @@ Architecturally, Dynamic Tag Management comprises two main components:
 
 >[!VIDEO](https://video.tv.adobe.com/v/17166/)
 
-By then end of this video you should be able to:
+By the end of this video you should be able to:
 
 * Describe the basic elements of DTM's architecture
 

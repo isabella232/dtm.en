@@ -203,7 +203,7 @@ To dynamically assign element attributes to variables, use the following syntax:
 
 For example, suppose you have a search results page with multiple links to external web sites. You want to track which link is clicked by dynamically populating an eVar with the *`id`* of the element clicked.
 
-Example Link: [!DNL `<a id='myFirstLink' href='www.exampleLink.com'>`]
+Example Link: `<a id='myFirstLink' href='www.exampleLink.com'>`
 
 To accomplish this, create an event-based rule to trigger on the click of the links on the page. Then, within the [!DNL Analytics] section of the rule, set the eVar to `%this.id%`.
 
