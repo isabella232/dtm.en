@@ -65,6 +65,9 @@
         },
         {
             "pattern": "^.*drupal.org"
-        }         
+        },
+        {
+            "pattern": "^.*adminconsole.adobe.com"
+        }       
     ]
 }
