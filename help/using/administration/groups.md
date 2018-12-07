@@ -106,9 +106,7 @@ t_create_group.xml
 
    ![](assets/group_tool_restrict.png)
 
-   A green checkmark  ![](assets/icon_checkbox.png)
-
-   next to a tool indicates that the corresponding tool is currently installed for this property.
+   A green checkmark next to a tool indicates that the corresponding tool is currently installed for this property.
 
    If a user is a member of two groups and one group restricts tool access and the other group allows access, access rights are restricted for any selected tools.
 

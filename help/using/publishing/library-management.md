@@ -14,7 +14,7 @@ snippet: y
 
 This article contains descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 
- **[!UICONTROL  *`Property`*]** > **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
+ **&lt;*Property*&gt;** > **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >

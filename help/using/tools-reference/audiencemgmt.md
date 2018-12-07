@@ -15,7 +15,7 @@ snippet: y
 
 Information about deploying Adobe Audience Manager using Dynamic Tag Management.
 
- **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Manager]** 
+ *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Manager]** 
 
 <table id="table_722D8A274A3448EB918DBB682FF68C24"> 
  <thead> 

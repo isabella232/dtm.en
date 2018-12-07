@@ -15,7 +15,7 @@ snippet: y
 
 Configuration options in Dynamic Tag Management for Google Universal Analytics.
 
-**[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Universal Analytics]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Universal Analytics]**
 
 Google Universal Analytics is configured as a tool in the Dynamic Tag Management interface.
 

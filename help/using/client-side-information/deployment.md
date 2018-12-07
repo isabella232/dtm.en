@@ -130,7 +130,7 @@ You might consider the following questions when deciding which hosting option is
 
   Key items to identify include:
 
-    * Which JavaScript libraries are referenced within the *`<head>`* section of the web page. 
+    * Which JavaScript libraries are referenced within the `<head>` section of the web page. 
     * Whether the individual sections of the page, such as headers and footers, are dynamically generated.
 
   Knowledge of any content management systems that are used is helpful in determining the appropriate hosting methodology.
@@ -155,7 +155,7 @@ The Akamai hosting option allows you to store your web property library files on
 
 ## Akamai cache control headers {#section_E004368DEA0143B4B17B2D5966A4664E}
 
-Cache control headers are automatically set for libraries hosted on Akamai (assets.adobedtm.com).
+Cache control headers are automatically set for libraries hosted on Akamai (`assets.adobedtm.com`).
 
 * Production builds: Cache control headers are set to 60 minutes 
 * Staging builds with `-staging` in the filename: Cache control headers are set to 0 minutes

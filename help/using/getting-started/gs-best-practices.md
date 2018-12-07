@@ -456,13 +456,13 @@ This will help ensure proper and timely placement of the embed code and coordina
 
 |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve Rules  | Publish Rules  | Create/Edit Users  | Create Property  |
 |---|---|---|---|---|---|---|---|
-|  **User ** | Yes  | Yes  | Yes  |  |  |  |  |
-|  **Approver ** | Yes  | Yes  | Yes  | Yes  |  |  |  |
-|  **Publisher ** | Yes  | Yes  | Yes  |  | Yes  |  |  |
-|  **Approver and Publisher ** | Yes  | Yes  | Yes  | Yes  | Yes  |  |  |
-|  **Admin ** | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+|  **User** | Yes  | Yes  | Yes  |  |  |  |  |
+|  **Approver** | Yes  | Yes  | Yes  | Yes  |  |  |  |
+|  **Publisher** | Yes  | Yes  | Yes  |  | Yes  |  |  |
+|  **Approver and Publisher** | Yes  | Yes  | Yes  | Yes  | Yes  |  |  |
+|  **Admin** | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 
-This will ensure that all items are fully vetted by the right members of your team before being pushed to production.
+This ensures that all items are fully vetted by the right members of your team before being pushed to production.
 
 For more information, see [Migrating to Dynamic Tag Management](../migration-to-and-from-dtm/migration.md#concept_0900FD22CF94473E89F73D5A866CE799) in the *Dynamic Tag Management Product Documentation*. 
 
@@ -608,11 +608,11 @@ Here's an overview of each rule-type and their typical usage for setting Adobe A
   </tr> 
   <tr> 
    <td colname="col1"> <b>Event-based rule </b> </td> 
-   <td colname="col2"> <p>Use to trigger a <span class="codeph"> s.t() </span> or <span class="codeph"> s.tl() </span> beacon on specific user interactions. <b>Use Case Example: </b>Sending a custom page view beacon with a particular event when a popover is enabled. </p> </td> 
+   <td colname="col2"> <p>Use to trigger a <code>s.t()</code> or <code>s.tl()</code> beacon on specific user interactions. <b>Use Case Example: </b>Sending a custom page view beacon with a particular event when a popover is enabled. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Direct-call rule </b> </td> 
-   <td colname="col2"> <p>Use to trigger a <span class="codeph"> s.t() </span> or <span class="codeph"> s.tl() </span> beacon in scenarios when DOM event can' be detected. <b>Use Case Example:</b> Sending a <span class="codeph"> s.tl() </span> beacon with a particular event when a video is viewed. </p> </td> 
+   <td colname="col2"> <p>Use to trigger a <code>s.t()</code> or <code>s.tl()</code> beacon in scenarios when DOM event can' be detected. <b>Use Case Example:</b> Sending a <code> s.tl()</code> beacon with a particular event when a video is viewed. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -21,7 +21,7 @@ You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Manageme
 
 ## Add an Adobe Analytics tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL  *Web Property Name*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
+1. Click  *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
 
    ![Step Result](assets/add_analytics_tool.png)
 
@@ -78,7 +78,7 @@ See [FAQ - Adobe Analytics Tool](../frequently-asked-questions/faq.md#section_75
 
 You can edit an existing Adobe Analytics tool to change its configuration settings.
 
-1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
+1. Click the **[!UICONTROL Settings]** icon next to an installed tool from the [!UICONTROL Overview] tab.
 1. Edit the fields as desired.
 
    The following table includes only those elements that differ from the elements available when you are creating an Analytics tool, as described above. However, you can change any element on the page, as described in both tables.
@@ -123,7 +123,7 @@ general_settings_analyitcs.xml
 
  -->
 
-**[!UICONTROL  *Property*]** > **[!UICONTROL Settings]** > **[!UICONTROL General]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** > **[!UICONTROL General]**
 
 * Enable EU compliance for [!DNL Adobe Analytics]  Enables or disables tracking based on the EU privacy cookie.
 
@@ -179,7 +179,7 @@ library_management.xml
 
  -->
 
-**[!UICONTROL  *Property*]** > **[!UICONTROL Settings Edit Tool]** > **[!UICONTROL Library Management]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >
@@ -272,7 +272,7 @@ These variables fire on all page load rule beacons. You can accomplish the same 
 
 ## Global variables - field descriptions {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL  *Property*]** > [!UICONTROL ![(assets/settings_gear.png)] **[!UICONTROL Edit Tool]** > **[!UICONTROL Global Variables]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Global Variables]**
 
 |Element|Description|
 |---|---|
@@ -291,7 +291,7 @@ pageviews_content.xml
 
  -->
 
-**[!UICONTROL  *Property*]** > [!UICONTROL ![(assets/settings_gear.png)] **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
 
 |Element|Description|
 |---|---|
@@ -310,9 +310,7 @@ link_tracking.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Link Tracking]**
 
 * Enable ClickMap
 
@@ -372,9 +370,7 @@ referrers_campaigns.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
 
 |Element|Description|
 |---|---|
@@ -397,9 +393,7 @@ cookies_analytics.xml
 
  -->
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Cookies]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Cookies]**
 
 |Element|Description|
 |---|---|
@@ -422,9 +416,7 @@ customize_page_code.xml
 
 Add plugins to ensure that the code runs at the same time as the Analytics tool.
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Customize Page Code]**
+*[!UICONTROL  Property]* > **[!UICONTROL Settings]** icon > **[!UICONTROL Edit Tool]** > **[!UICONTROL Customize Page Code]**
 
 |Element|Description|
 |---|---|
@@ -461,36 +453,13 @@ Enables automatic synchronization of [!DNL Adobe Analytics] report suites via a 
 
 ### Frequently asked questions {#section_75E724E86D0D4952B199A9B850AE0A3E}
 
-<table id="table_A50D00E2C47A473B92DA800FB08FE640">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Question </th>
-   <th colname="col2" class="entry"> Answer </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p>Is this a new <span class="keyword"> Adobe Analytics </span> tool, or a change to the existing tool? </p> </td>
-   <td colname="col2"> <p>A change to the existing tool. If you currently have an implementation of <span class="keyword"> Adobe Analytics </span> in Dynamic Tag Management, it will continue to function. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? </p> </td>
-   <td colname="col2"> <p>Yes. All changes can be tested in staging just like you normally would before deploying to a production environment. If you choose not to publish, because you notice issues in staging, the production code will continue to function as it did before the new integration was released. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>If I switch from manual configuration (the default setting for existing tools) to automatic configuration, will my current settings be affected? </p> </td>
-   <td colname="col2"> <p>No. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>If I switch from manual library management to Managed by Adobe, will my current settings or code be affected? </p> </td>
-   <td colname="col2"> <p>Any user code that you have specified is overwritten with the base <span class="keyword"> AppMeasurement </span> library. You must move this code to the new <span class="wintitle"> Custom Page Code </span> section at the end of the tool configuration so that the code continues executing. This method allows the <span class="keyword"> AppMeasurement </span> library to be managed (and upgraded) separately from the user's custom code. </p> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Will the revision history for the <span class="keyword"> Adobe Analytics </span> tool be retained when the new integration is released? </p> </td>
-   <td colname="col2"> <p>Yes. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Question|Answer|
+|---|---|
+|Is this a new [!DNL Adobe Analytics] tool, or a change to the existing tool? |A change to the existing tool. If you currently have an implementation of [!DNL Adobe Analytics] in Dynamic Tag Management, it will continue to function.|
+|If I make configuration changes in the new version of the tool, can I test in staging before publishing to production?|Yes. All changes can be tested in staging just like you normally would before deploying to a production environment. If you choose not to publish, because you notice issues in staging, the production code will continue to function as it did before the new integration was released.|
+|If I switch from manual configuration (the default setting for existing tools) to automatic configuration, will my current settings be affected?|No.|
+|If I switch from manual library management to Managed by Adobe, will my current settings or code be affected?|Any user code that you have specified is overwritten with the base [!DNL AppMeasurement] library. You must move this code to the new Custom Page Code section at the end of the tool configuration so that the code continues executing. This method allows the [!DNL AppMeasurement] library to be managed (and upgraded) separately from the user's custom code.|
+|Will the revision history for the [!DNL Adobe Analytics] tool be retained when the new integration is released?|Yes.|
 
 ### Potential pitfalls {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
@@ -549,9 +518,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 
    ![](assets/configure-tool.png)
 
-1. To configure the code, click **[!UICONTROL Settings]** (  ![](assets/settings_gear.png)
-
-   ).
+1. To configure the code, click the **[!UICONTROL Settings]** icon.
 
    At a minimum, click **[!UICONTROL Cookies]** and configure your tracking server and SSL tracking server.
 
@@ -562,7 +529,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 1. [Add the header and footer code](../client-side-information/deployment.md#concept_09612483C4934E16B20F5E9DA3B7EB7D) on the Embed tab.
 
    For staging, you can leave the default Amazon hosting option. You can change it if needed before your production rollout.
-1. (Optional) Click **[!UICONTROL Settings]** (  ![](assets/settings_gear.png)) on the Options tab, and configure the [!UICONTROL Adobe Analytics] code.
+1. (Optional) Click the **[!UICONTROL Settings]** icon on the Options tab, and configure the [!UICONTROL Adobe Analytics] code.
 
    >[!NOTE]
    >
