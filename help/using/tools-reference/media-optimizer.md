@@ -15,7 +15,7 @@ snippet: y
 
 Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 
-*<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Media Optimizer]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Media Optimizer]**
 
 <!-- 
 
