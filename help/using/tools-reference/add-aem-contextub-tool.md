@@ -21,7 +21,7 @@ The AEM ContextHub tool solves many problems associated with data layers. Some d
 
 The AEM ContextHub tool eliminates the need to write custom code that frequently checks to determine if the data layer changes, loads somewhere other than the top of the page, or is modified as the page changes.
 
-As an example, suppose a customer places an item in the shopping cart and then removes that item. If the page doesn't refresh as the data layer changes DTM will not recognize the change without a custom code addition. The AEM ContexHub tool contains a polling engine that checks every second to determine if there are changes.
+As an example, suppose a customer places an item in the shopping cart and then removes that item. If the page doesn't refresh as the data layer changes, DTM will not recognize the change without a custom code addition. The AEM ContexHub tool contains a polling engine that checks every second to determine if there are changes.
 
 Because DTM can now proactively populate data elements via the data layer, users can also use AEM ContextHub data elements in conjunction with previously released conditions, such as Data Element Value. This allows users to manage data layer values on a page load, or combine the Data Element Value condition with the [dataelementchanged](../managing-resources/create-rules/t-rules-event-conditions.md#concept_B1C6169D8B354207AEE0E4965E6421B1) event, in cases where the data layer has changed due to user interaction.
 
