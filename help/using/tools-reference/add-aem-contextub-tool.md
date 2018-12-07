@@ -27,7 +27,7 @@ Because DTM can now proactively populate data elements via the data layer, users
 
 When you configure this tool, you can use the default setting to integrate with the AEM ContextHub or you can customize the structure to work with any website.
 
-1. Click  *<Web Property Name>* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
+1. Click  *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL AEM ContextHub]** .
 
    ![](assets/add-aem-tool.png)
 
