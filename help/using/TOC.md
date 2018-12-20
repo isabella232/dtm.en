@@ -14,7 +14,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
 index: no
 ---
 
-# Dynamic Tag Manager Help {#dtm-guide}
+# Dynamic Tag Manager Help {#using}
 
 + [Dynamic Tag Management Product Documentation](dtm-home.md)
 + [Release notes for Dynamic Tag Management](whatsnew.md)
