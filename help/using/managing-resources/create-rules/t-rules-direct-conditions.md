@@ -6,9 +6,7 @@ seo-title: Create conditions for direct-call rules
 solution: Dynamic Tag Management
 title: Create conditions for direct-call rules
 uuid: 7a83c4be-d6f2-4a4d-a735-335fd8e24921
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create conditions for direct-call rules{#create-conditions-for-direct-call-rules}

@@ -6,9 +6,7 @@ seo-title: Create conditions for page-load rules
 solution: Dynamic Tag Management
 title: Create conditions for page-load rules
 uuid: ae75524a-05c1-4fc6-8b00-fd6d784449b7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create conditions for page-load rules{#create-conditions-for-page-load-rules}

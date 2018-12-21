@@ -4,9 +4,7 @@ seo-description: If you are new to Adobe Dynamic Tag Management (DTM), getting r
 seo-title: Best practices for getting started with Adobe Dynamic Tag Management
 title: Getting started best practices
 uuid: e9bc2108-9742-4391-a58f-cb827040717f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Getting started best practices

@@ -6,9 +6,7 @@ seo-title: Previous release notes
 solution: Dynamic Tag Management
 title: Previous release notes
 uuid: 3e92cd1b-83ad-429e-a9a2-0616394a1949
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Previous release notes{#previous-release-notes}

@@ -6,9 +6,7 @@ seo-title: Rules
 solution: Dynamic Tag Management
 title: Rules
 uuid: 7faccf41-e378-4673-a182-e7e7d7a54985
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Rules{#rules}

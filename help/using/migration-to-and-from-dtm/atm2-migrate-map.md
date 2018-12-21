@@ -6,9 +6,7 @@ seo-title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
 solution: Dynamic Tag Management
 title: Adobe Tag Manager 2.0 to Dynamic Tag Management mapping
 uuid: e18e2615-fa91-4556-bc9f-9c60bf825cd6
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Tag Manager 2.0 to Dynamic Tag Management mapping{#adobe-tag-manager-to-dynamic-tag-management-mapping}

@@ -6,9 +6,7 @@ seo-title: Embed code and hosting options
 solution: Dynamic Tag Management
 title: Embed code and hosting options
 uuid: b05e4cc2-8b2f-42af-97c0-2f68436a7d6e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Embed code and hosting options{#embed-code-and-hosting-options}

@@ -6,8 +6,7 @@ seo-title: Create conditions for event-based rules
 solution: Dynamic Tag Management
 title: Create conditions for event-based rules
 uuid: e9f2be37-b235-451a-8c9b-37cca61574f2
-index: y
-internal: n
+
 ---
 
 # Create conditions for event-based rules{#create-conditions-for-event-based-rules}

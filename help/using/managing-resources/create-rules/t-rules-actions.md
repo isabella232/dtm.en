@@ -6,9 +6,7 @@ seo-title: Set up actions for the condition to trigger
 solution: Dynamic Tag Management
 title: Set up actions for the condition to trigger
 uuid: 93c89ff1-4b7d-4895-bd75-edb56ea3600b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Set up actions to trigger{#set-up-actions-for-the-condition-to-trigger}

@@ -6,9 +6,7 @@ seo-title: Adobe DTM Tools
 solution: Dynamic Tag Management
 title: Tools
 uuid: da61f065-e234-4c60-81fa-9398678f9140
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Tools{#tools}

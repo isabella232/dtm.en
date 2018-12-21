@@ -6,9 +6,7 @@ seo-title: Adobe Analytics tool
 solution: Dynamic Tag Management
 title: Adobe Analytics tool
 uuid: 8f028897-1fbb-4e03-9721-9fce18a2bb0c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Analytics tool{#adobe-analytics-tool}

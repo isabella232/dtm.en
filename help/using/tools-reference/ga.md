@@ -6,9 +6,7 @@ seo-title: Google Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Analytics tool
 uuid: 4fca02cc-8c3d-47e9-81be-9248ea908175
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Google Analytics tool{#google-analytics-tool}

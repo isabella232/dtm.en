@@ -6,9 +6,7 @@ seo-title: Documentation updates
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Documentation updates
 uuid: b83d5476-552e-4bbc-aa81-1f29dbe1def8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Documentation updates{#documentation-updates}

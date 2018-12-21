@@ -4,9 +4,7 @@ seo-description: null
 seo-title: Deploy JavaScript tags to opt in to DTM
 title: Deploy JavaScript tags to opt in to DTM
 uuid: 9cdf5aeb-0acf-467f-9526-616300485b93
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Deploy JavaScript tags to opt in to DTM{#deploy-javascript-tags-to-opt-in-to-dtm}

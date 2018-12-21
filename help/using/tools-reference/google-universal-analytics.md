@@ -6,9 +6,7 @@ seo-title: Google Universal Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Universal Analytics tool
 uuid: 09c65edf-896d-437c-ab37-54551f643305
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Google Universal Analytics tool{#google-universal-analytics-tool}

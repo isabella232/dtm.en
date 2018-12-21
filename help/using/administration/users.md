@@ -6,9 +6,7 @@ seo-title: Users and permissions
 solution: Dynamic Tag Management
 title: Users and permissions
 uuid: a98b3a01-005f-4697-b5c9-ad374758def0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Users and permissions{#users-and-permissions}

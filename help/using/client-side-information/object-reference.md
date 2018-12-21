@@ -5,9 +5,7 @@ seo-title: Dynamic Tag Management object reference
 solution: Dynamic Tag Management
 title: Dynamic Tag Management object reference
 uuid: 8397bfe0-a24e-46c0-9723-9eadfc0c1184
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Dynamic Tag Management object reference{#dynamic-tag-management-object-reference}
