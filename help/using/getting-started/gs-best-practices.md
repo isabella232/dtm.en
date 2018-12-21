@@ -47,23 +47,7 @@ gs-basics.xml
 
  -->
 
-<table id="table_FF39660DB8734D53AB8981AD388522B6"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_FBD5CEFB336544E08D141C8144FB3BE3" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-This section contains the following information:
-
-* [Dashboard](../getting-started/gs-best-practices.md#section_541984CAD949498BBE666B9FD497302B) 
-* [Company Overview](../getting-started/gs-best-practices.md#section_AA783537B0A643598DA238B6C577A3D0) 
-* [Property Overview](../getting-started/gs-best-practices.md#section_BFC4BF8CF78A4981890A0E79756986FB) 
-* [Rules](../getting-started/gs-best-practices.md#section_9B27F695162D4E88B20DAE0093744F41) 
-* [Data Elements](../getting-started/gs-best-practices.md#section_7D274B851CA54E61B2C269147AEE5B67) 
-* [Workflows](../getting-started/gs-best-practices.md#section_03FD2B2A846F4038B79A8C61812D9570) 
-* [Installation](../getting-started/gs-best-practices.md#section_71496DA7F9C641D4894497D0EAD15E39)
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 ## Dashboard {#section_541984CAD949498BBE666B9FD497302B}
 
@@ -211,13 +195,8 @@ gs-tech-architecture-hosting.xml
 
  -->
 
-<table id="table_A0EBB1D11643416590C8BA93C974D450"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_0459F0EA07E144BD835F25FCEFF6466A" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 This section contains the following information:
 
@@ -361,13 +340,7 @@ gs-planning-migration.xml
 
  -->
 
-<table id="table_E359D977E26C43599B65D3D77503605C"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_14ADC1070A1E484F8515454FCF8BE295" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 This section contains the following information:
 
@@ -474,14 +447,6 @@ gs-migrate-analytics.xml
 
  -->
 
-<table id="table_9017E7B2C4BA495088E907630AF89E6D"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_D65A13C553CD4095A3170DF1AF5A09C0" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## Phase 1: Quick value add {#section_A0FE9FA8759C4E708E6D0A0FB78765BB}
 
 <!-- 
@@ -492,13 +457,7 @@ gs-phase1-quick-value-add.xml
 
 Because migrating [!DNL Adobe Analytics] code can be a lengthy process, DTM offers a feature that allows you to augment your existing [!DNL Analytics] implementation without disrupting it.
 
-<table id="table_2E1D3C0CA4AC43ADAA06689B8BFE311A"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a>with <img href="assets/sdi.png" id="image_829A1FB74DE54C6B84BCB36F5609061E" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 This feature is called [!DNL Page Code is Already Present] and is located in the Analytics tools settings in your DTM property.
 
@@ -529,13 +488,7 @@ gs-phase2-full-migration.xml
 
 To take full advantage of the integrated [!DNL Adobe Analytics] functionality in DTM, a complete migration of [!DNL Analytics] code is recommended.
 
-<table id="table_5E23DA0E8CB64FA493970321259EBF1B"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_FAD1CDBBD57E40058EC3DBA97D843FDD" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 This migration should include all s object references in the page code and included scripts on pages where DTM is deploying Adobe Analytics.
 
@@ -643,13 +596,7 @@ gs-benefits-of-tag-management-system.xml
 
  -->
 
-<table id="table_364C7E6891F64644AA3C0355B3CB7001"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This content was built <a href="https://www.searchdiscovery.com/" format="https" scope="external"> in partnership </a> with <img href="assets/sdi.png" id="image_8884357C908C4792B397A951A5FDFC5A" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+This content was built [in partnership with Search Discovery](https://www.searchdiscovery.com/) ![](assets/sdi.png)
 
 The following sections contain more information:
 
