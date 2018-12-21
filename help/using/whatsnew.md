@@ -6,9 +6,7 @@ seo-title: Release notes for Dynamic Tag Management
 solution: Dynamic  Tag Management
 title: Release notes for Dynamic Tag Management
 uuid: 3676dac9-e2d8-47cf-9010-0f8d1aed06ed
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Release notes for Dynamic Tag Management{#release-notes-for-dynamic-tag-management}

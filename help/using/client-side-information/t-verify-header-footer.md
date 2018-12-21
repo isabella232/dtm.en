@@ -6,9 +6,7 @@ seo-title: Verify header and footer code
 solution: Dynamic Tag Management
 title: Verify header and footer code
 uuid: e1c3e381-4118-4696-a5f1-4a2dae156517
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Verify header and footer code{#verify-header-and-footer-code}

@@ -6,9 +6,7 @@ seo-title: Load order for rules
 solution: Dynamic Tag Management
 title: Load order for rules
 uuid: 7046ca75-b370-4bca-9d85-54ca3300d97a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Load order for rules{#load-order-for-rules}

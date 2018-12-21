@@ -8,9 +8,7 @@ solution: Dynamic Tag Management
 title: Create and manage groups for DTM in Admin Console
 
 uuid: 36024edd-8085-4145-b824-955adc6dabbf
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create and manage groups for DTM in the Adobe Admin Console

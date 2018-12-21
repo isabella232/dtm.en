@@ -6,9 +6,7 @@ seo-title: Add header and footer code
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Add header and footer code
 uuid: f13d5302-3cbc-4b28-9e6a-46184a9770ed
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add header and footer code{#add-header-and-footer-code}

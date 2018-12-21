@@ -6,9 +6,7 @@ seo-title: Adobe Audience Manager tool
 solution: Marketing Cloud,Analytics,,Dynamic Tag Management
 title: Adobe Audience Manager tool
 uuid: f0ef2cfd-cdde-4fb5-8c07-ee69a5b03d6f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Audience Manager tool{#adobe-audience-manager-tool}

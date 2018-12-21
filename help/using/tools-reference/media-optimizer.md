@@ -6,9 +6,7 @@ seo-title: Adobe Media Optimizer tool
 solution: Dynamic Tag Management
 title: Adobe Media Optimizer tool
 uuid: e3623c72-92fb-409f-b8e9-a84effc74f4e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Media Optimizer tool{#adobe-media-optimizer-tool}

@@ -6,9 +6,7 @@ seo-title: Adobe Target tool
 solution: Marketing Cloud,Target,Dynamic Tag Management
 title: Adobe Target tool
 uuid: 06562631-7df3-420d-b787-1ccff774b3b4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Target tool

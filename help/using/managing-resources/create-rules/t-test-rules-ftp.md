@@ -6,9 +6,7 @@ seo-title: Test rules for library download or FTP
 solution: Dynamic Tag Management
 title: Test rules for library download or FTP
 uuid: f168adef-cd28-40ac-a686-a58a3560d876
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Test rules for library download or FTP{#test-rules-for-library-download-or-ftp}

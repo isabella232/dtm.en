@@ -8,9 +8,7 @@ subtopic: Tag management
 title: Migrating from Adobe Tag Management
 topic: Developer and implementation
 uuid: 5095175e-ebb8-4b02-b946-e958ca986dd5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Migrating from Adobe Tag Management{#migrating-from-adobe-tag-management}

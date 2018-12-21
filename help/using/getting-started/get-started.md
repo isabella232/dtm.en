@@ -6,9 +6,7 @@ seo-title: Getting started with DTM
 solution: Dynamic  Tag Management
 title: Getting started with DTM
 uuid: 93a3054a-0db9-4dbb-9b12-9f69c7696102
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Getting started with DTM{#getting-started-with-dtm}

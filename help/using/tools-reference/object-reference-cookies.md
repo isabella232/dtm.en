@@ -6,9 +6,7 @@ seo-title: Object references to handle cookies
 solution: Dynamic Tag Management
 title: Object references to handle cookies
 uuid: 50e03795-bf3e-4764-af52-8267daf6a26a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Object references to handle cookies{#object-references-to-handle-cookies}

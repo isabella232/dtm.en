@@ -6,9 +6,7 @@ seo-title: Third-party tags
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Third-party tags
 uuid: ac73d3ec-de49-459a-b10a-4468ec0344cb
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Third-party tags{#third-party-tags}

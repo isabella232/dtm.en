@@ -6,9 +6,7 @@ seo-title: Resources
 solution: Dynamic Tag Management
 title: Resources
 uuid: 6dd1d1ff-980a-497f-92c8-c09c6a11a1aa
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Resources{#resources}

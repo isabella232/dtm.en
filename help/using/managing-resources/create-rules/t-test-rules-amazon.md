@@ -6,9 +6,7 @@ seo-title: Test unpublished rules for Akamai hosting
 solution: Dynamic  Tag Management
 title: Test unpublished rules for Akamai hosting
 uuid: bafa70f9-b1a4-43a2-93bf-2b20b9d5b3f5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Test unpublished rules for Akamai hosting{#test-unpublished-rules-for-akamai-hosting}

@@ -6,9 +6,7 @@ seo-title: Header and footer code
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Header and footer code
 uuid: 32fe3d1f-586d-42be-823e-52324664d85a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Header and footer code{#header-and-footer-code}

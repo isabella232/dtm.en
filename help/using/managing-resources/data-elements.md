@@ -6,9 +6,7 @@ seo-title: Data elements
 solution: Dynamic Tag Management
 title: Data elements
 uuid: 6a902dea-ce8b-4b92-ab2d-65ae65783684
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Data elements{#data-elements}

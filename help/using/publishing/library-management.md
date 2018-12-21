@@ -5,9 +5,7 @@ seo-title: Library management
 solution: Marketing Cloud,Dynamic Tag Management
 title: Library management
 uuid: ffc42599-93e7-40c9-8082-f781858f4056
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Library management{#library-management}

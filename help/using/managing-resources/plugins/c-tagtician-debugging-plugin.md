@@ -4,9 +4,7 @@ seo-description: Tagtician is a free plugin that helps you with debugging tasks
 seo-title: Tagtician Debugging plugin
 title: Tagtician Debugging plugin
 uuid: c426afa3-aa48-44b7-96ea-67baecb6df98
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Tagtician Debugging plugin{#tagtician-debugging-plugin}

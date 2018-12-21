@@ -4,9 +4,7 @@ seo-description: You can enable Nielsen tracking using Dynamic Tag Management by
 seo-title: Nielsen tool
 title: Nielsen tool
 uuid: 8af277a6-71b5-4fe6-8271-4bb3eb7f37a4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Nielsen tool{#nielsen-tool}
