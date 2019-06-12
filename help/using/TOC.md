@@ -11,7 +11,7 @@ getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
-index: n
+index: no
 ---
 
 # Dynamic Tag Manager Help {#using}
@@ -37,9 +37,7 @@ index: n
     + [Add header and footer code](client-side-information/t-add-header-fooder-code.md)
     + [Verify header and footer code](client-side-information/t-verify-header-footer.md)
     + [Dynamic Tag Management object reference](client-side-information/object-reference.md)
-+ Publishing {#publish}
-    + [Publishing overview](publishing/publishing.md)
-    + [Library management](publishing/library-management.md)
++ [Library management](publishing/library-management.md)
 + Resources {#resources}
     + [Managing resources](managing-resources/managing-resources.md)
     + [Tools](managing-resources/tools.md)
