@@ -13,3 +13,6 @@ uuid: 9763e3a0-893d-4bae-85c4-a2f1e525d206
 
 Adobe has partnered with Search Discovery and Disruptive Advertising to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
 
++ [Search Discovery plugins](search-discovery-plugins.md)
++ [Disruptive Advertising Debugging plugin](disruptive-advertising-plugins.md)
++ [Tagtician Debugging plugin](c-tagtician-debugging-plugin.md)

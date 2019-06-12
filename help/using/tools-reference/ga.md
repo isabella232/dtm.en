@@ -8,7 +8,7 @@ title: Google Analytics tool
 uuid: 4fca02cc-8c3d-47e9-81be-9248ea908175
 ---
 
-# Google Analytics tool{#google-analytics-tool}
+# Google Analytics tool {#google-analytics-tool}
 
 Configuration options in Dynamic Tag Management for Google Analytics.
 
@@ -226,4 +226,3 @@ tracker = _gaq._getAsyncTracker("alexisclassic");
 tracker._trackPageview() 
 
 ```
-
