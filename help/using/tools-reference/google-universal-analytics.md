@@ -6,16 +6,14 @@ seo-title: Google Universal Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Universal Analytics tool
 uuid: 09c65edf-896d-437c-ab37-54551f643305
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Google Universal Analytics tool{#google-universal-analytics-tool}
 
 Configuration options in Dynamic Tag Management for Google Universal Analytics.
 
-**[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Universal Analytics]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Universal Analytics]**
 
 Google Universal Analytics is configured as a tool in the Dynamic Tag Management interface.
 

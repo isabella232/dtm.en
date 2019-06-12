@@ -6,9 +6,7 @@ seo-title: Load order for rules
 solution: Dynamic Tag Management
 title: Load order for rules
 uuid: 7046ca75-b370-4bca-9d85-54ca3300d97a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Load order for rules{#load-order-for-rules}
@@ -33,7 +31,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-## Bottom of Page
+* **Bottom of Page**
 
     * **Sequential HTML:** Injected after `_satellite.pageBottom()` callback script with `document.write()` prior to DOMREADY so that there is no destruction of the visible page 
     
@@ -50,7 +48,7 @@ The following section discusses how the different JavaScript/third-party tags sc
     * **Non-sequential JavaScript:** Injected as asynchronous `<SCRIPT/>` in `<HEAD>` below DTM library include script 
     * **Non-sequential HTML:** Injected as hidden `IFRAME` and does not affect page HTML
 
-## Onload (window load)
+* **Onload (window load)**
 
     * **Sequential HTML:** Will not work because `DOMREADY` is active and `document.write()` will overwrite the page 
     * **Sequential JavaScript global:** Injected into `<HEAD/>` below DTM include script as JavaScript include `<SCRIPT/>` 
@@ -68,7 +66,7 @@ The Dynamic Tag Management queue processes them in the order listed above but do
 
 This means that the order of the page load rules in the queue determines the order in which they are de-queued.
 
-A simple way to determine the queue order is to look at [!DNL `_satellite.configurationSettings.pageLoadRules`] in the JavaScript console and examine the sequence.
+A simple way to determine the queue order is to look at `_satellite.configurationSettings.pageLoadRules` in the JavaScript console and examine the sequence.
 
 For example, a complete view of the page load rule queue order can be seen by entering the following code into the JavaScript console:
 

@@ -6,9 +6,7 @@ seo-title: Frequently Asked Questions
 solution: Dynamic Tag Management
 title: Frequently Asked Questions
 uuid: 94ae0fda-6697-4cb8-bfc1-68529490e06a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Frequently asked questions{#frequently-asked-questions}
@@ -281,3 +279,7 @@ Launch is the next-generation of the Adobe tag-management capability, built into
 Launch is an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. It provides a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Cloud Platform.
 
 For more frequently asked questions about Launch, see [Adobe Launch FAQ](https://docs.adobelaunch.com/).
+
+**Will Launch replace DTM?**
+
+Adobe has released plans to sunset DTM by the end of 2020. For more information and scheduling, see [DTM Plans for a Sunset](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset) in the Adobe community forums.

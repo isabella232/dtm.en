@@ -4,9 +4,7 @@ seo-description: Chrome might block document.write calls for visitors on 2G netw
 seo-title: Chrome warning on 2G networks
 title: Chrome warning on 2G networks
 uuid: 51ce547c-1528-4626-8e6d-feddc8cbfb61
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Chrome warning on 2G networks{#chrome-warning-on-g-networks}

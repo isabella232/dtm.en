@@ -6,16 +6,14 @@ seo-title: Adobe Audience Manager tool
 solution: Marketing Cloud,Analytics,,Dynamic Tag Management
 title: Adobe Audience Manager tool
 uuid: f0ef2cfd-cdde-4fb5-8c07-ee69a5b03d6f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Audience Manager tool{#adobe-audience-manager-tool}
 
 Information about deploying Adobe Audience Manager using Dynamic Tag Management.
 
- **[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Manager]** 
+ *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Audience Manager]** 
 
 <table id="table_722D8A274A3448EB918DBB682FF68C24"> 
  <thead> 

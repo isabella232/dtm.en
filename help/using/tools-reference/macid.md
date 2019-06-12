@@ -6,9 +6,7 @@ seo-title: Experience Cloud ID service
 solution: Dynamic Tag Management
 title: Experience Cloud ID service
 uuid: 773382a6-d490-4508-b46c-df0dca8dd4bb
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Experience Cloud ID service{#experience-cloud-id-service}
@@ -25,7 +23,7 @@ For documentation about DTM settings, refer to [Experience Cloud ID Service Sett
 >
 >The Experience Cloud ID Service tool integrates only with Adobe Analytics and the Adobe Experience Cloud. This service must be the first code that loads on a page. It must load synchronously, and it cannot be edited. Additionally, to avoid conflicts, use only one method of deploying the Experience Cloud ID Service (either the Dynamic Tag Management deployment, or manually using your own code).
 
-**[!UICONTROL *<Web Property Name>*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Experience Cloud ID Service]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Experience Cloud ID Service]**
 
 You can automate the deployment of the Experience Cloud ID Service using Dynamic Tag Management. This service enables Experience Cloud services and features, such as [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=audience_library) , where you can [publishing an Analytics audience segment](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_publish_audience_segment) .
 
@@ -35,7 +33,7 @@ Ensure the library being used in other solutions is up-to-date to support the Ex
 
 >[!IMPORTANT]
 >
->To avoid conflicts, do not attempt multiple deployments of the Experience Cloud ID Service: >
+>To avoid conflicts, do not attempt multiple deployments of the Experience Cloud ID Service:
 >* Use only one deployment method: either the Dynamic Tag Management deployment, or manually, using your own code. 
 >* The [!DNL getInstance()] function, as well as any other related [!DNL visitorAPI.js] , should be removed from the AppMeasurement file when deploying the Experience Cloud ID Service in Dynamic Tag Management. 
 >

@@ -6,9 +6,7 @@ seo-title: Rules
 solution: Dynamic Tag Management
 title: Rules
 uuid: 7faccf41-e378-4673-a182-e7e7d7a54985
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Rules{#rules}
@@ -116,7 +114,7 @@ If you also have Google Analytics or any other platforms installed, you can leve
 
 When using event-based rules, Dynamic Tag Management offers powerful tools to surface data from the page and page elements with which the user interacts.
 
-**DTM Basics: Event-Based Rules, Part One **
+**DTM Basics: Event-Based Rules, Part One**
 
 >[!VIDEO](https://video.tv.adobe.com/v/17172/)
 

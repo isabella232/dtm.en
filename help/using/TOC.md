@@ -11,38 +11,43 @@ getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
-index: no
+index: n
 ---
 
-# Dynamic Tag Manager Help {#dtm-guide}
+# Dynamic Tag Manager Help {#using}
 
 + [Dynamic Tag Management Product Documentation](dtm-home.md)
 + [Release notes for Dynamic Tag Management](whatsnew.md)
 + [Dynamic Tag Management overview](c-overview.md)
-+ [Getting started](getting-started/getting-started.md)
++ Getting started{#getting-started}
     + [Getting started with DTM](getting-started/get-started.md)
     + [Getting started best practices](getting-started/gs-best-practices.md)
-+ [Administration](administration/administration.md)
++ Administration{#admin}
+    + [Administration overview](administration/administration.md)
     + [Web properties](administration/web-property.md)
     + [Users and permissions](administration/users.md)
     + [Manage groups in the Adobe Admin Console](administration/c-create-manage-groups-enterprise-dashboard.md)
     + [Manage groups in DTM](administration/groups.md)
     + [Troubleshooting](administration/c-troubleshooting.md)
     + [Chrome warning on 2G networks](administration/c-chrome-2g.md)
-+ [Client-side information](client-side-information/client-side-information.md)
++ Client-side information{#client-side}
+    + [Client-side information overview](client-side-information/client-side-information.md)
     + [Embed code and hosting options](client-side-information/deployment.md)
     + [Header and footer code](client-side-information/code.md)
     + [Add header and footer code](client-side-information/t-add-header-fooder-code.md)
     + [Verify header and footer code](client-side-information/t-verify-header-footer.md)
     + [Dynamic Tag Management object reference](client-side-information/object-reference.md)
-+ [Publishing](publishing/publishing.md)
++ Publishing {#publish}
+    + [Publishing overview](publishing/publishing.md)
     + [Library management](publishing/library-management.md)
-+ [Managing resources](managing-resources/managing-resources.md)
++ Resources {#resources}
+    + [Managing resources](managing-resources/managing-resources.md)
     + [Tools](managing-resources/tools.md)
     + [Data elements](managing-resources/data-elements.md)
     + [Rules](managing-resources/rules.md)
     + [Load order for rules](managing-resources/load-order.md)
-    + [Create rules](managing-resources/create-rules/create-rules.md)
+    + Rules {#rules}
+        + [Rules overview](managing-resources/create-rules/create-rules.md)
         + [Create new rule](managing-resources/create-rules/t-rules-create.md)
         + [Create conditions for event-based rules](managing-resources/create-rules/t-rules-event-conditions.md)
         + [Create conditions for page-load rules](managing-resources/create-rules/t-rules-page-conditions.md)
@@ -50,12 +55,14 @@ index: no
         + [Set up actions to trigger](managing-resources/create-rules/t-rules-actions.md)
         + [Test unpublished rules for Akamai hosting](managing-resources/create-rules/t-test-rules-amazon.md)
         + [Test rules for library download or FTP](managing-resources/create-rules/t-test-rules-ftp.md)
-    + [Plugins](managing-resources/plugins/plugins.md)
+    + Plugins {#plugins}
+        + [Plugins overview](managing-resources/plugins/plugins.md)
         + [Dynamic Tag Management plugins](managing-resources/plugins/c-dtm-switch-plugins.md)
         + [Search Discovery plugins](managing-resources/plugins/search-discovery-plugins.md)
         + [Disruptive Advertising Debugging plugin](managing-resources/plugins/disruptive-advertising-plugins.md)
         + [Tagtician Debugging plugin](managing-resources/plugins/c-tagtician-debugging-plugin.md)
-+ [Tools reference](tools-reference/tools-reference.md)
++ Tools reference {#tools}
+    + [Tools reference](tools-reference/tools-reference.md)
     + [Adobe Experience Manager ContextHub tool](tools-reference/add-aem-contextub-tool.md)
     + [Adobe Analytics tool](tools-reference/analytics-dtm.md)
     + [Adobe Audience Manager tool](tools-reference/audiencemgmt.md)
@@ -68,15 +75,16 @@ index: no
     + [Third-party tags](tools-reference/t-third-party-tags.md)
     + [Deploy JavaScript to opt in to DTM](tools-reference/opt-in.md)
     + [Object references to handle cookies](tools-reference/object-reference-cookies.md)
-+ [Migration to and from DTM](migration-to-and-from-dtm/migration-to-and-from-dtm.md)
++ Migration {#migration}
+    + [Migration overview](migration-to-and-from-dtm/migration-to-and-from-dtm.md)
     + [Migrating to Dynamic Tag Management](migration-to-and-from-dtm/migration.md)
     + [Migrating from Adobe Tag Management](migration-to-and-from-dtm/atm-migration.md)
     + [Adobe Tag Manager 1.0 to Dynamic Tag Management mapping](migration-to-and-from-dtm/atm1-migrate-map.md)
     + [Adobe Tag Manager 2.0 to Dynamic Tag Management mapping](migration-to-and-from-dtm/atm2-migrate-map.md)
-+ [Frequently asked questions](frequently-asked-questions/frequently-asked-questions.md)
++ FAQ {#faq}
     + [Frequently asked questions](frequently-asked-questions/faq.md)
     + [How do tag management systems improve page load speed?](frequently-asked-questions/wp-page-load-speed.md)
-+ [Other resources](other-resources/other-resources.md)
++ Resources {#resources}
     + [Resources](other-resources/c-resources.md)
     + [Documentation updates](other-resources/doc-updates.md)
     + [Previous release notes](other-resources/release-notes-history-dtm.md)

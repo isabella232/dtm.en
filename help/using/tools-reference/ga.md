@@ -6,16 +6,16 @@ seo-title: Google Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Google Analytics tool
 uuid: 4fca02cc-8c3d-47e9-81be-9248ea908175
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Google Analytics tool{#google-analytics-tool}
 
 Configuration options in Dynamic Tag Management for Google Analytics.
 
-**[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Analytics]**
+## Google Analytics tool {#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99}
+
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Analytics]**
 
 Google Analytics is configured as a tool in the Dynamic Tag Management interface. 
 

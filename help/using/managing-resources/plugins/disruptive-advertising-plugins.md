@@ -4,9 +4,7 @@ seo-description: Adobe has partnered with Disruptive Advertising to offer a plug
 seo-title: Disruptive Advertising Debugging plugin
 title: Disruptive Advertising Debugging plugin
 uuid: 86cb10a2-1d8c-42fe-99cf-083c48002d7e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Disruptive Advertising Debugging plugin{#disruptive-advertising-debugging-plugin}

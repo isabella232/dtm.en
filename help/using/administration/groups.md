@@ -6,9 +6,7 @@ seo-title: Create and manage groups in DTM
 solution: Dynamic Tag Management
 title: Create and manage groups in DTM
 uuid: e938d14f-10b8-4a57-81f5-6d63dd427083
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create and manage groups in DTM{#create-and-manage-groups-in-dtm}
@@ -106,9 +104,7 @@ t_create_group.xml
 
    ![](assets/group_tool_restrict.png)
 
-   A green checkmark  ![](assets/icon_checkbox.png)
-
-   next to a tool indicates that the corresponding tool is currently installed for this property.
+   A green checkmark next to a tool indicates that the corresponding tool is currently installed for this property.
 
    If a user is a member of two groups and one group restricts tool access and the other group allows access, access rights are restricted for any selected tools.
 

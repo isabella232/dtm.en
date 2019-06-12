@@ -6,16 +6,14 @@ seo-title: Adobe Media Optimizer tool
 solution: Dynamic Tag Management
 title: Adobe Media Optimizer tool
 uuid: e3623c72-92fb-409f-b8e9-a84effc74f4e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Adobe Media Optimizer tool{#adobe-media-optimizer-tool}
 
 Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 
-**[!UICONTROL <Web Property Name>]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Media Optimizer]**
+*&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Media Optimizer]**
 
 <!-- 
 
@@ -27,13 +25,13 @@ Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 
 A descriptive name for this implementation.
 
-**User ID**
+### User ID
 
 Your advertising management account has an associated numeric user ID. It is displayed in the JavaScript generated for a pixel.
 
 For example: `1234`
 
-**Transaction ID**
+### Transaction ID
 
 Indicate a transaction ID property (ev_transid= *`<transid>`*) to include in the tag. When you include the ID, the advertiser must generate a unique value for < *`transid`*> (for example, an actual order ID) when the transaction is complete. The value is passed back to advertising management. Advertising management uses the transaction ID to eliminate duplicate transactions with the same transaction ID and property value.
 
@@ -51,15 +49,15 @@ The transaction ID cannot contain ampersand symbols (&), which are reserved as p
 
 *`Transaction ID`* can be set globally at the tool level or conditionally at the rule level. A globally configured transaction ID is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
 
-**Load Media Optimizer page code at (Page Top or Page Bottom)**
+### Load Media Optimizer page code at (Page Top or Page Bottom)
 
 Determines where and when the page code loads. The recommended location is selected by default.
 
-**Media Optimizer page code already present**
+### Media Optimizer page code already present
 
 Prevents Dynamic Tag Management from installing advertising management code if the code exists on your site. This method lets you use Dynamic Tag Management to add to your existing advertising management implementation, rather than starting a new implementation.
 
-**Conversion Property Name / Value**
+### Conversion Property Name / Value
 
 A conversion property to be tracked when an end user views a page containing the conversion tag.
 
@@ -69,7 +67,7 @@ A conversion property to be tracked when an end user views a page containing the
 
 Conversion properties can be set globally at the tool level and conditionally at the rule level. A globally configured Conversion Property is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool *`in addition`* to any conversion properties set in the rule.
 
-**Segment ID (optional)**
+### Segment ID (optional) 
 
 Indicate the numeric ID for an advertising management segment in which to add the users who complete the tracked transaction. (For JavaScript tags and for display campaigns only)
 
@@ -79,7 +77,7 @@ Indicate the numeric ID for an advertising management segment in which to add th
 
 Segment ID can be set globally at the tool level or conditionally at the rule level. A globally configured Segment ID is inherited by any Dynamic Tag Management rules utilizing the Adobe Media Optimizer tool, unless specifically overridden in the rule.
 
-**Tag Property / Value**
+### Tag Property / Value
 
 A conversion property name / value to be included in the tag when the specific rule is fired.
 
@@ -89,7 +87,7 @@ A conversion property name / value to be included in the tag when the specific r
 
 Conversion properties can be set globally at the tool level and conditionally at the rule level. If a rule uses the Adobe Media Optimizer tool, the configured global value is inherited and used *`in addition`* to any conversion properties configured in the rule.
 
-**SKU**
+### SKU
 
 Select the configured data element to populate the SKU value in the tag.
 

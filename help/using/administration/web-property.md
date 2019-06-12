@@ -6,9 +6,7 @@ seo-title: Web properties
 solution: Dynamic Tag Management
 title: Web properties
 uuid: a8462a21-e819-45bc-beba-fecea456d8f8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Web properties{#web-properties}

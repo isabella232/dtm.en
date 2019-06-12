@@ -6,9 +6,7 @@ seo-title: Search Discovery plugins
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Search Discovery plugins
 uuid: 1f69e46c-8c2c-4496-b31f-3c3b477c2b96
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search Discovery plugins{#search-discovery-plugins}

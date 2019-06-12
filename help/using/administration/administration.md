@@ -4,9 +4,7 @@ seo-description: null
 seo-title: Administration
 title: Administration
 uuid: 422ac82c-131c-4f5d-8c67-8411148fb454
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Administration{#administration}

@@ -6,9 +6,7 @@ seo-title: Create conditions for direct-call rules
 solution: Dynamic Tag Management
 title: Create conditions for direct-call rules
 uuid: 7a83c4be-d6f2-4a4d-a735-335fd8e24921
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create conditions for direct-call rules{#create-conditions-for-direct-call-rules}
@@ -17,13 +15,13 @@ To create conditions for direct-call rules.
 
 In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
 
-    ![](assets/conditions_direct_call.png){width="400"}
+![](assets/conditions_direct_call.png){width="400"}
 
-    Watch an Adobe training video demonstrating how to set up a direct-call rule in Dynamic Tag Management:
+Watch an Adobe training video demonstrating how to set up a direct-call rule in Dynamic Tag Management:
 
-    >[!VIDEO](https://video.tv.adobe.com/v/17170/)
+>[!VIDEO](https://video.tv.adobe.com/v/17170/)
 
-    By the end of this video you should be able to:
+By the end of this video you should be able to:
 
 * Understand what direct call rules are 
 * Set up a direct call rule

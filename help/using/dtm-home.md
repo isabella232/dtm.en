@@ -6,16 +6,12 @@ seo-title: Dynamic Tag Management Product Documentation
 solution: Dynamic Tag Management
 title: Dynamic Tag Management Product Documentation
 uuid: a369caa7-eb0a-4387-8627-431673f9eb99
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Dynamic Tag Management product documentation{#dynamic-tag-management-product-documentation}
 
 Dynamic Tag Management (DTM) lets you manage your [!DNL Adobe Experience Cloud] solutions and other tags across all of your sites, regardless of your number of domains.
-
-Last Updated: November 14, 2017 
 
 <table id="table_D7CDC447FAEB46DF835C34740C07D656" class="simpletable"> 
  <tbody> 

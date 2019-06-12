@@ -4,9 +4,7 @@ seo-description: You can enable Nielsen tracking using Dynamic Tag Management by
 seo-title: Nielsen tool
 title: Nielsen tool
 uuid: 8af277a6-71b5-4fe6-8271-4bb3eb7f37a4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Nielsen tool{#nielsen-tool}
@@ -42,7 +40,7 @@ You must perform the following tasks before you deploy the Nielsen tool:
 
 ## Add the Nielsen tool {#section_E656FC0A6CD24EC2AB12130E8E043BE2}
 
-1. Click  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Nielsen]** .
+1. Click  *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Nielsen]** .
 
    ![Step Result](assets/nielsen_tool.png)
 

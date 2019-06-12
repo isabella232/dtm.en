@@ -8,9 +8,7 @@ solution: Dynamic Tag Management
 title: Create and manage groups for DTM in Admin Console
 
 uuid: 36024edd-8085-4145-b824-955adc6dabbf
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create and manage groups for DTM in the Adobe Admin Console
@@ -19,11 +17,9 @@ Information to help you create new user groups in the Experience Cloud and to ma
 
 ## Create new user groups in the Experience Cloud {#section_08040874355948F8951A15ADE6BD9DE0}
 
-1. Log in to the Adobe Admin Console via [adminconsole.adobe.com](https://adminconsole.adobe.com/). 
+1. Log in to the Adobe Admin Console via [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Click **[!UICONTROL Products]** > **[!UICONTROL Dynamic Tag Management]**. 
-1. Click  ![](assets/icon_expand.png)
-
-   to add a new group (product configuration).
+1. Click the **[!UICONTROL Add]** icon to add a new group (product configuration).
 
    ![](assets/add-group-new.png)
 

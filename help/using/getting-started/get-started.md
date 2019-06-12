@@ -6,9 +6,7 @@ seo-title: Getting started with DTM
 solution: Dynamic  Tag Management
 title: Getting started with DTM
 uuid: 93a3054a-0db9-4dbb-9b12-9f69c7696102
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Getting started with DTM{#getting-started-with-dtm}
@@ -155,7 +153,7 @@ Roles include the following:
 |  Publishers  | Publish rules to the production site. Only approved rules are published.  |
 |  Administrators  | Create and manage users, as well as inheriting rights from the three preceding roles.  |
 
-<p class="head"> <b>Publishing workflow</b> </p>
+### Publishing workflow
 
 1. A rule is saved. 
 1. The rule is automatically pushed to your staging site where you can perform testing. 
@@ -180,7 +178,7 @@ t_manage_account_settings.xml
 
  -->
 
-1. In the upper right corner of the Dynamic Tag Management interface, click  ![](assets/icon_profile.png) > **[!UICONTROL Account Settings]**.
+1. In the upper right corner of the Dynamic Tag Management interface, click the Profile icon > **[!UICONTROL Account Settings]**.
 1. Edit the fields as necessary:
 
    **First Name:** Specify your first name.
@@ -238,7 +236,7 @@ Architecturally, Dynamic Tag Management comprises two main components:
 
 >[!VIDEO](https://video.tv.adobe.com/v/17166/)
 
-By then end of this video you should be able to:
+By the end of this video you should be able to:
 
 * Describe the basic elements of DTM's architecture
 

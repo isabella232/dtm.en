@@ -6,8 +6,7 @@ seo-title: Create conditions for event-based rules
 solution: Dynamic Tag Management
 title: Create conditions for event-based rules
 uuid: e9f2be37-b235-451a-8c9b-37cca61574f2
-index: y
-internal: n
+
 ---
 
 # Create conditions for event-based rules{#create-conditions-for-event-based-rules}
@@ -20,28 +19,14 @@ Conditions determine when an event-based rule is triggered.
 
 1. Enable the following options as necessary:
 
-    <table id="table_022B9DA4224F47778F10B9772E2A295F"> 
-    <thead> 
-      <tr> 
-       <th colname="col1" class="entry"> Element </th> 
-       <th colname="col2" class="entry"> Description </th> 
-      </tr> 
-     </thead>
-     <tbody> 
-      <tr> 
-       <td colname="col1"> <p>Delay Link Activation </p> </td> 
-       <td colname="col2"> <p>Enable if the event activates a link and you want the link to delay until the event has time to fire. </p> </td> 
-      </tr> 
-      <tr> 
-       <td colname="col1"> <p>Apply event handler directly to element </p> </td> 
-       <td colname="col2"> <p>Applies the event handler to the specific element that is targeted. This setting is tied to the bubbling and layering concept in a browser. </p> </td> 
-      </tr> 
-     </tbody> 
-    </table>
+    |Element|Description|
+    |---|---|
+    |Delay Link Activation|Enable if the event activates a link and you want the link to delay until the event has time to fire.|
+    |Apply event handler directly to element|Applies the event handler to the specific element that is targeted. This setting is tied to the bubbling and layering concept in a browser.|
 
-       For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
+    For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
 
-       *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
+   *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
 
 
 1. Indicate the name of the tag you want to track, and additional properties the tag has that you want to match.
@@ -56,11 +41,11 @@ Conditions determine when an event-based rule is triggered.
 
    Event bubbling is one way of event propagation in HTML DOM.
 
-    |||
+    |Problem|Solution|
     |---|---|
     | Want related interactions on child elements of the rule selector you identified to fire the rule. | Allow events on child elements to bubble  |
     | Want to prevent bubbling when the child element already triggers its own event.| Do not allow if child element already triggers event.  |
-    | Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy** | Do not allow events to bubble upwards to parents  |
+    | Don't want the events of the rule selector you identified to go beyond the element itself in the event hierarchy. | Do not allow events to bubble upwards to parents  |
 
 ## Event types {#concept_B1C6169D8B354207AEE0E4965E6421B1}
 
@@ -72,141 +57,33 @@ event_types.xml
 
  -->
 
-<table id="table_6C82CFB54C9E4D6FA47EC4AB414BA5EC"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> Category </th> 
-   <th colname="col1" class="entry"> Event </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> <p>Mouse </p> </td> 
-   <td colname="col1"> <p>click </p> </td> 
-   <td colname="col2"> <p>A pointing device button is pressed and released on an element. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>mouseover </p> </td> 
-   <td colname="col2"> <p>A pointing device is moved onto the element that has the listener attached or onto one of its children. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Keyboard </p> </td> 
-   <td colname="col1"> <p>keypress </p> </td> 
-   <td colname="col2"> <p>A key is pressed and that key normally produces a character value (use input instead). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Forms </p> </td> 
-   <td colname="col1"> <p>focus </p> </td> 
-   <td colname="col2"> <p>An element received focus (does not bubble). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>blur </p> </td> 
-   <td colname="col2"> <p>An element lost focus (does not bubble). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>submit </p> </td> 
-   <td colname="col2"> <p>A form is submitted. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>change </p> </td> 
-   <td colname="col2"> <p>An element loses focus and its value changed since gaining focus. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>HMTL5 Video </p> </td> 
-   <td colname="col1"> <p>ended </p> </td> 
-   <td colname="col2"> <p>Playback stopped because the end of the media was reached. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>loadeddata </p> </td> 
-   <td colname="col2"> <p>The first frame of the media finished loading. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>play </p> </td> 
-   <td colname="col2"> <p>Playback began. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>pause </p> </td> 
-   <td colname="col2"> <p>Playback is paused. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>stalled </p> </td> 
-   <td colname="col2"> <p>The user agent is trying to fetch media data, but data is unexpectedly not forthcoming. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>volumechange </p> </td> 
-   <td colname="col2"> <p>The volume has changed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>% complete </p> </td> 
-   <td colname="col2"> <p>Emits an event given a specified percentage of total playing time. For example, entering 10% indicates that this rule fires only when 10% of the total length of the video has been played. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>time complete </p> </td> 
-   <td colname="col2"> <p>Emits an event given a specified duration of playing time. For example, entering 10 indicates that this rule fires only when 10 seconds of the total length of the video has been played. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Mobile </p> </td> 
-   <td colname="col1"> <p>orientationchange </p> </td> 
-   <td colname="col2"> <p>The orientation of the device (portrait/landscape) has changed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>zoomchange </p> </td> 
-   <td colname="col2"> <p>When a pinch or spread gesture is performed on a mobile device. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01" morerows="1"> <p>Browser </p> </td> 
-   <td colname="col1"> <p>tab focus </p> </td> 
-   <td colname="col2"> <p>Event is triggered when the content gains focus. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>tab blur </p> </td> 
-   <td colname="col2"> <p>Event is triggered when the content loses focus. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Other </p> </td> 
-   <td colname="col1"> <p>custom </p> </td> 
-   <td colname="col2"> <p>A custom event has been triggered on the DOM. Select <span class="uicontrol"> Custom </span> from the <span class="uicontrol"> Event Type </span> drop-down list, then specify the custom event name. For more information, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent" format="https" scope="external"> CustomEvent </a> on the Mozilla Developer Network. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>enters viewport </p> </td> 
-   <td colname="col2"> <p>When the element first comes into the view of the visitor. If the element is in view immediately upon page load, the rule fires immediately. If the element comes in view after scrolling, the rule fires then. An optional delay can be specified in the rule that determines how long the element has to be in view for before the event is triggered (the default value is 1 second). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>element exists </p> </td> 
-   <td colname="col2"> <p>When an element of a specified selector comes into existence-either because it is in the page markup or dynamically injected later on. Each rule fires only once. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>pushState or hashchange </p> </td> 
-   <td colname="col2"> The URL path or the hash (fragment identifier) at the end of the URL changed. The <span class="wintitle"> pushState or hashchange </span> event can be used with Single Page Apps (SPAs) in which a page does not reload but its content changes. Common development frameworks that can be used to create SPAs include Angular and React. This event type lets you create event-based rules without relying on developers. These rules fire when common functions in SPAs occur, such as: <i>The URL path changed based on use of the HTML5 History <span class="codeph"> pushState </span> API. </i> <p> For more information about using <span class="codeph"> pushState </span>, see <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history#Adding_and_modifying_history_entries" format="https" scope="external"> Adding and Modifying History Entries </a> on the Mozilla Developer Network. <i>The hash changed due to the user changing views or locations on the page. </i> For more information about using <span class="codeph"> hashchange </span>, see <a href="https://developer.mozilla.org/en-US/docs/Web/Events/hashchange" format="https" scope="external"> Hashchange </a> on the Mozilla Developer Network. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>time passed </p> </td> 
-   <td colname="col2"> <p>Value in seconds. The event is triggered after the specified number of seconds has passed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>dataelementchanged </p> </td> 
-   <td colname="col2"> <p>A date element changed. This event lets you select a specific data element to use as a trigger. For more information on a possible use case, see <a href="../../tools-reference/add-aem-contextub-tool.md#concept_F0D713695CA54807B6E2B66842421C32" format="dita" scope="local"> Add Adobe Experience Manager ContextHub Tool </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Category|Event|Definition|
+|---|---|---|
+|Mouse|click|A pointing device button is pressed and released on an element.|
+||mouseover|A pointing device is moved onto the element that has the listener attached or onto one of its children.|
+|Keyboard|keypress|A key is pressed and that key normally produces a character value (use input instead).|
+|Forms|focus|An element received focus (does not bubble).|
+||blur|An element lost focus (does not bubble).|
+||submit|A form is submitted.|
+||change|An element loses focus and its value changed since gaining focus.|
+|HMTL5 Video|ended|Playback stopped because the end of the media was reached.|
+||loadeddata|The first frame of the media finished loading. |
+||play|Playback began.|
+||pause|Playback is paused.|
+||stalled|The user agent is trying to fetch media data, but data is unexpectedly not forthcoming.|
+||volumechange|The volume has changed.|
+||% complete|Emits an event given a specified percentage of total playing time. For example, entering 10% indicates that this rule fires only when 10% of the total length of the video has been played.|
+||time complete|Emits an event given a specified duration of playing time. For example, entering 10 indicates that this rule fires only when 10 seconds of the total length of the video has been played.|
+|Mobile|orientationchange|The orientation of the device (portrait/landscape) has changed.|
+||zoomchange|When a pinch or spread gesture is performed on a mobile device.|
+|Browser|tab focus|Event is triggered when the content gains focus.|
+||tab blur|Event is triggered when the content loses focus.|
+|Other|custom|A custom event has been triggered on the DOM. Select **[!UICONTROL Custom]** from the **[!UICONTROL Event Type]** drop-down list, then specify the custom event name. For more information, see [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) on the Mozilla Developer Network.|
+||enters viewport|When the element first comes into the view of the visitor. If the element is in view immediately upon page load, the rule fires immediately. If the element comes in view after scrolling, the rule fires then. An optional delay can be specified in the rule that determines how long the element has to be in view for before the event is triggered (the default value is 1 second).|
+||element exists|When an element of a specified selector comes into existence-either because it is in the page markup or dynamically injected later on. Each rule fires only once.|
+||pushState or hashchange|The URL path or the hash (fragment identifier) at the end of the URL changed. The `pushState` or `hashchange` event can be used with Single Page Apps (SPAs) in which a page does not reload but its content changes. Common development frameworks that can be used to create SPAs include Angular and React. This event type lets you create event-based rules without relying on developers. These rules fire when common functions in SPAs occur, such as: *The URL path changed based on use of the HTML5 History `pushState` API.* For more information about using `pushState`, see [Adding and Modifying History Entries](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history#Adding_and_modifying_history_entries) on the Mozilla Developer Network. *The hash changed due to the user changing views or locations on the page.* For more information about using `hashchange`, see [Hashchange](https://developer.mozilla.org/en-US/docs/Web/Events/hashchange) on the Mozilla Developer Network.|
+||time passed|Value in seconds. The event is triggered after the specified number of seconds has passed.|
+||dataelementchanged |A date element changed. This event lets you select a specific data element to use as a trigger. For more information on a possible use case, see [Add Adobe Experience Manager ContextHub Tool](../../tools-reference/add-aem-contextub-tool.md#concept_F0D713695CA54807B6E2B66842421C32).|
 
 ## Using the CSS selector {#concept_DDF500DCB8214658AEDECDE69ED1D4AF}
 
@@ -230,7 +107,7 @@ The more complex example described below illustrates how to use the [!UICONTROL 
 
 ### To use the CSS Selector:
 
-1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the  ![](assets/icon_css_selector.png) icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC).
+1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the [!UICONTROL Target] icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC).
 
    ![](assets/css_selector.png)
 
@@ -274,7 +151,7 @@ The more complex example described below illustrates how to use the [!UICONTROL 
 
 Now let's suppose that you want to create a rule that triggers when users click the "Men's" tab at the top or your website. The difference between this example and the simple example discussed above is that the "Men's" tab has many similar elements on the page.
 
-1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the  ![](assets/icon_css_selector.png) icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC). 
+1. Access the [!UICONTROL CSS Selector] widget within DTM by clicking the [!UICONTROL Target] icon while [creating a rule](../../managing-resources/create-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC). 
 1. Specify the website's URL, then click **[!UICONTROL Load]**. 
 1. Click the "Men's" tab to select it.
 
@@ -325,7 +202,7 @@ To dynamically assign element attributes to variables, use the following syntax:
 
 For example, suppose you have a search results page with multiple links to external web sites. You want to track which link is clicked by dynamically populating an eVar with the *`id`* of the element clicked.
 
-Example Link: [!DNL `<a id='myFirstLink' href='www.exampleLink.com'>`]
+Example Link: `<a id='myFirstLink' href='www.exampleLink.com'>`
 
 To accomplish this, create an event-based rule to trigger on the click of the links on the page. Then, within the [!DNL Analytics] section of the rule, set the eVar to `%this.id%`.
 
