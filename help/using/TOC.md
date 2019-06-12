@@ -54,8 +54,7 @@ index: no
         + [Test unpublished rules for Akamai hosting](managing-resources/create-rules/t-test-rules-amazon.md)
         + [Test rules for library download or FTP](managing-resources/create-rules/t-test-rules-ftp.md)
     + Plugins {#plugins}
-        + [Plugins overview](managing-resources/plugins/plugins.md)
-        + [Dynamic Tag Management plugins](managing-resources/plugins/c-dtm-switch-plugins.md)
+        + [DTM plugins](managing-resources/plugins/c-dtm-switch-plugins.md)
         + [Search Discovery plugins](managing-resources/plugins/search-discovery-plugins.md)
         + [Disruptive Advertising Debugging plugin](managing-resources/plugins/disruptive-advertising-plugins.md)
         + [Tagtician Debugging plugin](managing-resources/plugins/c-tagtician-debugging-plugin.md)
