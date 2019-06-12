@@ -55,7 +55,7 @@ Dynamic Tag Management provides the following key features:
 
 Activation, powered by Dynamic Tag Management, gives you intuitive tools to manage an unlimited number of Adobe and third-party tags. Now, you have more control and flexibility to optimize almost anything online, all while reducing your dependency on IT resources.
 
-**What Is Adobe DTM - Intro**
+### What Is Adobe DTM - Intro
 
 >[!VIDEO](https://video.tv.adobe.com/v/17163/)
 
@@ -67,7 +67,7 @@ By the end of these videos you should be able to:
 * Explain the importance of our library hosting options 
 * What tags does DTM support?
 
-**What Is Adobe DTM - Background**
+### What Is Adobe DTM - Background
 
 >[!VIDEO](https://video.tv.adobe.com/v/17160/)
 
@@ -79,7 +79,7 @@ By the end of these videos you should be able to:
 * Explain the importance of our library hosting options 
 * What tags does DTM support?
 
-**What Is Adobe DTM - Scope of Usage**
+### What Is Adobe DTM - Scope of Usage
 
 >[!VIDEO](https://video.tv.adobe.com/v/17162/)
 
@@ -91,7 +91,7 @@ By the end of these videos you should be able to:
 * Explain the importance of our library hosting options 
 * What tags does DTM support?
 
-**What Is Adobe DTM - Top Down Approach**
+### What Is Adobe DTM - Top Down Approach
 
 >[!VIDEO](https://video.tv.adobe.com/v/17165/)
 
@@ -103,7 +103,7 @@ By the end of these videos you should be able to:
 * Explain the importance of our library hosting options 
 * What tags does DTM support?
 
-**What Is Adobe DTM - Hosting Options**
+### What Is Adobe DTM - Hosting Options
 
 >[!VIDEO](https://video.tv.adobe.com/v/17161/)
 
@@ -115,7 +115,7 @@ By the end of these videos you should be able to:
 * Explain the importance of our library hosting options 
 * What tags does DTM support?
 
-**What Is Adobe DTM - Tag Support**
+### What Is Adobe DTM - Tag Support
 
 >[!VIDEO](https://video.tv.adobe.com/v/17164/)
 
@@ -137,26 +137,26 @@ demo-videos.xml
 
 A series of short videos to demonstrate [!DNL Adobe Dynamic Tag Management] features. 
 
-**DTM Demo Part 1 - Overview and Set Up Basics**
+### DTM Demo Part 1 - Overview and Set Up Basics
 
 >[!VIDEO](https://video.tv.adobe.com/v/17183/)
 
-**DTM Demo Part 2 - Analytics Tool Setup**
+### DTM Demo Part 2 - Analytics Tool Setup 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17184/)
 
-**DTM Demo Part 3 - Data Elements**
+### DTM Demo Part 3 - Data Elements
 
 >[!VIDEO](https://video.tv.adobe.com/v/17185/)
 
-**DTM Demo Part 4 - Page Load Rules**
+### DTM Demo Part 4 - Page Load Rules
 
 >[!VIDEO](https://video.tv.adobe.com/v/17186/)
 
-**DTM Demo Part 5 - Event and Direct Call Rules**
+### DTM Demo Part 5 - Event and Direct Call Rules
 
 >[!VIDEO](https://video.tv.adobe.com/v/17187/)
 
-**DTM Demo Part 6 - Version Control & Governance**
+### DTM Demo Part 6 - Version Control & Governance
 
 >[!VIDEO](https://video.tv.adobe.com/v/17188/) 

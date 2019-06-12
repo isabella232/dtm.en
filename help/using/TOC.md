@@ -21,7 +21,7 @@ index: n
 + [Dynamic Tag Management overview](c-overview.md)
 + Getting started{#getting-started}
     + [Getting started with DTM](getting-started/get-started.md)
-    + [Getting started Best practices](getting-started/gs-best-practices.md)
+    + [Getting started best practices](getting-started/gs-best-practices.md)
 + Administration{#admin}
     + [Administration overview](administration/administration.md)
     + [Web properties](administration/web-property.md)

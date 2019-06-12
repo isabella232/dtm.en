@@ -15,8 +15,6 @@ Configuration options in Dynamic Tag Management for Google Analytics.
 
 ## Google Analytics tool {#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99}
 
-Configuration options in Dynamic Tag Management for Google Analytics. 
-
 *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Analytics]**
 
 Google Analytics is configured as a tool in the Dynamic Tag Management interface. 
