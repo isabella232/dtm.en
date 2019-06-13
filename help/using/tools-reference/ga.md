@@ -1,14 +1,14 @@
 ---
-description: Configuration options in Dynamic Tag Management for Google Analytics.
-keywords: Dynamic Tag Management
-seo-description: Configuration options in Dynamic Tag Management for Google Analytics.
+description: Configuration options in DTM for Google Analytics
+keywords: Dynamic Tag Management,DTM
+seo-description: Configuration options in Dynamic Tag Management (DTM) for Google Analytics
+title: Google Analytics tool
 seo-title: Google Analytics tool
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
-title: Google Analytics tool
 uuid: 4fca02cc-8c3d-47e9-81be-9248ea908175
 ---
 
-# Google Analytics tool {#google-analytics-tool}
+# Google Analytics tool
 
 Configuration options in Dynamic Tag Management for Google Analytics.
 
