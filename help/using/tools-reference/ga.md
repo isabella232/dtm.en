@@ -16,6 +16,7 @@ Configuration options in Dynamic Tag Management for Google Analytics.
 
 `<Web Property Name>` > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Google Analytics]**
 
+<!--
 Google Analytics is configured as a tool in the Dynamic Tag Management interface.
 
 <table id="table_E9348A7B9F984198AF444A06D5373A99"> 
@@ -159,9 +160,11 @@ Google Analytics is configured as a tool in the Dynamic Tag Management interface
 </table>
 
 ## Call Google Analytics objects in DTM using scripts {#concept_CE6BE22F0985473FAA7E9987012B7D3F}
+-->
 
 <!--  call-google-analytics-objects-using-scripts.xml -->
 
+<!--
 When you set up a Google Analytics Classic tool, you can choose between using the GA Default Name, DTM Generated Name, or Specific Name. 
 
 ### GA default name {#section_CDB1E93ECDCA4576BE48363B8AFD3326}
@@ -220,3 +223,4 @@ With trackerName:
 tracker = _gaq._getAsyncTracker("alexisclassic"); 
 tracker._trackPageview() 
 ```
+-->
