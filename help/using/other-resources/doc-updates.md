@@ -119,7 +119,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>2/29/2016 </p> </td>
    <td colname="col02"> <p>New topic. </p> </td>
-   <td colname="col2"> <p><a href="../tools-reference/ga.md#concept_CE6BE22F0985473FAA7E9987012B7D3F" format="dita" scope="local"> Call Google Analytics Objects in DTM Using Scripts</a> </p> </td>
+   <td colname="col2"> <p><a href="../tools-reference/google-analytics.md#concept_CE6BE22F0985473FAA7E9987012B7D3F" format="dita" scope="local"> Call Google Analytics Objects in DTM Using Scripts</a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>2/29/2016 </p> </td>
@@ -270,7 +270,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>01/28/2015 </p> </td>
    <td colname="col02"> <p>Updated information about enabling EU compliance. </p> </td>
-   <td colname="col2"> <p> <a href="../tools-reference/google-universal-analytics.md#concept_224428EBB8E4466B93328EC5AE87FF04" format="dita" scope="local"> Google Universal Analytics Settings </a> </p> <p> <a href="../tools-reference/ga.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics Settings </a> </p> <p> <a href="../tools-reference/analytics-dtm.md#concept_1905D35C1BC84D25973725F64E3AD700" format="dita" scope="local"> General </a> </p> </td>
+   <td colname="col2"> <p> <a href="../tools-reference/google-universal-analytics.md#concept_224428EBB8E4466B93328EC5AE87FF04" format="dita" scope="local"> Google Universal Analytics Settings </a> </p> <p> <a href="../tools-reference/google-analytics.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics Settings </a> </p> <p> <a href="../tools-reference/analytics-dtm.md#concept_1905D35C1BC84D25973725F64E3AD700" format="dita" scope="local"> General </a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>01/28/2015 </p> </td>
@@ -345,7 +345,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>06/16/2014 </p> </td>
    <td colname="col02"> <p>Updated the <span class="uicontrol"> Enable EU compliance for Google Analytics</span> field description. </p> </td>
-   <td colname="col2"> <p> <a href="../tools-reference/ga.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics Settings </a> </p> </td>
+   <td colname="col2"> <p> <a href="../tools-reference/google-analytics.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics Settings </a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>05/06/2014 </p> </td>
@@ -435,7 +435,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>11/13/2013 </p> </td>
    <td colname="col02">Added information to the <span class="uicontrol"> Enable EU Compliance</span> field. </td>
-   <td colname="col2"> <p> <a href="../tools-reference/ga.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics </a> </p> <p> <a href="../tools-reference/analytics-dtm.md#task_3A00639CADF14C9C844F962222077E4E" format="dita" scope="local"> Deploy Adobe Analytics </a> </p> </td>
+   <td colname="col2"> <p> <a href="../tools-reference/google-analytics.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99" format="dita" scope="local"> Google Analytics </a> </p> <p> <a href="../tools-reference/analytics-dtm.md#task_3A00639CADF14C9C844F962222077E4E" format="dita" scope="local"> Deploy Adobe Analytics </a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>11/06/2013 </p> </td>

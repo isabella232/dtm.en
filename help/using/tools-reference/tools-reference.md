@@ -15,7 +15,7 @@ uuid: 6127a552-a6d3-4c31-8879-c7421c0a5bb6
 + [Adobe Media Optimizer tool](media-optimizer.md)
 + [Adobe Target tool](target.md)
 + [Experience Cloud ID Service](macid.md)
-+ [Google Analytics tool](ga.md)
++ [Google Analytics tool](google-analytics.md)
 + [Google Universal Analytics tool](google-universal-analytics.md)
 + [Nielsen tool](nielsen.md)
 + [Third-party tags](t-third-party-tags.md)
