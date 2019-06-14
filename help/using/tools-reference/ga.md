@@ -106,7 +106,7 @@ Google Analytics is configured as a tool in the Dynamic Tag Management interface
   </tr> 
   <tr> 
    <td colname="col1"> Element Tag or Selector to EXCLUDE </td> 
-   <td colname="col2"> <p>Specify the name of any tags or selectors you do not wish to track. </p> <p>Example: <span class="codeph"> a[target="_blank"] </span> </p> </td> 
+   <td colname="col2"> <p>Specify the name of any tags or selectors you do not wish to track. </p> <p>Example: <span class="codeph"> a </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Session Cookie Timeout </td> 
