@@ -308,11 +308,15 @@ Regardless of the hosting option chosen, the JavaScript library is served on you
 
 The embed code consists of two code snippets: the header and the footer code.
 
-* **Header Code** ![](assets/header-code2.png)
+* **Header Code** 
+
+  ![](assets/header-code2.png)
 
   The header code is responsible for calling the associated JavaScript library from the host location and serving it on your site. This code snippet should be placed in the head section of the site code as close to the opening tag as possible. 
 
-* **Footer Code** ![](assets/footer-code.png)
+* **Footer Code** 
+
+  ![](assets/footer-code.png)
 
   The footer code is responsible for identifying the end of the page for timing control. This code snippet should be placed in the body section of the site code as close to the closing tag as possible.
 

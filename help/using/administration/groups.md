@@ -25,7 +25,7 @@ Dynamic Tag Management has five different user roles with varying sets of permis
 
 The following table illustrates the permissions that each default role inherits: 
 
-|  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/Edit<br/>Users  | Create<br/>Property  |
+|  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/<br>Edit Users  | Create<br/>Property  |
 |---|---|---|---|---|---|---|---|
 |  **User** | Yes  | Yes  | Yes  |  |  |  |  |
 |  **Approver** | Yes  | Yes  | Yes  | Yes  |  |  |  |
@@ -112,7 +112,7 @@ t_create_group.xml
 
    **Default Role:** (Optional) Select a default role. All newly created properties going forward inherit this role. 
 
-   |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/Edit<br/>Users  | Create<br/>Property  |
+   |  User Role  | Create Rules  | Edit Rules  | Test Rules  | Approve<br/>Rules  | Publish<br/>Rules  | Create/<br/>Edit Users  | Create<br/>Property  |
    |---|---|---|---|---|---|---|---|
    |  **User** | Yes  | Yes  | Yes  |  |  |  |  |
    |  **Approver** | Yes  | Yes  | Yes  | Yes  |  |  |  |
