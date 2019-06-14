@@ -13,7 +13,7 @@ uuid: 6a902dea-ce8b-4b92-ab2d-65ae65783684
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools.
 
-**[!UICONTROL Rules]** > **[!UICONTROL Data Elements]** > **[!UICONTROL Edit]** .
+**[!UICONTROL Rules]** > **[!UICONTROL Data Elements]** > **[!UICONTROL Edit]**
 
 Use data elements as widely as possible throughout rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and then use them many times.
 
@@ -35,9 +35,9 @@ The following table describes the types of data elements.
 |Type|Description|Example|
 |--- |--- |--- |
 |JavaScript Object|Any available JavaScript object or variable can be referenced using the  path  field.|window.document.title|
-|CSS Selector|Any element value can be retrieved, such as a div or H1 tag.|CSS Selector Chain:    id#dc logo img   Get the value of:    src|
-|Cookie|Any available domain cookie can be referenced in the  cookie name  field.|cookieName|
-|URL Parameter|Specify a single URL parameter in the  URL Parameter  field.  Only the name section is necessary and any special designators like "?" or "=" should be omitted|contentType|
+|CSS Selector|Any element value can be retrieved, such as a div or H1 tag.|CSS Selector Chain:    `id#dc logo img`   Get the value of:    `src`|
+|Cookie|Any available domain cookie can be referenced in the  `cookie` name  field.|cookieName|
+|URL Parameter|Specify a single URL parameter in the  `URL Parameter`  field.  Only the name section is necessary and any special designators like "?" or "=" should be omitted|contentType|
 
 ### In custom script
 
@@ -61,18 +61,18 @@ If a return statement is not included, the default value or an empty string will
 
 |Attribute|Description|
 |--- |--- |
-|Page view|Available only while the page persists. <br/>Can be created and set in scripts using  _satellite  object syntax:   _satellite.setVar('data_element_name')|
+|Page view|Available only while the page persists. <br/>Can be created and set in scripts using  `_satellite`  object syntax:   `_satellite.setVar('data_element_name')`|
 |Session|Sets a session-level cookie in the browser. <br/>Available throughout the site visit.|
 |Visitor|Sets a 2-year cookie.|
-|Cookie manipulation|Can be manipulated using _satellite cookie methods: <br/>_satellite.setCookie(name,value,days); <br/>_satellite.readCookie(name); <br/> _satellite.removeCookie(name);|
+|Cookie manipulation|Can be manipulated using _satellite cookie methods: <br/>`_satellite.setCookie(name,value,days);` <br/>`_satellite.readCookie(name);` <br/> `_satellite.removeCookie(name);`|
 
 ## Built-in data elements {#section_D75D9250EB3F4563BDB22D38B1C071AA}
 
 | Attribute | Description |
 |--- |--- |
-|URI|Used in rule:  %URI%  <br/>Returns  document.location.pathname  +  document.location.search|
-|Protocol|Used in rule:  %protocol% <br/>Returns  document.location.protocol|
-|Hostname|Used in rule:  %hostname%  <br/>Returns  document.location.hostname |
+|URI|Used in rule:  `URI`  <br/>Returns  document.location.pathname  +  document.location.search|
+|Protocol|Used in rule:  `protocol` <br/>Returns  document.location.protocol|
+|Hostname|Used in rule:  `hostname`  <br/>Returns  document.location.hostname |
 
 ## Data element usage {#section_2CD92AAA2B7C462EBFDA562AED299E6A}
 
@@ -150,6 +150,7 @@ t_data_element.xml
 1. In the web property, click  **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]** .
 1. Click **[!UICONTROL Create New Data Element]**.
 1. Complete the following fields and options:
+
    * **[!UICONTROL Name]** The data element friendly name that a marketer can recognize. For example, `Product ID`.
 
       >[!NOTE]
@@ -159,26 +160,21 @@ t_data_element.xml
    * **[!UICONTROL Type]** Specifies where the data is pulled from, such as JS Object, CSS Selector, Cookie, URL Parameter, or Custom Script.
       Depending on which type you select, different options display. See [Types of Data Elements](../managing-resources/data-elements.md#section_92407DCB477045D3B50DF8105AB2E6F4) for more information and examples. 
 
-    
     * **[!UICONTROL Default Value]** A default element. This value ensures that the data element always has a value, even if a URL parameter does not exist or cannot be found by Dynamic Tag Management.
-
 
       >[!NOTE]
       >
       >If there is no value and no default value, then nothing is returned. Any variable referencing that data element won't get set. Note also that the default value field is ignored if it's a "custom code" data element.
-   * **[!UICONTROL Force lowercase value]** Dynamic tag management automatically makes the value lowercased. 
-   * **[!UICONTROL Remember this value for]** How long you want dynamic tag management to remember this value.
-
+    * **[!UICONTROL Force lowercase value]** Dynamic tag management automatically makes the value lowercased. 
+    * **[!UICONTROL Remember this value for]** How long you want dynamic tag management to remember this value.
     * **[!UICONTROL Force lowercase value]** Dynamic Tag Management automatically makes the value lowercased. 
-    
     * **[!UICONTROL Remember this value for]** How long you want Dynamic Tag Management to remember this value.
 
-      Valid values include:
+    Valid values include:
 
-
-   * Session: Session-based timing can vary depending on the implementation. Session data elements are set to the session cookie. However, this setting could be based on a web server or the browser. It is not related to the session used in marketing reports & analytics. 
-   * Pageview 
-   * Visitor
+    * Session: Session-based timing can vary depending on the implementation. Session data elements are set to the session cookie. However, this setting could be based on a web server or the browser. It is not related to the session used in marketing reports & analytics. 
+    * Pageview 
+    * Visitor
 
    See [Data Elements](../managing-resources/data-elements.md#concept_8A4591BD0F4241B6925D976482C43CD2) for more information about how to use data elements.
 1. Click **[!UICONTROL Save Data Element]**.
