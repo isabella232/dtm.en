@@ -10,11 +10,11 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
-index: no
+git-repo: https://github.com/AdobeDocs/dtm.en
+index: yes
 ---
 
-# Dynamic Tag Manager Help {#using}
+# Dynamic Tag Management Help {#using}
 
 + [Dynamic Tag Management Product Documentation](dtm-home.md)
 + [Release notes for Dynamic Tag Management](whatsnew.md)
