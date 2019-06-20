@@ -39,8 +39,8 @@ Information about updates to the Dynamic Tag Management help.
   </tr>
   <tr>
    <td colname="col1"> <p>3/29/2017 </p> </td>
-   <td colname="col02"> <p>Added frequently asked questions about the upcoming release of Adobe Launch. </p> </td>
-   <td colname="col2"> <p><a href="../frequently-asked-questions/faq.md#section_A8A9FBE7527C4292B5AB639297C28445" format="dita" scope="local"> Adobe Launch FAQ</a> </p> </td>
+   <td colname="col02"> <p>Added frequently asked questions about the release of Launch. </p> </td>
+   <td colname="col2"> <p><a href="../frequently-asked-questions/faq.md#section_A8A9FBE7527C4292B5AB639297C28445" format="dita" scope="local"> Launch FAQ</a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>11/28/2016 </p> </td>
