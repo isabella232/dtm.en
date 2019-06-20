@@ -265,20 +265,20 @@ See the [!UICONTROL Persistence] section in [Data Elements](../managing-resource
 
 See [Configure Adobe Analytics](../tools-reference/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
 
-## FAQ - Launch, by Adobe {#section_A8A9FBE7527C4292B5AB639297C28445}
+## FAQ - Adobe Experience Platform Launch {#section_A8A9FBE7527C4292B5AB639297C28445}
 
 A FAQ about the new version of Dynamic Tag Management, announced in March 2017.
 
 **What is Launch?**
 
-Launch is the next-generation of the Adobe tag-management capability, built into the Adobe Cloud Platform. Launch enables clients to:
+Adobe Experience Platform Launch is the next-generation of the Adobe tag-management capability, built into the Adobe Cloud Platform. Launch enables clients to:
 
 * Deploy client-side web products using integrations called *extensions*
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe
 
 Launch is an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. It provides a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Cloud Platform.
 
-For more frequently asked questions about Launch, see [Adobe Launch FAQ](https://docs.adobelaunch.com/).
+For more frequently asked questions about Launch, see [Launch FAQ](https://docs.adobelaunch.com/).
 
 **Will Launch replace DTM?**
 
