@@ -6,9 +6,6 @@ seo-title: Configure the Adobe Target Tool
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Configure the Adobe Target Tool
 uuid: 39b3cec1-165c-4a45-a0c2-d61c03bca837
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Adobe Target Tool{#configure-the-adobe-target-tool}

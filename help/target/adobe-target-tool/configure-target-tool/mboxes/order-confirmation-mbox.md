@@ -6,9 +6,6 @@ seo-title: Order Confirmation Mbox
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Order Confirmation Mbox
 uuid: e42b5a4c-ba59-49d7-90f1-70d8b26c33f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Order Confirmation Mbox{#order-confirmation-mbox}

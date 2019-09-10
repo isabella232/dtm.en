@@ -6,9 +6,6 @@ seo-title: Adobe Target Tool
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Adobe Target Tool
 uuid: 92c52847-c342-4c74-8fd7-811d94707f67
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Target Tool{#adobe-target-tool}
@@ -17,7 +14,7 @@ Information to help you implement Target using the Adobe Target Tool in dynamic 
 
 >[!NOTE]
 >
->In addition to the information contained in this section, additional information is included in [Add Adobe Target Tool](https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=target) in the *Dynamic Tag Management Product Documentation*.
+>In addition to the information contained in this section, additional information is included in [Add Adobe Target Tool](/help/target/adobe-target-tool/adobe-target-tool.md) in the main DTM user guide.
 
 The [!DNL Adobe Target Tool] is the recommended way to implement [!DNL Target] via [!DNL DTM]. The [!DNL Adobe Target Tool] supports:
 
@@ -25,8 +22,12 @@ The [!DNL Adobe Target Tool] is the recommended way to implement [!DNL Target] v
 * [!DNL Target Classic] implementations using a global mbox or regional mboxes 
 * Population of mbox and profile parameters in both global and regional mboxes
 
-This video explains how to deploy Target using DTM.
+**Implementation resources**
 
+* [Configure Target with DTM video](https://helpx.adobe.com/experience-manager/kt/integration/using/aem-dtm-integration-tutorial-understand.html#target-dtm)
+* [Understanding AEM Integration with DTM, Analytics and Target](https://helpx.adobe.com/experience-manager/kt/integration/using/aem-dtm-integration-tutorial-understand.html)
+
+<!-- migrated table with no src link
 <table id="table_C56F4BE9B867463380013C584D97DAD2"> 
  <thead> 
   <tr> 
@@ -49,4 +50,4 @@ This video explains how to deploy Target using DTM.
   </tr> 
  </tbody> 
 </table>
-
+-->

@@ -6,9 +6,6 @@ seo-title: QA, Approval, and Deployment Steps
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: QA, Approval, and Deployment Steps
 uuid: c7fe39f8-4c3d-41ef-bbfa-1f7cdd743e81
-index: y
-internal: n
-snippet: y
 ---
 
 # QA, Approval, and Deployment Steps{#qa-approval-and-deployment-steps}

@@ -6,9 +6,6 @@ seo-title: Mboxes on JavaScript Events
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Mboxes on JavaScript Events
 uuid: e6af8346-0f03-45f5-a882-4ea5e2abcc59
-index: y
-internal: n
-snippet: y
 ---
 
 # Mboxes on JavaScript Events{#mboxes-on-javascript-events}

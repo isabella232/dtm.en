@@ -6,9 +6,6 @@ seo-title: Dynamic Tag Management Implementation
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Dynamic Tag Management Implementation
 uuid: 8db85ecb-7d34-4bbc-bee8-19f2a38e9a6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic Tag Management Implementation{#dynamic-tag-management-implementation}

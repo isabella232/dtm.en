@@ -6,9 +6,6 @@ seo-title: Installing the Debugging Tools
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Installing the Debugging Tools
 uuid: 0971448c-684f-4191-8353-c68e127bd4dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing the Debugging Tools{#installing-the-debugging-tools}

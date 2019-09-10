@@ -6,9 +6,6 @@ seo-title: Wrapping Mboxes
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Wrapping Mboxes
 uuid: 7d3431ca-c276-4e51-8778-3c0a687a138a
-index: y
-internal: n
-snippet: y
 ---
 
 # Wrapping Mboxes{#wrapping-mboxes}

@@ -6,9 +6,6 @@ seo-title: Performing QA Steps
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Performing QA Steps
 uuid: 2caefdb9-9a07-4567-b7be-2807a55122a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Performing QA Steps{#performing-qa-steps}

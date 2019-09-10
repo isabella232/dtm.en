@@ -6,9 +6,6 @@ seo-title: Option 3  Implement Target Manually with the Target JavaScript Librar
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Option 3  Implement Target Manually with the Target JavaScript Library Hosted by DTM
 uuid: 21f47e48-8601-4b74-b59b-7edf9f49a86c
-index: y
-internal: n
-snippet: y
 ---
 
 # Option 3: Implement Target Manually with the Target JavaScript Library Hosted by DTM{#option-implement-target-manually-with-the-target-javascript-library-hosted-by-dtm}

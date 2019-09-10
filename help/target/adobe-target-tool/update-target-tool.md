@@ -6,9 +6,6 @@ seo-title: Update the Adobe Target Tool
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Update the Adobe Target Tool
 uuid: c269a197-ba0e-4335-8f42-2338058e472b
-index: y
-internal: n
-snippet: y
 ---
 
 # Update the Adobe Target Tool{#update-the-adobe-target-tool}

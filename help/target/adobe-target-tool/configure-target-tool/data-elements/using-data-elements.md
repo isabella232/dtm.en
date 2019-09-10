@@ -6,9 +6,6 @@ seo-title: Using Data Elements
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Using Data Elements
 uuid: dd8ce6d4-91b3-4f4d-88fe-803f0b918e03
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Data Elements{#using-data-elements}
