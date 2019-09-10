@@ -6,9 +6,6 @@ seo-title: Option 2  Implement Target Automatically with Manual Entry of Your Ta
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Option 2  Implement Target Automatically with Manual Entry of Your Target Client Code
 uuid: c009f74e-83d9-48e1-9a89-af009e566c0e
-index: y
-internal: n
-snippet: y
 ---
 
 # Option 2: Implement Target Automatically with Manual Entry of Your Target Client Code{#option-implement-target-automatically-with-manual-entry-of-your-target-client-code}

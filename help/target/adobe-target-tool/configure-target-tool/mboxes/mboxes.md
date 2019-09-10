@@ -6,9 +6,6 @@ seo-title: Mboxes
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Mboxes
 uuid: dcd5eae4-8dfa-4a25-b0ad-a7b14a006855
-index: y
-internal: n
-snippet: y
 ---
 
 # Mboxes{#mboxes}

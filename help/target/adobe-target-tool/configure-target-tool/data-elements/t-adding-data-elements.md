@@ -6,9 +6,6 @@ seo-title: Adding Data Elements
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Adding Data Elements
 uuid: cc1dec67-4358-4977-b44e-abe78f4dbda9
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Data Elements{#adding-data-elements}

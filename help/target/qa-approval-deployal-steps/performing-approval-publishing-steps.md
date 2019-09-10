@@ -6,9 +6,6 @@ seo-title: Performing Approval and Publishing Steps
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Performing Approval and Publishing Steps
 uuid: dfde83bc-8581-4e04-ad6a-ef8fe46920dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Performing Approval and Publishing Steps{#performing-approval-and-publishing-steps}

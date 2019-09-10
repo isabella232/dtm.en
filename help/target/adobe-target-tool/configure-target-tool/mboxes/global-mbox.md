@@ -6,9 +6,6 @@ seo-title: Global Mbox
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Global Mbox
 uuid: 632fbc45-626c-49ce-839e-1e31b91f46fd
-index: y
-internal: n
-snippet: y
 ---
 
 # Global Mbox{#global-mbox}

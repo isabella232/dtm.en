@@ -6,9 +6,6 @@ seo-title: Add the Adobe Target Tool
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Add the Adobe Target Tool
 uuid: 7b7a9a32-714a-4267-8d68-4cf60c4bbd6d
-index: y
-internal: n
-snippet: y
 ---
 
 # Add the Adobe Target Tool{#add-the-adobe-target-tool}

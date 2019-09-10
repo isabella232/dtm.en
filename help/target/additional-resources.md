@@ -6,9 +6,6 @@ seo-title: Additional Resources
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Additional Resources
 uuid: 173b7279-9074-4097-9c7e-5f913d00b6d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Additional Resources{#additional-resources}

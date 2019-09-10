@@ -6,9 +6,6 @@ seo-title: Best Practices for Implementing Adobe Target using Dynamic Tag Manage
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Best Practices for Implementing Adobe Target using Dynamic Tag Management
 uuid: 0d2afb6c-df72-4593-8b21-c701badad2e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Implementing Adobe Target using Dynamic Tag Management{#best-practices-for-implementing-adobe-target-using-dynamic-tag-management}

@@ -6,9 +6,6 @@ seo-title: Option 1  Implement Target Automatically via the Marketing Cloud (Eas
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Option 1  Implement Target Automatically via the Marketing Cloud (Easiest and Recommended)
 uuid: 03f021f7-c23b-48e6-9634-2628bda63d7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Option 1: Implement Target Automatically via the Marketing Cloud (Easiest and Recommended){#option-implement-target-automatically-via-the-marketing-cloud-easiest-and-recommended}

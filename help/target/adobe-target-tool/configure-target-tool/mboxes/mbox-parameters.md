@@ -6,9 +6,6 @@ seo-title: Mbox Parameters
 solution: Marketing Cloud,Dynamic Tag Management,Target
 title: Mbox Parameters
 uuid: 94ff701a-f6ea-4a91-97f0-e7c9c0cafa2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Mbox Parameters{#mbox-parameters}
@@ -17,14 +14,11 @@ Information to help you pass parameters with mbox calls to Adobe Target.
 
 Parameters can be passed with mbox calls to provide rich data to your [!DNL Target] implementation for segmentation and targeting. This section shows you how to enrich your implementation via DTM.
 
-This section contains the following information:
-
-* [Adding Parameters to the Auto-Generated Global Mbox](../../../adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md#section-3c8c64a6b5eb42aa8b7c2d4bf0d04427) 
-* [Adding Parameters to the Auto-Generated Global Mbox on Specific Pages](../../../adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md#section-f70f77c5445d4d75b0831d49d91e0d08) 
-* [Using the DTM Interface for DTM-Placed Wrapping Mboxes](../../../adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md#section-40326d1797c24f0da227d0c282a39eac) 
-* [Using the mboxParameters() Function for Every Mbox Call](../../../adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md#section-e3e9711d8a1342b6a6afc1bceaef209e)
-
 ## Adding Parameters to the Auto-Generated Global Mbox {#section-3c8c64a6b5eb42aa8b7c2d4bf0d04427}
+
+<!-- 
+
+Can't figure out which video this is referring to. Commenting out because iframe videos not supported -Bob
 
 This video explains how to add mbox parameters using DTM.
 
@@ -50,6 +44,7 @@ This video explains how to add mbox parameters using DTM.
   </tr> 
  </tbody> 
 </table>
+-->
 
 1. On the [!DNL Target Tool] settings page (click the gear icon next to the Adobe Target tool on the [!DNL Overview] page of your property), then expand the **[!UICONTROL Global Parameters]** section:
 
