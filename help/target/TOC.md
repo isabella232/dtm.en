@@ -2,9 +2,8 @@
 cloud: experience-cloud
 product: experience cloud
 sub-product: dynamic tag management
-archetype: end-user
-user-guide: Implement Target using DTM Help
-
+audience: end-user
+user-guide-title: Implement Target using DTM Help
 ---
 
 # Implement Target using DTM Help {#implementing}
