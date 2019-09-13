@@ -39,4 +39,3 @@ user-guide: Implement Target using DTM Help
    + [Performing QA Steps](qa-approval-deployal-steps/performing-qa-steps.md)
    + [Performing Approval and Publishing Steps](qa-approval-deployal-steps/performing-approval-publishing-steps.md)
 + [Additional Resources](additional-resources.md)
-+ [Contact and Legal Information](contact-and-legal.md)
