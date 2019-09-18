@@ -4,6 +4,7 @@ product: experience cloud
 sub-product: dynamic tag management
 audience: end-user
 user-guide-title: Implement Target Using DTM
+git-repo: https://github.com/AdobeDocs/dtm.en
 ---
 
 # Implement Target Using DTM {#implementing}

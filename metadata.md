@@ -7,7 +7,7 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/dtm.en
+git-repo: https://github.com/AdobeDocs/dtm.en
 ---
 
 # Metadata for internal use
