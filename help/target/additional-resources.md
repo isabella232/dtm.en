@@ -10,14 +10,14 @@ uuid: 173b7279-9074-4097-9c7e-5f913d00b6d8
 
 # Additional Resources{#additional-resources}
 
-Links to videos and instructions to help you integrate Adobe Target using dynamic tag management.
+Links to videos and instructions to help you integrate Adobe Target using Dynamic Tag Management (DTM).
 
 Refer to the following topics for more information: 
 
 |  Resource  | Link  |
 |---|---|
-|  Dynamic tag management and Target training videos  | [https://outv.omniture.com](https://outv.omniture.com)  |
-|  Dynamic Tag Management Product Documentation  | [https://marketing.adobe.com/resources/help/en_US/dtm/](https://marketing.adobe.com/resources/help/en_US/dtm/)  |
-|  Adobe Target Product Documentation  | [https://marketing.adobe.com/resources/help/en_US/target/](https://marketing.adobe.com/resources/help/en_US/target/)  |
-|  Adobe Target Classic Product Documentation  | [https://marketing.adobe.com/resources/help/en_US/tnt/help/](https://marketing.adobe.com/resources/help/en_US/tnt/help/)  |
+|  Dynamic Tag Management demo videos  | [https://docs.adobe.com/content/help/en/dtm/using/c-overview.html](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html#concept_312DC55901E64C5996CD750162293ED6)  |
+|  Dynamic Tag Management Product Documentation  | [https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)  |
+|  Adobe Target Product Documentation  | [https://docs.adobe.com/content/help/en/target/using/target-home.html](https://docs.adobe.com/content/help/en/target/using/target-home.html)  |
+|  Adobe Target Classic Product Documentation  | [https://docs.adobe.com/help/en/target/using/recommendations/recommendations-classic-documentaton.html](https://docs.adobe.com/help/en/target/using/recommendations/recommendations-classic-documentaton.html)  |
 

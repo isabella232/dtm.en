@@ -12,3 +12,5 @@ uuid: 39b3cec1-165c-4a45-a0c2-d61c03bca837
 
 Information to help you configure the Adobe Target Tool and to set up mboxes and data elements.
 
+* [Mboxes](mboxes/mboxes.md)
+* [Data Elements](data-elements/data-elements.md)

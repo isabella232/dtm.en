@@ -10,7 +10,7 @@ uuid: 0d2afb6c-df72-4593-8b21-c701badad2e6
 
 # Best Practices for Implementing Adobe Target using Dynamic Tag Management{#best-practices-for-implementing-adobe-target-using-dynamic-tag-management}
 
-Adobe dynamic tag management (DTM) makes it quick and easy to implement Adobe Target on your websites.
+Adobe Dynamic Tag Management (DTM) makes it quick and easy to implement Adobe Target on your websites.
 
 <!--
 <p>V1.2: Updated to include new instructions for importing the Adobe Target library, built-in methods for adding global mbox parameters, instructions on how to retrieve Client Code, and some updated screenshots. </p>
@@ -35,29 +35,29 @@ Before following the instructions in this guide, we assume that you have met the
  <tbody> 
   <tr> 
    <td colname="col1"> <p> You have access to the DTM interface. </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=get_started" format="https" scope="external"> Getting Started </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/using/getting-started/get-started.md" format="https" scope="external"> Getting Started </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>You have configured the relevant DTM property. </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=web_property" format="https" scope="external"> Web Properties </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/help/en/dtm/using/admin/web-property.html" format="https" scope="external"> Web Properties </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>You have added the DTM embed code to your website. </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=deployment" format="https" scope="external"> Embed Code and Hosting Options </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/help/en/dtm/using/client-side/deployment.html" format="https" scope="external"> Embed Code and Hosting Options </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>You have a basic understanding of the DTM interface, how to configure rules, etc. </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/index.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>You have access to approve and publish DTM code. </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=users" format="https" scope="external"> Users and Permissions </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/help/en/dtm/using/admin/users.html" format="https" scope="external"> Users and Permissions </a> in the <i>Dynamic Tag Management Product Documentation</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>You have access to the <span class="keyword"> Target </span> interface. </p> </td> 
-   <td colname="col2"> <a href="https://marketing.adobe.com/resources/help/en_US/target/index.html" format="https" scope="external"> Adobe Target Product Documentation </a>. </td> 
+   <td colname="col2"> <a href="https://docs.adobe.com/content/help/en/target/using/target-home.html" format="https" scope="external"> Adobe Target Product Documentation </a>. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Please check with [Customer Care](contact-and-legal.md#concept-34a1ca16f2244d42930bb77846a5abbb) or refer to the [Additional Resources](additional-resources.md#concept-96eadfea07c544709d599d9d138a6bf5) section of this guide if you need assistance with any of the above prerequisites. 
+Please check with [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) or refer to the [Additional Resources](additional-resources.md#concept-96eadfea07c544709d599d9d138a6bf5) section of this guide if you need assistance with any of the above prerequisites. 
