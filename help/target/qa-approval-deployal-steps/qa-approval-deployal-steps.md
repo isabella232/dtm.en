@@ -12,3 +12,6 @@ uuid: c7fe39f8-4c3d-41ef-bbfa-1f7cdd743e81
 
 Information about the steps necessary to effectively perform quality assurance testing, approve, and deploy your Target implementation.
 
+* [Installing the Debugging Tools](installing-debugging-tools.md)
+* [Performing QA Steps](performing-qa-steps.md)
+* [Performing Approval and Publishing Steps](performing-approval-publishing-steps.md)

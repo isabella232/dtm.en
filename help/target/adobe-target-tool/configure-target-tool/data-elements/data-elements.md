@@ -14,4 +14,7 @@ Information to help you add and use data elements in dynamic tag management for 
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) for any object that is contained on your site. They can be JavaScript objects, cookie values, and query strings. You use data elements to build a data layer that can be used for Target and other data collection tools. For example, if you track orders using an Order Confirmation Page mbox, create data elements to populate the required `orderId`, `orderTotal`, and `productPurchasedId` parameters.
 
-For more information, see [Data Elements](https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=data_elements) in the *Dynamic Tag Management Product Documentation*. 
+* [Adding Data Elements](t-adding-data-elements.md)
+* [Using Data Elements](using-data-elements.md)
+
+For more information, see [Data Elements](/help/using/managing-resources/data-elements.md) in the *Dynamic Tag Management Product Documentation*. 

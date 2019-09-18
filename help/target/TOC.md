@@ -3,10 +3,10 @@ cloud: experience-cloud
 product: experience cloud
 sub-product: dynamic tag management
 audience: end-user
-user-guide-title: Implement Target using DTM Help
+user-guide-title: Implement Target Using DTM
 ---
 
-# Implement Target using DTM Help {#implementing}
+# Implement Target Using DTM {#implementing}
 
 + [Best Practices for Implementing Adobe Target using Dynamic Tag Management](overview.md)
 + [Dynamic Tag Management Implementation](dynamic-tag-management-implementation.md)
@@ -22,15 +22,15 @@ user-guide-title: Implement Target using DTM Help
      + [Configure the Adobe Target Tool](adobe-target-tool/configure-target-tool/configure-target-tool.md)
      + About Mboxes{#mboxes}
        + [Mboxes](adobe-target-tool/configure-target-tool/mboxes/mboxes.md)
-        + [Global Mbox](adobe-target-tool/configure-target-tool/mboxes/global-mbox.md)
-        + [Wrapping Mboxes](adobe-target-tool/configure-target-tool/mboxes/wrapping-mboxes.md)
-        + [Mboxes on JavaScript Events](adobe-target-tool/configure-target-tool/mboxes/t-mboxes-on-javascript-events.md)
-        + [Order Confirmation Mbox](adobe-target-tool/configure-target-tool/mboxes/order-confirmation-mbox.md)
-        + [Mbox Parameters](adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md)
-      + About Data Elements {#data-elements}
-        + [Data Elements](adobe-target-tool/configure-target-tool/data-elements/data-elements.md)
-        + [Adding Data Elements](adobe-target-tool/configure-target-tool/data-elements/t-adding-data-elements.md)
-        + [Using Data Elements](adobe-target-tool/configure-target-tool/data-elements/using-data-elements.md)
+       + [Global Mbox](adobe-target-tool/configure-target-tool/mboxes/global-mbox.md)
+       + [Wrapping Mboxes](adobe-target-tool/configure-target-tool/mboxes/wrapping-mboxes.md)
+       + [Mboxes on JavaScript Events](adobe-target-tool/configure-target-tool/mboxes/t-mboxes-on-javascript-events.md)
+       + [Order Confirmation Mbox](adobe-target-tool/configure-target-tool/mboxes/order-confirmation-mbox.md)
+       + [Mbox Parameters](adobe-target-tool/configure-target-tool/mboxes/mbox-parameters.md)
+     + About Data Elements {#data-elements}
+       + [Data Elements](adobe-target-tool/configure-target-tool/data-elements/data-elements.md)
+       + [Adding Data Elements](adobe-target-tool/configure-target-tool/data-elements/t-adding-data-elements.md)
+       + [Using Data Elements](adobe-target-tool/configure-target-tool/data-elements/using-data-elements.md)
    + [Update the Adobe Target Tool](adobe-target-tool/update-target-tool.md)
 + Deploying {#deploying}
    + [QA, Approval, and Deployment Steps](qa-approval-deployal-steps/qa-approval-deployal-steps.md)
