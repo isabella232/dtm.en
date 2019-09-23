@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: DTM
+solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-image: help/using/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
