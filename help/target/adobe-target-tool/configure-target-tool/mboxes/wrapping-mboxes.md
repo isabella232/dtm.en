@@ -15,7 +15,7 @@ If you are a Target Classic Workflow user and aren’t able to use the global mb
 The Adobe Target Tool integration currently uses the `mboxUpdate` method to make mbox calls, so keep the following in mind:
 
 * The `mboxUpdate` call waist for the `window onload` event before the call is made. Test content takes longer to appear than when using `mboxCreate`. 
-* <style> blocks served through offers don’t work in Microsoft Internet Explorer 8 and below (use JavaScript to set the styles). 
+* `<style>` blocks served through offers don’t work in Microsoft Internet Explorer 8 and below (use JavaScript to set the styles). 
 * HTML is delivered first and JavaScript last, regardless of the order in the offer. 
 * All JavaScript in the offer is encapsulated, so additional steps must be taken if you want any variables or functions to be usable elsewhere on the page. 
 * Extra `SiteCatalyst` calls will be made if using the legacy Test&Target > SiteCatalyst integration plugin. Consider switching to the “Analytics for Target” back-end integration.
@@ -64,4 +64,3 @@ To use a dynamic value from a [Data Element](../../../adobe-target-tool/configur
 Below is an example of an mbox named “hero” that wraps an element with an ID of “hero” and includes an mbox parameter named “pageName” with a value that is dynamically populated by a data element called “Page Name.”
 
 ![](assets/mbox.png)
-
