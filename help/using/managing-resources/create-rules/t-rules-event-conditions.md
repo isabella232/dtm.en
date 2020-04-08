@@ -216,7 +216,7 @@ For non-standard attributes, you can similarly leverage the JavaScript function 
 
 For example, suppose you have a similar search results page as the preceding example shows. However, these links contain a non-standard attribute, *`loc`* that you want to dynamically set to an eVar based on the link clicked.
 
-Example link: [!DNL <a id='myFirstLink' loc='top' href='www.exampleLink.com'>]
+Example link: `<a id='myFirstLink' loc='top' href='www.exampleLink.com'>`
 
 To accomplish this, create an event-based rule to trigger on the click of the links on the page. Then, within the [!DNL Analytics] section of the rule, set the eVar to `%this.get Attribute(loc)%`.
 
