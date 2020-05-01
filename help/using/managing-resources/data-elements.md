@@ -45,7 +45,7 @@ Custom JavaScript can be entered into the UI by clicking **[!UICONTROL Open Edit
 
 If a return statement is not included, the default value or an empty string will be returned as the data element value.
 
- ```javascript
+```javascript
  var pageType = $('div.page-wrapper').attr('class').split(' 
      ')[1]; 
      if  
