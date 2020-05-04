@@ -13,7 +13,7 @@ uuid: bafa70f9-b1a4-43a2-93bf-2b20b9d5b3f5
 
 Test unpublished rules from your console if you use Akamai hosting.
 
-The Switcher plugin is often the easiest way to test. See [Search Discovery Plugins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information. 
+The Switcher plugin is often the easiest way to test. See [Search Discovery Plugins](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) in the Dynamic Tag Management Product Documentation for more information. 
 
 1. Access your web console on your site and type `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Press **[!UICONTROL Enter]**.

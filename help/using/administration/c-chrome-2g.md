@@ -29,7 +29,7 @@ If you are using Target via DTM, and are concerned about visitors on a 2G cellul
 
    Make sure you use the custom code editor.
 
-   To learn more about implementing Target with at.js, see [at.js Implementation](https://marketing.adobe.com/resources/help/en_US/target/ov2/c_target-atjs-implementation.html) in the Target help. 
+   To learn more about implementing Target with at.js, see [at.js Implementation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html) in the Target help. 
 
 1. Uncheck the **[!UICONTROL Load Adobe Target Library synchronously]** checkbox in the DTM Target tool. 
 1. Test well before deploying.

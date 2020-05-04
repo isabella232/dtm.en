@@ -21,13 +21,13 @@ The following sections contain more information:
 
 For general Marketing Cloud pixel debugging, install the Adobe Marketing Cloud Debugger bookmarklet.
 
-See [Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
+See [Adobe Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html).
 
 ## Installing the DTM Switch {#section-89add95b14014ecda46d2287c174ec8b}
 
 DTM Switch is a browser plugin for easy switching of debug mode and staging mode for DTM users. It is available for both Chrome and Firefox. You do not need to publish a new rule or tag in order to use this, though you do need to host DTM on Akamai.
 
-For more information about the DTM Switch and to obtain the switches, see [DTM Switch Plugins for Debugging (Chrome and Firefox)](https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=search_discovery_plugins) in the Dynamic Tag Management Product Documentation.
+For more information about the DTM Switch and to obtain the switches, see [DTM Switch Plugins for Debugging (Chrome and Firefox)](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) in the Dynamic Tag Management Product Documentation.
 
 When you visit a site with DTM, the Marketing Cloud icon appears to the right of your browser’s URL bar. Clicking the icon exposes the following options:
 

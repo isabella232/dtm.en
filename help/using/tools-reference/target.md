@@ -14,7 +14,7 @@ Information about creating the Adobe Target tool for deploying Adobe Target in D
 
 >[!NOTE]
 >
->For best practices, see [Best Practices for Implementing Adobe Target Using Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
+>For best practices, see [Best Practices for Implementing Adobe Target Using Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
 
 *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Target]**
 

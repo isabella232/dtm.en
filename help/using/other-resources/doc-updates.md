@@ -50,7 +50,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>7/27/2016 </p> </td>
    <td colname="col02"> <p>Added information about the Automatically Request Visitor ID option being automatically enabled when you add a Experience Cloud ID Service tool. </p> </td>
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-settings.html" format="html" scope="external"> Experience Cloud ID Services settings </a> </p> </td>
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html" format="html" scope="external"> Experience Cloud ID Services settings </a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>6/17/2016 </p> </td>
@@ -129,7 +129,7 @@ Information about updates to the Dynamic Tag Management help.
   <tr>
    <td colname="col1"> <p>1/28/2016 </p> </td>
    <td colname="col02"> <p>New section: Best Practices for Implementing Adobe Target using Dynamic Tag Management </p> </td>
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/dtm/target/" format="https" scope="external"> Best Practices for Implementing Adobe Target using Dynamic Tag Management</a> </p> </td>
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/overview.html" format="https" scope="external"> Best Practices for Implementing Adobe Target using Dynamic Tag Management</a> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>1/14/2016 </p> </td>
