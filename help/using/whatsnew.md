@@ -63,7 +63,7 @@ In addition to the notes for each release, the following resources provide addit
    <td colname="col2"> <p>View information about new features and enhancements in previous releases of <span class="keyword"> Dynamic Tag Management</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> </p> </td> 
    <td colname="col2"> <p>View the latest release notes for the <span class="keyword"> Adobe Experience Cloud</span> solutions. </p> </td> 
   </tr> 
  </tbody> 

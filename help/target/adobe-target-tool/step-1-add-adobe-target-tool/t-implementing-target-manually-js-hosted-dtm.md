@@ -35,7 +35,7 @@ If you prefer to manage the [!DNL mbox.js] file yourself, but host it within [!D
 1. Click **[!UICONTROL Open Editor]**.
 1. Paste in the contents of your current [!DNL mbox.js] file.
 
-   Instructions to download the file can be found in [Download mbox.js](https://marketing.adobe.com/resources/help/en_US/tnt/help/index.html?f=t_Downloading_mboxjs) in the *Adobe Classic Product Documentation*.
+   Instructions to download the file can be found in [Download mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) in the *Adobe Classic Product Documentation*.
 
    ![](assets/manual_js_4.png)
 

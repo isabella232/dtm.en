@@ -23,7 +23,7 @@ If you have access to the [!DNL Adobe Experience Cloud], you can also request ac
 
 >[!NOTE]
 >
->Administrators, see [Getting Started in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html) if you need access to the Experience Cloud.
+>Administrators, see [Getting Started in the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) if you need access to the Experience Cloud.
 
 ## Logging in {#section_88F2816938E94085A30745905D38731A}
 

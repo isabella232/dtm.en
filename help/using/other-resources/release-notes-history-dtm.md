@@ -36,7 +36,7 @@ The April 21, 2016 Dynamic Tag Management release includes the following changes
      <li id="li_2ACACDD55B35474E831BAF6460393063"> <p><b>Single-click navigation between solutions: </b>Choose your own default landing page or take advantage of the solution-switcher widget. </p> </li> 
      <li id="li_46AE604DDA104A7691E98C1F826D988E"><b>Improved notifications: </b>Get notified about events (like posts, mentions, assets shared, system updates) happening across your organization navigation widget. </li> 
      <li id="li_0A997CB2292E4C7297466B9101C35F62"> <p><b>Updated Feed: </b>We reimagined the Feed page to become a better platform for cross-channel collaboration between marketers. </p> </li> 
-    </ul> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=marketing-cloud-interface" format="https" scope="external"> What's New in the Adobe Experience Cloud - Spring 2016 </a> in the <i>Experience Cloud and Core Services Product Documentation</i>. </p> </td> 
+    </ul> <p>See <a href="https://docs.adobe.com/content/help/en/id-service/using/release-notes/notes-2016.html" format="https" scope="external"> What's New in the Adobe Experience Cloud - Spring 2016 </a> in the <i>Experience Cloud and Core Services Product Documentation</i>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,7 +460,7 @@ Fixes and improvements:
 
 * The help landing for Dynamic Tag Management is now at:
 
-  [https://marketing.adobe.com/resources/help/en_US/dtm/](https://marketing.adobe.com/resources/help/en_US/dtm/)
+  [https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
 
   Please update your bookmarks accordingly. 
 
@@ -484,7 +484,7 @@ New features:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID Service </p> </td> 
-   <td colname="col2"> <p>You can automate the deployment of the <span class="keyword"> Experience Cloud </span> ID Service using Dynamic Tag Management. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/macid.html" format="https" scope="external"> Experience Cloud ID Service </a> in <span class="term"> Dynamic Tag Management Help </span>. </p> </td> 
+   <td colname="col2"> <p>You can automate the deployment of the <span class="keyword"> Experience Cloud </span> ID Service using Dynamic Tag Management. </p> <p>See <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="https" scope="external"> Experience Cloud ID Service </a> in <span class="term"> Dynamic Tag Management Help </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -493,7 +493,7 @@ Fixes and improvements:
 
 * The help landing for Dynamic Tag Management is now at:
 
-  [https://marketing.adobe.com/resources/help/en_US/dtm/](https://marketing.adobe.com/resources/help/en_US/dtm/)
+  [https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
 
   Please update your bookmarks accordingly. 
 

@@ -47,19 +47,19 @@ Before you can start using Dynamic Tag Management, someone from your company mus
 
 **Why am I getting an "Access Failed" error when I try to access the Experience Cloud?**
 
-Make sure that your company has been provisioned to use the Experience Cloud. See [Manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html) in the *Experience Cloud Product Documentation*.
+Make sure that your company has been provisioned to use the Experience Cloud. See [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud Product Documentation*.
 
 **How do I assign my account to a Company name in the Experience Cloud?**
 
-You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
+You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I link my account to an Adobe ID?**
 
-When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
+When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I link solutions from within the Experience Cloud?**
 
-For more information, see [Organizations and account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
+For more information, see [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **Do I need to remove my [!DNL Analytics] or other tags from my site to use Dynamic Tag Management?**
 
@@ -107,27 +107,27 @@ Before you can start using Dynamic Tag Management, someone from your company mus
 
 **Why am I getting an "Access Failed" error when I try to access Experience Cloud?**
 
-Make sure that your company has been provisioned to use Experience Cloud. See [Activation](https://marketing.adobe.com/resources/help/en_US/mcloud/activation.html) in the *Experience Cloud Product Documentation*.
+Make sure that your company has been provisioned to use Experience Cloud. See [Activation](https://docs.adobe.com/content/help/en/core-services/interface/activation/activation.html) in the *Experience Cloud Product Documentation*.
 
 **How do I assign my account to a Company name in Experience Cloud?**
 
-You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
+You must add an organization to the [!UICONTROL Experience Cloud Organizations & Product Access] page and set it as the default organization. You add an organization if you have access to more than one company's Experience Cloud accounts. See [Organizations](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I link my account to an Adobe ID?**
 
-When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
+When you click **[!UICONTROL Join Experience Cloud]**, you can step through a wizard that helps you link your solution account credentials to your Adobe ID. Your Adobe ID becomes your single login for all of the Experience Cloud solutions and services. See [Join the Experience Cloud from a Solution](https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html) in the *Experience Cloud Product Documentation*.
 
 **How do I link solutions from within Experience Cloud?**
 
-For more information, see [Organizations and account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) in the *Experience Cloud Product Documentation*.
+For more information, see [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I provision the Adobe Experience Cloud ID service using DTM?**
 
-See [Experience Cloud ID Services](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-settings.html).
+See [Experience Cloud ID Services](https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html).
 
 **How do I troubleshoot my account access when it is linked to the Experience Cloud ID Service.**
 
-For more information about troubleshooting issues that arise from account linking, see [Troubleshooting Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) in the *Experience Cloud Product Documentation*.
+For more information about troubleshooting issues that arise from account linking, see [Troubleshooting Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in the *Experience Cloud Product Documentation*.
 
 **How do I implement Adobe Experience Manager (AEM) using DTM?**
 
@@ -177,7 +177,9 @@ Finally, each rule can be labeled with a Category and a value. The Category is a
 
 Adobe recommends the use of tag event callbacks provided by [!DNL amc.on] to wrap any code that depends on tags delivered by any tag management system.
 
+<!--
 See [amc.on Tag Event Callbacks](https://marketing.adobe.com/resources/help/en_US/sc/implement/tm_amc_on.html).
+-->
 
 **Can the Dynamic Tag Management library files work with the version control system we use at my company?**
 

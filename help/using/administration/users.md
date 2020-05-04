@@ -30,7 +30,7 @@ c_add_users.xml
 >If you link your DTM company to the Experience Cloud, you must manage your users in the Experience Cloud.
 
 >[!IMPORTANT]
->DTM accounts created after April 5, 2016 are managed by administrators using the Adobe Admin Console in the Adobe Experience Cloud. To manage other users, the DTM administrator must be an Experience Cloud administrator in the Adobe Admin Console. For more information, see [Delegate Administrative Roles to Users](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=t_admin-roles) in the _Experience Cloud and Core Services Product Documentation_. 
+>DTM accounts created after April 5, 2016 are managed by administrators using the Adobe Admin Console in the Adobe Experience Cloud. To manage other users, the DTM administrator must be an Experience Cloud administrator in the Adobe Admin Console. For more information, see [Delegate Administrative Roles to Users](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the _Experience Cloud and Core Services Product Documentation_. 
 >
 >For accounts created before April 5, 2016, users are managed using the Users page in DTM. 
 >
@@ -117,7 +117,7 @@ c_manage-users-groups-legacy.xml
    >
    >This option is for current customers only. New customers provisioned to DTM will have user management and authentication automatically restricted to the [!DNL Experience Cloud] and [!DNL Adobe Admin Console].
 
-   For more information about logging in to the Experience Cloud, see [Sign in to the Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=t_sign_in). For more information about the Experience Cloud, see the [Experience Cloud and Core Services Product Documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/).
+   For more information about logging in to the Experience Cloud, see [Sign in to the Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html). For more information about the Experience Cloud, see the [Experience Cloud and Core Services Product Documentation](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 1. Click **[!UICONTROL Invite User]**.
 1. Enter the user's email address.
@@ -155,7 +155,7 @@ Contact Customer Care to restrict login access to the [!DNL Experience Cloud].
 
 ### I invited a user through DTM, but I want the user to log in through the Experience Cloud.
 
-An account can be linked to a Experience Cloud user by selecting the Product Selection box > Activation > Link Account. For more information, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+An account can be linked to a Experience Cloud user by selecting the Product Selection box > Activation > Link Account. For more information, see [Link Accounts in the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Why do I see the error “Failed to fetch permission groups for this product”?
 

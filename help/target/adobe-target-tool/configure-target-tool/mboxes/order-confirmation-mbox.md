@@ -20,7 +20,7 @@ It is placed on the order confirmation page(s) of your site and needs to report 
 * **orderTotal:** Monetary value of the purchase. Do not pass the currency symbol. Use a decimal point (not a comma) to indicate decimal values. 
 * **productPurchasedId:** Comma-separated list of product IDs purchased in the order. These product IDs display in the audit report to support additional reporting analysis.
 
-For more information, see [Create an orderConfirmPage Mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Place_Order_Mbox.html) in the *Adobe Target Classic* product documentation.
+For more information, see [Create an orderConfirmPage Mbox](https://docs.adobe.com/content/help/en/dtm/implementing/target/configure-target/mboxes/order-confirmation-mbox.html) in the *Adobe Target Classic* product documentation.
 
 To create an order confirmation mbox perform the instructions in the following sections:
 

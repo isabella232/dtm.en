@@ -14,7 +14,7 @@ Information to help you trigger mboxes off of JavaScript events.
 
 To trigger mboxes off of JavaScript events, dynamic mboxes can be added to your site using dynamic tag management event-based rules.
 
-For example, you could trigger an `mboxUpdate` when the user clicks an element, plays a video, changes a form field, or scrolls to a certain part of the page. For single-page applications, you can trigger mboxes off of hashchange or custom events. The out-of-the-box options offer powerful ways to add dynamic mboxes. For more information, see [Creating a Dynamic Mbox](https://marketing.adobe.com/resources/help/en_US/rec/r_Creating_a_Dynamic_Mbox.html) in the *Adobe Recommendations* documentation.
+For example, you could trigger an `mboxUpdate` when the user clicks an element, plays a video, changes a form field, or scrolls to a certain part of the page. For single-page applications, you can trigger mboxes off of hashchange or custom events. The out-of-the-box options offer powerful ways to add dynamic mboxes. For more information, see [Creating a Dynamic Mbox](https://docs.adobe.com/content/help/en/dtm/implementing/target/configure-target/mboxes/mbox-parameters.html) in the *Adobe Recommendations* documentation.
 
 **To create an event-based mbox:** 
 

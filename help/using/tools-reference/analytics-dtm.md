@@ -15,7 +15,7 @@ You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Manageme
 
 >[!NOTE]
 >
->For improved visitor tracking, it is strongly recommended that you enable [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>For improved visitor tracking, it is strongly recommended that you enable [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 ## Add an Adobe Analytics tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -48,11 +48,11 @@ You can deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Manageme
 
           Shared secret credentials are located in **[!UICONTROL Admin Tools]** > **[!UICONTROL Company Settings]** > [Web Services](https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html).
 
-          Developers, see [Get Web Service Access to the Enterprise API](https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api) for help with obtaining Web Services credentials.
+          Developers, see [Get Web Service Access to the Enterprise API](https://www.adobe.io) for help with obtaining Web Services credentials.
 
       **Manual**: Manually manage the AppMeasurement code. You can download the [!DNL Analytics] [!DNL AppMeasurement] code from  **[!UICONTROL Admin Tools]** > **[!UICONTROL Code Manager]** .
 
-      Click [JavaScript (new)](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) for information about downloading the code locally to copy and paste in the [!UICONTROL Edit Code] field in [Library Management](../tools-reference/analytics-dtm.md#concept_24654766343B4E82A9416A112D2125FE).
+      Click [JavaScript (new)](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html) for information about downloading the code locally to copy and paste in the [!UICONTROL Edit Code] field in [Library Management](../tools-reference/analytics-dtm.md#concept_24654766343B4E82A9416A112D2125FE).
 
       Fill in the fields specific to a manual configuration:
 
@@ -155,13 +155,13 @@ general_settings_analyitcs.xml
 
   The domain at which the image request and cookie is written.
 
-  See [trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=trackingServer).
+  See [trackingServer](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackingserver.html).
 
 * SSL Tracking Server
 
   The domain at which the image request and cookie is written. Used for secure pages. If not defined, SSL data goes to *`trackingServer`*.
 
-  See [trackingServerSecure](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
+  See [trackingServerSecure](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackingserversecure.html).
 
 * Data Center
 
@@ -314,25 +314,25 @@ link_tracking.xml
 
   Determines whether visitor click map data is gathered.
 
-  See [trackInlineStats](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=trackInlineStats.html).
+  See [trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackinlinestats.html).
 
 * Track download links
 
   Tracks links to downloadable files on your site.
 
-  See [trackDownLoadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=trackDownloadLinks.html).
+  See [trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackdownloadlinks.html).
 
 * Download Extensions
 
   If your site contains links to files with any of the listed extensions, the URLs of these links will appear in reporting.
 
-  See [linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=linkDownloadFileTypes.html).
+  See [linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html).
 
 * Track outbound links
 
   Determines whether any link clicked is an exit link.
 
-  See [trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=trackExternalLinks.html).
+  See [trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackexternallinks.html).
 
   **Single-Page App Considerations:** Because of the way some SPA websites are coded, an internal link to a page on the SPA site might look like it is an outbound link.
 
@@ -356,7 +356,7 @@ link_tracking.xml
 
   Preserves query strings.
 
-  See [linkLeaveQueryString](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=linkLeaveQueryString.html).
+  See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkleavequerystring.html).
 
 ## Referrers and campaigns {#concept_D6BD8E6E42724BE4ADDB6F05D50A9D82}
 
@@ -487,7 +487,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 1. Download [!DNL Analytics] measurement code:
    1. In [!DNL Adobe Experience Cloud], click  **[!UICONTROL Reports & Analytics]** > **[!UICONTROL Admin Tools]** .
    1. Click **[!UICONTROL Code Manager]**.
-   1. Click [JavaScript (new)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs) to download the code locally.
+   1. Click [JavaScript (new)](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html) to download the code locally.
 1. In Dynamic Tag Management, [create a web property](../administration/web-property.md#concept_8413810BEAEC4AA48996BE9AFCF141DD).
 
    ![Step Result](assets/property.png)

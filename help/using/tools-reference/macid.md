@@ -15,9 +15,9 @@ Deploy the Experience Cloud visitor ID service using Dynamic Tag Management.
 
 >[!NOTE]
 >
->For more details, see [Standard MCID Implementation with DTM](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-standard.html).
+>For more details, see [Standard MCID Implementation with DTM](https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html).
 
-For documentation about DTM settings, refer to [Experience Cloud ID Service Settings for DTM](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-settings.html) in the Experience Cloud ID Service documentation.
+For documentation about DTM settings, refer to [Experience Cloud ID Service Settings for DTM](https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html) in the Experience Cloud ID Service documentation.
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ For documentation about DTM settings, refer to [Experience Cloud ID Service Sett
 
 *&lt;Web Property Name&gt;* > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Experience Cloud ID Service]**
 
-You can automate the deployment of the Experience Cloud ID Service using Dynamic Tag Management. This service enables Experience Cloud services and features, such as [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=audience_library) , where you can [publishing an Analytics audience segment](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_publish_audience_segment) .
+You can automate the deployment of the Experience Cloud ID Service using Dynamic Tag Management. This service enables Experience Cloud services and features, such as [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) , where you can [publishing an Analytics audience segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Validating deployment of the Experience Cloud ID service {#section_3AE0EBF9E73D425AA313F6DEF005334B}
 
@@ -38,6 +38,6 @@ Ensure the library being used in other solutions is up-to-date to support the Ex
 >* The [!DNL getInstance()] function, as well as any other related [!DNL visitorAPI.js] , should be removed from the AppMeasurement file when deploying the Experience Cloud ID Service in Dynamic Tag Management. 
 >
 
-See Step 8 in [Implement the Experience Cloud ID Service for Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html) to verify that the [!DNL Analytics] request contains a *`mid`* (Experience Cloud Visitor ID) parameter.
+See Step 8 in [Implement the Experience Cloud ID Service for Analytics](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) to verify that the [!DNL Analytics] request contains a *`mid`* (Experience Cloud Visitor ID) parameter.
 
-See [Visitor ID Service Requirements](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-requirements.html) for information about specific code versions and other Visitor ID service requirements. 
+See [Visitor ID Service Requirements](https://docs.adobe.com/content/help/en/id-service/using/reference/requirements.html) for information about specific code versions and other Visitor ID service requirements. 

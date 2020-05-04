@@ -27,7 +27,7 @@ In addition to this Best Practices Guide, the following resources are available 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </td> 
    <td colname="col2"> <p>In-depth information and step-by-step instructions about how to use Dynamic Tag Management. </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ The staging JavaScript library contains all of the latest tool, rule, and data e
 
 ![](assets/test-property-gs6.png)
 
-For more information about the DTM switch plugin, see [Search Discovery Plugins](https://marketing.adobe.com/resources/help/en_US/dtm/index.html?f=search_discovery_plugins) in the Dynamic Tag Management Product Documentation.
+For more information about the DTM switch plugin, see [Search Discovery Plugins](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) in the Dynamic Tag Management Product Documentation.
 
 The production JavaScript library contains only tool, rule, and data element configurations that have been approved and published through the web property workflow. This library is intended for the production environment.
 

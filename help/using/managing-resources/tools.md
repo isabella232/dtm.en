@@ -27,7 +27,7 @@ Displays the [!UICONTROL Add a Tool] page. Available tools include the following
 * [Adobe Audience Management](../tools-reference/audiencemgmt.md#concept_F9887945039A473A9B2C6B16CBA5D822) 
 * [Adobe Media Optimizer](../tools-reference/media-optimizer.md#concept_1A33BC0F5B6A4709929EC6F876236657) 
 * [Adobe Target](../tools-reference/target.md#concept_90D4021A9B6E409D8101FA1AFADE1215) 
-* [Experience Cloud ID Services settings](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-settings.html) (Analytics Visitor ID) 
+* [Experience Cloud ID Services settings](https://docs.adobe.com/content/help/en/id-service/using/implementation/standard.html) (Analytics Visitor ID) 
 * [Google Analytics](../tools-reference/google-analytics.md#concept_C0C4173C0A9F4C9A8333EADC8C1FBF99) 
 * [Google Universal Analytics](../tools-reference/google-universal-analytics.md#concept_224428EBB8E4466B93328EC5AE87FF04) 
 * [Nielsen Tool](../tools-reference/nielsen.md#concept_697E539912154172A3BE804DD2401534)
