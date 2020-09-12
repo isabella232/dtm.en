@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: dtm
 audience: end-user
-user-guide-title: DTM User Guide
+user-guide-title: DTM Guide
 user-guide-description: Dynamic Tag Management (DTM) lets you manage your Adobe Experience Cloud solutions and other tags across all of your sites. Adobe will sunset DTM in January 2021.
 solution-title: DTM
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
