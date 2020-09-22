@@ -3,7 +3,7 @@ description: Information to help you trigger mboxes off of JavaScript events.
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you trigger mboxes off of JavaScript events.
 seo-title: Mboxes on JavaScript Events
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Mboxes on JavaScript Events
 uuid: e6af8346-0f03-45f5-a882-4ea5e2abcc59
 ---

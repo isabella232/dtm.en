@@ -3,7 +3,7 @@ description: You can invite users to Dynamic Tag Management and assign user role
 keywords: Dynamic Tag Management
 seo-description: You can invite users to Dynamic Tag Management and assign user roles and add users to groups.
 seo-title: Users and permissions
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Users and permissions
 uuid: a98b3a01-005f-4697-b5c9-ad374758def0
 

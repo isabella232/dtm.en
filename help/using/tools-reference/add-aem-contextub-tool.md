@@ -3,7 +3,7 @@ description: Use the AEM ContextHub tool to integrate Dynamic Tag Management wit
 keywords: AEM;Adobe Experience Manager;ContextHub;datalayer;data layer
 seo-description: Use the AEM ContextHub tool to integrate Dynamic Tag Management with the Adobe Experience Manager (AEM) ContextHub (AEM's version of the data layer). You can also use this tool to integrate DTM with any data layer, even for websites that do not use AEM.
 seo-title: Adobe Experience Manager ContextHub tool
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Adobe Experience Manager ContextHub tool
 uuid: 4d69b2ec-21f3-4a5d-98ea-00ad9fe08889
 

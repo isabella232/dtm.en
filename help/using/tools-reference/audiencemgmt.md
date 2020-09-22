@@ -3,7 +3,7 @@ description: Information about deploying Adobe Audience Manager using Dynamic Ta
 keywords: Dynamic Tag Management
 seo-description: Information about deploying Adobe Audience Manager using Dynamic Tag Management.
 seo-title: Adobe Audience Manager tool
-solution: Marketing Cloud,Analytics,,Dynamic Tag Management
+solution: Experience Cloud
 title: Adobe Audience Manager tool
 uuid: f0ef2cfd-cdde-4fb5-8c07-ee69a5b03d6f
 

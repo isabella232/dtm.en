@@ -3,7 +3,7 @@ description: Information to help you properly manage the dynamic tag management 
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you properly manage the dynamic tag management embed code while implementing Adobe Target.
 seo-title: Dynamic Tag Management Implementation
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Dynamic Tag Management Implementation
 uuid: 8db85ecb-7d34-4bbc-bee8-19f2a38e9a6c
 ---

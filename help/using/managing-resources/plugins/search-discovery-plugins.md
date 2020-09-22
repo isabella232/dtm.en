@@ -3,7 +3,7 @@ description: Adobe has partnered with Search Discovery to offer additional plugi
 keywords: Dynamic Tag Management
 seo-description: Adobe has partnered with Search Discovery to offer additional plugins to help you with debugging tasks and to help you set up and configure other products.
 seo-title: Search Discovery plugins
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Search Discovery plugins
 uuid: 1f69e46c-8c2c-4496-b31f-3c3b477c2b96
 

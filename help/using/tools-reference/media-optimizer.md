@@ -3,7 +3,7 @@ description: Information about deploying Adobe Media Optimizer using Dynamic Tag
 keywords: Dynamic Tag Management;Experience Cloud ID service;visitor ID
 seo-description: Information about deploying Adobe Media Optimizer using Dynamic Tag Management.
 seo-title: Adobe Media Optimizer tool
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Adobe Media Optimizer tool
 uuid: e3623c72-92fb-409f-b8e9-a84effc74f4e
 

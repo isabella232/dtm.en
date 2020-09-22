@@ -3,7 +3,7 @@ description: If you used one of the automatic options when adding the Adobe Targ
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: If you used one of the automatic options when adding the Adobe Target Tool, you can easily update the file whenever Adobe releases a new version of the mbox.js library or if you modify your library settings in the Target UI.
 seo-title: Update the Adobe Target Tool
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Update the Adobe Target Tool
 uuid: c269a197-ba0e-4335-8f42-2338058e472b
 ---

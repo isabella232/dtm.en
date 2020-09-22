@@ -3,7 +3,7 @@ description: Use Dynamic Tag Management to add header and footer code that deter
 keywords: Dynamic Tag Management
 seo-description: Use Dynamic Tag Management to add header and footer code that determines the loading of JavaScript and page content on your site. You must install both the header and footer code on every page of your site, regardless of the hosting option used.
 seo-title: Header and footer code
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Header and footer code
 uuid: 32fe3d1f-586d-42be-823e-52324664d85a
 

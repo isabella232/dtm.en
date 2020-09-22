@@ -3,7 +3,7 @@ description: Add header and footer code in Dynamic Tag Management.
 keywords: Dynamic Tag Management
 seo-description: Add header and footer code in Dynamic Tag Management.
 seo-title: Add header and footer code
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Add header and footer code
 uuid: f13d5302-3cbc-4b28-9e6a-46184a9770ed
 

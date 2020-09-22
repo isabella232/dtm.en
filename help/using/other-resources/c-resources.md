@@ -3,7 +3,7 @@ description: Additional resources to help you get the most out of Dynamic Tag Ma
 keywords: Dynamic Tag Management
 seo-description: Additional resources to help you get the most out of Dynamic Tag Management.
 seo-title: Resources
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Resources
 uuid: 6dd1d1ff-980a-497f-92c8-c09c6a11a1aa
 

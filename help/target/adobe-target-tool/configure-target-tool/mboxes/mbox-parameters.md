@@ -3,7 +3,7 @@ description: Information to help you pass parameters with mbox calls to Adobe Ta
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you pass parameters with mbox calls to Adobe Target.
 seo-title: Mbox Parameters
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Mbox Parameters
 uuid: 94ff701a-f6ea-4a91-97f0-e7c9c0cafa2a
 ---

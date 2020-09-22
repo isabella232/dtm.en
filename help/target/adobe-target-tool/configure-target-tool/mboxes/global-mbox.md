@@ -3,7 +3,7 @@ description: Information about creating a global mbox using dynamic tag manageme
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information about creating a global mbox using dynamic tag management.
 seo-title: Global Mbox
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Global Mbox
 uuid: 632fbc45-626c-49ce-839e-1e31b91f46fd
 ---

@@ -3,7 +3,7 @@ description: Information to help you implement Adobe Target manually by hosting 
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you implement Adobe Target manually by hosting the Target JavaScript Library outside of dynamic tag management.
 seo-title: Option 4  Implement Target Manually with the Target JavaScript Library Hosted Outside of DTM
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Option 4  Implement Target Manually with the Target JavaScript Library Hosted Outside of DTM
 uuid: e8aae578-93fb-49ee-8b8f-da71b6f35c43
 ---

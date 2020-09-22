@@ -3,7 +3,7 @@ description: Create conditions for direct-call rules.
 keywords: Dynamic Tag Management
 seo-description: Create conditions for direct-call rules.
 seo-title: Create conditions for direct-call rules
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Create conditions for direct-call rules
 uuid: 7a83c4be-d6f2-4a4d-a735-335fd8e24921
 

@@ -3,7 +3,7 @@ description: Information to help you configure an order confirmation mbox to rec
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you configure an order confirmation mbox to record details about purchases.
 seo-title: Order Confirmation Mbox
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Order Confirmation Mbox
 uuid: e42b5a4c-ba59-49d7-90f1-70d8b26c33f4
 ---

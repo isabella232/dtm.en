@@ -2,7 +2,7 @@
 description: A basic object reference for _satellite.
 seo-description: A basic object reference for _satellite.
 seo-title: Dynamic Tag Management object reference
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Dynamic Tag Management object reference
 uuid: 8397bfe0-a24e-46c0-9723-9eadfc0c1184
 

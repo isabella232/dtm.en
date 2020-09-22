@@ -3,7 +3,7 @@ description: Adobe dynamic tag management (DTM) makes it quick and easy to imple
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Adobe dynamic tag management (DTM) makes it quick and easy to implement Adobe Target on your websites.
 seo-title: Best Practices for Implementing Adobe Target using Dynamic Tag Management
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Best Practices for Implementing Adobe Target using Dynamic Tag Management
 uuid: 0d2afb6c-df72-4593-8b21-c701badad2e6
 ---

@@ -2,7 +2,7 @@
 description: Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 seo-description: Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 seo-title: Library management
-solution: Marketing Cloud,Dynamic Tag Management
+solution: Experience Cloud
 title: Library management
 uuid: ffc42599-93e7-40c9-8082-f781858f4056
 

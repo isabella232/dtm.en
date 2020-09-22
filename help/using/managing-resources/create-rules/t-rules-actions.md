@@ -3,7 +3,7 @@ description: Set up actions that you want the condition to trigger.
 keywords: Dynamic Tag Management
 seo-description: Set up actions that you want the condition to trigger.
 seo-title: Set up actions for the condition to trigger
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Set up actions for the condition to trigger
 uuid: 93c89ff1-4b7d-4895-bd75-edb56ea3600b
 

@@ -3,7 +3,7 @@ description: Information about updates to the Dynamic Tag Management help.
 keywords: Dynamic Tag Management
 seo-description: Information about updates to the Dynamic Tag Management help.
 seo-title: Documentation updates
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Documentation updates
 uuid: b83d5476-552e-4bbc-aa81-1f29dbe1def8
 

@@ -3,7 +3,7 @@ description: Information to help you implement Target using the Adobe Target Too
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you implement Target using the Adobe Target Tool in dynamic tag management.
 seo-title: Adobe Target Tool
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Adobe Target Tool
 uuid: 92c52847-c342-4c74-8fd7-811d94707f67
 ---

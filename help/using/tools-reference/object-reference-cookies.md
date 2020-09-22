@@ -3,7 +3,7 @@ description: Built-in object references to handle cookies.
 keywords: Dynamic Tag Management
 seo-description: Built-in object references to handle cookies.
 seo-title: Object references to handle cookies
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Object references to handle cookies
 uuid: 50e03795-bf3e-4764-af52-8267daf6a26a
 

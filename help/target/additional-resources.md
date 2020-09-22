@@ -3,7 +3,7 @@ description: Links to videos and instructions to help you integrate Adobe Target
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Links to videos and instructions to help you integrate Adobe Target using dynamic tag management.
 seo-title: Additional Resources
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Additional Resources
 uuid: 173b7279-9074-4097-9c7e-5f913d00b6d8
 ---

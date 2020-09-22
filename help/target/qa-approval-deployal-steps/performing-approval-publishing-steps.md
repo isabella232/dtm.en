@@ -3,7 +3,7 @@ description: Information to help you approve and publish changes to your DTM acc
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you approve and publish changes to your DTM account after you have performed debugging and QA steps.
 seo-title: Performing Approval and Publishing Steps
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Performing Approval and Publishing Steps
 uuid: dfde83bc-8581-4e04-ad6a-ef8fe46920dc
 ---

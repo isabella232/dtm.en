@@ -3,7 +3,7 @@ description: Steps to help you perform QA steps before approving and deploying y
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Steps to help you perform QA steps before approving and deploying your Target implementation.
 seo-title: Performing QA Steps
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Performing QA Steps
 uuid: 2caefdb9-9a07-4567-b7be-2807a55122a6
 ---

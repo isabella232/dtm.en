@@ -3,7 +3,7 @@ description: Data elements are the building blocks for rules. Data elements let 
 keywords: Dynamic Tag Management
 seo-description: Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site. You use data elements to build a data layer that can be used for Analytics and other data collection tools.
 seo-title: Data elements
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Data elements
 uuid: 6a902dea-ce8b-4b92-ab2d-65ae65783684
 

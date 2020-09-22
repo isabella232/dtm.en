@@ -3,7 +3,7 @@ description: Information about creating the Adobe Target tool for deploying Adob
 keywords: Dynamic Tag Management
 seo-description: Information about creating the Adobe Target tool for deploying Adobe Target in Dynamic Tag Management. You can configure the library automatically (recommended) or manually.
 seo-title: Adobe Target tool
-solution: Marketing Cloud,Target,Dynamic Tag Management
+solution: Experience Cloud
 title: Adobe Target tool
 uuid: 06562631-7df3-420d-b787-1ccff774b3b4
 ---

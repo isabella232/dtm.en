@@ -3,7 +3,7 @@ description: Information to help you contact Adobe and to understand the legal i
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
 seo-title: Contact and Legal Information
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Contact and Legal Information
 uuid: dcfce1e6-ae10-4e28-86ce-6fce28e955f3
 ---

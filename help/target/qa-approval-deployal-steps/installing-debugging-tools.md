@@ -3,7 +3,7 @@ description: In addition to your web browsers’ built-in developer tools, we re
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: In addition to your web browsers’ built-in developer tools, we recommend installing two additional Adobe tools to help QA and troubleshoot Target and dynamic tag management  the Adobe Marketing Cloud Debugger and the DTM Switch.
 seo-title: Installing the Debugging Tools
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Installing the Debugging Tools
 uuid: 0971448c-684f-4191-8353-c68e127bd4dc
 ---

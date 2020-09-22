@@ -3,7 +3,7 @@ description: If you are a Target Classic Workflow user and aren’t able to use 
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: If you are a Target Classic Workflow user and aren’t able to use the global mbox for all of your campaigns, the Adobe Target Tool provides an easy method to place wrapping mboxes with built-in flicker handling.
 seo-title: Wrapping Mboxes
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Wrapping Mboxes
 uuid: 7d3431ca-c276-4e51-8778-3c0a687a138a
 ---

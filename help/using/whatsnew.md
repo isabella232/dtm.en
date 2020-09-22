@@ -3,7 +3,7 @@ description: Release notes and known issues for Dynamic Tag Management.
 keywords: Dynamic Tag Management
 seo-description: Release notes and known issues for Dynamic Tag Management.
 seo-title: Release notes for Dynamic Tag Management
-solution: Dynamic  Tag Management
+solution: Experience Cloud
 title: Release notes for Dynamic Tag Management
 uuid: 3676dac9-e2d8-47cf-9010-0f8d1aed06ed
 

@@ -2,7 +2,7 @@
 description: How to migrate from each Adobe Tag Manager 1.0 tag to a Dynamic Tag Management tag.
 seo-description: How to migrate from each Adobe Tag Manager 1.0 tag to a Dynamic Tag Management tag.
 seo-title: Adobe Tag Manager 1.0 to Dynamic Tag Management mapping
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Adobe Tag Manager 1.0 to Dynamic Tag Management mapping
 uuid: dcd2e499-504f-4c64-a8e1-dbd6fe2c2955
 

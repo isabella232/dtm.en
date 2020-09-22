@@ -3,7 +3,7 @@ description: Information to help you create new user groups in the Experience Cl
 keywords: Dynamic Tag Management
 seo-description: Information to help you create new user groups in the Experience Cloud and to manage Dynamic Tag Management property access.
 seo-title: Create and manage groups for DTM in the Adobe Admin Console
-solution: Dynamic Tag Management
+solution: Experience Cloud
 
 title: Create and manage groups for DTM in Admin Console
 

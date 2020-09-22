@@ -3,7 +3,7 @@ description: Configuration options in Dynamic Tag Management for Google Universa
 keywords: Dynamic Tag Management
 seo-description: Configuration options in Dynamic Tag Management for Google Universal Analytics.
 seo-title: Google Universal Analytics tool
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud
 title: Google Universal Analytics tool
 uuid: 09c65edf-896d-437c-ab37-54551f643305
 

@@ -3,7 +3,7 @@ description: Verify that your Dynamic Tag Management library is loading properly
 keywords: Dynamic Tag Management
 seo-description: Verify that your Dynamic Tag Management library is loading properly on your site.
 seo-title: Verify header and footer code
-solution: Dynamic Tag Management
+solution: Experience Cloud
 title: Verify header and footer code
 uuid: e1c3e381-4118-4696-a5f1-4a2dae156517
 

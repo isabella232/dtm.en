@@ -3,7 +3,7 @@ description: Information to help you add and use data elements in dynamic tag ma
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you add and use data elements in dynamic tag management for your Target implementation.
 seo-title: Data Elements
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Data Elements
 uuid: 2793c3d5-9a26-4a11-8c3f-9e30ffeec5a3
 ---

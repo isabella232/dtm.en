@@ -3,7 +3,7 @@ description: Information to help you implement Adobe Target automatically in dyn
 keywords: dynamic tag management;Target;integration;implementation
 seo-description: Information to help you implement Adobe Target automatically in dynamic tag management by manually entering your Target Client Code.
 seo-title: Option 2  Implement Target Automatically with Manual Entry of Your Target Client Code
-solution: Marketing Cloud,Dynamic Tag Management,Target
+solution: Experience Cloud
 title: Option 2  Implement Target Automatically with Manual Entry of Your Target Client Code
 uuid: c009f74e-83d9-48e1-9a89-af009e566c0e
 ---
